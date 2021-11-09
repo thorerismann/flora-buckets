@@ -1,0 +1,28 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+
+parts:
+  - caption: Biodiversity, an uncertain future
+    numbered: True
+    chapters:
+     - file: intro-context.ipynb
+  - caption: Plant survey, Biel/Bienne
+    numbered: True
+    chapters:
+     - file: finalreport.ipynb
+     - file: surveys.ipynb
+  - caption: Biodiversity buckets
+    numbered: True
+    chapters:
+     - file: flora-buckets.ipynb
+  - caption: Wildflower germination
+    numbered: True
+    chapters:
+     - file: germination.ipynb
+  - caption: Resources
+    numbered: True
+    chapters:
+     - file: resources.ipynb
