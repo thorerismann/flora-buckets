@@ -9,7 +9,7 @@ parts:
     numbered: True
     chapters:
      - file: intro-context.ipynb
-  - caption: Plant survey, Biel/Bienne
+  - caption: Plant surveys, Biel/Bienne
     numbered: True
     chapters:
      - file: finalreport.ipynb
@@ -22,7 +22,7 @@ parts:
     numbered: True
     chapters:
      - file: germination.ipynb
-  - caption: Resources
+  - caption: Resources & futher contributions
     numbered: True
     chapters:
      - file: resources.ipynb

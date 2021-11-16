@@ -1,0 +1,843 @@
+Taxon ID InfoSpecies,groupe d'organisme,org. abrév., ID taxon,nom du taxon,Synonymes utiles,nom allemand,nom français,nom italien,priorité,menace,responsabilité,nécessité de prendre des mesures,nécessité de surveiller les populations,connaissances suffisantes?,techniques connues?,BE,JU
+infoflora:1000,Gefässpflanzen,TRAC,1000,Achillea atrata L.,,Schwarze Schafgarbe,Achillée noirâtre,Millefoglio del calcare,4,LC,3,0,0,1,1,A,0
+infoflora:1100,Gefässpflanzen,TRAC,1100,Achillea clavenae L.,,Clavenas Schafgarbe,Achillée de Clavena,Millefoglio di Clavena,3,VU,2,1,0,1,0,0,0
+infoflora:1200,Gefässpflanzen,TRAC,1200,Achillea collina Rchb.,,Hügel-Schafgarbe,Achillée des collines,Millefoglio comune,4,VU,1,1,1,1,0,0,0
+infoflora:1500,Gefässpflanzen,TRAC,1500,Achillea erba-rotta subsp. moschata (Wulfen) Vacc.,,Moschus-Schafgarbe,Achillée musquée,Millefoglio del granito,4,LC,3,0,0,1,0,A,0
+infoflora:1600,Gefässpflanzen,TRAC,1600,Achillea macrophylla L.,,Grossblättrige Schafgarbe,Achillée à grandes feuilles,Millefoglio delle radure,4,LC,3,0,0,1,0,A,0
+infoflora:2200,Gefässpflanzen,TRAC,2200,Achillea ptarmica L.,,Sumpf-Schafgarbe,Herbe à éternuer,Millefoglio palustre,4,VU,1,1,1,1,0,A,A
+infoflora:3100,Gefässpflanzen,TRAC,3100,Aconitum anthora L.,,Blassgelber Eisenhut,Aconit anthora,Aconito antora,4,VU,1,1,2,1,0,0,0
+infoflora:3570,Gefässpflanzen,TRAC,3570,Aconitum napellus subsp. tauricum (Wulfen) Gáyer,,Tauern-Eisenhut,Aconit du Tauern,Aconito dei Tauri,3,VU,2,1,1,1,0,0,0
+infoflora:4400,Gefässpflanzen,TRAC,4400,Aconitum variegatum L. subsp. variegatum,,Gescheckter Eisenhut,Aconit panaché,Aconito screziato,4,VU,1,1,1,1,0,0,0
+infoflora:4700,Gefässpflanzen,TRAC,4700,Aconitum variegatum subsp. rostratum (DC.) Gáyer,,Geschnäbelter Eisenhut,Aconit à bec,Aconito rostrato,4,NT,2,0,0,1,0,B,0
+infoflora:5300,Gefässpflanzen,TRAC,5300,Adenophora liliifolia (L.) A. DC.,,Drüsenglocke,Adénophore à feuilles de lis,Campanella odorosa,1,CR,2,2,2,2,1,0,0
+infoflora:5600,Gefässpflanzen,TRAC,5600,Adenostyles leucophylla (Willd.) Rchb.,,Filziger Alpendost,Adénostyle à feuilles blanches,Cavolaccio lanoso,4,LC,3,0,0,1,0,A,0
+infoflora:5700,Gefässpflanzen,TRAC,5700,Adiantum capillus-veneris L.,,Venushaar,Capillaire,Capelvenere comune,4,VU,1,1,1,1,0,A,0
+infoflora:5800,Gefässpflanzen,TRAC,5800,Adonis aestivalis L.,,Sommer-Blutströpfchen,Adonis d'été,Adonide estiva,4,VU,1,2,0,2,1,A,D
+infoflora:6100,Gefässpflanzen,TRAC,6100,Adonis flammea Jacq.,,Scharlachtrotes Blutströpfchen,Adonis flamme,Adonide scarlatta,3,EN,1,2,0,2,1,D,0
+infoflora:6200,Gefässpflanzen,TRAC,6200,Adonis vernalis L.,,Frühlings-Adonis,Adonis du printemps,Adonide gialla,4,VU,1,2,1,2,1,0,0
+infoflora:7000,Gefässpflanzen,TRAC,7000,Aethionema saxatile (L.) R. Br.,,Felsen-Steintäschel,Aethionéma des rochers,Erba-storna carnicina,4,VU,1,1,1,1,0,A,0
+infoflora:7600,Gefässpflanzen,TRAC,7600,Agrimonia procera Wallr.,,Wohlriechender Odermennig,Aigremoine élevée,Agrimonia profumata,4,VU,1,1,1,1,0,A,C
+infoflora:8200,Gefässpflanzen,TRAC,8200,Agrostemma githago L.,,Kornrade,Nielle des blés,Gittaione comune,3,EN,1,2,0,2,1,A,A
+infoflora:9700,Gefässpflanzen,TRAC,9700,Aira caryophyllea L.,,Nelken-Haferschmiele,Aïra caryophyllé,Nebbia maggiore,4,VU,1,1,1,1,0,D,0
+infoflora:9900,Gefässpflanzen,TRAC,9900,Aira elegantissima Schur,,Zierliche Haferschmiele,Aïra élégant,Nebbia minore,3,EN,1,2,0,1,0,0,0
+infoflora:10000,Gefässpflanzen,TRAC,10000,Aira praecox L.,,Frühe Haferschmiele,Aïra précoce,Nebbia precoce,2,CR(PE),1,99,0,0,0,0,0
+infoflora:10100,Gefässpflanzen,TRAC,10100,Ajuga chamaepitys (L.) Schreb.,,Gelber Günsel,Bugle jaune,Iva artritica,4,VU,1,1,0,1,0,A,C
+infoflora:11300,Gefässpflanzen,TRAC,11300,Alchemilla amphisericea Buser,,Seidenglanz-Silbermantel,Alchémille de Charbonnel,Ventaglina (senza nome italiano usuale),4,LC,3,0,0,1,0,A,0
+infoflora:11450,Gefässpflanzen,TRAC,11450,Alchemilla argentidens Buser,,Frauenmantel (ohne gebräuchlichen deutschen Artnamen),Alchemille (sans nom français usuel),Ventaglina (senza nome italiano usuale),3,LC,4,0,0,1,0,0,0
+infoflora:14830,Gefässpflanzen,TRAC,14830,Alchemilla galkinae S. E. Fröhner,,Frauenmantel (ohne gebräuchlichen deutschen Artnamen),Alchemille (sans nom français usuel),Ventaglina (senza nome italiano usuale),3,LC,4,0,0,1,0,0,0
+infoflora:14860,Gefässpflanzen,TRAC,14860,Alchemilla gemmia Buser,,Frauenmantel (ohne gebräuchlichen deutschen Artnamen),Alchemille (sans nom français usuel),Ventaglina (senza nome italiano usuale),3,LC,4,0,0,1,0,0,0
+infoflora:18100,Gefässpflanzen,TRAC,18100,Alchemilla pentaphyllea L.,,Schneetälchen-Frauenmantel,Alchémille à cinq folioles,Ventaglina a cinque foglie,4,LC,3,0,0,1,0,A,0
+infoflora:21600,Gefässpflanzen,TRAC,21600,Aldrovanda vesiculosa L.,,Aldrovande,Aldrovande à vessies,Aldrovanda,3,EN,1,2,1,2,1,C,C
+infoflora:21700,Gefässpflanzen,TRAC,21700,Alisma gramineum Lej.,,Grasartiger Froschlöffel,Flûteau graminée,Mestolaccia sottile,3,EN,1,2,2,2,1,C,C
+infoflora:21800,Gefässpflanzen,TRAC,21800,Alisma lanceolatum With.,,Lanzettblättriger Froschlöffel,Flûteau lancéolé,Mestolaccia lanceolata,3,EN,1,2,2,2,1,A,C
+infoflora:22200,Gefässpflanzen,TRAC,22200,Allium angulosum L.,,Kantiger Lauch,Ail anguleux,Aglio angoloso,4,VU,1,2,2,2,1,A,0
+infoflora:22500,Gefässpflanzen,TRAC,22500,Allium carinatum subsp. pulchellum Bonnier & Layens,,Niedlicher Lauch,Ail élégant,Aglio grazioso,4,VU,1,1,1,1,0,A,0
+infoflora:23000,Gefässpflanzen,TRAC,23000,Allium lineare L.,,Steifer Lauch,Ail linéaire,Aglio sottile,3,VU,2,2,1,1,0,0,0
+infoflora:24000,Gefässpflanzen,TRAC,24000,Allium rotundum L.,,Kugeliger Lauch,Ail arrondi,Aglio arrotondato,2,CR,1,2,2,2,1,0,0
+infoflora:24700,Gefässpflanzen,TRAC,24700,Allium suaveolens Jacq.,,Wohlriechender Lauch,Ail odorant,Aglio odoroso,3,EN,1,2,2,2,1,0,0
+infoflora:25500,Gefässpflanzen,TRAC,25500,Alopecurus aequalis Sobol.,,Rotgelber Fuchsschwanz,Vulpin fauve,Coda di topo arrossata,4,VU,1,1,1,1,0,A,A
+infoflora:25700,Gefässpflanzen,TRAC,25700,Alopecurus geniculatus L.,,Geknieter Fuchsschwanz,Vulpin genouillé,Coda di topo ginocchiata,4,VU,1,1,0,1,0,A,A
+infoflora:26600,Gefässpflanzen,TRAC,26600,Alyssoides utriculata (L.) Moench,,Blasenschötchen,Faux alysson renflé,Vesicaria maggiore,4,NT,2,0,0,1,0,0,0
+infoflora:26700,Gefässpflanzen,TRAC,26700,Alyssum alpestre L.,,Alpen-Steinkraut,Alysson alpestre,Alisso alpestre,2,EN,2,2,2,2,1,0,0
+infoflora:29650,Gefässpflanzen,TRAC,29650,Anacamptis pyramidalis var. tanayensis Chenevard,,Tanay-Spitzorchis,Orchis de Tanay,Orchide di Tanay,2,VU,3,1,1,1,0,A,0
+infoflora:29900,Gefässpflanzen,TRAC,29900,Anagallis foemina Mill.,,Blauer Gauchheil,Mouron femelle,Centonchio azzurro,4,VU,1,1,0,1,0,A,A
+infoflora:30000,Gefässpflanzen,TRAC,30000,Anagallis minima (L.) E. H. L. Krause,,Kleinling,Centenille naine,Centonchio minore,2,CR,1,2,2,2,1,A,A
+infoflora:30100,Gefässpflanzen,TRAC,30100,Anagallis tenella (L.) L.,,Zarter Gauchheil,Mouron délicat,Centonchio palustre,1,CR,2,2,2,2,1,0,0
+infoflora:31400,Gefässpflanzen,TRAC,31400,Androsace brevis (Hegetschw.) Ces.,,Charpentiers Mannsschild,Androsace courte,Androsace orobia,2,VU,3,1,2,2,1,0,0
+infoflora:32300,Gefässpflanzen,TRAC,32300,Androsace maxima L.,,Acker-Mannsschild,Androsace des champs,Androsace annuale,2,CR,1,2,1,2,1,0,0
+infoflora:32600,Gefässpflanzen,TRAC,32600,Androsace pubescens DC.,,Weichhaariger Mannsschild,Androsace pubescente,Androsace pubescente,4,NT,2,0,0,1,0,A,0
+infoflora:32800,Gefässpflanzen,TRAC,32800,Androsace septentrionalis L.,,Nordischer Mannsschild,Androsace septentrionale,Androsace nordica,2,EN,2,2,1,2,1,0,0
+infoflora:33000,Gefässpflanzen,TRAC,33000,Androsace villosa L.,,Zottiger Mannsschild,Androsace velue,Androsace appenninica,4,VU,1,1,2,1,0,0,0
+infoflora:33800,Gefässpflanzen,TRAC,33800,Anemone sylvestris L.,,Hügel-Windröschen,Anémone des forêts,Anemone silvestre,2,CR,1,2,2,2,1,0,0
+infoflora:34200,Gefässpflanzen,TRAC,34200,Anogramma leptophylla (L.) Link,,Nacktfarn,Anogramme à frondes minces,Felcetta annuale,2,EN,2,2,1,2,1,0,0
+infoflora:34600,Gefässpflanzen,TRAC,34600,Anthemis arvensis L.,,Feld-Hundskamille,Anthémis des champs,Camomilla bastarda,4,VU,1,1,0,1,0,A,A
+infoflora:34800,Gefässpflanzen,TRAC,34800,Anthemis cotula L.,,Stinkende Hundskamille,Anthémis cotule,Camomilla fetida,3,EN,1,1,0,1,0,A,D
+infoflora:35000,Gefässpflanzen,TRAC,35000,Anthemis triumfettii (L.) DC.,,Trionfettis Hundskamille,Anthémis de Trionfetti,Camomilla di Trionfetti,4,VU,1,1,1,1,0,0,D
+infoflora:35600,Gefässpflanzen,TRAC,35600,Anthriscus caucalis M. Bieb.,,Gemeiner Kerbel,Cerfeuil à poils crochus,Cerfoglio lappola,4,VU,1,1,1,1,0,0,C
+infoflora:35700,Gefässpflanzen,TRAC,35700,Anthriscus cerefolium (L.) Hoffm.,,Garten-Kerbel,Cerfeuil cultivé,Cerfoglio comune,4,VU,1,1,0,1,0,A,C
+infoflora:35980,Gefässpflanzen,TRAC,35980,Anthriscus sylvestris subsp. stenophyllus (Rouy & E. G. Camus) Briq.,,Schmalzipfliger Wiesen-Kerbel,Cerfeuil des prés à feuilles étroites,Cerfoglio selvatico a foglie sottili,1,EN,3,2,2,2,1,0,A
+infoflora:36395,Gefässpflanzen,TRAC,36395,Anthyllis montana L.,,Berg-Wundklee,Anthyllide des montagnes,Vulneraria montana,4,VU,1,1,0,1,0,0,0
+infoflora:37200,Gefässpflanzen,TRAC,37200,Anthyllis vulneraria subsp. polyphylla (DC.) Nyman,,Steppen-Wundklee,Anthyllide à feuilles nombreuses,Vulneraria delle steppe,4,VU,1,1,1,1,0,0,0
+infoflora:37300,Gefässpflanzen,TRAC,37300,Anthyllis vulneraria subsp. valesiaca (Beck) Guyot,,Cherlers Wundklee,Anthyllide du Valais,Vulneraria del Vallese,4,LC,3,0,0,1,0,C,0
+infoflora:37800,Gefässpflanzen,TRAC,37800,Apera interrupta (L.) P. Beauv.,,Unterbrochener Windhalm,Apéra interrompue,Cappellini sottili,3,EN,1,1,0,1,0,A,0
+infoflora:38500,Gefässpflanzen,TRAC,38500,Apium nodiflorum (L.) Lag.,,Knotenblütiger Eppich,Ache nodiflore,Sedano d'acqua,2,CR,1,2,2,2,1,0,0
+infoflora:38600,Gefässpflanzen,TRAC,38600,Apium repens (Jacq.) Lag.,,Kriechender Eppich,Ache rampante,Sedano strisciante,2,CR,1,2,2,1,0,A,0
+infoflora:38800,Gefässpflanzen,TRAC,38800,Aquilegia alpina L.,,Alpen-Akelei,Ancolie des Alpes,Aquilegia maggiore,4,NT,2,0,1,1,0,A,0
+infoflora:39000,Gefässpflanzen,TRAC,39000,Aquilegia einseleana F. W. Schultz,,Einseles Akelei,Ancolie de Einsele,Aquilegia di Einsele,2,VU,3,1,1,1,0,0,0
+infoflora:40300,Gefässpflanzen,TRAC,40300,Arabis collina Ten.,,Mauer-Gänsekresse,Arabette des collines,Arabetta collinare,4,VU,1,1,0,1,0,A,0
+infoflora:41000,Gefässpflanzen,TRAC,41000,Arabis nemorensis (Hoffm.) W. D. J. Koch,,Flachschotige Gänsekresse,Arabette à silique plane,Arabetta dei boschi,2,CR,1,2,2,2,1,C,0
+infoflora:41600,Gefässpflanzen,TRAC,41600,Arabis sagittata (Bertol.) DC.,,Pfeilblättrige Gänsekresse,Arabette sagittée,Arabetta saettata,4,VU,1,1,1,1,0,A,0
+infoflora:41700,Gefässpflanzen,TRAC,41700,Arabis scabra All.,,Rauhe Gänsekresse,Arabette scabre,Arabetta scabra,3,EN,1,2,1,1,0,0,0
+infoflora:41800,Gefässpflanzen,TRAC,41800,Arabis serpillifolia Vill.,,Quendelblättrige Gänsekresse,Arabette à feuilles de serpolet,Arabetta strisciante,4,NT,2,0,0,1,0,A,0
+infoflora:43560,Gefässpflanzen,TRAC,43560,Arenaria ciliata subsp. bernensis Favarger,,Berner Sandkraut,Sabline bernoise,Arenaria bernese,2,NT,4,0,2,1,0,A,0
+infoflora:43800,Gefässpflanzen,TRAC,43800,Arenaria gothica Fr.,,Gothisches Sandkraut,Sabline de Suède,Arenaria gotica,1,CR,3,2,2,2,1,0,0
+infoflora:43900,Gefässpflanzen,TRAC,43900,Arenaria grandiflora L.,,Grossblütiges Sandkraut,Sabline à grandes fleurs,Arenaria grandiflora,4,VU,1,1,2,1,0,A,0
+infoflora:44100,Gefässpflanzen,TRAC,44100,Arenaria marschlinsii W. D. J. Koch,,Salis-Marschlins' Sandkraut,Sabline de Salis-Marschlins,Arenaria di Salis-Marschlins,4,NT,2,0,0,1,0,B,0
+infoflora:44600,Gefässpflanzen,TRAC,44600,Aristolochia clematitis L.,,Gewöhnliche Osterluzei,Aristoloche clématite,Aristolochia clematite,3,EN,1,1,0,1,0,A,D
+infoflora:44800,Gefässpflanzen,TRAC,44800,Aristolochia rotunda L.,,Rundblättrige Osterluzei,Aristoloche arrondie,Aristolochia rotonda,3,EN,1,2,2,2,1,0,0
+infoflora:45100,Gefässpflanzen,TRAC,45100,Armeria alpina var. purpurea (W. D. J. Koch) E. Baumann,,Purpur-Grasnelke,Arméria purpurin,Spillone palustre,1,RE,3,2,2,2,1,0,0
+infoflora:45200,Gefässpflanzen,TRAC,45200,Armeria arenaria (Pers.) Schult.,,Wegerichartige Grasnelke,Arméria des sables,Spillone lanceolato,3,EN,1,2,2,2,1,0,0
+infoflora:45800,Gefässpflanzen,TRAC,45800,Arnoseris minima (L.) Schweigg. & Körte,,Lämmerlattich,Arnoséris minime,Radicchio dei montoni,2,RE,1,99,0,0,0,D,0
+infoflora:46500,Gefässpflanzen,TRAC,46500,Artemisia borealis Pall.,,Nordischer Beifuss,Armoise septentrionale,Assenzio nano,3,VU,2,1,0,1,0,0,0
+infoflora:47200,Gefässpflanzen,TRAC,47200,Artemisia glacialis L.,,Gletscher-Edelraute,Armoise des glaciers,Assenzio genepí nero,3,NT,3,0,0,1,0,0,0
+infoflora:47500,Gefässpflanzen,TRAC,47500,Artemisia nivalis Braun-Blanq.,,Schnee-Edelraute,Armoise des neiges,Assenzio nivale,1,EN,4,2,1,1,0,0,0
+infoflora:47800,Gefässpflanzen,TRAC,47800,Artemisia vallesiaca All.,,Walliser Wermut,Armoise du Valais,Assenzio del Vallese,3,NT,3,0,0,1,0,0,0
+infoflora:49000,Gefässpflanzen,TRAC,49000,Asparagus tenuifolius Lam.,,Zartblättriger Spargel,Asperge à feuilles étroites,Asparago selvatico,4,VU,1,1,1,1,0,0,0
+infoflora:49300,Gefässpflanzen,TRAC,49300,Asperula arvensis L.,,Acker-Waldmeister,Aspérule des champs,Stellina dei campi,2,CR,1,2,0,2,1,B,D
+infoflora:49700,Gefässpflanzen,TRAC,49700,Asperula tinctoria L.,,Färber-Waldmeister,Aspérule des teinturiers,Stellina tintoria,3,EN,1,2,1,2,1,0,0
+infoflora:49800,Gefässpflanzen,TRAC,49800,Asphodelus albus Mill.,,Affodill,Asphodèle blanc,Asfodelo montano,4,VU,1,2,2,2,1,0,0
+infoflora:50100,Gefässpflanzen,TRAC,50100,Asplenium billotii F. W. Schultz,,Billots Streifenfarn,Asplénium de Billot,Asplenio lanceolato,1,CR,2,2,1,2,1,0,0
+infoflora:50300,Gefässpflanzen,TRAC,50300,Asplenium cuneifolium Viv.,,Keilblättriger Streifenfarn,Asplénium à feuilles en coin,Asplenio del serpentino,4,VU,1,1,0,1,0,0,0
+infoflora:50600,Gefässpflanzen,TRAC,50600,Asplenium foreziense Magnier,,Foreser-Streifenfarn,Asplénium du Forez,Asplenio foresiaco,2,EN,2,2,1,2,1,0,0
+infoflora:50800,Gefässpflanzen,TRAC,50800,Asplenium onopteris L.,,Spitzer Streifenfarn,Asplénium onoptéris,Asplenio maggiore,4,VU,1,1,1,1,0,0,0
+infoflora:53800,Gefässpflanzen,TRAC,53800,Astragalus exscapus L.,,Stengelloser Tragant,Astragale sans tige,Astragalo nano,4,NT,2,1,0,1,0,0,0
+infoflora:54200,Gefässpflanzen,TRAC,54200,Astragalus leontinus Wulfen,,Tiroler Tragant,Astragale de Lienz,Astragalo di Lienz,4,LC,3,0,0,1,0,0,0
+infoflora:57800,Gefässpflanzen,TRAC,57800,Baldellia ranunculoides (L.) Parl.,,Igelschlauch,Baldéllie commune,Mestolaccia ranuncoloide,1,CR,2,2,2,2,1,A,0
+infoflora:58000,Gefässpflanzen,TRAC,58000,Ballota nigra L. subsp. nigra,,Schwarzer Gottvergess,Ballote noire,Marrubio selvatico,4,VU,1,1,0,1,0,0,0
+infoflora:58400,Gefässpflanzen,TRAC,58400,Barbarea stricta Andrz.,,Steife Winterkresse,Barbarée raide,Erba di Santa Barbara stretta,4,VU,1,1,1,1,0,0,0
+infoflora:60200,Gefässpflanzen,TRAC,60200,Betula humilis Schrank,,Niedrige Birke,Bouleau peu élevé,Betulla umile,1,CR,2,2,2,2,1,0,0
+infoflora:60300,Gefässpflanzen,TRAC,60300,Betula nana L.,,Zwerg-Birke,Bouleau nain,Betulla nana,3,VU,2,1,1,1,0,A,A
+infoflora:60800,Gefässpflanzen,TRAC,60800,Bidens cernua L.,,Nickender Zweizahn,Bident penché,Forbicina intera,4,VU,1,1,1,1,0,A,A
+infoflora:61200,Gefässpflanzen,TRAC,61200,Bidens radiata Thuill.,,Strahlender Zweizahn,Bident rayonnant,Forbicina raggiante,2,CR,1,2,1,2,1,A,A
+infoflora:61800,Gefässpflanzen,TRAC,61800,Biscutella cichoriifolia Loisel.,,Wegwartenblättriges Brillenschötchen,Lunetière à feuilles de chicorée,Biscutella maggiore,2,EN,2,2,1,2,1,0,0
+infoflora:62300,Gefässpflanzen,TRAC,62300,Blackstonia acuminata (W. D. J. Koch & Ziz) Domin,,Spätblühender Bitterling,Blackstonie acuminée,Centauro acuminato,2,EN,2,2,2,2,1,D,0
+infoflora:62400,Gefässpflanzen,TRAC,62400,Blackstonia perfoliata (L.) Huds.,,Gewöhnlicher Bitterling,Blackstonie perfoliée,Centauro giallo,4,VU,1,1,1,1,0,D,A
+infoflora:62900,Gefässpflanzen,TRAC,62900,Bolboschoenus maritimus aggr.,,Strandried,Bolboschoenus maritime,Lisca marittima,2,CR,1,2,1,2,1,A,C
+infoflora:63200,Gefässpflanzen,TRAC,63200,Botrychium lanceolatum (S. G. Gmel.) Ångstr.,,Lanzettliche Mondraute,Botryche lancéolé,Botrichio lanceolato,1,CR,2,2,2,2,1,0,0
+infoflora:63400,Gefässpflanzen,TRAC,63400,Botrychium matricariifolium (Döll) W. D. J. Koch,,Ästige Mondraute,Botryche à feuilles de matricaire,Botrichio ramoso,1,CR,2,2,2,1,0,B,0
+infoflora:63500,Gefässpflanzen,TRAC,63500,Botrychium multifidum (S. G. Gmel.) Rupr.,,Vielspaltige Mondraute,Botryche multifide,Botrichio multifido,1,CR,2,2,2,1,0,0,0
+infoflora:63600,Gefässpflanzen,TRAC,63600,Botrychium simplex E. Hitchc.,,Einfache Mondraute,Botryche simple,Botrichio minore,1,CR,2,2,2,1,0,C,0
+infoflora:63700,Gefässpflanzen,TRAC,63700,Botrychium virginianum (L.) Sw.,,Virginische Mondraute,Botryche de Virginie,Botrichio virginiano,1,CR,2,2,2,2,1,B,0
+infoflora:65300,Gefässpflanzen,TRAC,65300,Bromus arvensis L.,,Acker-Trespe,Brome des champs,Forasacco dei campi,4,VU,1,1,0,1,0,A,C
+infoflora:65530,Gefässpflanzen,TRAC,65530,Bromus commutatus Schrad. subsp. commutatus,,Verwechselte Trespe,Brome confondu,Forasacco allungato,4,VU,1,1,0,1,0,A,0
+infoflora:65800,Gefässpflanzen,TRAC,65800,Bromus erectus subsp. condensatus (Hack.) Asch. & Graebn.,,Zusammengezogene Trespe,Brome condensé,Forasacco denso,4,NT,2,1,0,1,0,0,0
+infoflora:65900,Gefässpflanzen,TRAC,65900,Bromus grossus DC.,,Dickährige Trespe,Brome à gros épillets,Forasacco del farro,2,CR,1,2,1,2,1,A,C
+infoflora:66200,Gefässpflanzen,TRAC,66200,Bromus japonicus Thunb.,,Japanische Trespe,Brome du Japon,Forasacco patente,4,VU,1,1,0,1,0,A,0
+infoflora:66550,Gefässpflanzen,TRAC,66550,Bromus racemosus L.,,Gewöhnliche Trauben-Trespe,Brome en grappe,Forasacco palustre,3,EN,1,1,0,1,0,A,A
+infoflora:67000,Gefässpflanzen,TRAC,67000,Bromus secalinus L.,,Roggen-Trespe,Brome du seigle,Forasacco delle messi,4,VU,1,1,0,1,0,A,D
+infoflora:67500,Gefässpflanzen,TRAC,67500,Bryonia alba L.,,Weisse Zaunrübe,Bryone blanche,Brionia bianca,2,RE,1,99,0,0,0,C,0
+infoflora:67800,Gefässpflanzen,TRAC,67800,Bufonia paniculata Dubois,,Buffonie,Bufonie paniculée,Buffonia paniculata,3,EN,1,2,2,2,1,0,0
+infoflora:68200,Gefässpflanzen,TRAC,68200,Bunias erucago L.,,Acker-Zackenschötchen,Bunias fausse roquette,Cascellore comune,2,CR,1,1,1,1,0,D,D
+infoflora:69600,Gefässpflanzen,TRAC,69600,Bupleurum longifolium L.,,Langblättriges Hasenohr,Buplèvre à longues feuilles,Bupleuro con foglie lunghe,4,VU,1,2,1,2,1,A,C
+infoflora:70100,Gefässpflanzen,TRAC,70100,Bupleurum ranunculoides subsp. caricinum (DC.) Arcang.,,Grasblättriges Hasenohr,Buplèvre à feuilles de graminées,Bupleuro falso-carice,4,NT,2,0,0,1,0,0,0
+infoflora:70200,Gefässpflanzen,TRAC,70200,Bupleurum rotundifolium L.,,Rundblättriges Hasenohr,Buplèvre à feuilles rondes,Bupleuro perfogliato,3,EN,1,2,0,2,1,A,D
+infoflora:70400,Gefässpflanzen,TRAC,70400,Butomus umbellatus L.,,Schwanenblume,Butome en ombelle,Giunco fiorito,4,VU,1,1,1,1,0,A,0
+infoflora:70700,Gefässpflanzen,TRAC,70700,Calamagrostis canescens (F. H. Wigg.) Roth,,Lanzettliches Reitgras,Calamagrostide blanchâtre,Cannella delle torbiere,4,VU,1,1,1,1,0,A,0
+infoflora:71100,Gefässpflanzen,TRAC,71100,Calamagrostis phragmitoides Hartm.,,Purpur-Reitgras,Calamagrostide pourpre,Cannella purpurea,3,EN,1,2,2,2,1,0,0
+infoflora:71200,Gefässpflanzen,TRAC,71200,Calamagrostis pseudophragmites (Haller f.) Koeler,,Schilfähnliches Reitgras,Calamagrostide roseau,Cannella spondicola,4,VU,1,1,1,1,0,A,C
+infoflora:71300,Gefässpflanzen,TRAC,71300,Calamagrostis stricta (Timm) Koeler,,Übersehenes Reitgras,Calamagrostide raide,Cannella rigida,2,CR(PE),1,99,0,0,0,0,0
+infoflora:71600,Gefässpflanzen,TRAC,71600,Calamintha ascendens Jord.,,Aufsteigende Bergminze,Sarriette ascendante,Mentuccia ascendente,4,VU,1,1,1,1,0,A,0
+infoflora:72300,Gefässpflanzen,TRAC,72300,Caldesia parnassifolia (L.) Parl.,,Caldesie,Caldésie à feuilles de parnassie,Mestolaccia minore,1,RE,2,99,1,1,0,0,0
+infoflora:72400,Gefässpflanzen,TRAC,72400,Calendula arvensis L.,,Acker-Ringelblume,Souci des champs,Fiorrancio selvatico,4,VU,1,1,0,1,0,A,0
+infoflora:72700,Gefässpflanzen,TRAC,72700,Calla palustris L.,,Drachenwurz,Calla des marais,Calla palustre,3,EN,1,2,2,2,1,0,0
+infoflora:72800,Gefässpflanzen,TRAC,72800,Callianthemum coriandrifolium Rchb.,,Schmuckblume,Callianthème à feuilles de coriandre,Ranuncolo con foglie di coriandro,3,VU,2,1,0,1,0,0,0
+infoflora:73000,Gefässpflanzen,TRAC,73000,Callitriche cophocarpa Sendtn.,,Stumpffrüchtiger Wasserstern,Callitriche à fruits obtus,Gamberaia polimorfa,4,VU,1,1,1,1,0,A,A
+infoflora:73200,Gefässpflanzen,TRAC,73200,Callitriche obtusangula Le Gall,,Stumpfkantiger Wasserstern,Callitriche à angles obtus,Gamberaia ottusa,2,CR,1,2,1,2,1,0,0
+infoflora:73400,Gefässpflanzen,TRAC,73400,Callitriche platycarpa Kütz.,,Flachfrüchtiger Wasserstern,Etoile d'eau à fruits plats,Gamberaia appiattita,4,VU,1,1,1,1,0,C,A
+infoflora:74100,Gefässpflanzen,TRAC,74100,Camelina alyssum (Mill.) Thell.,,Gezähnter Leindotter,Caméline alysson,Dorella dentata,2,RE,1,99,0,0,0,D,D
+infoflora:74200,Gefässpflanzen,TRAC,74200,Camelina microcarpa DC.,,Kleinfrüchtiger Leindotter,Caméline à petits fruits,Dorella minore,4,VU,1,1,0,1,0,C,0
+infoflora:74750,Gefässpflanzen,TRAC,74750,Campanula bertolae Colla,,Bertolas Glockenblume,Campanule de Bertola,Campanula di Bertola,3,EN,1,1,1,1,0,0,0
+infoflora:74800,Gefässpflanzen,TRAC,74800,Campanula bononiensis L.,,Bologneser Glockenblume,Campanule de Bologne,Campanula bolognese,4,VU,1,1,1,1,0,0,0
+infoflora:75000,Gefässpflanzen,TRAC,75000,Campanula cenisia L.,,Mont-Cenis-Glockenblume,Campanule du Mont Cenis,Campanula del Moncenisio,4,LC,3,0,0,1,0,A,0
+infoflora:75100,Gefässpflanzen,TRAC,75100,Campanula cervicaria L.,,Borstige Glockenblume,Campanule cervicaire,Campanula ruvida,3,EN,1,2,2,1,0,A,0
+infoflora:75500,Gefässpflanzen,TRAC,75500,Campanula excisa Murith,,Ausgeschnittene Glockenblume,Campanule incisée,Campanula incisa,4,LC,3,0,0,1,0,0,0
+infoflora:77000,Gefässpflanzen,TRAC,77000,Campanula rhomboidalis L.,,Rautenblättrige Glockenblume,Campanule à feuilles rhomboïdales,Campanula romboidale,4,LC,3,0,0,1,0,A,A
+infoflora:78400,Gefässpflanzen,TRAC,78400,Cardamine asarifolia L.,,Haselwurzblättriges Schaumkraut,Cardamine à feuilles d'asaret,Billeri rotondifoglio,4,VU,1,1,1,1,0,0,0
+infoflora:78550,Gefässpflanzen,TRAC,78550,Cardamine dentata Schult.,,Gezähntblättriges Schaumkraut,Cardamine dentée,Cardamine dentata,4,VU,1,1,1,1,0,A,0
+infoflora:79200,Gefässpflanzen,TRAC,79200,Cardamine matthioli Moretti,,Matthiolis Schaumkraut,Cardamine de Matthiole,Billeri di Matthioli,3,EN,1,2,2,2,1,0,0
+infoflora:80400,Gefässpflanzen,TRAC,80400,Cardamine rivularis Schur,,Bach-Schaumkraut,Cardamine des ruisseaux,Billeri delle ripe,4,NT,2,0,0,1,0,A,0
+infoflora:80500,Gefässpflanzen,TRAC,80500,Cardamine trifolia L.,,Dreiblättriges Schaumkraut,Cardamine à trois folioles,Billeri a tre foglie,4,VU,1,2,1,2,1,A,0
+infoflora:80600,Gefässpflanzen,TRAC,80600,Cardamine udicola Jord.,,Moor-Schaumkraut,Cardamine des lieux humides,Billeri delle torbiere,4,VU,1,1,1,1,0,A,0
+infoflora:81200,Gefässpflanzen,TRAC,81200,Carduus acanthoides L.,,Weg-Distel,Chardon faux acanthe,Cardo branca orsina,2,CR,1,1,0,1,0,C,D
+infoflora:81700,Gefässpflanzen,TRAC,81700,Carduus defloratus subsp. crassifolius (Willd.) Hayek,,Dickblättrige Distel,Chardon à feuilles épaisses,Cardo a foglie grasse,4,NT,2,0,0,1,0,0,0
+infoflora:83600,Gefässpflanzen,TRAC,83600,Carex atrofusca Schkuhr,,Schwarzrote Segge,Laiche rouge noirâtre,Carice rosso-nerastra,3,VU,2,1,1,1,0,A,0
+infoflora:83700,Gefässpflanzen,TRAC,83700,Carex austroalpina Bech.,,Südalpine Segge,Laiche des Alpes méridionales,Carice sudalpina,3,VU,2,1,0,1,0,0,0
+infoflora:83800,Gefässpflanzen,TRAC,83800,Carex baldensis L.,,Monte-Baldo-Segge,Laiche du Mont Baldo,Carice candida,2,VU,3,1,1,1,0,0,0
+infoflora:83900,Gefässpflanzen,TRAC,83900,Carex bicolor All.,,Zweifarbige Segge,Laiche à deux couleurs,Carice bicolore,4,NT,2,1,0,1,0,A,0
+infoflora:84000,Gefässpflanzen,TRAC,84000,Carex bohemica Schreb.,,Böhmische Segge,Laiche de Bohème,Carice boema,2,CR,1,2,2,2,1,0,A
+infoflora:84500,Gefässpflanzen,TRAC,84500,Carex buxbaumii Wahlenb.,,Buxbaums Segge,Laiche de Buxbaum,Carice di Buxbaum,4,VU,1,1,1,1,0,D,0
+infoflora:85000,Gefässpflanzen,TRAC,85000,Carex cespitosa L.,,Rasen-Segge,Laiche gazonnante,Carice cespitosa,3,EN,1,2,2,2,1,0,0
+infoflora:85100,Gefässpflanzen,TRAC,85100,Carex chordorrhiza L. f.,,Fadenwurzelige Segge,Laiche à longs rhizomes,Carice a rizomi allungati,2,EN,2,2,2,2,1,C,A
+infoflora:85900,Gefässpflanzen,TRAC,85900,Carex depauperata With.,,Armblütige Segge,Laiche appauvrie,Carice impoverita,3,EN,1,2,2,2,1,0,0
+infoflora:86000,Gefässpflanzen,TRAC,86000,Carex diandra Schrank,,Draht-Segge,Laiche à tige arrondie,Carice tondeggiante,4,VU,1,1,1,1,0,A,A
+infoflora:86200,Gefässpflanzen,TRAC,86200,Carex dioica L.,,Zweihäusige Segge,Laiche dioïque,Carice dioica,4,VU,1,1,1,1,0,A,A
+infoflora:87300,Gefässpflanzen,TRAC,87300,Carex fimbriata Schkuhr,,Gefranste Segge,Laiche frangée,Carice sfrangiata,3,NT,3,0,1,1,0,0,0
+infoflora:88400,Gefässpflanzen,TRAC,88400,Carex hartmanii Cajander,,Hartmans Segge,Laiche de Hartman,Carice di Hartman,3,EN,1,2,2,2,1,0,0
+infoflora:88500,Gefässpflanzen,TRAC,88500,Carex heleonastes L. f.,,Torf-Segge,Laiche des tourbières,Carice delle torbiere,2,EN,2,2,2,2,1,A,0
+infoflora:88900,Gefässpflanzen,TRAC,88900,Carex juncella (Fr.) Th. Fr.,,Binsenartige Segge,Laiche faux jonc,Carice giuncolina,3,VU,2,1,1,1,0,0,0
+infoflora:89200,Gefässpflanzen,TRAC,89200,Carex lasiocarpa Ehrh.,,Behaartfrüchtige Segge,Laiche à utricules velus,Carice a frutto pubescente,4,VU,1,1,1,1,0,A,A
+infoflora:89900,Gefässpflanzen,TRAC,89900,Carex maritima Gunnerus,,Binsenblättrige Segge,Laiche à feuilles de jonc,Carice giunchifoglia,3,VU,2,1,1,1,0,0,0
+infoflora:90200,Gefässpflanzen,TRAC,90200,Carex microglochin Wahlenb.,,Kleinhakige Segge,Laiche à petite arête,Carice appuntita,3,VU,2,1,1,1,0,0,0
+infoflora:90900,Gefässpflanzen,TRAC,90900,Carex norvegica Retz.,,Norwegische Segge,Laiche de Norvège,Carice norvegese,3,VU,2,2,1,2,1,0,0
+infoflora:92600,Gefässpflanzen,TRAC,92600,Carex praecox Schreb.,,Frühe Segge,Laiche précoce,Carice serpeggiante,3,EN,1,2,2,2,1,0,0
+infoflora:92900,Gefässpflanzen,TRAC,92900,Carex pseudocyperus L.,,Cypergras-Segge,Laiche faux souchet,Carice falso cipero,4,VU,1,1,1,1,0,A,A
+infoflora:93200,Gefässpflanzen,TRAC,93200,Carex punctata Gaudin,,Punktierte Segge,Laiche ponctuée,Carice punteggiata,4,VU,1,1,1,1,0,0,0
+infoflora:95100,Gefässpflanzen,TRAC,95100,Carex vaginata Tausch,,Scheiden-Segge,Laiche engainante,Carice guainata,3,VU,2,1,1,1,0,A,0
+infoflora:95500,Gefässpflanzen,TRAC,95500,Carex vulpina L.,,Fuchsfarbene Segge,Laiche des renards,Carice volpina,3,EN,1,2,2,2,1,A,A
+infoflora:96800,Gefässpflanzen,TRAC,96800,Carpesium cernuum L.,,Kragenblume,Carpésium penché,Capo chino comune,3,EN,1,2,2,2,1,A,0
+infoflora:97000,Gefässpflanzen,TRAC,97000,Carthamus lanatus L.,,Saflor,Carthame laineux,Zafferanone selvatico,2,CR(PE),1,99,0,0,0,0,0
+infoflora:97300,Gefässpflanzen,TRAC,97300,Catabrosa aquatica (L.) P. Beauv.,,Quellgras,Catabrosa aquatique,Gramignone di palude,4,VU,1,1,1,1,0,A,A
+infoflora:97700,Gefässpflanzen,TRAC,97700,Caucalis platycarpos L.,,Möhren-Haftdolde,Caucalis à fruits larges,Lappola carota,4,VU,1,1,0,1,0,C,D
+infoflora:99000,Gefässpflanzen,TRAC,99000,Centaurea jacea subsp. gaudinii (Boiss. & Reut.) Gremli,,Hellschuppige Flockenblume,Centaurée de Gaudin,Fiordaliso di Gaudin,3,VU,2,1,1,1,0,0,0
+infoflora:99300,Gefässpflanzen,TRAC,99300,Centaurea nemoralis Jord.,,Schwarze Flockenblume,Centaurée des bois,Fiordaliso boschivo,3,EN,1,2,2,2,1,A,D
+infoflora:99800,Gefässpflanzen,TRAC,99800,Centaurea pseudophrygia C. A. Mey.,,Perücken-Flockenblume,Centaurée à perruque,Fiordaliso frangiato,4,VU,1,1,1,1,0,0,0
+infoflora:99900,Gefässpflanzen,TRAC,99900,Centaurea rhaetica Moritzi,,Rätische Flockenblume,Centaurée rhétique,Fiordaliso retico,2,VU,3,1,1,1,0,0,0
+infoflora:100600,Gefässpflanzen,TRAC,100600,Centaurea splendens L.,,Glänzende Flockenblume,Centaurée luisante,Fiordaliso cicalino,4,VU,1,1,0,1,0,0,0
+infoflora:100651,Gefässpflanzen,TRAC,100651,Centaurea stoebe L. subsp. stoebe,,Rheinische Flockenblume,Centaurée stoebé,Fiordaliso renano,4,VU,1,1,0,1,0,0,0
+infoflora:101100,Gefässpflanzen,TRAC,101100,Centaurea valesiaca (DC.) Jord.,,Walliser Rispen-Flockenblume,Centaurée du Valais,Fiordaliso del Vallese,3,NT,3,0,0,1,0,0,0
+infoflora:101300,Gefässpflanzen,TRAC,101300,Centaurium pulchellum (Sw.) Druce,,Kleines Tausendgüldenkraut,Petite centaurée élégante,Centauro elegante,4,VU,1,2,1,2,1,A,A
+infoflora:101500,Gefässpflanzen,TRAC,101500,Centranthus angustifolius (Mill.) DC.,,Schmalblättrige Spornblume,Centranthe à feuilles étroites,Camarezza a foglia sottile,3,EN,1,2,1,1,0,C,A
+infoflora:102100,Gefässpflanzen,TRAC,102100,Cephalaria alpina (L.) Roem. & Schult.,,Alpen-Schuppenkopf,Céphalaire des Alpes,Vedovina alpina,4,NT,2,1,0,1,0,A,0
+infoflora:102900,Gefässpflanzen,TRAC,102900,Cerastium austroalpinum Kunz,,Südalpines Hornkraut,Céraiste des Alpes méridionales,Peverina di Carinzia,2,VU,3,1,0,1,0,0,0
+infoflora:103100,Gefässpflanzen,TRAC,103100,Cerastium brachypetalum subsp. tenoreanum (Ser.) Soó,,Tenores Hornkraut,Céraiste de Tenore,Peverina di Tenore,4,VU,1,1,0,1,0,D,0
+infoflora:104600,Gefässpflanzen,TRAC,104600,Cerastium pedunculatum Gaudin,,Langstieliges Hornkraut,Céraiste à longs pédoncules,Peverina delle morene,4,LC,3,0,0,1,0,A,0
+infoflora:105600,Gefässpflanzen,TRAC,105600,Ceratophyllum submersum L.,,Glattes Hornblatt,Cornifle submergé,Ceratofillo sommerso,3,EN,1,2,2,2,1,A,0
+infoflora:106600,Gefässpflanzen,TRAC,106600,Chaerophyllum elegans Gaudin,,Zierlicher Kälberkropf,Chérophylle élégant,Cerfoglio elegante,2,VU,3,1,1,1,0,0,0
+infoflora:107200,Gefässpflanzen,TRAC,107200,Chamaecytisus hirsutus (L.) Link,,Rauhhaariger Zwergginster,Petit-cytise hérissé,Citiso peloso,4,VU,1,1,1,1,0,0,0
+infoflora:107400,Gefässpflanzen,TRAC,107400,Chamaecytisus supinus (L.) Link,,Niedriger Zwergginster,Petit cytise couché,Citiso supino,4,VU,1,1,1,1,0,0,D
+infoflora:108600,Gefässpflanzen,TRAC,108600,Chenopodium botrys L.,,Drüsiger Gänsefuss,Chénopode botryde,Farinello botri,4,VU,1,1,0,1,0,C,0
+infoflora:109400,Gefässpflanzen,TRAC,109400,Chenopodium murale L.,,Mauer-Gänsefuss,Chénopode des murs,Farinello murale,3,EN,1,1,0,1,0,A,D
+infoflora:109500,Gefässpflanzen,TRAC,109500,Chenopodium opulifolium Schrad.,,Schneeballblättriger Gänsefuss,Chénopode à feuilles d'obier,Farinello con foglie di viburno,2,CR(PE),1,99,0,0,0,D,0
+infoflora:109800,Gefässpflanzen,TRAC,109800,Chenopodium rubrum L.,,Roter Gänsefuss,Chénopode rouge,Farinello rosso,4,VU,1,1,0,1,0,A,A
+infoflora:110000,Gefässpflanzen,TRAC,110000,Chenopodium urbicum L.,,Städte-Gänsefuss,Chénopode des agglomérations,Farinello piè d'oca,3,EN,1,1,0,1,0,D,0
+infoflora:110100,Gefässpflanzen,TRAC,110100,Chenopodium vulvaria L.,,Übelriechender Gänsefuss,Chénopode puant,Farinello puzzolente,3,EN,1,1,0,1,0,A,C
+infoflora:110200,Gefässpflanzen,TRAC,110200,Chimaphila umbellata (L.) W. P. C. Barton,,Winterlieb,Chimaphile ombellée,Piroletta ad ombrella,2,RE,1,99,1,1,0,D,0
+infoflora:110300,Gefässpflanzen,TRAC,110300,Chondrilla chondrilloides (Ard.) H. Karst.,,Alpen-Knorpelsalat,Chondrille des torrents,Lattugaccio dei torrenti,3,EN,1,2,1,1,0,0,0
+infoflora:113300,Gefässpflanzen,TRAC,113300,Cicuta virosa L.,,Wasserschierling,Cigüe aquatique,Cicuta acquatica,3,EN,1,2,2,2,1,A,A
+infoflora:113900,Gefässpflanzen,TRAC,113900,Cirsium canum (L.) All.,,Weissgraue Kratzdistel,Cirse cendré,Cardo biancheggiante,1,CR,2,2,2,2,1,0,0
+infoflora:115400,Gefässpflanzen,TRAC,115400,Cirsium tuberosum (L.) All.,,Knollige Kratzdistel,Cirse tubéreux,Cardo tuberoso,4,VU,1,1,1,1,0,A,B
+infoflora:115600,Gefässpflanzen,TRAC,115600,Cistus salviifolius L.,,Cistrose,Ciste à feuilles de sauge,Brentina,3,VU,2,1,2,2,1,0,0
+infoflora:115900,Gefässpflanzen,TRAC,115900,Cleistogenes serotina (L.) Keng,,Steifhalm,Cléistogénès tardif,Paleo tardivo,4,VU,1,1,1,1,0,0,0
+infoflora:116700,Gefässpflanzen,TRAC,116700,Clypeola jonthlaspi L.,,Schildkraut,Clypéole jonthlaspi,Clipeola,4,VU,1,1,0,1,0,0,0
+infoflora:116900,Gefässpflanzen,TRAC,116900,Cnidium silaifolium (Jacq.) Simonk.,,Brenndolde,Cnide à feuilles de silaüm,Carvifoglio dei boschi,4,VU,1,1,1,1,0,0,0
+infoflora:117100,Gefässpflanzen,TRAC,117100,Cochlearia pyrenaica DC.,,Pyrenäen-Löffelkraut,Cranson des Pyrénées,Coclearia pirenaica,3,VU,2,2,2,2,1,A,0
+infoflora:117250,Gefässpflanzen,TRAC,117250,Coincya cheiranthos (Vill.) Greuter & Burdet,,Lacksenf,Chou giroflée,Senape violaciocca,2,CR(PE),1,99,0,0,0,0,0
+infoflora:118700,Gefässpflanzen,TRAC,118700,Consolida regalis Gray,,Acker-Rittersporn,Dauphinelle consoude,Speronella consolida,4,VU,1,1,0,1,0,A,A
+infoflora:120200,Gefässpflanzen,TRAC,120200,Coronilla minima L.,,Kleine Kronwicke,Petite coronille,Cornetta minima,4,VU,1,1,1,1,0,0,0
+infoflora:120800,Gefässpflanzen,TRAC,120800,Coronopus squamatus (Forssk.) Asch.,,Niederliegender Krähenfuss,Coronope écailleux,Erba stella,3,EN,1,2,0,2,1,D,D
+infoflora:120900,Gefässpflanzen,TRAC,120900,Corrigiola litoralis L.,,Hirschsprung,Corrigiole des grèves,Corriggiola litorale,2,CR(PE),1,99,0,0,0,0,0
+infoflora:121300,Gefässpflanzen,TRAC,121300,Corydalis lutea (L.) DC.,,Gelber Lerchensporn,Corydale jaune,Colombina gialla,4,LC,3,0,0,1,0,0,0
+infoflora:123700,Gefässpflanzen,TRAC,123700,Crepis froelichiana Froel.,,Froelichs Pippau,Crépide de Froelich,Radicchiella di Froelich,1,EN,3,2,2,2,1,0,0
+infoflora:124500,Gefässpflanzen,TRAC,124500,Crepis praemorsa (L.) Walther,,Trauben-Pippau,Crépide rongée,Radicchiella siberiana,4,VU,1,1,1,1,0,A,A
+infoflora:124900,Gefässpflanzen,TRAC,124900,Crepis rhaetica Hegetschw.,,Rätischer Pippau,Crépide rhétique,Radicchiella retica,3,NT,3,0,0,1,0,0,0
+infoflora:125400,Gefässpflanzen,TRAC,125400,Crepis tectorum L.,,Dach-Pippau,Crépide des toits,Radicchiella dei tetti,4,VU,1,1,0,1,0,A,0
+infoflora:126400,Gefässpflanzen,TRAC,126400,Cruciata pedemontana (Bellardi) Ehrend.,,Piemonteser Kreuzlabkraut,Croisette du Piémont,Crocettona piemontese,4,VU,1,1,1,1,0,0,0
+infoflora:126500,Gefässpflanzen,TRAC,126500,Crupina vulgaris Cass.,,Schlupfsame,Crupine commune,Crupina comune,3,VU,2,1,0,1,0,0,0
+infoflora:127700,Gefässpflanzen,TRAC,127700,Cuscuta epilinum Weihe,,Flachs-Seide,Cuscute du lin,Cuscuta strozzalino,2,RE,1,99,0,0,0,A,D
+infoflora:129500,Gefässpflanzen,TRAC,129500,Cynosurus echinatus L.,,Stacheliges Kammgras,Crételle hérissée,Covetta comune,3,EN,1,1,0,1,0,D,D
+infoflora:129700,Gefässpflanzen,TRAC,129700,Cyperus flavescens L.,,Gelbliches Cypergras,Souchet jaunâtre,Zigolo dorato,4,VU,1,2,0,2,1,A,D
+infoflora:129800,Gefässpflanzen,TRAC,129800,Cyperus fuscus L.,,Schwarzbraunes Cypergras,Souchet brun noirâtre,Zigolo nero,4,VU,1,2,0,2,1,A,A
+infoflora:129900,Gefässpflanzen,TRAC,129900,Cyperus glomeratus L.,,Knäueliges Cypergras,Souchet aggloméré,Zigolo ferrugineo,2,CR,1,2,2,2,1,0,0
+infoflora:130000,Gefässpflanzen,TRAC,130000,Cyperus longus L.,,Langästiges Cypergras,Souchet long,Zigolo comune,3,EN,1,2,1,2,1,A,A
+infoflora:130100,Gefässpflanzen,TRAC,130100,Cyperus michelianus (L.) Delile,,Michelis Cypergras,Souchet de Micheli,Zigolo del Micheli,2,RE,1,99,0,0,0,0,0
+infoflora:130200,Gefässpflanzen,TRAC,130200,Cyperus rotundus L.,,Knolliges Cypergras,Souchet rond,Zigolo infestante,3,EN,1,2,1,2,1,0,0
+infoflora:130300,Gefässpflanzen,TRAC,130300,Cyperus serotinus Rottb.,,Spätblühendes Cypergras,Souchet tardif,Zigolo tardivo,2,RE,1,99,0,0,0,0,0
+infoflora:130400,Gefässpflanzen,TRAC,130400,Cypripedium calceolus L.,,Frauenschuh,Sabot de Vénus,Pianelle della Madonna,4,VU,1,2,1,2,1,A,C
+infoflora:131100,Gefässpflanzen,TRAC,131100,Cytisus decumbens (Durande) Spach,,Niederliegender Geissklee,Cytise rampant,Citiso sdraiato,2,EN,2,2,2,2,1,0,0
+infoflora:131200,Gefässpflanzen,TRAC,131200,Cytisus emeriflorus Rchb.,,Strauchwicken-Geissklee,Cytise à fleurs d'hippocrépide émérus,Citiso insubrico,1,EN,3,2,2,2,1,0,0
+infoflora:132100,Gefässpflanzen,TRAC,132100,Dactylorhiza cruenta (O. F. Müll.) Soó,,Blutrotes Knabenkraut,Orchis couleur de sang,Orchide sanguigna,3,VU,2,2,2,2,1,A,0
+infoflora:132360,Gefässpflanzen,TRAC,132360,Dactylorhiza incarnata subsp. ochroleuca (Boll) P. F. Hunt & Summerh.,,Hellgelbes Knabenkraut,Orchis jaunâtre,Orchide bianco-gialla,3,EN,1,2,2,2,1,A,0
+infoflora:132500,Gefässpflanzen,TRAC,132500,Dactylorhiza lapponica (Hartm.) Soó,,Lappländisches Knabenkraut,Orchis de Laponie,Orchide della Lapponia,4,NT,2,0,0,1,0,A,0
+infoflora:132620,Gefässpflanzen,TRAC,132620,Dactylorhiza maculata (L.) Soó subsp. maculata,,Gewöhnliches Geflecktes Knabenkraut,Orchis tacheté,Orchide macchiata,4,VU,1,1,1,1,0,0,A
+infoflora:132900,Gefässpflanzen,TRAC,132900,Dactylorhiza traunsteineri (Rchb.) Soó,,Traunsteiners Knabenkraut,Orchis de Traunsteiner,Orchide di Traunsteiner,4,NT,2,0,0,1,0,A,A
+infoflora:133000,Gefässpflanzen,TRAC,133000,Danthonia alpina Vest,,Traubenhafer,Danthonie des Alpes,Danthonia maggiore,3,EN,1,2,1,2,1,0,0
+infoflora:133400,Gefässpflanzen,TRAC,133400,Daphne cneorum L.,,Flaumiger Seidelbast,Daphné camélée,Dafne odorosa,4,VU,1,1,2,2,1,B,A
+infoflora:135000,Gefässpflanzen,TRAC,135000,Deschampsia littoralis (Gaudin) Reut.,,Strand-Schmiele,Canche des rives,Migliarino prolifero,1,CR,3,2,2,2,1,0,0
+infoflora:135900,Gefässpflanzen,TRAC,135900,Dianthus deltoides L.,,Heide-Nelke,Oeillet à delta,Garofano minore,4,VU,1,1,0,1,0,A,0
+infoflora:136100,Gefässpflanzen,TRAC,136100,Dianthus gratianopolitanus Vill.,,Grenobler Nelke,Oeillet de Grenoble,Garofano di Grenoble,3,VU,2,1,1,1,0,A,C
+infoflora:136830,Gefässpflanzen,TRAC,136830,Dianthus superbus L. subsp. superbus,,Pracht-Nelke,Oeillet superbe,Garofano a pennacchio,4,VU,1,1,1,1,0,A,0
+infoflora:137000,Gefässpflanzen,TRAC,137000,Dictamnus albus L.,,Diptam,Dictame blanc,Dittamo,4,VU,1,1,1,1,0,0,0
+infoflora:138100,Gefässpflanzen,TRAC,138100,Diphasiastrum ×issleri (Rouy) Holub,,Isslers Flachbärlapp,Lycopode d'Issler,Licopodio di Issler,2,EN,2,1,1,1,0,0,0
+infoflora:137900,Gefässpflanzen,TRAC,137900,Diphasiastrum complanatum (L.) Holub,,Gemeiner Flachbärlapp,Lycopode aplati,Licopodio spianato,2,EN,2,2,2,2,1,D,0
+infoflora:138000,Gefässpflanzen,TRAC,138000,Diphasiastrum tristachyum (Pursh) Holub,,Zypressen-Flachbärlapp,Lycopode petit cyprès,Licopodio cipressino,1,RE,2,99,1,2,1,C,0
+infoflora:140100,Gefässpflanzen,TRAC,140100,Doronicum pardalianches L.,,Kriechende Gemswurz,Doronic pardalianche,Doronico medicinale,4,VU,1,1,1,1,0,A,A
+infoflora:140200,Gefässpflanzen,TRAC,140200,Dorycnium germanicum (Gremli) Rikli,,Deutscher Backenklee,Dorycnium d'Allemagne,Trifoglino di Germania,3,VU,2,1,1,1,0,0,0
+infoflora:140300,Gefässpflanzen,TRAC,140300,Dorycnium herbaceum Vill.,,Krautiger Backenklee,Dorycnium herbacé,Trifoglino erbaceo,3,EN,1,2,2,2,1,0,0
+infoflora:140900,Gefässpflanzen,TRAC,140900,Draba hoppeana Rchb.,,Hoppes Hungerblümchen,Drave de Hoppe,Draba di Hoppe,4,LC,3,0,0,1,0,0,0
+infoflora:141000,Gefässpflanzen,TRAC,141000,Draba incana L.,,Graues Felsenblümchen,Drave blanchâtre,Draba di Berna,1,CR,2,2,2,1,0,D,0
+infoflora:141100,Gefässpflanzen,TRAC,141100,Draba ladina Braun-Blanq.,,Engadiner Felsenblümchen,Drave ladine,Draba ladina,2,VU,3,1,1,2,1,0,0
+infoflora:141300,Gefässpflanzen,TRAC,141300,Draba nemorosa L.,,Hain-Felsenblümchen,Drave jaunâtre,Draba dei boschi,4,NT,2,0,0,1,0,0,0
+infoflora:141550,Gefässpflanzen,TRAC,141550,Draba thomasii W. D. J. Koch,,Langgriffliges Felsenblümchen,Drave à long style,Draba grigia,4,NT,2,0,0,1,0,0,0
+infoflora:141700,Gefässpflanzen,TRAC,141700,Dracocephalum austriacum L.,,Österreichischer Drachenkopf,Dracocéphale d'Autriche,Melissa austriaca,3,VU,2,2,2,2,1,0,0
+infoflora:141800,Gefässpflanzen,TRAC,141800,Dracocephalum ruyschiana L.,,Nordischer Drachenkopf,Dracocéphale de Ruysch,Melissa di Ruysch,4,NT,2,2,2,2,1,A,0
+infoflora:142400,Gefässpflanzen,TRAC,142400,Drosera ×obovata Mert. & W. D. J. Koch,,Breitblättriger Sonnentau,Rossolis à feuilles obovales,Drosera a foglie ovali,4,VU,1,1,1,1,0,A,A
+infoflora:142000,Gefässpflanzen,TRAC,142000,Drosera anglica Huds.,,Langblättriger Sonnentau,Rossolis d'Angleterre,Drosera a foglie allungate,4,VU,1,1,1,1,0,A,A
+infoflora:142100,Gefässpflanzen,TRAC,142100,Drosera intermedia Hayne,,Mittlerer Sonnentau,Rossolis intermédiaire,Drosera intermedia,3,EN,1,2,2,2,1,0,0
+infoflora:143200,Gefässpflanzen,TRAC,143200,Dryopteris cristata (L.) A. Gray,,Kamm-Wurmfarn,Dryoptéris à crêtes,Felce pettinata,3,VU,2,1,2,2,1,A,A
+infoflora:144300,Gefässpflanzen,TRAC,144300,Echinops sphaerocephalus L.,,Kugeldistel,Echinops à tête ronde,Cardo pallottola maggiore,4,VU,1,1,0,1,0,C,0
+infoflora:144600,Gefässpflanzen,TRAC,144600,Elatine alsinastrum L.,,Quirliger Tännel,Elatine fausse alsine,Pepe d'acqua maggiore,2,RE,1,99,0,0,0,C,0
+infoflora:144700,Gefässpflanzen,TRAC,144700,Elatine hexandra (Lapierre) DC.,,Sechsmänniger Tännel,Elatine à six étamines,Pepe d'acqua a sei stami,2,CR,1,2,1,2,1,D,C
+infoflora:144800,Gefässpflanzen,TRAC,144800,Elatine hydropiper L.,,Wasserpfeffer-Tännel,Elatine poivre d'eau,Pepe d'acqua ad otto stami,2,CR,1,2,1,2,1,0,0
+infoflora:145000,Gefässpflanzen,TRAC,145000,Eleocharis acicularis (L.) Roem. & Schult.,,Nadelried,Héléocharis épingle,Giunchina aghiforme,4,VU,1,2,1,2,1,A,A
+infoflora:145100,Gefässpflanzen,TRAC,145100,Eleocharis atropurpurea (Retz.) C. Presl,,Schwarzrotes Sumpfried,Héléocharis pourpre noir,Giunchina minore,2,RE,1,99,0,0,0,0,0
+infoflora:145400,Gefässpflanzen,TRAC,145400,Eleocharis mamillata H. Lindb.,,Zitzen-Sumpfried,Héléocharis à tétons,Giunchina mammellonata,4,VU,1,1,1,1,0,A,A
+infoflora:145600,Gefässpflanzen,TRAC,145600,Eleocharis ovata (Roth) Roem. & Schult.,,Eiförmiges Sumpfried,Héléocharis ovale,Giunchina ovata,3,EN,1,2,2,2,1,A,A
+infoflora:146000,Gefässpflanzen,TRAC,146000,Eleocharis uniglumis (Link) Schult.,,Einspelziges Sumpfried,Héléocharis à une écaille,Giunchina con una brattea,4,VU,1,1,1,1,0,A,A
+infoflora:146800,Gefässpflanzen,TRAC,146800,Empetrum nigrum L. subsp. nigrum,,Schwarze Krähenbeere,Camarine noire,Moretta palustre,3,EN,1,1,2,1,0,0,0
+infoflora:147000,Gefässpflanzen,TRAC,147000,Ephedra helvetica C. A. Mey.,,Schweizerisches Meerträubchen,Ephèdre de Suisse,Efedra svizzera,2,VU,3,1,1,1,0,0,0
+infoflora:148100,Gefässpflanzen,TRAC,148100,Epilobium duriaei Godr.,,Durieus Weidenröschen,Épilobe de Durieu,Garofanino di Durieu,4,VU,1,99,0,0,0,D,0
+infoflora:148500,Gefässpflanzen,TRAC,148500,Epilobium lanceolatum Sebast. & Mauri,,Lanzettblättriges Weidenröschen,Épilobe lancéolé,Garofanino lanceolato,2,CR,1,2,1,1,0,0,0
+infoflora:149655,Gefässpflanzen,TRAC,149655,Epipactis fageticola (C. E. Hermos.) J. Devillers-Tersch. & P. Devillers,,Buchen-Stendelwurz,Épipactis des hêtres,Elleborina dei faggi,4,VU,1,1,1,1,0,0,0
+infoflora:150350,Gefässpflanzen,TRAC,150350,Epipactis placentina Bongiorni & Grünanger,,Piacenza-Ständelwurz,Épipactis de Plaisance,Elleborina di Piacenza,3,EN,1,1,2,1,0,0,0
+infoflora:150450,Gefässpflanzen,TRAC,150450,Epipactis rhodanensis Gévaudan & Robatsch,,Rhone-Ständelwurz,Épipactis du Rhône,Elleborina del Rodano,4,VU,1,1,1,1,0,0,0
+infoflora:150500,Gefässpflanzen,TRAC,150500,Epipogium aphyllum Sw.,,Widerbart,Epipogon sans feuilles,Epipogio,4,VU,1,1,1,1,0,A,B
+infoflora:151700,Gefässpflanzen,TRAC,151700,Equisetum ×trachyodon A. Braun,,Rauhzähniger Schachtelhalm,Prêle à dents rudes,Equiseto con denti ruvidi,4,VU,1,1,1,1,0,A,0
+infoflora:152700,Gefässpflanzen,TRAC,152700,Erica vagans L.,,Wanderheide,Bruyère vagabonde,Erica vagabonda,2,RE,1,99,0,0,0,0,0
+infoflora:154400,Gefässpflanzen,TRAC,154400,Erigeron gaudinii Brügger,,Gaudins Berufkraut,Vergerette de Gaudin,Cespica di Gaudin,4,NT,2,0,0,1,0,B,0
+infoflora:155300,Gefässpflanzen,TRAC,155300,Eriophorum gracile Roth,,Schlankes Wollgras,Linaigrette grêle,Pennacchi gracili,3,EN,1,2,2,2,1,A,0
+infoflora:157200,Gefässpflanzen,TRAC,157200,Eryngium alpinum L.,,Alpendistel,Chardon bleu,Calcatreppola alpina,3,VU,2,2,2,2,1,A,0
+infoflora:157300,Gefässpflanzen,TRAC,157300,Eryngium campestre L.,,Feld-Mannstreu,Panicaut champêtre,Calcatreppola campestre,3,EN,1,2,1,2,1,0,D
+infoflora:158200,Gefässpflanzen,TRAC,158200,Erysimum ochroleucum (Schleich.) DC.,,Blassgelber Schotendotter,Erysimum jaune pâle,Violaciocca giallastra,4,VU,1,1,1,1,0,A,0
+infoflora:158500,Gefässpflanzen,TRAC,158500,Erysimum rhaeticum (Hornem.) DC.,,Schweizer Schöterich,Vélar de Suisse,Violaciocca svizzera,4,LC,3,0,0,1,0,0,0
+infoflora:158700,Gefässpflanzen,TRAC,158700,Erysimum virgatum Roth,,Steifer Schotendotter,Erysimum en baguette,Violaciocca montana,2,VU,3,1,1,1,0,C,C
+infoflora:159600,Gefässpflanzen,TRAC,159600,Euphorbia carniolica Jacq.,,Krainer Wolfsmilch,Euphorbe de Carniole,Euforbia penzola,4,VU,1,1,1,1,0,0,0
+infoflora:160100,Gefässpflanzen,TRAC,160100,Euphorbia falcata L.,,Sichelblättrige Wolfsmilch,Euphorbe en faux,Euforbia falcata,3,EN,1,1,0,1,0,C,0
+infoflora:160800,Gefässpflanzen,TRAC,160800,Euphorbia palustris L.,,Sumpf-Wolfsmilch,Euphorbe des marais,Euforbia lattaiola,4,VU,1,1,1,1,0,A,0
+infoflora:162200,Gefässpflanzen,TRAC,162200,Euphrasia christii Gremli,,Christs Augentrost,Euphraise de Christ,Eufrasia di Christ,3,NT,3,2,2,2,1,0,0
+infoflora:162300,Gefässpflanzen,TRAC,162300,Euphrasia cisalpina Pugsley,,Tessiner Augentrost,Euphraise du Tessin,Eufrasia cisalpina,2,VU,3,2,1,2,1,0,0
+infoflora:165100,Gefässpflanzen,TRAC,165100,Falcaria vulgaris Bernh.,,Sicheldolde,Falcaire commune,Falcaria comune,2,CR,1,2,2,2,1,D,0
+infoflora:168400,Gefässpflanzen,TRAC,168400,Festuca norica (Hack.) K. Richt.,,Norischer Schwingel,Fétuque norique,Festuca austriaca,4,NT,2,0,0,1,0,0,0
+infoflora:170900,Gefässpflanzen,TRAC,170900,Festuca stenantha (Hack.) K. Richt.,,Schmalblütiger Schwingel,Fétuque à fleurs étroites,Festuca della Carnia,4,VU,1,1,0,1,0,0,0
+infoflora:171300,Gefässpflanzen,TRAC,171300,Festuca ticinensis (Markgr.-Dann.) Markgr.-Dann.,,Tessiner Schwingel,Fétuque du Tessin,Festuca ticinese,4,VU,1,2,1,2,1,0,0
+infoflora:172300,Gefässpflanzen,TRAC,172300,Filago arvensis L.,,Acker-Fadenkraut,Cotonnière des champs,Bambagia campestre,4,VU,1,2,1,2,1,C,D
+infoflora:172400,Gefässpflanzen,TRAC,172400,Filago gallica L.,,Französisches Fadenkraut,Cotonnière de France,Bambagia francese,2,RE,1,99,0,0,0,0,D
+infoflora:172600,Gefässpflanzen,TRAC,172600,Filago lutescens Jord.,,Gelbliches Fadenkraut,Cotonnière jaunâtre,Bambagia rossastra,2,CR,1,2,1,2,1,D,0
+infoflora:172700,Gefässpflanzen,TRAC,172700,Filago minima (Sm.) Pers.,,Kleines Fadenkraut,Cotonnière naine,Bambagia minima,3,EN,1,2,1,2,1,D,0
+infoflora:172800,Gefässpflanzen,TRAC,172800,Filago pyramidata L.,,Spatelblättriges Fadenkraut,Cotonnière pyramidale,Bambagia spatolata,2,CR,1,2,1,2,1,D,D
+infoflora:172900,Gefässpflanzen,TRAC,172900,Filago vulgaris Lam.,,Gewöhnliches Fadenkraut,Cotonnière commune,Bambagia germanica,3,EN,1,2,1,2,1,D,A
+infoflora:173200,Gefässpflanzen,TRAC,173200,Filipendula vulgaris Moench,,Knollige Spierstaude,Filipendule à six pétales,Olmaria peperina,4,VU,1,2,1,2,1,A,0
+infoflora:173300,Gefässpflanzen,TRAC,173300,Fimbristylis annua (All.) Roem. & Schult.,,Fransenried,Fimbristylis annuel,Zigolo annuale,2,RE,1,99,0,0,0,0,0
+infoflora:173700,Gefässpflanzen,TRAC,173700,Fragaria moschata Duchesne,,Moschus-Erdbeere,Fraisier musqué,Fragola moscata,4,VU,1,1,1,1,0,A,A
+infoflora:174400,Gefässpflanzen,TRAC,174400,Fritillaria meleagris L.,,Gewöhnliche Schachblume,Damier,Meleagride comune,3,EN,1,2,2,2,1,D,A
+infoflora:175300,Gefässpflanzen,TRAC,175300,Fumaria schleicheri Soy.-Will.,,Schleichers Erdrauch,Fumeterre de Schleicher,Fumaria di Schleicher,4,VU,1,1,0,1,0,0,0
+infoflora:175400,Gefässpflanzen,TRAC,175400,Fumaria vaillantii Loisel.,,Vaillants Erdrauch,Fumeterre de Vaillant,Fumaria di Vaillant,4,VU,1,1,0,1,0,A,A
+infoflora:175800,Gefässpflanzen,TRAC,175800,Gagea minima (L.) Ker Gawl.,,Kleiner Gelbstern,Gagée naine,Cipollaccio minore,3,VU,2,1,1,1,0,D,0
+infoflora:175900,Gefässpflanzen,TRAC,175900,Gagea pratensis (Pers.) Dumort.,,Wiesen-Gelbstern,Gagée des prés,Cipollaccio dei prati,2,CR,1,2,2,2,1,0,0
+infoflora:176000,Gefässpflanzen,TRAC,176000,Gagea saxatilis (Mert. & W. D. J. Koch) Schult. & Schult. f.,,Felsen-Gelbstern,Gagée des rochers,Cipollaccio delle rupi,4,VU,1,1,1,1,0,0,0
+infoflora:176100,Gefässpflanzen,TRAC,176100,Gagea villosa (M. Bieb.) Sweet,,Acker-Gelbstern,Gagée velue,Cipollaccio dei campi,3,EN,1,2,1,1,0,0,D
+infoflora:176900,Gefässpflanzen,TRAC,176900,Galeopsis segetum Neck.,,Gelber Hohlzahn,Galéopsis des moissons,Canapetta campestre,3,EN,1,2,1,1,0,A,D
+infoflora:177000,Gefässpflanzen,TRAC,177000,Galeopsis speciosa Mill.,,Bunter Hohlzahn,Galéopsis splendide,Canapetta screziata,4,VU,1,1,0,1,0,D,D
+infoflora:178300,Gefässpflanzen,TRAC,178300,Galium glaucum L.,,Blaugrüner Waldmeister,Gaillet glauque,Caglio glauco,4,VU,1,2,1,2,1,A,D
+infoflora:178600,Gefässpflanzen,TRAC,178600,Galium laevigatum L.,,Glattes Labkraut,Gaillet lisse,Caglio levigato,4,NT,2,0,0,1,0,0,0
+infoflora:180200,Gefässpflanzen,TRAC,180200,Galium saxatile L.,,Herzynisches Labkraut,Gaillet des rochers,Caglio delle pietraie,1,EN,3,2,2,2,1,0,0
+infoflora:180300,Gefässpflanzen,TRAC,180300,Galium spurium L.,,Falsches Kletten-Labkraut,Gaillet bâtard,Caglio campestre,4,VU,1,1,0,1,0,A,A
+infoflora:180500,Gefässpflanzen,TRAC,180500,Galium tricornutum Dandy,,Dreihörniges Labkraut,Gaillet à trois cornes,Caglio coriandolino,3,EN,1,1,0,1,0,A,D
+infoflora:180600,Gefässpflanzen,TRAC,180600,Galium triflorum Michx.,,Dreiblütiges Labkraut,Gaillet à trois fleurs,Caglio a tre fiori,3,VU,2,1,2,2,1,0,0
+infoflora:181300,Gefässpflanzen,TRAC,181300,Gaudinia fragilis (L.) P. Beauv.,,Ährenhafer,Gaudinie fragile,Forasacchino,2,CR,1,1,1,1,0,D,D
+infoflora:181700,Gefässpflanzen,TRAC,181700,Genista pilosa L.,,Behaarter Ginster,Genêt poilu,Ginestra tubercolosa,4,VU,1,1,1,1,0,A,A
+infoflora:181800,Gefässpflanzen,TRAC,181800,Genista radiata (L.) Scop.,,Kugelginster,Genêt rayonnant,Ginestra stellata,4,NT,2,0,0,1,0,0,0
+infoflora:182400,Gefässpflanzen,TRAC,182400,Gentiana amarella L.,,Bitterer Enzian,Gentiane amère,Genziana amarella,2,EN,2,2,2,2,1,0,0
+infoflora:182600,Gefässpflanzen,TRAC,182600,Gentiana anisodonta Borbás,,Ungleichzähniger Enzian,Gentiane à dents inégales,Genziana delle Dolomiti,3,EN,1,1,1,1,0,0,0
+infoflora:182800,Gefässpflanzen,TRAC,182800,Gentiana aspera Hegetschw.,,Rauher Enzian,Gentiane rude,Genziana irsuta,3,NT,3,0,0,1,0,0,0
+infoflora:183600,Gefässpflanzen,TRAC,183600,Gentiana cruciata L.,,Kreuzblättriger Enzian,Gentiane croisette,Genziana minore,4,VU,1,1,1,1,0,A,A
+infoflora:183700,Gefässpflanzen,TRAC,183700,Gentiana engadinensis (Wettst.) Braun-Blanq. & Sam.,,Engadiner Enzian,Gentiane d'Engadine,Genziana d'Engadina,3,NT,3,0,0,1,0,0,0
+infoflora:183800,Gefässpflanzen,TRAC,183800,Gentiana germanica Willd.,,Deutscher Enzian,Gentiane d'Allemagne,Genziana germanica,4,VU,1,1,1,1,0,A,A
+infoflora:183900,Gefässpflanzen,TRAC,183900,Gentiana insubrica Kunz,,Insubrischer Enzian,Gentiane d'Insubrie,Genziana insubrica,2,VU,3,2,2,2,1,0,0
+infoflora:184500,Gefässpflanzen,TRAC,184500,Gentiana pannonica Scop.,,Ostalpen-Enzian,Gentiane de Hongrie,Genziana rossigna,2,VU,3,1,1,1,0,0,0
+infoflora:184600,Gefässpflanzen,TRAC,184600,Gentiana pneumonanthe L.,,Lungen-Enzian,Gentiane des marais,Genziana mettinborsa,4,VU,1,1,1,2,1,A,C
+infoflora:184700,Gefässpflanzen,TRAC,184700,Gentiana prostrata Haenke,,Niederliegender Enzian,Gentiane couchée,Genziana a dieci punte,2,EN,2,1,2,2,1,0,0
+infoflora:185000,Gefässpflanzen,TRAC,185000,Gentiana ramosa Hegetschw.,,Reichästiger Enzian,Gentiane rameuse,Genziana ramosa,4,LC,3,0,0,1,0,A,0
+infoflora:185100,Gefässpflanzen,TRAC,185100,Gentiana schleicheri (Vacc.) Kunz,,Schleichers Enzian,Gentiane de Schleicher,Genziana di Schleicher,3,NT,3,0,0,1,0,0,0
+infoflora:187000,Gefässpflanzen,TRAC,187000,Geranium bohemicum L.,,Böhmischer Storchschnabel,Géranium de Bohème,Geranio di Boemia,1,CR,2,1,0,1,0,0,0
+infoflora:187300,Gefässpflanzen,TRAC,187300,Geranium divaricatum Ehrh.,,Spreizender Storchschnabel,Géranium divariqué,Geranio divaricato,3,EN,1,2,1,2,1,B,0
+infoflora:188700,Gefässpflanzen,TRAC,188700,Geranium rivulare Vill.,,Blassblütiger Storchschnabel,Géranium blanc,Geranio dei rivi,4,NT,2,0,0,1,0,0,0
+infoflora:189900,Gefässpflanzen,TRAC,189900,Gladiolus imbricatus L.,,Busch-Gladiole,Glaïeul imbriqué,Gladiolo piemontese,2,EN,2,2,2,2,1,0,0
+infoflora:190000,Gefässpflanzen,TRAC,190000,Gladiolus italicus Mill.,,Italienische Gladiole,Glaïeul des moissons,Gladiolo dei campi,2,CR,1,2,2,2,1,0,0
+infoflora:190100,Gefässpflanzen,TRAC,190100,Gladiolus palustris Gaudin,,Sumpf-Gladiole,Glaïeul des marais,Gladiolo reticolato,3,EN,1,2,2,2,1,0,0
+infoflora:190400,Gefässpflanzen,TRAC,190400,Glaucium flavum Crantz,,Gelber Hornmohn,Glaucière jaune,Papavero cornuto,2,CR(PE),1,99,0,0,0,D,0
+infoflora:191400,Gefässpflanzen,TRAC,191400,Glyceria declinata Bréb.,,Blaugrünes Süssgras,Glycérie inclinée,Gramignone atlantico,3,EN,1,2,1,2,1,B,B
+infoflora:191600,Gefässpflanzen,TRAC,191600,Glyceria maxima (Hartm.) Holmb.,,Grosses Süssgras,Grande glycérie,Gramignone maggiore,4,VU,1,2,1,2,1,A,A
+infoflora:192300,Gefässpflanzen,TRAC,192300,Gnaphalium luteoalbum L.,,Gelblichweisses Ruhrkraut,Gnaphale blanc jaunâtre,Canapicchia pagliata,4,VU,1,0,0,1,0,A,0
+infoflora:193000,Gefässpflanzen,TRAC,193000,Gratiola officinalis L.,,Gnadenkraut,Gratiole officinale,Graziella,4,VU,1,2,2,2,1,A,0
+infoflora:193600,Gefässpflanzen,TRAC,193600,Gypsophila muralis L.,,Acker-Gipskraut,Gypsophile des murailles,Gipsofila minuta,3,EN,1,2,0,2,1,A,A
+infoflora:193900,Gefässpflanzen,TRAC,193900,Hammarbya paludosa (L.) Kuntze,,Weichwurz,Hammarbya des marais,Hammarbia,2,CR,1,2,2,2,1,0,0
+infoflora:194400,Gefässpflanzen,TRAC,194400,Helianthemum apenninum (L.) Mill.,,Apenninen-Sonnenröschen,Hélianthème des Apennins,Eliantemo degli Appennini,4,VU,1,1,1,1,0,0,0
+infoflora:194500,Gefässpflanzen,TRAC,194500,Helianthemum canum (L.) Hornem.,,Graufilziges Sonnenröschen,Hélianthème blanchâtre,Eliantemo candido,4,VU,1,1,1,1,0,C,0
+infoflora:195500,Gefässpflanzen,TRAC,195500,Helianthemum salicifolium (L.) Mill.,,Weidenblättriges Sonnenröschen,Hélianthème à feuilles de saule,Eliantemo annuale,3,EN,1,2,2,2,1,0,0
+infoflora:198200,Gefässpflanzen,TRAC,198200,Heracleum austriacum L.,,Österreichische Bärenklau,Berce d'Autriche,Panace austriaco,2,VU,3,1,1,1,0,A,0
+infoflora:198700,Gefässpflanzen,TRAC,198700,Heracleum sphondylium subsp. alpinum (L.) Bonnier & Layens,,Jura-Bärenklau,Berce du Jura,Panace del Giura,4,LC,3,0,0,1,0,A,A
+infoflora:199100,Gefässpflanzen,TRAC,199100,Herminium monorchis (L.) R. Br.,,Einorchis,Orchis musc,Orchide ad un bulbo,4,VU,1,1,1,1,0,A,A
+infoflora:199700,Gefässpflanzen,TRAC,199700,Heteropogon contortus (L.) Roem. & Schult.,,Gedrehtgranniges Bartgras,Hétéropogon tordu,Trebbia contorta,4,VU,1,1,1,1,0,0,0
+infoflora:199800,Gefässpflanzen,TRAC,199800,Hieracium alpicola Steud. & Hochst.,,Seidenhaariges Habichtskraut,Épervière alpicole,Sparviere delle Alpi,4,NT,2,0,0,1,0,D,0
+infoflora:200400,Gefässpflanzen,TRAC,200400,Hieracium bauhinii Schult.,,Bauhins Habichtskraut,Épervière de Bauhin,Sparviere di Bauhin,4,VU,1,1,1,1,0,0,0
+infoflora:200800,Gefässpflanzen,TRAC,200800,Hieracium caespitosum Dumort.,,Wiesen-Habichtskraut,Épervière gazonnante,Sparviere palustre,3,EN,1,1,1,1,0,0,A
+infoflora:206100,Gefässpflanzen,TRAC,206100,Hierochloë odorata (L.) P. Beauv.,,Duftendes Mariengras,Hierochloé odorant,Avena odorata,2,EN,2,2,2,2,1,C,0
+infoflora:208100,Gefässpflanzen,TRAC,208100,Hordeum secalinum Schreb.,,Knotige Gerste,Orge noueuse,Orzo perenne,2,RE,1,99,0,0,0,D,0
+infoflora:208600,Gefässpflanzen,TRAC,208600,Hottonia palustris L.,,Wasserfeder,Hottonie des marais,Erba scopina,3,EN,1,2,2,2,1,A,0
+infoflora:208700,Gefässpflanzen,TRAC,208700,Hugueninia tanacetifolia (L.) Rchb.,,Farnrauke,Hugueninie à feuilles de tanaisie,Hugueninia comune,2,VU,3,1,1,1,0,0,0
+infoflora:209300,Gefässpflanzen,TRAC,209300,Hydrocharis morsus-ranae L.,,Froschbiss,Hydrocharis des grenouilles,Morso di Rana,3,EN,1,2,2,2,1,A,0
+infoflora:209400,Gefässpflanzen,TRAC,209400,Hydrocotyle vulgaris L.,,Wassernabel,Ecuelle d'eau,Soldinella acquatica,4,VU,1,1,1,1,0,A,D
+infoflora:209500,Gefässpflanzen,TRAC,209500,Hymenolobus pauciflorus (W. D. J. Koch) Schinz & Thell.,,Armblütige Salzkresse,Hymenolobe pauciflore,Iberidella minore,3,EN,1,1,0,1,0,0,0
+infoflora:209700,Gefässpflanzen,TRAC,209700,Hyoscyamus niger L.,,Bilsenkraut,Jusquiame noire,Giusquiamo nero,4,VU,1,1,0,1,0,A,C
+infoflora:211300,Gefässpflanzen,TRAC,211300,Hypericum pulchrum L.,,Schönes Johanniskraut,Millepertuis élégant,Erba di San Giovanni occidentale,4,VU,1,1,1,1,0,A,0
+infoflora:211900,Gefässpflanzen,TRAC,211900,Hypochaeris glabra L.,,Sand-Ferkelkraut,Porcelle glabre,Costolina liscia,2,CR(PE),1,99,0,0,0,0,0
+infoflora:212500,Gefässpflanzen,TRAC,212500,Iberis amara L.,,Bitterer Bauernsenf,Ibéris amer,Iberide bianca,3,EN,1,2,1,2,1,C,C
+infoflora:212600,Gefässpflanzen,TRAC,212600,Iberis intermedia Guers.,,Mittlerer Bauernsenf,Ibéris intermédiaire,Iberide rosea,2,CR,1,2,1,1,0,0,A
+infoflora:212900,Gefässpflanzen,TRAC,212900,Iberis pinnata L.,,Fiederblättriger Bauernsenf,Ibéris penné,Iberide pennata,2,RE,1,99,0,0,0,D,0
+infoflora:213000,Gefässpflanzen,TRAC,213000,Iberis saxatilis L.,,Felsen-Bauernsenf,Ibéris des rochers,Iberide rupestre,3,VU,2,1,1,1,0,0,0
+infoflora:213400,Gefässpflanzen,TRAC,213400,Illecebrum verticillatum L.,,Knorpelblume,Illécèbre verticillé,Corriggiola verticillata,2,CR(PE),1,99,0,0,0,0,0
+infoflora:214000,Gefässpflanzen,TRAC,214000,Inula britannica L.,,Wiesen-Alant,Inule britannique,Enula laurentiana,3,EN,1,2,2,2,1,0,0
+infoflora:214500,Gefässpflanzen,TRAC,214500,Inula helvetica Weber,,Schweizerischer Alant,Inule de Suisse,Enula svizzera,2,VU,3,2,2,2,1,A,0
+infoflora:214600,Gefässpflanzen,TRAC,214600,Inula hirta L.,,Rauher Alant,Inule hérissée,Enula scabra,3,EN,1,2,2,2,1,0,0
+infoflora:214900,Gefässpflanzen,TRAC,214900,Inula spiraeifolia L.,,Sparriger Alant,Inule à feuilles de spirée,Enula uncinata,3,EN,1,2,2,2,1,0,0
+infoflora:215200,Gefässpflanzen,TRAC,215200,Iris graminea L.,,Grasblättrige Schwertlilie,Iris graminée,Giaggiolo susinario,4,VU,1,1,1,1,0,0,0
+infoflora:215600,Gefässpflanzen,TRAC,215600,Iris sibirica L.,,Sibirische Schwertlilie,Iris de Sibérie,Giaggiolo siberiano,4,VU,1,1,1,1,0,A,0
+infoflora:216500,Gefässpflanzen,TRAC,216500,Isoëtes echinospora Durieu,,Stachelsporiges Brachsenkraut,Isoète à spores hérissées,Calamaria setacea,2,CR,1,2,2,2,1,0,0
+infoflora:216600,Gefässpflanzen,TRAC,216600,Isoëtes lacustris L.,,See-Brachsenkraut,Isoète des lacs,Calamaria lacustre,3,VU,2,2,1,1,0,0,0
+infoflora:216300,Gefässpflanzen,TRAC,216300,Isolepis setacea (L.) R. Br.,,Moorried,Isolépis sétacé,Lisca setacea,4,VU,1,2,1,2,1,A,A
+infoflora:216400,Gefässpflanzen,TRAC,216400,Isopyrum thalictroides L.,,Muschelblümchen,Isopyre commun,Isopiro comune,4,VU,1,2,2,2,1,0,0
+infoflora:218000,Gefässpflanzen,TRAC,218000,Juncus arcticus Willd.,,Arktische Binse,Jonc arctique,Giunco artico,4,NT,2,0,0,1,0,A,0
+infoflora:218300,Gefässpflanzen,TRAC,218300,Juncus bulbosus L.,,Knollen-Binse,Jonc bulbeux,Giunco bulboso,3,EN,1,2,2,2,1,B,A
+infoflora:218400,Gefässpflanzen,TRAC,218400,Juncus capitatus Weigel,,Lössacker-Binse,Jonc capité,Giunco a capolino,2,CR,1,2,2,2,1,D,A
+infoflora:218500,Gefässpflanzen,TRAC,218500,Juncus castaneus Sm.,,Kastanienbraune Binse,Jonc marron,Giunco castano,3,VU,2,2,2,2,1,0,0
+infoflora:219500,Gefässpflanzen,TRAC,219500,Juncus sphaerocarpus Nees,,Kugelfrüchtige Binse,Jonc à fruits globuleux,Giunco a frutti globosi,1,CR,2,2,2,2,1,0,0
+infoflora:219600,Gefässpflanzen,TRAC,219600,Juncus squarrosus L.,,Sparrige Binse,Jonc rude,Giunco delle torbiere,3,EN,1,2,2,2,1,C,D
+infoflora:219700,Gefässpflanzen,TRAC,219700,Juncus stygius L.,,Moor-Binse,Jonc du Styx,Giunco dello Styx,1,CR,2,2,2,2,1,D,0
+infoflora:219900,Gefässpflanzen,TRAC,219900,Juncus tenageia L. f.,,Schlamm-Binse,Jonc des marais,Giunco delle pozze,2,CR,1,2,2,2,1,D,0
+infoflora:221800,Gefässpflanzen,TRAC,221800,Knautia drymeia Heuff.,,Ungarische Witwenblume,Knautie des chênaies,Ambretta dei querceti,4,LC,3,0,0,1,0,0,0
+infoflora:221900,Gefässpflanzen,TRAC,221900,Knautia godetii Reut.,,Godets Witwenblume,Knautie de Godet,Ambretta di Godet,4,VU,1,1,1,1,0,A,A
+infoflora:222100,Gefässpflanzen,TRAC,222100,Knautia purpurea (Vill.) Borbás,,Purpur-Witwenblume,Knautie pourpre,Ambretta purpurea,4,VU,1,1,1,1,0,0,0
+infoflora:222400,Gefässpflanzen,TRAC,222400,Knautia transalpina (Christ) Briq.,,Ennetbirgische Witwenblume,Knautie transalpine,Ambretta sudalpina,2,VU,3,1,0,1,0,0,0
+infoflora:222700,Gefässpflanzen,TRAC,222700,Kobresia simpliciuscula (Wahlenb.) Mack.,,Schuppenried,Cobrésia simple,Cobresia,4,NT,2,0,0,1,0,A,0
+infoflora:224500,Gefässpflanzen,TRAC,224500,Lactuca saligna L.,,Weiden-Lattich,Laitue à feuilles de saule,Lattuga salcigna,3,EN,1,1,0,1,0,A,0
+infoflora:224900,Gefässpflanzen,TRAC,224900,Lactuca viminea (L.) J. Presl & C. Presl,,Ruten-Lattich,Laitue effilée,Lattuga alata,4,VU,1,1,0,1,0,0,0
+infoflora:226100,Gefässpflanzen,TRAC,226100,Lamium hybridum Vill.,,Schlitzblättrige Taubnessel,Lamier hybride,Falsa ortica ibrida,4,VU,1,1,0,1,0,A,0
+infoflora:226600,Gefässpflanzen,TRAC,226600,Lappula deflexa (Wahlenb.) Garcke,,Wald-Igelsame,Bardane réfléchie,Lappolina incurvata,4,VU,1,1,0,1,0,A,0
+infoflora:227400,Gefässpflanzen,TRAC,227400,Laserpitium gaudinii Moretti,,Gaudins Laserkraut,Laser de Gaudin,Laserpizio di Gaudin,4,LC,3,0,0,1,0,0,0
+infoflora:227500,Gefässpflanzen,TRAC,227500,Laserpitium halleri Crantz,,Hallers Laserkraut,Laser de Haller,Laserpizio di Haller,4,LC,3,0,0,1,0,A,0
+infoflora:228000,Gefässpflanzen,TRAC,228000,Laserpitium prutenicum L.,,Preussisches Laserkraut,Laser de Prusse,Laserpizio pimpinellino,3,EN,1,2,2,2,1,C,0
+infoflora:228900,Gefässpflanzen,TRAC,228900,Lathyrus aphaca L.,,Ranken-Platterbse,Gesse sans feuilles,Cicerchia bastarda,3,EN,1,2,0,2,1,A,D
+infoflora:229000,Gefässpflanzen,TRAC,229000,Lathyrus bauhinii P. A. Genty,,Schwertblättrige Platterbse,Gesse de Bauhin,Cicerchia di Bauhin,1,CR,2,2,2,2,1,0,0
+infoflora:229100,Gefässpflanzen,TRAC,229100,Lathyrus cicera L.,,Kicher-Platterbse,Gesse chiche,Cicerchia cicerchiella,2,CR,1,2,0,2,1,D,D
+infoflora:229400,Gefässpflanzen,TRAC,229400,Lathyrus hirsutus L.,,Behaartfrüchtige Platterbse,Gesse hérissée,Cicerchia pelosa,3,EN,1,2,0,2,1,B,D
+infoflora:230100,Gefässpflanzen,TRAC,230100,Lathyrus nissolia L.,,Gras-Platterbse,Gesse nissole,Cicerchia semplice,2,CR,1,2,2,2,1,D,D
+infoflora:230300,Gefässpflanzen,TRAC,230300,Lathyrus palustris L.,,Sumpf-Platterbse,Gesse des marais,Cicerchia palustre,4,VU,1,2,1,2,1,A,0
+infoflora:230700,Gefässpflanzen,TRAC,230700,Lathyrus sphaericus Retz.,,Kugelsamige Platterbse,Gesse à graines sphériques,Cicerchia sferica,4,VU,1,1,1,1,0,0,0
+infoflora:230900,Gefässpflanzen,TRAC,230900,Lathyrus tuberosus L.,,Knollige Platterbse,Gesse tubéreuse,Cicerchia tuberosa,4,VU,1,1,0,1,0,C,A
+infoflora:231100,Gefässpflanzen,TRAC,231100,Lathyrus venetus (Mill.) Wohlf.,,Venezianische Platterbse,Gesse de Vénétie,Cicerchia veneta,3,EN,1,2,2,2,1,0,0
+infoflora:231800,Gefässpflanzen,TRAC,231800,Leersia oryzoides (L.) Sw.,,Wilder Reis,Leersie faux riz,Riso selvatico,4,VU,1,1,1,1,0,A,A
+infoflora:231900,Gefässpflanzen,TRAC,231900,Legousia hybrida (L.) Delarbre,,Kleiner Venusspiegel,Legousie hybride,Specchio di Venere ondulato,2,CR,1,2,0,2,1,B,0
+infoflora:232000,Gefässpflanzen,TRAC,232000,Legousia speculum-veneris (L.) Chaix,,Gemeiner Venusspiegel,Legousie miroir de Vénus,Specchio di Venere comune,4,VU,1,1,0,1,0,A,A
+infoflora:232200,Gefässpflanzen,TRAC,232200,Lemna gibba L.,,Bucklige Wasserlinse,Lentille d'eau bossue,Lenticchia d'acqua spugnosa,2,CR,1,2,0,2,1,D,0
+infoflora:232800,Gefässpflanzen,TRAC,232800,Leontodon crispus Vill.,,Krauser Löwenzahn,Liondent crépu,Dente di leone crespo,3,EN,1,2,2,2,1,D,0
+infoflora:233900,Gefässpflanzen,TRAC,233900,Leontodon incanus subsp. tenuiflorus (Gaudin) Schinz & R. Keller,,Schmalblättriger Löwenzahn,Liondent à petites fleurs,Dente di leone insubrico,3,NT,3,0,0,1,0,0,0
+infoflora:234700,Gefässpflanzen,TRAC,234700,Leonurus cardiaca L.,,Herzheil,Agripaume cardiaque,Cardiaca comune,3,EN,1,2,1,2,1,A,D
+infoflora:236500,Gefässpflanzen,TRAC,236500,Leucanthemum halleri (Vitman) Ducommun,,Hallers Margerite,Marguerite de Haller,Margherita di Haller,4,LC,3,0,0,1,0,A,0
+infoflora:236600,Gefässpflanzen,TRAC,236600,Leucanthemum heterophyllum (Willd.) DC.,,Verschiedenblättrige Margerite,Leucanthème à feuilles différentes,Margherita sudalpina,2,VU,3,1,0,1,0,0,0
+infoflora:237000,Gefässpflanzen,TRAC,237000,Leucojum aestivum L.,,Spätblühende Knotenblume,Nivéole d'été,Campanelle maggiori,2,EN,2,2,2,2,1,A,0
+infoflora:237600,Gefässpflanzen,TRAC,237600,Ligusticum lucidum Mill.,,Séguiers Liebstock,Ligustique luisante,Motellina lucida,2,EN,2,1,1,1,0,0,0
+infoflora:238200,Gefässpflanzen,TRAC,238200,Lilium bulbiferum L. subsp. bulbiferum,,Bulbillentragende Feuerlilie,Lis à bulbilles,Giglio di San Giovanni,4,VU,1,1,0,1,0,0,0
+infoflora:238300,Gefässpflanzen,TRAC,238300,Lilium bulbiferum subsp. croceum (Chaix) Baker,,Safranfarbene Feuerlilie,Lis safrané,Giglio cróceo,4,NT,2,0,0,1,0,C,0
+infoflora:238700,Gefässpflanzen,TRAC,238700,Limosella aquatica L.,,Schlammkraut,Limoselle aquatique,Limosella,2,CR,1,2,2,2,1,A,D
+infoflora:239000,Gefässpflanzen,TRAC,239000,Linaria alpina subsp. petraea (Jord.) Rouy,,Stein-Leinkraut,Linaire des rochers,Linaiola delle pietraie,3,NT,3,2,2,2,1,A,C
+infoflora:240400,Gefässpflanzen,TRAC,240400,Lindernia procumbens (Krock.) Borbás,,Büchsenkraut,Lindernie couchée,Vandellia palustre,2,CR,1,2,2,2,1,0,C
+infoflora:240900,Gefässpflanzen,TRAC,240900,Linum austriacum L.,,Österreichischer Lein,Lin d'Autriche,Lino d'Austria,4,NT,2,0,0,1,0,A,0
+infoflora:241800,Gefässpflanzen,TRAC,241800,Liparis loeselii (L.) Rich.,,Zwiebelorchis,Liparis de Loesel,Liparide,4,VU,1,1,2,2,1,A,0
+infoflora:242400,Gefässpflanzen,TRAC,242400,Littorella uniflora (L.) Asch.,,Strandling,Littorelle uniflore,Littorella,3,EN,1,2,2,2,1,A,C
+infoflora:242900,Gefässpflanzen,TRAC,242900,Lolium remotum Schrank,,Flachs-Lolch,Ivraie à épillets espacés,Loglio del lino,2,CR(PE),1,99,0,0,0,C,D
+infoflora:243000,Gefässpflanzen,TRAC,243000,Lolium rigidum Gaudin,,Steifer Lolch,Ivraie raide,Loglio rigido,4,VU,1,1,0,1,0,C,D
+infoflora:243100,Gefässpflanzen,TRAC,243100,Lolium temulentum L.,,Taumel-Lolch,Ivraie enivrante,Loglio ubriacante,2,CR,1,1,1,1,0,D,D
+infoflora:243200,Gefässpflanzen,TRAC,243200,Lomatogonium carinthiacum (Wulfen) Rchb.,,Saumnarbe,Lomatogonium de Carinthie,Genzianella di Carinzia,3,EN,1,2,2,2,1,0,0
+infoflora:243300,Gefässpflanzen,TRAC,243300,Lomelosia graminifolia (L.) Greuter & Burdet,,Grasblättrige Skabiose,Lomélosie à feuilles de graminée,Vedovina strisciante,4,VU,1,1,1,1,0,0,0
+infoflora:243700,Gefässpflanzen,TRAC,243700,Lonicera etrusca Santi,,Toskanisches Geissblatt,Chèvrefeuille de Toscane,Caprifoglio etrusco,4,NT,2,0,0,1,0,0,0
+infoflora:245300,Gefässpflanzen,TRAC,245300,Ludwigia palustris (L.) Elliott,,Heusenkraut,Ludwigie des marais,Porracchia dei fossi,2,CR,1,2,2,2,1,D,0
+infoflora:249400,Gefässpflanzen,TRAC,249400,Lycopodiella inundata (L.) Holub,,Moorbärlapp,Lycopode inondé,Licopodio inondato,4,VU,1,1,1,1,0,A,0
+infoflora:251700,Gefässpflanzen,TRAC,251700,Lysimachia thyrsiflora L.,,Strauss-Gilbweiderich,Lysimaque à fleurs en thyrse,Mazza d'oro tirsiflora,4,VU,1,2,2,2,1,A,C
+infoflora:251900,Gefässpflanzen,TRAC,251900,Lythrum hyssopifolia L.,,Ysop-Weiderich,Lythrum à feuilles d'hysope,Salcerella con foglie d'issopo,2,CR,1,2,2,2,1,A,0
+infoflora:252000,Gefässpflanzen,TRAC,252000,Lythrum portula (L.) D. A. Webb,,Sumpfquendel,Lythrum pourpier,Salcerella erba portula,3,EN,1,2,2,2,1,C,A
+infoflora:252600,Gefässpflanzen,TRAC,252600,Malaxis monophyllos (L.) Sw.,,Einblatt,Malaxis à une feuille,Microstile,4,VU,1,1,1,1,0,A,0
+infoflora:253800,Gefässpflanzen,TRAC,253800,Marrubium vulgare L.,,Andorn,Marrube commun,Marrubio comune,3,EN,1,1,0,1,0,C,C
+infoflora:253900,Gefässpflanzen,TRAC,253900,Marsilea quadrifolia L.,,Kleefarn,Marsilée à quatre feuilles,Trifoglio acquatico comune,2,CR,1,2,2,2,1,A,A
+infoflora:254500,Gefässpflanzen,TRAC,254500,Matteuccia struthiopteris (L.) Tod.,,Straussfarn,Fougère autruche,Felce penna di struzzo,4,VU,1,1,1,1,0,0,0
+infoflora:254700,Gefässpflanzen,TRAC,254700,Matthiola valesiaca Boiss.,,Walliser Levkoje,Violier du Valais,Violaciocca alpina,2,VU,3,2,2,1,0,0,0
+infoflora:256200,Gefässpflanzen,TRAC,256200,Melampyrum arvense L.,,Acker-Wachtelweizen,Mélampyre des champs,Spigarola campestre,4,VU,1,1,1,1,0,A,A
+infoflora:256400,Gefässpflanzen,TRAC,256400,Melampyrum nemorosum L.,,Hain-Wachtelweizen,Mélampyre des bois,Spigarola violacea,2,EN,2,2,2,2,1,A,D
+infoflora:257000,Gefässpflanzen,TRAC,257000,Melica transsilvanica Schur,,Siebenbürgisches Perlgras,Mélique de Transsylvanie,Melica di Transilvania,4,VU,1,1,1,1,0,0,0
+infoflora:258300,Gefässpflanzen,TRAC,258300,Mentha pulegium L.,,Polei-Minze,Menthe pouliot,Menta poleggio,3,EN,1,2,1,2,1,D,0
+infoflora:259000,Gefässpflanzen,TRAC,259000,Mercurialis ovata Sternb. & Hoppe,,Eiblättriges Bingelkraut,Mercuriale à feuilles ovales,Mercorella ovale,3,VU,2,1,1,1,0,0,0
+infoflora:259200,Gefässpflanzen,TRAC,259200,Mespilus germanica L.,,Mispel,Néflier d'Allemagne,Nespolo volgare,4,VU,1,1,1,1,0,A,0
+infoflora:259300,Gefässpflanzen,TRAC,259300,Meum athamanticum Jacq.,,Bärenwurz,Fenouil des Alpes,Finocchiello,4,VU,1,1,1,1,0,A,0
+infoflora:259500,Gefässpflanzen,TRAC,259500,Micropus erectus L.,,Falzblume,Micrope dressé,Bambagia senza pappo,2,CR,1,2,1,2,1,0,0
+infoflora:259600,Gefässpflanzen,TRAC,259600,Micropyrum tenellum (L.) Link,,Kies-Dünnschwanz,Fétuque délicate,Festuca annuale,2,CR(PE),1,99,0,0,0,0,0
+infoflora:260300,Gefässpflanzen,TRAC,260300,Minuartia biflora (L.) Schinz & Thell.,,Zweiblütige Miere,Minuartie à deux fleurs,Minuartia biflora,4,LC,3,0,0,1,0,B,0
+infoflora:260400,Gefässpflanzen,TRAC,260400,Minuartia capillacea (All.) Graebn.,,Feinblättrige Miere,Minuartie à feuilles capillaires,Minuartia capillare,4,VU,1,1,0,1,0,0,0
+infoflora:260600,Gefässpflanzen,TRAC,260600,Minuartia cherlerioides subsp. rionii (Gremli) Friedrich,,Behaarte Polster-Miere,Minuartie coussinet,Minuartia di Rion,2,VU,3,1,1,2,1,0,0
+infoflora:261900,Gefässpflanzen,TRAC,261900,Minuartia stricta (Sw.) Hiern,,Steife Miere,Minuartie raide,Minuartia rigida,2,RE,1,99,0,0,0,0,0
+infoflora:262200,Gefässpflanzen,TRAC,262200,Minuartia viscosa (Schreb.) Schinz & Thell.,,Klebrige Miere,Minuartie visqueuse,Minuartia vischiosa,1,EN,3,1,2,1,0,0,0
+infoflora:262300,Gefässpflanzen,TRAC,262300,Misopates orontium (L.) Raf.,,Feldlöwenmaul,Misopatès orontium,Gallinetta comune,4,VU,1,1,0,1,0,A,C
+infoflora:263100,Gefässpflanzen,TRAC,263100,Moenchia erecta (L.) G. Gaertn. & al.,,Vierzählige Weissmiere,Moenchie dressée,Peverina eretta,2,RE,1,99,0,0,0,0,0
+infoflora:263200,Gefässpflanzen,TRAC,263200,Moenchia mantica (L.) Bartl.,,Fünfzählige Weissmiere,Moenchie de Vérone,Peverina di Mantico,3,EN,1,2,2,2,1,D,0
+infoflora:264100,Gefässpflanzen,TRAC,264100,Montia fontana L. subsp. fontana,,Bach-Quellkraut,Montie des fontaines,Pendolino delle fonti,4,VU,1,2,2,2,1,0,0
+infoflora:264200,Gefässpflanzen,TRAC,264200,Montia fontana subsp. amporitana Sennen,,Portugiesisches Quellkraut,Montie d'Ampurias,Pendolino lusitanico,2,CR(PE),1,99,0,0,0,0,0
+infoflora:264300,Gefässpflanzen,TRAC,264300,Montia fontana subsp. chondrosperma (Fenzl) Walters,,Acker-Quellkraut,Montie à graines cartilagineuses,Pendolino minore,2,CR,1,2,1,2,1,D,0
+infoflora:265200,Gefässpflanzen,TRAC,265200,Muscari botryoides (L.) Mill.,,Hellblaue Bisamhyazinthe,Muscari botryoïde,Muscari azzurro,4,VU,1,1,1,1,0,A,0
+infoflora:266000,Gefässpflanzen,TRAC,266000,Myosotis cespitosa Schultz,,Rasiges Vergissmeinnicht,Myosotis gazonnant,Nontiscordardimé dei canneti,4,VU,1,1,1,1,0,A,A
+infoflora:266200,Gefässpflanzen,TRAC,266200,Myosotis discolor Pers.,,Farbwechselndes Vergissmeinnicht,Myosotis versicolore,Nontiscordardimé cangiante,3,EN,1,2,1,2,1,A,A
+infoflora:266360,Gefässpflanzen,TRAC,266360,Myosotis minutiflora Boiss. & Reut.,,Kleinblütiges Vergissmeinnicht,Myosotis à fleurs minuscules,Nontiscordardimé a fiori minuti,3,VU,2,0,0,1,0,0,0
+infoflora:266700,Gefässpflanzen,TRAC,266700,Myosotis rehsteineri Wartm.,,Bodensee-Vergissmeinnicht,Myosotis de Rehsteiner,Nontiscordardimé di Rehsteiner,1,EN,3,2,2,2,1,0,0
+infoflora:267400,Gefässpflanzen,TRAC,267400,Myosurus minimus L.,,Mäuseschwanz,Myosure minime,Coda di topo,2,CR,1,2,2,2,1,D,D
+infoflora:267500,Gefässpflanzen,TRAC,267500,Myricaria germanica (L.) Desv.,,Tamariske,Tamarin d'Allemagne,Tamerici alpino,4,VU,1,2,2,2,1,A,0
+infoflora:267600,Gefässpflanzen,TRAC,267600,Myriophyllum alterniflorum DC.,,Armblütiges Tausendblatt,Myriophylle à fleurs alternes,Millefoglio d'acqua gracile,3,EN,1,2,2,2,1,0,0
+infoflora:268200,Gefässpflanzen,TRAC,268200,Najas flexilis (Willd.) Rostk. & W. L. E. Schmidt,,Biegsames Nixenkraut,Naïade flexible,Ranocchina flessibile,2,RE,1,99,1,1,0,0,0
+infoflora:268500,Gefässpflanzen,TRAC,268500,Najas minor All.,,Kleines Nixenkraut,Petite naïade,Ranocchina minore,3,EN,1,2,1,2,1,A,0
+infoflora:269400,Gefässpflanzen,TRAC,269400,Narcissus ×verbanensis (Herb.) M. Roem.,,Langensee-Narzisse,Narcisse du Lac Majeur,Narciso del Lago Maggiore,2,VU,3,1,1,1,0,0,0
+infoflora:269800,Gefässpflanzen,TRAC,269800,Nasturtium microphyllum (Boenn.) Rchb.,,Kleinblättrige Brunnenkresse,Cresson à petites feuilles,Crescione tetraploide,3,EN,1,2,2,2,1,A,0
+infoflora:270200,Gefässpflanzen,TRAC,270200,Nepeta cataria L.,,Echte Katzenminze,Herbe aux chats,Erba dei gatti,3,EN,1,1,0,1,0,A,C
+infoflora:270400,Gefässpflanzen,TRAC,270400,Nepeta nuda L.,,Kahle Katzenminze,Népéta glabre,Gattaia glabra,3,VU,2,1,1,1,0,0,0
+infoflora:270695,Gefässpflanzen,TRAC,270695,Neslia paniculata (L.) Desv.,,Kugelfrüchtiges Ackernüsschen,Neslie paniculée,Neslia comune,3,EN,1,2,0,2,1,D,0
+infoflora:271300,Gefässpflanzen,TRAC,271300,Nigella arvensis L.,,Acker-Schwarzkümmel,Nigelle des champs,Damigella campestre,2,CR,1,2,2,1,0,A,A
+infoflora:271450,Gefässpflanzen,TRAC,271450,Nigritella austriaca (Teppner & E. Klein) P. Delforge,,Österreicher Männertreu,Nigritelle d'Autriche,Nigritella austriaca,4,VU,1,2,1,2,1,A,A
+infoflora:271800,Gefässpflanzen,TRAC,271800,Nigritella rubra (Wettst.) K. Richt.,,Rotes Männertreu,Nigritelle rouge,Nigritella rossa,4,NT,2,0,0,1,0,A,0
+infoflora:272200,Gefässpflanzen,TRAC,272200,Notholaena marantae (L.) Desv.,,Pelzfarn,Cheilanthès de Maranta,Felcetta lanosa,3,EN,1,1,2,2,1,0,0
+infoflora:272400,Gefässpflanzen,TRAC,272400,Nuphar pumila (Timm) DC.,,Kleine Teichrose,Nénufar nain,Ninfea minore,1,EN,3,2,2,2,1,0,0
+infoflora:273150,Gefässpflanzen,TRAC,273150,Odontites vernus (Bellardi) Dumort.,,Früher Roter Zahntrost,Odontitès du printemps,Perlina rossa,3,EN,1,1,0,1,0,A,C
+infoflora:273400,Gefässpflanzen,TRAC,273400,Odontites viscosus (L.) Clairv.,,Klebriger Zahntrost,Odontitès visqueux,Perlina vischiosa,3,VU,2,1,1,1,0,0,0
+infoflora:273500,Gefässpflanzen,TRAC,273500,Odontites vulgaris Moench,,Später Roter Zahntrost,Odontitès tardif,Perlina tardiva,4,VU,1,1,0,1,0,A,A
+infoflora:273600,Gefässpflanzen,TRAC,273600,Oenanthe aquatica (L.) Poir.,,Wasserfenchel,Oenanthe aquatique,Finocchio acquatico cicutario,3,EN,1,2,2,2,1,D,A
+infoflora:273700,Gefässpflanzen,TRAC,273700,Oenanthe fistulosa L.,,Röhrige Rebendolde,Oenanthe fistuleuse,Finocchio acquatico tubuloso,3,EN,1,2,2,2,1,A,D
+infoflora:273900,Gefässpflanzen,TRAC,273900,Oenanthe lachenalii C. C. Gmel.,,Lachenals Rebendolde,Oenanthe de Lachenal,Finocchio acquatico di Lachenal,2,CR,1,2,2,2,1,A,0
+infoflora:274000,Gefässpflanzen,TRAC,274000,Oenanthe peucedanifolia Pollich,,Schmalblättrige Rebendolde,Oenanthe à feuilles de peucédan,Finocchio acquatico napolino,2,CR,1,2,2,2,1,0,0
+infoflora:276900,Gefässpflanzen,TRAC,276900,Onopordum acanthium L.,,Eselsdistel,Onoporde acanthe,Onopordo tomentoso,4,VU,1,1,0,1,0,A,A
+infoflora:277200,Gefässpflanzen,TRAC,277200,Onosma helvetica (A. DC.) Boiss.,,Penninische Lotwurz,Onosma de Suisse,Viperina elvetica,1,EN,3,2,2,2,1,0,0
+infoflora:277400,Gefässpflanzen,TRAC,277400,Onosma pseudoarenaria Schur,,Schweizer Lotwurz,Onosma du Valais,Viperina pseudoarenaria,3,VU,2,1,1,1,0,0,0
+infoflora:277900,Gefässpflanzen,TRAC,277900,Ophioglossum vulgatum L.,,Natterzunge,Langue de serpent,Ofioglosso comune,4,VU,1,1,1,1,0,A,B
+infoflora:277950,Gefässpflanzen,TRAC,277950,Ophrys apifera Huds.,,Bienen-Ragwurz,Ophrys abeille,Ofride fior delle Api,4,VU,1,1,1,1,0,A,A
+infoflora:278300,Gefässpflanzen,TRAC,278300,Ophrys araneola Rchb.,,Spinnen-Ragwurz,Ophrys araignée précoce,Ofride verde-bruna minore,4,VU,1,1,1,1,0,B,A
+infoflora:278900,Gefässpflanzen,TRAC,278900,Ophrys holosericea (Burm. f.) Greuter subsp. holosericea,,Hummel-Ragwurz,Ophrys bourdon,Ofride dei fuchi,4,VU,1,1,1,1,0,A,A
+infoflora:279000,Gefässpflanzen,TRAC,279000,Ophrys holosericea subsp. elatior (R. Engel & P. Quentin) H. Baumann & Künkele,,Kleinblütige Hummel-Ragwurz,Ophrys élevé,Ofride dei fuchi maggiore,3,EN,1,2,2,2,1,0,0
+infoflora:279100,Gefässpflanzen,TRAC,279100,Ophrys insectifera L.,,Fliegen-Ragwurz,Ophrys mouche,Ofride insettifera,4,VU,1,1,1,1,0,A,A
+infoflora:279200,Gefässpflanzen,TRAC,279200,Ophrys sphegodes Mill.,,Wespen-Ragwurz,Ophrys araignée,Ofride verde-bruna,3,EN,1,2,2,2,1,C,A
+infoflora:280000,Gefässpflanzen,TRAC,280000,Orchis coriophora L.,,Wanzen-Orchis,Orchis punaise,Orchide cimicina,3,EN,1,2,2,2,1,0,0
+infoflora:280700,Gefässpflanzen,TRAC,280700,Orchis laxiflora Lam.,,Lockerblütige Orchis,Orchis à fleurs lâches,Orchide acquatica,2,CR(PE),1,99,1,1,0,0,0
+infoflora:281100,Gefässpflanzen,TRAC,281100,Orchis morio L.,,Kleine Orchis,Orchis bouffon,Orchide minore,4,VU,1,1,1,1,0,A,A
+infoflora:281200,Gefässpflanzen,TRAC,281200,Orchis pallens L.,,Blasse Orchis,Orchis pâle,Orchide pallida,4,VU,1,1,1,1,0,A,0
+infoflora:281300,Gefässpflanzen,TRAC,281300,Orchis palustris Jacq.,,Sumpf-Orchis,Orchis des marais,Orchide palustre,4,VU,1,2,1,2,1,A,0
+infoflora:281400,Gefässpflanzen,TRAC,281400,Orchis papilionacea L.,,Schmetterlingsblütige Orchis,Orchis papillon,Orchide a farfalla,2,CR,1,1,2,1,0,0,0
+infoflora:281500,Gefässpflanzen,TRAC,281500,Orchis provincialis DC.,,Provenzalische Orchis,Orchis de Provence,Orchide gialla,2,CR,1,2,1,2,1,0,0
+infoflora:281600,Gefässpflanzen,TRAC,281600,Orchis purpurea Huds.,,Braunrote Orchis,Orchis pourpré,Orchide maggiore,4,VU,1,1,1,1,0,A,B
+infoflora:281800,Gefässpflanzen,TRAC,281800,Orchis simia Lam.,,Affen-Orchis,Orchis singe,Orchide omiciattolo,4,VU,1,1,1,1,0,A,C
+infoflora:281900,Gefässpflanzen,TRAC,281900,Orchis spitzelii W. D. J. Koch,,Spitzels Orchis,Orchis à corne courte,Orchide di Spitzel,1,CR,2,1,1,1,0,0,0
+infoflora:282100,Gefässpflanzen,TRAC,282100,Orchis tridentata Scop.,,Dreizähnige Orchis,Orchis à trois dents,Orchide screziata,4,VU,1,2,1,2,1,0,0
+infoflora:282700,Gefässpflanzen,TRAC,282700,Orlaya grandiflora (L.) Hoffm.,,Breitsame,Orlaya à grandes fleurs,Lappola bianca,4,VU,1,1,0,1,0,A,D
+infoflora:283200,Gefässpflanzen,TRAC,283200,Ornithogalum nutans L.,,Nickender Milchstern,Ornithogale penché,Latte di gallina a fiori penduli,4,VU,1,1,1,1,0,A,D
+infoflora:283900,Gefässpflanzen,TRAC,283900,Ornithopus perpusillus L.,,Krallenklee,Pied d'oiseau,Uccellina minore,2,CR(PE),1,99,0,0,0,D,0
+infoflora:284100,Gefässpflanzen,TRAC,284100,Orobanche alsatica Kirschl. subsp. alsatica,,Elsässische Sommerwurz,Orobanche d'Alsace,Succiamele della Cervaria,3,EN,1,2,0,2,1,A,C
+infoflora:284150,Gefässpflanzen,TRAC,284150,Orobanche alsatica subsp. libanotidis (Rupr.) Pusch,,Bartlings Sommerwurz,Orobanche du séséli,Succiamele della finocchiella,2,CR,1,2,0,2,1,A,C
+infoflora:284400,Gefässpflanzen,TRAC,284400,Orobanche arenaria Borkh.,,Sand-Sommerwurz,Orobanche des sables,Succiamele della finocchiella,4,VU,1,1,1,1,0,0,0
+infoflora:284650,Gefässpflanzen,TRAC,284650,Orobanche bohemica Celak.,,Böhmische Sommerwurz,Orobanche de Bohème,Succiamele della Boemia,4,VU,1,1,1,1,0,0,0
+infoflora:284900,Gefässpflanzen,TRAC,284900,Orobanche elatior Sutton,,Flockenblumen-Würger,Orobanche élevée,v,3,EN,1,2,0,2,1,A,C
+infoflora:285100,Gefässpflanzen,TRAC,285100,Orobanche gracilis Sm.,,Schlanke Sommerwurz,Orobanche grêle,Succiamele rossastro,4,VU,1,1,1,1,0,C,D
+infoflora:285400,Gefässpflanzen,TRAC,285400,Orobanche laserpitii-sileris Jord.,,Laserkraut-Sommerwurz,Orobanche du sermontain,Succiamele del laserpizio sermontano,4,NT,2,0,0,1,0,A,C
+infoflora:285600,Gefässpflanzen,TRAC,285600,Orobanche lucorum F. W. Schultz,,Berberitzen-Sommerwurz,Orobanche de l'épine-vinette,Succiamele del crespino,3,EN,1,2,0,2,1,0,0
+infoflora:285700,Gefässpflanzen,TRAC,285700,Orobanche lutea Baumg.,,Gelbe Sommerwurz,Orobanche jaune,Succiamele prataiolo,3,EN,1,2,0,2,1,C,0
+infoflora:286000,Gefässpflanzen,TRAC,286000,Orobanche picridis F. W. Schultz,,Bitterkraut-Sommerwurz,Orobanche de la picride,Succiamele della aspraggine,2,CR,1,2,0,2,1,0,0
+infoflora:286100,Gefässpflanzen,TRAC,286100,Orobanche purpurea Jacq.,,Violette Sommerwurz,Orobanche pourpre,Succiamele azzurro,4,VU,1,1,1,1,0,C,D
+infoflora:286200,Gefässpflanzen,TRAC,286200,Orobanche ramosa L.,,Ästige Sommerwurz,Orobanche rameuse,Succiamele ramoso,2,CR,1,2,0,2,1,D,D
+infoflora:286500,Gefässpflanzen,TRAC,286500,Orobanche salviae F. W. Schultz,,Salbei-Sommerwurz,Orobanche de la sauge,Succiamele della salvia,3,EN,1,2,0,2,1,D,0
+infoflora:287000,Gefässpflanzen,TRAC,287000,Osmunda regalis L.,,Königsfarn,Fougère royale,Felce florida,4,VU,1,1,1,1,0,0,0
+infoflora:288500,Gefässpflanzen,TRAC,288500,Oxytropis fetida (Vill.) DC.,,Drüsiger Spitzkiel,Oxytropis fétide,Astragalo vischioso,2,VU,3,1,0,1,0,0,0
+infoflora:289200,Gefässpflanzen,TRAC,289200,Oxytropis helvetica Scheele,,Schweizerischer Spitzkiel,Oxytropis de Suisse,Astragalo di Gaudin,3,NT,3,0,0,1,0,0,0
+infoflora:289400,Gefässpflanzen,TRAC,289400,Oxytropis lapponica (Wahlenb.) J. Gay,,Lappländer Spitzkiel,Oxytropis de Laponie,Astragalo di Lapponia,4,LC,3,0,0,1,0,A,0
+infoflora:289500,Gefässpflanzen,TRAC,289500,Oxytropis neglecta Ten.,,Südalpiner Spitzkiel,Oxytropis négligé,Astragalo dei Pirenei,4,VU,1,1,0,1,0,0,0
+infoflora:290000,Gefässpflanzen,TRAC,290000,Paeonia officinalis L.,,Pfingstrose,Pivoine officinale,Peonia selvatica,4,VU,1,1,1,2,1,0,0
+infoflora:290700,Gefässpflanzen,TRAC,290700,Papaver apulum Ten.,,Apulischer Mohn,Pavot des Pouilles,Papavero pugliese,2,RE,1,99,0,0,0,0,0
+infoflora:290800,Gefässpflanzen,TRAC,290800,Papaver argemone L.,,Sand-Mohn,Pavot argémone,Papavero selvatico,4,VU,1,1,0,1,0,B,D
+infoflora:291300,Gefässpflanzen,TRAC,291300,Papaver hybridum L.,,Krummborstiger Mohn,Pavot hybride,Papavero spinoso,2,CR(PE),1,99,0,0,0,0,0
+infoflora:291600,Gefässpflanzen,TRAC,291600,Papaver occidentale (Markgr.) H. E. Hess & Landolt,,Westlicher Alpen-Mohn,Pavot occidental,Papavero occidentale,3,NT,3,0,0,1,0,A,0
+infoflora:291900,Gefässpflanzen,TRAC,291900,Papaver sendtneri Hayek,,Sendtners Alpen-Mohn,Pavot de Sendtner,Papavero di Sendtner,3,NT,3,0,0,1,0,D,0
+infoflora:293800,Gefässpflanzen,TRAC,293800,Pedicularis aspleniifolia Willd.,,Farnblättriges Läusekraut,Pédiculaire à feuilles d'asplénium,Pedicolare dei ghiaioni,3,NT,3,0,0,1,0,0,0
+infoflora:294300,Gefässpflanzen,TRAC,294300,Pedicularis gyroflexa Vill.,,Bogenblütiges Läusekraut,Pédiculaire arquée,Pedicolare spiralata,4,VU,1,1,0,1,0,0,0
+infoflora:294500,Gefässpflanzen,TRAC,294500,Pedicularis oederi Hornem.,,Oeders Läusekraut,Pédiculaire d'Oeder,Pedicolare di Oeder,4,LC,3,0,0,1,0,A,0
+infoflora:295100,Gefässpflanzen,TRAC,295100,Pedicularis rostratospicata Crantz,,Fleischrotes Läusekraut,Pédiculaire à bec et en épi,Pedicolare carnicina,4,LC,3,0,0,1,0,0,0
+infoflora:295300,Gefässpflanzen,TRAC,295300,Pedicularis sylvatica L.,,Waldmoor-Läusekraut,Pédiculaire des forêts,Pedicolare silvestre,4,VU,1,1,1,1,0,A,A
+infoflora:296760,Gefässpflanzen,TRAC,296760,Peucedanum austriacum subsp. rablense (Wulfen) Celak.,,Raibler Haarstrang,Peucédan de Raible,Imperatoria del Raibl,3,VU,2,1,1,1,0,0,0
+infoflora:296800,Gefässpflanzen,TRAC,296800,Peucedanum carvifolia Vill.,,Kümmel-Haarstrang,Peucédan à feuilles de cumin,Imperatoria carvifoglia,4,VU,1,1,1,1,0,A,A
+infoflora:297600,Gefässpflanzen,TRAC,297600,Peucedanum venetum (Spreng.) W. D. J. Koch,,Venezianischer Haarstrang,Peucédan de Vénétie,Imperatoria veneta,4,VU,1,1,1,1,0,0,0
+infoflora:299800,Gefässpflanzen,TRAC,299800,Phleum paniculatum Huds.,,Rispiges Lieschgras,Fléole paniculée,Codolina lima,3,EN,1,1,0,1,0,D,0
+infoflora:301300,Gefässpflanzen,TRAC,301300,Phyteuma hedraianthifolium Rich. Schulz,,Rätische Rapunzel,Raiponce à feuilles d'edréanthe,Raponzolo rupestre,3,NT,3,1,0,1,0,0,0
+infoflora:301500,Gefässpflanzen,TRAC,301500,Phyteuma humile Gaudin,,Niedrige Rapunzel,Raiponce naine,Raponzolo del Carestia,2,VU,3,1,1,1,0,0,0
+infoflora:302200,Gefässpflanzen,TRAC,302200,Phyteuma scorzonerifolium Vill.,,Schwarzwurzelblättrige Rapunzel,Raiponce à feuilles de scorsonère,Raponzolo a foglie di scorzonera,4,VU,1,1,1,1,0,0,0
+infoflora:303600,Gefässpflanzen,TRAC,303600,Pilularia globulifera L.,,Pillenfarn,Pilulaire à globules,Pilularia comune,2,CR,1,2,2,2,1,A,C
+infoflora:304390,Gefässpflanzen,TRAC,304390,Pinguicula grandiflora Lam.,,Grossblütiges Fettblatt,Grassette à grandes fleurs,Erba-unta con grandi fiori,2,EN,2,2,2,2,1,0,0
+infoflora:306850,Gefässpflanzen,TRAC,306850,Pisum sativum subsp. biflorum (Raf.) Soldano,,Wilde Erbse,Pois élevé,Pisello selvatico,4,VU,1,1,1,1,0,0,0
+infoflora:307100,Gefässpflanzen,TRAC,307100,Plantago arenaria Waldst. & Kit.,,Sand-Wegerich,Plantain des sables,Piantaggine ramosa,3,EN,1,2,0,2,1,C,0
+infoflora:308200,Gefässpflanzen,TRAC,308200,Plantago sempervirens Crantz,,Halbstrauchiger Wegerich,Plantain toujours vert,Piantaggine legnosa,2,RE,1,99,0,0,0,0,0
+infoflora:308900,Gefässpflanzen,TRAC,308900,Pleurospermum austriacum (L.) Hoffm.,,Rippensame,Pleurosperme d'Autriche,Cicutina austriaca,4,VU,1,1,1,1,0,B,0
+infoflora:309300,Gefässpflanzen,TRAC,309300,Poa badensis Willd.,,Badener Rispengras,Paturin de Baden,Fienarola di Baden,4,VU,1,1,0,1,0,B,0
+infoflora:310000,Gefässpflanzen,TRAC,310000,Poa glauca Vahl,,Blaugrünes Rispengras,Paturin bleuâtre,Fienarola glauca,4,LC,3,0,0,1,0,B,0
+infoflora:311000,Gefässpflanzen,TRAC,311000,Poa remota Forselles,,Entferntähriges Rispengras,Paturin à épillets espacés,Fienarola maggiore,4,VU,1,2,1,2,1,A,0
+infoflora:312100,Gefässpflanzen,TRAC,312100,Polycnemum arvense L.,,Acker-Knorpelkraut,Polycnème des champs,Canforata selvatica,2,CR,1,2,1,2,1,D,0
+infoflora:312200,Gefässpflanzen,TRAC,312200,Polycnemum majus A. Braun,,Grosses Knorpelkraut,Grand polycnème,Canforata maggiore,3,EN,1,2,1,2,1,D,0
+infoflora:312600,Gefässpflanzen,TRAC,312600,Polygala calcarea F. W. Schultz,,Kalk-Kreuzblume,Polygale des sols calcaires,Poligala del calcare,3,EN,1,2,2,2,1,D,A
+infoflora:313000,Gefässpflanzen,TRAC,313000,Polygala pedemontana E. P. Perrier & B. Verl.,,Südalpen-Kreuzblume,Polygale du Piémont,Poligala piemontese,4,NT,2,1,0,1,0,0,0
+infoflora:315100,Gefässpflanzen,TRAC,315100,Polygonum lapathifolium subsp. brittingeri (Opiz) Jáv.,,Brittingers Knöterich,Renouée de Brittinger,Poligono di Brittinger,2,RE,1,99,0,0,0,0,0
+infoflora:316000,Gefässpflanzen,TRAC,316000,Polypodium cambricum L.,,Südlicher Tüpfelfarn,Polypode du Pays de Galles,Polipodio del Galles,4,VU,1,1,0,1,0,0,0
+infoflora:316600,Gefässpflanzen,TRAC,316600,Polystichum braunii (Spenn.) Fée,,Alex. Brauns Schildfarn,Polystic de Braun,Felce di Braun,4,NT,2,0,0,1,0,0,0
+infoflora:320500,Gefässpflanzen,TRAC,320500,Potamogeton ×angustifolius Bercht. & J. Presl,,Schmalblättriges Laichkraut,Potamot à feuilles étroites,Brasca a foglie strette,4,VU,1,1,1,1,0,B,A
+infoflora:320550,Gefässpflanzen,TRAC,320550,Potamogeton ×decipiens Nolte,,Weidenblättriges Laichkraut,Potamot à feuilles de saule,Brasca salicina,4,VU,1,1,1,1,0,B,0
+infoflora:320600,Gefässpflanzen,TRAC,320600,Potamogeton ×nitens Weber,,Schimmerndes Laichkraut,Potamot brillant,Brasca splendente,4,VU,1,1,1,1,0,A,0
+infoflora:318000,Gefässpflanzen,TRAC,318000,Potamogeton acutifolius Link,,Spitzblättriges Laichkraut,Potamot à feuilles aigües,Brasca acutifoglia,2,CR,1,2,2,2,1,B,A
+infoflora:318300,Gefässpflanzen,TRAC,318300,Potamogeton coloratus Hornem.,,Gefärbtes Laichkraut,Potamot coloré,Lingua d'acqua arrossata,3,EN,1,2,2,2,1,A,0
+infoflora:318400,Gefässpflanzen,TRAC,318400,Potamogeton compressus L.,,Plattstengliges Laichkraut,Potamot aplati,Brasca a caule compresso,2,CR(PE),1,99,0,0,0,0,0
+infoflora:318700,Gefässpflanzen,TRAC,318700,Potamogeton filiformis Pers.,,Fadenförmiges Laichkraut,Potamot filiforme,Brasca filiforme,4,VU,1,1,1,1,0,A,0
+infoflora:318800,Gefässpflanzen,TRAC,318800,Potamogeton friesii Rupr.,,Fries' Laichkraut,Potamot de Fries,Brasca di Fries,3,EN,1,2,2,2,1,B,C
+infoflora:318900,Gefässpflanzen,TRAC,318900,Potamogeton gramineus L.,,Grasblättriges Laichkraut,Potamot graminée,Brasca ingrossata,4,VU,1,1,1,1,0,A,C
+infoflora:319000,Gefässpflanzen,TRAC,319000,Potamogeton helveticus (G. Fisch.) W. Koch,,Schweizerisches Laichkraut,Potamot de Suisse,Brasca elvetica,3,EN,1,1,2,1,0,A,0
+infoflora:319300,Gefässpflanzen,TRAC,319300,Potamogeton nodosus Poir.,,Flutendes Laichkraut,Potamot noueux,Brasca nodosa,4,VU,1,1,1,1,0,A,A
+infoflora:319500,Gefässpflanzen,TRAC,319500,Potamogeton obtusifolius Mert. & W. D. J. Koch,,Stumpfblättriges Laichkraut,Potamot à feuilles obtuses,Brasca a foglie ottuse,3,EN,1,2,2,2,1,A,A
+infoflora:320000,Gefässpflanzen,TRAC,320000,Potamogeton polygonifolius Pourr.,,Knöterichblättriges Laichkraut,Potamot à feuilles de renouée,Brasca poligonifoglia,3,EN,1,2,2,2,1,0,0
+infoflora:320100,Gefässpflanzen,TRAC,320100,Potamogeton praelongus Wulfen,,Langblättriges Laichkraut,Potamot allongé,Brasca a foglie lunghe,1,EN,3,2,2,2,1,A,0
+infoflora:320200,Gefässpflanzen,TRAC,320200,Potamogeton pusillus L.,,Palermer Laichkraut,Potamot capillaire,Brasca palermitana,4,VU,1,2,1,2,1,A,0
+infoflora:320400,Gefässpflanzen,TRAC,320400,Potamogeton trichoides Cham. & Schltdl.,,Haarförmiges Laichkraut,Potamot fluet,Brasca capillare,3,EN,1,2,2,2,1,0,D
+infoflora:320700,Gefässpflanzen,TRAC,320700,Potentilla alba L.,,Weisses Fingerkraut,Potentille blanche,Cinquefoglia bianca,4,VU,1,1,1,2,1,0,0
+infoflora:320800,Gefässpflanzen,TRAC,320800,Potentilla alpicola Fauc.,,Alpen-Fingerkraut,Potentille alpicole,Cinquefoglia alpicola,1,CR,3,1,2,1,0,0,0
+infoflora:321700,Gefässpflanzen,TRAC,321700,Potentilla cinerea Vill.,,Aschgraues Fingerkraut,Potentille cendrée,Cinquefoglia cinerea,3,VU,2,1,1,1,0,0,0
+infoflora:322600,Gefässpflanzen,TRAC,322600,Potentilla grammopetala Moretti,,Schmalkronblättriges Fingerkraut,Potentille à pétales étroits,Cinquefoglia a petali sottili,3,NT,3,2,1,2,1,0,0
+infoflora:322800,Gefässpflanzen,TRAC,322800,Potentilla heptaphylla L.,,Rötliches Fingerkraut,Potentille à sept folioles,Cinquefoglia a sette foglie,4,VU,1,1,1,1,0,0,0
+infoflora:322850,Gefässpflanzen,TRAC,322850,Potentilla incana G. Gaertn. & al.,,Sand-Fingerkraut,Potentille des sables,Cinquefoglie arenaria,2,CR,1,2,1,2,1,0,0
+infoflora:322900,Gefässpflanzen,TRAC,322900,Potentilla inclinata Vill.,,Graues Fingerkraut,Potentille grisâtre,Cinquefoglia cenerognola,3,EN,1,2,2,1,0,A,0
+infoflora:323100,Gefässpflanzen,TRAC,323100,Potentilla leucopolitana P. J. Müll.,,Weissenburger Fingerkraut,Potentille de Wissembourg,Cinquefoglia leucopolitana,2,CR,1,2,2,2,1,0,0
+infoflora:323300,Gefässpflanzen,TRAC,323300,Potentilla multifida L.,,Schlitzblättriges Fingerkraut,Potentille multifide,Cinquefoglia sfrangiata,2,VU,3,1,1,1,0,0,0
+infoflora:323600,Gefässpflanzen,TRAC,323600,Potentilla nivea L.,,Schneeweisses Fingerkraut,Potentille blanc de neige,Cinquefoglia nivea,2,VU,3,1,0,1,0,D,0
+infoflora:324100,Gefässpflanzen,TRAC,324100,Potentilla praecox F. W. Schultz,,Frühzeitiges Fingerkraut,Potentille précoce,Cinquefoglia precoce,1,CR,3,2,2,2,1,0,0
+infoflora:324800,Gefässpflanzen,TRAC,324800,Potentilla supina L.,,Niederliegendes Fingerkraut,Potentille étalée,Cinquefoglia sdraiata,4,VU,1,1,1,1,0,C,0
+infoflora:325900,Gefässpflanzen,TRAC,325900,Primula daonensis (Leyb.) Leyb.,,Val Daone-Primel,Primevère du val Daone,Primula di Val Daone,3,NT,3,0,1,1,0,0,0
+infoflora:326400,Gefässpflanzen,TRAC,326400,Primula glutinosa Jacq.,,Klebrige Primel,Primevère glutineuse,Primula vischiosa,3,NT,3,0,0,1,0,0,0
+infoflora:326500,Gefässpflanzen,TRAC,326500,Primula halleri J. F. Gmel.,,Hallers Primel,Primevère à longues fleurs,Primula di Haller,3,NT,3,1,0,1,0,0,0
+infoflora:328000,Gefässpflanzen,TRAC,328000,Prunella laciniata (L.) L.,,Weisse Brunelle,Brunelle blanche,Prunella gialla,4,VU,1,1,1,1,0,A,A
+infoflora:330500,Gefässpflanzen,TRAC,330500,Pseudostellaria europaea Schaeftl.,,Knollenmiere,Pseudostellaire d'Europe,Centocchio bulboso,2,EN,2,2,2,2,1,0,0
+infoflora:330900,Gefässpflanzen,TRAC,330900,Pteris cretica L.,,Saumfarn,Ptéris de Crète,Pteride di Creta,3,VU,2,1,1,2,1,0,0
+infoflora:331000,Gefässpflanzen,TRAC,331000,Ptychotis saxifraga (L.) Loret & Barrandon,,Faltenohr,Ptychotis saxifrage,Prezzemolo falso,2,RE,1,99,0,0,0,0,0
+infoflora:331300,Gefässpflanzen,TRAC,331300,Pulicaria vulgaris Gaertn.,,Kleines Flohkraut,Pulicaire commune,Incensaria fetida,2,RE,1,99,0,0,0,D,D
+infoflora:331600,Gefässpflanzen,TRAC,331600,Pulmonaria collina W. Sauer,,Hügel-Lungenkraut,Pulmonaire des collines,Polmonaria di collina,3,NT,3,1,0,1,0,A,0
+infoflora:331800,Gefässpflanzen,TRAC,331800,Pulmonaria helvetica Bolliger,,Schweizerisches Lungenkraut,Pulmonaire de Suisse,Polmonaria elvetica,2,NT,4,2,2,1,0,0,0
+infoflora:332700,Gefässpflanzen,TRAC,332700,Pulmonaria montana subsp. jurana (Graber) W. Sauer,,Jura-Lungenkraut,Pulmonaire du Jura,Polmonaria del Giura,3,NT,3,1,0,1,0,A,0
+infoflora:333250,Gefässpflanzen,TRAC,333250,Pulsatilla alpina subsp. alba Zämelis & Paegle,,Weisse Anemone,Pulsatille des Alpes,Pulsatilla bianca,2,CR,1,1,1,1,0,0,0
+infoflora:333700,Gefässpflanzen,TRAC,333700,Pulsatilla halleri (All.) Willd.,,Hallers Küchenschelle,Pulsatille de Haller,Pulsatilla di Haller,2,VU,3,1,1,1,0,0,0
+infoflora:334200,Gefässpflanzen,TRAC,334200,Pulsatilla vulgaris Mill.,,Gewöhnliche Küchenschelle,Coquelourde,Pulsatilla comune,3,EN,1,2,2,2,1,C,0
+infoflora:334400,Gefässpflanzen,TRAC,334400,Pyrola chlorantha Sw.,,Grünliches Wintergrün,Pyrole verdâtre,Piroletta verdastra,4,VU,1,1,1,1,0,A,0
+infoflora:335200,Gefässpflanzen,TRAC,335200,Pyrus nivalis Jacq.,,Schneebirne,Poirier des neiges,Pero alpino,4,VU,1,1,1,1,0,C,A
+infoflora:336300,Gefässpflanzen,TRAC,336300,Radiola linoides Roth,,Zwergflachs,Radiole faux lin,Falso-lino,2,RE,1,99,0,0,0,0,0
+infoflora:336900,Gefässpflanzen,TRAC,336900,Ranunculus aquatilis L.,,Gemeiner Wasser-Hahnenfuss,Renoncule aquatique,Ranuncolo acquatico comune,4,VU,1,1,1,1,0,A,0
+infoflora:337100,Gefässpflanzen,TRAC,337100,Ranunculus arvensis L.,,Acker-Hahnenfuss,Renoncule des champs,Ranuncolo dei campi,4,VU,1,1,0,1,0,A,A
+infoflora:338000,Gefässpflanzen,TRAC,338000,Ranunculus circinatus Sibth.,,Starrer Wasserhahnenfuss,Renoncule en crosse,Ranuncolo circinnato,4,VU,1,1,1,1,0,A,A
+infoflora:338800,Gefässpflanzen,TRAC,338800,Ranunculus gramineus L.,,Grasblättriger Hahnenfuss,Renoncule graminée,Ranuncolo gramineo,2,CR,1,2,2,2,1,0,0
+infoflora:339400,Gefässpflanzen,TRAC,339400,Ranunculus lingua L.,,Grosser Sumpf-Hahnenfuss,Grande douve,Ranuncolo delle canne,4,VU,1,1,1,1,0,A,A
+infoflora:340000,Gefässpflanzen,TRAC,340000,Ranunculus peltatus Schrank,,Schild-Wasserhahnenfuss,Renoncule peltée,Ranuncolo peltato,3,EN,1,2,2,2,1,0,B
+infoflora:340100,Gefässpflanzen,TRAC,340100,Ranunculus penicillatus (Dumort.) Bab.,,Pinsel-Wasserhahnenfuss,Renoncule pénicillée,Ranuncolo pennello,4,VU,1,1,1,1,0,C,C
+infoflora:340500,Gefässpflanzen,TRAC,340500,Ranunculus polyanthemophyllus W. Koch & H. E. Hess,,Polyanthemusblättriger Hahnenfuss,Renoncule à feuilles de polyanthème,Ranuncolo a foglie di statice,4,NT,2,0,0,1,0,C,0
+infoflora:340700,Gefässpflanzen,TRAC,340700,Ranunculus pygmaeus Wahlenb.,,Zwerg-Hahnenfuss,Renoncule naine,Ranuncolo pigmeo,1,EN,3,1,1,1,0,0,0
+infoflora:341000,Gefässpflanzen,TRAC,341000,Ranunculus reptans L.,,Wurzelnder Sumpf-Hahnenfuss,Renoncule radicante,Ranuncolo reptante,1,EN,3,2,2,2,1,A,0
+infoflora:341100,Gefässpflanzen,TRAC,341100,Ranunculus rionii Lagger,,Rions Wasserhahnenfuss,Renoncule de Rion,Ranuncolo di Rion,2,CR,1,2,2,2,1,0,0
+infoflora:341200,Gefässpflanzen,TRAC,341200,Ranunculus sardous Crantz,,Sardinischer Hahnenfuss,Renoncule sarde,Ranuncolo sardo,4,VU,1,1,0,1,0,C,0
+infoflora:341500,Gefässpflanzen,TRAC,341500,Ranunculus sceleratus L.,,Gift-Hahnenfuss,Renoncule scélérate,Ranuncolo tossico,4,VU,1,1,1,1,0,A,A
+infoflora:341600,Gefässpflanzen,TRAC,341600,Ranunculus seguieri Vill.,,Séguiers Hahnenfuss,Renoncule de Séguier,Ranuncolo di Séguier,2,VU,3,1,1,1,0,A,0
+infoflora:343000,Gefässpflanzen,TRAC,343000,Reseda luteola L.,,Färber-Reseda,Gaude,Reseda biondella,4,VU,1,1,0,1,0,A,A
+infoflora:343100,Gefässpflanzen,TRAC,343100,Reseda phyteuma L.,,Rapunzel-Reseda,Réséda raiponce,Reseda selvatica,3,EN,1,1,0,1,0,0,0
+infoflora:343700,Gefässpflanzen,TRAC,343700,Rhamnus saxatilis Jacq.,,Felsen-Kreuzdorn,Nerprun des rochers,Ranno spinello,4,VU,1,1,1,1,0,0,0
+infoflora:344200,Gefässpflanzen,TRAC,344200,Rhinanthus angustifolius C. C. Gmel.,,Kahler Klappertopf,Rhinanthe à feuilles étroites,Cresta di gallo tardiva,4,VU,1,1,1,1,0,A,A
+infoflora:344400,Gefässpflanzen,TRAC,344400,Rhinanthus antiquus (Sterneck) Schinz & Thell.,,Altertümlicher Klappertopf,Rhinanthe antique,Cresta di gallo bergamasca,3,NT,3,1,0,1,0,0,0
+infoflora:345900,Gefässpflanzen,TRAC,345900,Rhynchospora fusca (L.) W. T. Aiton,,Rotbraunes Schnabelried,Rhynchospora brun rougeâtre,Rincospora scura,3,EN,1,2,2,2,1,D,D
+infoflora:346600,Gefässpflanzen,TRAC,346600,Rorippa amphibia (L.) Besser,,Wasserkresse,Cresson amphibie,Crescione di chiana,4,VU,1,1,1,1,0,A,A
+infoflora:347150,Gefässpflanzen,TRAC,347150,Rorippa stylosa (Pers.) Mansf. & Rothm.,,Pyrenäen-Sumpfkresse,Cresson des Pyrénées,Crescione dei Pirenei,4,VU,1,1,1,1,0,0,0
+infoflora:347400,Gefässpflanzen,TRAC,347400,Rosa abietina Christ,,Tannen-Rose,Rosier des sapins,Rosa degli abeti,3,NT,3,0,0,1,0,A,A
+infoflora:347900,Gefässpflanzen,TRAC,347900,Rosa chavinii Rapin,,Chavins Rose,Rosier de Chavin,Rosa di Chavin,2,VU,3,1,1,1,0,A,0
+infoflora:348500,Gefässpflanzen,TRAC,348500,Rosa elliptica Tausch,,Duft-Rose,Rosier à feuilles elliptiques,Rosa a foglie ellittiche,4,VU,1,1,1,1,0,A,0
+infoflora:348600,Gefässpflanzen,TRAC,348600,Rosa gallica L.,,Essig-Rose,Rosier de France,Rosa serpeggiante,3,EN,1,2,2,1,0,0,0
+infoflora:348800,Gefässpflanzen,TRAC,348800,Rosa jundzillii Besser,,Jundzills Rose,Rosier de Jundzill,Rosa di Jundzill,3,EN,1,2,1,2,1,A,C
+infoflora:348900,Gefässpflanzen,TRAC,348900,Rosa majalis Herrm.,,Zimt-Rose,Rosier cannelle,Rosa cannella,2,VU,3,1,1,1,0,A,0
+infoflora:349200,Gefässpflanzen,TRAC,349200,Rosa montana Chaix,,Südalpine Rose,Rosier des montagnes,Rosa montana,4,VU,1,1,1,1,0,A,A
+infoflora:349800,Gefässpflanzen,TRAC,349800,Rosa rhaetica Gremli,,Bündner-Rose,Rosier rhétique,Rosa retica,3,EN,1,2,1,2,1,0,0
+infoflora:350100,Gefässpflanzen,TRAC,350100,Rosa sherardii Davies,,Sherards Rose,Rosier de Sherard,Rosa di Sherard,4,NT,2,0,0,1,0,A,A
+infoflora:350300,Gefässpflanzen,TRAC,350300,Rosa stylosa Desv.,,Säulengrifflige Rose,Rosier à styles soudés,Rosa a stili saldati,3,EN,1,2,1,2,1,A,A
+infoflora:350550,Gefässpflanzen,TRAC,350550,Rosa tomentella Léman,,Flaum-Rose,Rosier finement tomenteux,Rosa finemente tomentosa,4,VU,1,1,1,1,0,C,C
+infoflora:351400,Gefässpflanzen,TRAC,351400,Rubia tinctorum L.,,Färber-Krapp,Garance des teinturiers,Robbia domestica,4,VU,1,1,0,1,0,0,0
+infoflora:359600,Gefässpflanzen,TRAC,359600,Rumex aquaticus L.,,Wasser-Ampfer,Rumex aquatique,Romice acquatico,3,EN,1,2,2,2,1,D,A
+infoflora:360000,Gefässpflanzen,TRAC,360000,Rumex hydrolapathum Huds.,,Riesen-Ampfer,Rumex géant,Romice tabacco di palude,4,VU,1,2,1,2,1,A,A
+infoflora:360200,Gefässpflanzen,TRAC,360200,Rumex maritimus L.,,Strand-Ampfer,Rumex maritime,Romice marittimo,2,CR,1,2,2,2,1,0,A
+infoflora:360700,Gefässpflanzen,TRAC,360700,Rumex pulcher L.,,Schöner Ampfer,Rumex élégant,Romice cavolaccio,4,VU,1,1,0,1,0,A,0
+infoflora:361800,Gefässpflanzen,TRAC,361800,Sagina glabra (Willd.) Fenzl,,Südalpines Mastkraut,Sagine glabre,Sagina glabra,4,VU,1,1,0,1,0,0,0
+infoflora:362100,Gefässpflanzen,TRAC,362100,Sagina nodosa (L.) Fenzl,,Knotiges Mastkraut,Sagine noueuse,Sagina nodosa,3,EN,1,2,2,2,1,A,D
+infoflora:362400,Gefässpflanzen,TRAC,362400,Sagina subulata (Sw.) C. Presl,,Pfriemblättriges Mastkraut,Sagine subulée,Sagina subulata,3,EN,1,2,1,1,0,0,0
+infoflora:362700,Gefässpflanzen,TRAC,362700,Sagittaria sagittifolia L.,,Gewöhnliches Pfeilkraut,Sagittaire à feuilles en flèche,Sagittaria comune,3,EN,1,2,2,2,1,A,A
+infoflora:366700,Gefässpflanzen,TRAC,366700,Salix ×hegetschweileri Heer,,Hegetschweilers Weide,Saule d'Hegetschweiler,Salice di Hegetschweiler,1,EN,3,1,2,1,0,B,0
+infoflora:363000,Gefässpflanzen,TRAC,363000,Salix apennina A. K. Skvortsov,,Apenninen-Weide,Saule des Apennins,Salice dell'Appennino,3,VU,2,1,1,1,0,0,0
+infoflora:363400,Gefässpflanzen,TRAC,363400,Salix bicolor Willd.,,Zweifarbige Weide,Saule à deux couleurs,Salice bicolore,2,CR,1,1,1,1,0,0,0
+infoflora:363600,Gefässpflanzen,TRAC,363600,Salix caesia Vill.,,Blaugrüne Weide,Saule bleuâtre,Salice azzurrino,3,VU,2,1,1,1,0,A,0
+infoflora:364400,Gefässpflanzen,TRAC,364400,Salix glabra Scop.,,Kahle Weide,Saule glabre,Salice glabro,3,VU,2,1,1,1,0,0,0
+infoflora:364500,Gefässpflanzen,TRAC,364500,Salix glaucosericea Flod.,,Seidenhaarige Weide,Saule glauque,Salice glauco,4,LC,3,0,0,1,0,A,0
+infoflora:364900,Gefässpflanzen,TRAC,364900,Salix laggeri Wimm.,,Laggers Weide,Saule blanchâtre,Salice di Lagger,2,VU,3,1,1,1,0,0,0
+infoflora:365100,Gefässpflanzen,TRAC,365100,Salix myrtilloides L.,,Heidelbeerblättrige Weide,Saule fausse myrtille,Salice mirtilloide,1,CR,3,2,2,2,1,0,0
+infoflora:366000,Gefässpflanzen,TRAC,366000,Salix repens L.,,Moor-Weide,Saule rampant,Salice strisciante,4,VU,1,1,1,1,0,A,A
+infoflora:368500,Gefässpflanzen,TRAC,368500,Samolus valerandi L.,,Bunge,Samole de Valerand,Lino d'acqua,2,CR,1,2,2,2,1,0,0
+infoflora:369300,Gefässpflanzen,TRAC,369300,Saponaria lutea L.,,Gelbes Seifenkraut,Saponaire jaune,Saponaria gialla,2,VU,3,1,2,2,1,0,0
+infoflora:371200,Gefässpflanzen,TRAC,371200,Saussurea alpina subsp. depressa (Gren.) Nyman,,Niedere Alpenscharte,Saussurée basse,Saussurea bassa,3,NT,3,0,0,1,0,A,0
+infoflora:371900,Gefässpflanzen,TRAC,371900,Saxifraga aphylla Sternb.,,Schmalkronblättriger Steinbrech,Saxifrage à tige nue,Sassifraga nordalpina,4,LC,3,0,0,1,0,B,0
+infoflora:372400,Gefässpflanzen,TRAC,372400,Saxifraga bulbifera L.,,Zwiebel-Steinbrech,Saxifrage bulbifère,Sassifraga bulbifera,1,EN,3,2,2,2,1,0,0
+infoflora:372600,Gefässpflanzen,TRAC,372600,Saxifraga cernua L.,,Arktischer Knöllchen-Steinbrech,Saxifrage penchée,Sassifraga incurvata,2,VU,3,2,1,2,1,C,0
+infoflora:372700,Gefässpflanzen,TRAC,372700,Saxifraga cotyledon L.,,Strauss-Steinbrech,Saxifrage cotylédon,Sassifraga dei graniti,4,LC,3,0,0,1,0,A,0
+infoflora:373000,Gefässpflanzen,TRAC,373000,Saxifraga diapensioides Bellardi,,Diapensienartiger Steinbrech,Saxifrage diapensie,Sassifraga simile a diapensia,3,NT,3,0,1,1,0,0,0
+infoflora:373400,Gefässpflanzen,TRAC,373400,Saxifraga granulata L.,,Knöllchen-Steinbrech,Saxifrage granulée,Sassifraga granulosa,4,VU,1,2,2,2,1,A,0
+infoflora:373600,Gefässpflanzen,TRAC,373600,Saxifraga hirculus L.,,Goldblumiger Steinbrech,Saxifrage bouc,Sassifraga delle torbiere,1,CR,3,2,2,2,1,C,D
+infoflora:373795,Gefässpflanzen,TRAC,373795,Saxifraga hostii Tausch,,Hosts Steinbrech,Saxifrage de Host,Sassifraga di Host,3,VU,2,1,0,1,0,0,0
+infoflora:374300,Gefässpflanzen,TRAC,374300,Saxifraga muscoides All.,,Flachblättriger Steinbrech,Saxifrage fausse mousse,Sassifraga muscosa,4,LC,3,0,0,1,0,A,0
+infoflora:374400,Gefässpflanzen,TRAC,374400,Saxifraga mutata L.,,Safrangelber Steinbrech,Saxifrage changée,Sassifraga gialla,4,NT,2,0,0,1,0,A,0
+infoflora:374550,Gefässpflanzen,TRAC,374550,Saxifraga oppositifolia subsp. amphibia (Sünd.) Braun-Blanq.,,Bodensee-Steinbrech,Saxifrage du Lac de Constance,Sassifraga del Lago di Constanza,2,EX,1,0,2,1,0,0,0
+infoflora:374995,Gefässpflanzen,TRAC,374995,Saxifraga retusa Gouan,,Gestutzter Steinbrech,Saxifrage tronquée,Sassifraga retusa,4,VU,1,1,0,1,0,0,0
+infoflora:375700,Gefässpflanzen,TRAC,375700,Saxifraga seguieri Spreng.,,Séguiers Steinbrech,Saxifrage de Séguier,Sassifraga di Séguier,4,LC,3,0,0,1,0,A,0
+infoflora:377900,Gefässpflanzen,TRAC,377900,Scandix pecten-veneris L.,,Venuskamm,Scandix peigne de Vénus,Pettine di Venere,3,EN,1,2,0,2,1,A,C
+infoflora:378000,Gefässpflanzen,TRAC,378000,Scheuchzeria palustris L.,,Blumenbinse,Scheuchzérie des marais,Giuncastrello delle torbiere,4,VU,1,1,1,1,0,A,A
+infoflora:378300,Gefässpflanzen,TRAC,378300,Schoenoplectus mucronatus (L.) Palla,,Stachliges Seeried,Schoenoplectus mucroné,Lisca mucronata,4,VU,1,1,1,1,0,A,0
+infoflora:378400,Gefässpflanzen,TRAC,378400,Schoenoplectus pungens (Vahl) Palla,,Amerikanisches Seeried,Schoenoplectus piquant,Lisca nordamericana,2,CR,1,2,2,2,1,A,0
+infoflora:378600,Gefässpflanzen,TRAC,378600,Schoenoplectus supinus (L.) Palla,,Zwerg-Seeried,Schoenoplectus couché,Lisca prostrata,2,CR,1,2,2,2,1,0,0
+infoflora:378800,Gefässpflanzen,TRAC,378800,Schoenoplectus triqueter (L.) Palla,,Dreikantiges Seeried,Schoenoplectus à trois angles,Lisca trigona,2,CR,1,2,2,2,1,C,0
+infoflora:379560,Gefässpflanzen,TRAC,379560,Scirpoides holoschoenus (L.) Soják,,Kugelbinse,Scirpe à têtes rondes,Giunchetto,2,CR,1,2,2,2,1,0,0
+infoflora:379800,Gefässpflanzen,TRAC,379800,Scleranthus annuus L. subsp. annuus,,Einjähriger Knäuel,Gnavelle annuelle,Centograni annuo,3,EN,1,2,0,2,1,D,A
+infoflora:380000,Gefässpflanzen,TRAC,380000,Scleranthus annuus subsp. verticillatus (Tausch) Arcang.,,Hügel-Knäuel,Gnavelle verticillée,Centograni verticillato,3,EN,1,2,1,1,0,0,A
+infoflora:380500,Gefässpflanzen,TRAC,380500,Sclerochloa dura (L.) P. Beauv.,,Hartgras,Sclérochloa ferme,Fienarola indurita,4,VU,1,1,0,1,0,0,0
+infoflora:381200,Gefässpflanzen,TRAC,381200,Scorzonera humilis L.,,Kleine Schwarzwurzel,Scorzonère peu élevée,Scorzonera minore,4,VU,1,1,1,1,0,0,0
+infoflora:381800,Gefässpflanzen,TRAC,381800,Scrophularia auriculata L.,,Wasser-Braunwurz,Scrophulaire auriculée,Scrofularia acquatica,3,EN,1,2,2,2,1,D,0
+infoflora:385100,Gefässpflanzen,TRAC,385100,Sedum rubens L.,,Rötlicher Mauerpfeffer,Crassule rougeâtre,Borracina arrossata,3,EN,1,2,1,2,1,0,0
+infoflora:386000,Gefässpflanzen,TRAC,386000,Sedum villosum L.,,Moor-Mauerpfeffer,Orpin velu,Borracina villosa,4,VU,1,1,1,1,0,A,0
+infoflora:386400,Gefässpflanzen,TRAC,386400,Selinum carvifolia (L.) L.,,Silge,Sélin à feuilles de cumin des prés,Carvifoglio palustre,4,VU,1,1,1,1,0,A,D
+infoflora:386900,Gefässpflanzen,TRAC,386900,Sempervivum grandiflorum Haw.,,Gaudins Hauswurz,Joubarbe à grandes fleurs,Semprevivo a fiori grandi,2,VU,3,2,2,1,0,0,0
+infoflora:387400,Gefässpflanzen,TRAC,387400,Sempervivum wulfenii Mert. & W. D. J. Koch,,Wulfens Hauswurz,Joubarbe de Wulfen,Semprevivo di Wulfen,2,VU,3,1,0,1,0,0,0
+infoflora:387500,Gefässpflanzen,TRAC,387500,Senecio abrotanifolius L.,,Eberreisblättriges Kreuzkraut,Séneçon à feuilles d'aurone,Senecione abrotanino,4,LC,3,0,0,1,0,0,0
+infoflora:388300,Gefässpflanzen,TRAC,388300,Senecio erraticus Bertol.,,Spreizendes Kreuzkraut,Séneçon erratique,Senecione dei fossi,4,VU,1,1,1,1,0,A,0
+infoflora:388700,Gefässpflanzen,TRAC,388700,Senecio halleri Dandy,,Hallers Greiskraut,Seneçon de Haller,Senecione unifloro,4,LC,3,0,1,1,0,0,0
+infoflora:389300,Gefässpflanzen,TRAC,389300,Senecio incanus subsp. insubricus (Chenevard) Braun-Blanq.,,Insubrisches Greiskraut,Séneçon d'Insubrie,Senecione d'Insubria,4,LC,3,2,2,2,1,0,0
+infoflora:390700,Gefässpflanzen,TRAC,390700,Serapias vomeracea (Burm. f.) Briq.,,Pflugschar-Stendelwurz,Sérapias à longs pétales,Serapide maggiore,2,CR,1,2,2,2,1,0,0
+infoflora:391000,Gefässpflanzen,TRAC,391000,Serratula tinctoria L. subsp. tinctoria,,Färber-Scharte,Serratule des teinturiers,Cerretta comune,4,VU,1,1,1,1,0,A,B
+infoflora:391250,Gefässpflanzen,TRAC,391250,Seseli annuum L.,,Hügel-Sesel,Séséli annuel,Finocchiella effimera,4,VU,1,1,1,1,0,0,0
+infoflora:391800,Gefässpflanzen,TRAC,391800,Seseli montanum L.,,Berg-Sesel,Séséli des montagnes,Finocchiella abrotanina,4,VU,1,1,1,1,0,0,A
+infoflora:392500,Gefässpflanzen,TRAC,392500,Sesleria sphaerocephala Ard.,,Kugelköpfige Seslerie,Seslérie à tête ronde,Sesleria minore,2,VU,3,1,0,1,0,0,0
+infoflora:393800,Gefässpflanzen,TRAC,393800,Sideritis hyssopifolia L.,,Ysopblättriges Gliedkraut,Crapaudine à feuilles d'hysope,Stregonia alpina,4,VU,1,1,0,1,0,C,0
+infoflora:393900,Gefässpflanzen,TRAC,393900,Sideritis montana L.,,Berg-Gliedkraut,Crapaudine des montagnes,Stregonia montana,2,RE,1,99,0,0,0,D,0
+infoflora:394750,Gefässpflanzen,TRAC,394750,Silene cretica L.,,Kretisches Leimkraut,Silène de crète,Silene cretica,2,RE,1,99,0,0,0,0,0
+infoflora:395300,Gefässpflanzen,TRAC,395300,Silene flos-jovis (L.) Clairv.,,Jupiternelke,Oeillet de Dieu,Crotonella fior di Giove,4,NT,2,0,0,1,0,0,0
+infoflora:395400,Gefässpflanzen,TRAC,395400,Silene gallica L.,,Französisches Leimkraut,Silène de France,Silene gallica,2,CR(PE),1,99,0,0,0,B,0
+infoflora:396000,Gefässpflanzen,TRAC,396000,Silene noctiflora L.,,Ackernelke,Silène de nuit,Silene aprentesi di notte,4,VU,1,1,0,1,0,A,A
+infoflora:396150,Gefässpflanzen,TRAC,396150,Silene nutans subsp. insubrica (Gaudin) Soldano,,Insubrisches Leimkraut,Silène livide,Silene insubrica,4,NT,2,0,0,1,0,0,0
+infoflora:397000,Gefässpflanzen,TRAC,397000,Silene suecica (Lodd.) Greuter & Burdet,,Alpen-Pechnelke,Silène de Suède,Crotonella alpina,3,NT,3,0,0,1,0,C,0
+infoflora:397100,Gefässpflanzen,TRAC,397100,Silene vallesia L.,,Walliser Leimkraut,Silène du Valais,Silene del Vallese,3,VU,2,1,1,1,0,0,0
+infoflora:398100,Gefässpflanzen,TRAC,398100,Sison amomum L.,,Gewürzdolde,Sison amome,Amomo germanico,3,EN,1,2,2,2,1,0,0
+infoflora:398900,Gefässpflanzen,TRAC,398900,Sisymbrium supinum L.,,Niederliegende Rauke,Sisymbre couché,Erba cornacchia supina,1,CR,2,2,2,2,1,0,0
+infoflora:399300,Gefässpflanzen,TRAC,399300,Sium latifolium L.,,Grosser Merk,Berle à larges feuilles,Sedanina selvatica,2,CR,1,2,2,2,1,A,0
+infoflora:401700,Gefässpflanzen,TRAC,401700,Sonchus arvensis subsp. uliginosus (M. Bieb.) Nyman,,Moor-Gänsedistel,Laiteron des marécages,Grespino palustre,3,EN,1,2,1,2,1,A,C
+infoflora:402000,Gefässpflanzen,TRAC,402000,Sonchus palustris L.,,Sumpf-Gänsedistel,Laiteron des marais,Grespino di palude,2,RE,1,99,0,0,0,0,0
+infoflora:402500,Gefässpflanzen,TRAC,402500,Sorbus domestica L.,,Speierling,Cormier,Sorbo comune,3,EN,1,2,2,2,1,A,0
+infoflora:402900,Gefässpflanzen,TRAC,402900,Sparganium angustifolium Michx.,,Schmalblättriger Igelkolben,Rubanier à feuilles étroites,Coltellaccio natante,3,NT,3,0,0,1,0,A,C
+infoflora:403000,Gefässpflanzen,TRAC,403000,Sparganium emersum Rehmann,,Einfacher Igelkolben,Rubanier émergé,Coltellaccio a fusto semplice,4,VU,1,1,1,1,0,A,A
+infoflora:403300,Gefässpflanzen,TRAC,403300,Sparganium erectum subsp. microcarpum (Neuman) Domin,,Kleinfrüchtiger Igelkolben,Rubanier à petits fruits,Coltellaccio a frutti piccoli,3,EN,1,2,2,2,1,A,0
+infoflora:403800,Gefässpflanzen,TRAC,403800,Sparganium natans L.,,Kleiner Igelkolben,Rubanier nageant,Coltellaccio minore,3,EN,1,2,2,2,1,A,0
+infoflora:404300,Gefässpflanzen,TRAC,404300,Spergula arvensis L.,,Acker-Spark,Spargote des champs,Renaiola comune,4,VU,1,1,0,1,0,A,A
+infoflora:404800,Gefässpflanzen,TRAC,404800,Spergularia segetalis (L.) G. Don,,Getreidemiere,Spergulaire des moissons,Spergularia delle messi,2,RE,1,99,0,0,0,0,C
+infoflora:405000,Gefässpflanzen,TRAC,405000,Spiranthes aestivalis (Poir.) Rich.,,Sommer-Wendelähre,Spiranthe d'été,Viticcini estivi,4,VU,1,1,2,2,1,A,0
+infoflora:405100,Gefässpflanzen,TRAC,405100,Spiranthes spiralis (L.) Chevall.,,Herbst-Wendelähre,Spiranthe d'automne,Viticcini autunnali,4,VU,1,1,1,1,0,A,A
+infoflora:405300,Gefässpflanzen,TRAC,405300,Stachys alopecuros (L.) Benth.,,Blassgelbe Betonie,Épiaire vulpin,Betonica bianca,4,VU,1,1,1,1,0,C,0
+infoflora:405500,Gefässpflanzen,TRAC,405500,Stachys annua (L.) L.,,Einjähriger Ziest,Épiaire annuelle,Stregona annuale,4,VU,1,1,0,1,0,A,A
+infoflora:405600,Gefässpflanzen,TRAC,405600,Stachys arvensis (L.) L.,,Acker-Ziest,Épiaire des champs,Stregona minore,2,CR,1,1,0,1,0,C,A
+infoflora:405800,Gefässpflanzen,TRAC,405800,Stachys germanica L.,,Deutscher Ziest,Épiaire d'Allemagne,Stregona germanica,4,VU,1,1,1,1,0,A,A
+infoflora:406700,Gefässpflanzen,TRAC,406700,Stachys recta subsp. grandiflora (Caruel) Arcang.,,Grosslippiger Ziest,Épiaire à grandes fleurs,Stregona labbruta,4,VU,1,1,1,1,0,0,0
+infoflora:407000,Gefässpflanzen,TRAC,407000,Staphylea pinnata L.,,Pimpernuss,Staphylier penné,Bossolo,4,VU,1,1,1,1,0,A,C
+infoflora:407700,Gefässpflanzen,TRAC,407700,Stellaria longifolia Willd.,,Langblättrige Sternmiere,Stellaire à longues feuilles,Centocchio a foglie lunghe,2,EN,2,2,2,2,1,0,0
+infoflora:408400,Gefässpflanzen,TRAC,408400,Stellaria palustris Hoffm.,,Sumpf-Sternmiere,Stellaire des marais,Centocchio delle paludi,2,RE,1,99,0,0,0,D,0
+infoflora:408800,Gefässpflanzen,TRAC,408800,Stemmacantha rhapontica subsp. lamarckii Dittrich,,Lamarcks Bergscharte,Stemmacanthe de Lamarck,Stemmacanta di Lamarck,3,VU,2,1,1,1,0,0,0
+infoflora:409900,Gefässpflanzen,TRAC,409900,Subularia aquatica L.,,Pfriemenkresse,Subulaire aquatique,Subularia acquatica,2,RE,1,99,0,0,0,0,0
+infoflora:412100,Gefässpflanzen,TRAC,412100,Taraxacum aquilonare Hand.-Mazz.,,Nördliches Pfaffenröhrlein,Pissenlit du nord,Tarassaco nordico,4,VU,1,0,0,1,0,0,0
+infoflora:412300,Gefässpflanzen,TRAC,412300,Taraxacum ceratophorum aggr.,,Gehörntes Pfaffenröhrlein,Pissenlit à callosités,Tarassaco con involucro calloso,1,EN,3,1,2,1,0,0,0
+infoflora:412500,Gefässpflanzen,TRAC,412500,Taraxacum cucullatum aggr.,,Kapuzen-Pfaffenröhrlein,Pissenlit à capuchons,Tarassaco a cappuccio,3,NT,3,0,0,1,0,A,0
+infoflora:412600,Gefässpflanzen,TRAC,412600,Taraxacum dissectum (Ledeb.) Ledeb.,,Schlitzblättriges Pfaffenröhrlein,Pissenlit découpé,Tarassaco inciso,1,EN,3,1,2,1,0,0,0
+infoflora:412700,Gefässpflanzen,TRAC,412700,Taraxacum fontanum aggr.,,Brunnen-Pfaffenröhrlein,Pissenlit des fontaines,Tarassaco delle fonti,3,VU,2,1,1,1,0,B,0
+infoflora:413200,Gefässpflanzen,TRAC,413200,Taraxacum pacheri Sch. Bip.,,Pachers Pfaffenröhrlein,Pissenlit de Pacher,Tarassaco di Pacher,3,VU,2,1,0,1,0,C,0
+infoflora:413700,Gefässpflanzen,TRAC,413700,Teesdalia nudicaulis (L.) R. Br.,,Teesdalie,Teesdalie nudicaule,Teesdalia a fusto nudo,2,RE,1,99,0,0,0,0,0
+infoflora:414100,Gefässpflanzen,TRAC,414100,Tephroseris capitata (Wahlenb.) Griseb. & Schenk,,Kopf-Aschkraut,Tephroséris capité,Senecione capitato,4,VU,1,1,1,1,0,A,0
+infoflora:414200,Gefässpflanzen,TRAC,414200,Tephroseris helenitis (L.) B. Nord.,,Spatelblättriges Aschkraut,Tephroséris hélénitis,Senecione con foglie spatolate,3,EN,1,2,2,2,1,A,A
+infoflora:414300,Gefässpflanzen,TRAC,414300,Tephroseris integrifolia (L.) Holub,,Ganzblättriges Aschkraut,Tephroséris à feuilles entières,Senecione rosulato,2,VU,3,1,1,1,0,0,0
+infoflora:414400,Gefässpflanzen,TRAC,414400,Tephroseris tenuifolia (Gaudin) Holub,,Gaudins Aschkraut,Tephroséris à feuilles minces,Senecione di Gaudin,2,VU,3,1,0,1,0,0,0
+infoflora:414900,Gefässpflanzen,TRAC,414900,Teucrium botrys L.,,Trauben-Gamander,Germandrée botryde,Camedrio secondo,4,VU,1,1,0,1,0,A,A
+infoflora:415200,Gefässpflanzen,TRAC,415200,Teucrium scordium L.,,Lauch-Gamander,Germandrée d'eau,Camedrio scordio,3,EN,1,2,2,2,1,A,0
+infoflora:415400,Gefässpflanzen,TRAC,415400,Thalictrum alpinum L.,,Alpen-Wiesenraute,Pigamon des Alpes,Pigamo alpino,3,NT,3,0,0,1,0,0,0
+infoflora:415800,Gefässpflanzen,TRAC,415800,Thalictrum flavum L.,,Gelbe Wiesenraute,Pigamon jaune,Pigamo giallo,4,VU,1,1,1,2,1,A,A
+infoflora:416100,Gefässpflanzen,TRAC,416100,Thalictrum lucidum L.,,Glänzende Wiesenraute,Pigamon luisant,Pigamo lucido,2,EN,2,2,2,2,1,0,0
+infoflora:416680,Gefässpflanzen,TRAC,416680,Thalictrum simplex L. subsp. simplex,,Einfache Wiesenraute,Pigamon à folioles linéaires,Pigamo erba scopaia,3,EN,1,2,1,2,1,0,0
+infoflora:416800,Gefässpflanzen,TRAC,416800,Thalictrum simplex subsp. galioides (DC.) Korsh.,,Labkraut-Wiesenraute,Pigamon gaillet,Pigamo galioide,1,CR,2,2,2,1,0,0,0
+infoflora:417000,Gefässpflanzen,TRAC,417000,Thelypteris palustris Schott,,Sumpffarn,Thélyptéris des marais,Felce palustre,4,VU,1,1,1,1,0,A,C
+infoflora:417500,Gefässpflanzen,TRAC,417500,Thesium humifusum DC.,,Niederliegender Bergflachs,Thésium couché,Linaiola prostrata,2,CR,1,2,2,2,1,0,0
+infoflora:417600,Gefässpflanzen,TRAC,417600,Thesium linophyllon L.,,Leinblättriger Bergflachs,Thésium à feuilles de lin,Linaiola comune,4,VU,1,1,1,1,0,0,0
+infoflora:417800,Gefässpflanzen,TRAC,417800,Thesium rostratum Mert. & W. D. J. Koch,,Schnabelfrüchtiger Bergflachs,Thésium rostré,Linaiola rostrata,3,EN,1,2,2,2,1,0,0
+infoflora:419200,Gefässpflanzen,TRAC,419200,Thlaspi rotundifolium subsp. corymbosum Gremli,,Doldentraubiges Täschelkraut,Tabouret en corymbe,Tlaspi corimboso,3,NT,3,0,0,1,0,0,0
+infoflora:419400,Gefässpflanzen,TRAC,419400,Thlaspi sylvium Gaudin,,Penninisches Täschelkraut,Tabouret du Mont Cervin,Erba storna piemontese,2,VU,3,1,0,1,0,0,0
+infoflora:419500,Gefässpflanzen,TRAC,419500,Thlaspi virens Jord.,,Grünes Täschelkraut,Tabouret verdoyant,Erba storna verdeggiante,3,NT,3,0,0,1,0,0,0
+infoflora:419800,Gefässpflanzen,TRAC,419800,Thymelaea passerina (L.) Coss. & Germ.,,Vogelkopf,Passerine annuelle,Timelea annuale,2,CR,1,2,1,2,1,D,D
+infoflora:421700,Gefässpflanzen,TRAC,421700,Tofieldia pusilla (Michx.) Pers.,,Kleine Simsenlilie,Tofieldie naine,Taiola minore,3,NT,3,0,0,1,0,B,0
+infoflora:423200,Gefässpflanzen,TRAC,423200,Tragopogon pratensis subsp. minor (Mill.) Hartm.,,Kleiner Bocksbart,Petit salsifis,Barba di becco piccola,4,VU,1,1,0,1,0,A,0
+infoflora:423500,Gefässpflanzen,TRAC,423500,Trapa natans L.,,Wassernuss,Châtaigne d'eau,Castagna d'acqua,2,CR,1,2,2,2,1,0,A
+infoflora:423700,Gefässpflanzen,TRAC,423700,Tribulus terrestris L.,,Burzeldorn,Croix de Malte,Tribolo comune,4,VU,1,0,0,1,0,0,0
+infoflora:424200,Gefässpflanzen,TRAC,424200,Trientalis europaea L.,,Siebenstern,Trientalis d'Europe,Trientalis,3,VU,2,2,2,2,1,A,0
+infoflora:426600,Gefässpflanzen,TRAC,426600,Trifolium ochroleucon Huds.,,Gelblicher Klee,Trèfle jaunâtre,Trifoglio bianco-giallo,4,VU,1,1,1,1,0,A,A
+infoflora:426800,Gefässpflanzen,TRAC,426800,Trifolium patens Schreb.,,Südlicher Gold-Klee,Trèfle étalé,Trifoglio patente,4,VU,1,1,0,1,0,C,0
+infoflora:427600,Gefässpflanzen,TRAC,427600,Trifolium saxatile All.,,Stein-Klee,Trèfle des rochers,Trifoglio dei greti,2,VU,3,1,1,2,1,0,0
+infoflora:427700,Gefässpflanzen,TRAC,427700,Trifolium scabrum L.,,Rauher Klee,Trèfle scabre,Trifoglio scabro,3,EN,1,1,1,1,0,A,D
+infoflora:427800,Gefässpflanzen,TRAC,427800,Trifolium spadiceum L.,,Brauner Moor-Klee,Trèfle marron,Trifoglio spadiceo,4,VU,1,1,1,1,0,A,A
+infoflora:427900,Gefässpflanzen,TRAC,427900,Trifolium striatum L.,,Gestreifter Klee,Trèfle strié,Trifoglio striato,4,VU,1,1,1,1,0,A,A
+infoflora:428500,Gefässpflanzen,TRAC,428500,Trigonella monspeliaca L.,,Französischer Bockshornklee,Trigonelle de Montpellier,Fieno greco di Montpellier,4,VU,1,1,1,1,0,0,0
+infoflora:428600,Gefässpflanzen,TRAC,428600,Trinia glauca (L.) Dumort.,,Faserschirm,Trinie glauque,Sassifragia pannocchiuta,4,VU,1,1,1,1,0,A,0
+infoflora:429200,Gefässpflanzen,TRAC,429200,Trisetum cavanillesii Trin.,,Cavanilles' Grannenhafer,Trisète de Cavanilles,Gramigna di Cavanilles,1,EN,3,2,2,2,1,0,0
+infoflora:430500,Gefässpflanzen,TRAC,430500,Trochiscanthes nodiflora (All.) W. D. J. Koch,,Radblüte,Trochiscanthe nodiflore,Angelica minore,4,VU,1,1,2,2,1,0,0
+infoflora:431400,Gefässpflanzen,TRAC,431400,Tulipa sylvestris L. subsp. sylvestris,,Weinberg-Tulpe,Tulipe sauvage,Tulipano dei campi,4,VU,1,1,1,1,0,A,D
+infoflora:431500,Gefässpflanzen,TRAC,431500,Tulipa sylvestris subsp. australis (Link) Pamp.,,Südalpine Tulpe,Tulipe méridionale,Tulipano montano,2,VU,3,2,2,2,1,0,0
+infoflora:431800,Gefässpflanzen,TRAC,431800,Turgenia latifolia (L.) Hoffm.,,Breitblättrige Turgenie,Turgénie à larges feuilles,Lappola maggiore,2,RE,1,99,0,0,0,D,D
+infoflora:432300,Gefässpflanzen,TRAC,432300,Typha minima Hoppe,,Kleiner Rohrkolben,Petite massette,Lisca minore,2,CR,1,2,2,2,1,A,0
+infoflora:432400,Gefässpflanzen,TRAC,432400,Typha shuttleworthii W. D. J. Koch & Sond.,,Shuttleworths Rohrkolben,Massette de Shuttleworth,Lisca di Shuttleworth,3,EN,1,2,2,2,1,A,C
+infoflora:432900,Gefässpflanzen,TRAC,432900,Ulmus laevis Pall.,,Flatter-Ulme,Orme pédonculé,Olmo bianco,3,EN,1,2,1,2,1,A,0
+infoflora:433300,Gefässpflanzen,TRAC,433300,Umbilicus rupestris (Salisb.) Dandy,,Venusnabel,Nombril de Vénus,Ombelico di Venere,3,EN,1,1,1,1,0,0,0
+infoflora:433500,Gefässpflanzen,TRAC,433500,Urtica urens L.,,Kleine Brennessel,Ortie brûlante,Ortica minore,4,VU,1,1,0,1,0,A,C
+infoflora:433700,Gefässpflanzen,TRAC,433700,Utricularia bremii Heer,,Bremis Wasserschlauch,Utriculaire de Bremi,Erba-vescica di Bremi,1,CR,2,2,2,2,1,0,0
+infoflora:433800,Gefässpflanzen,TRAC,433800,Utricularia intermedia Hayne,,Mittlerer Wasserschlauch,Utriculaire intermédiaire,Erba-vescica intermedia,1,CR,2,2,2,2,1,A,0
+infoflora:433900,Gefässpflanzen,TRAC,433900,Utricularia minor L.,,Kleiner Wasserschlauch,Petite utriculaire,Erba-vescica minore,4,VU,1,2,1,2,1,A,A
+infoflora:434100,Gefässpflanzen,TRAC,434100,Utricularia ochroleuca R. W. Hartm.,,Blassgelber Wasserschlauch,Utriculaire jaune pâle,Erba-vescica giallastra,1,CR,2,2,2,2,1,0,A
+infoflora:434150,Gefässpflanzen,TRAC,434150,Utricularia stygia G. Thor,,Styx-Wasserschlauch,Utriculaire du Styx,Utricolaria dello Stige,2,CR,1,2,1,2,1,0,0
+infoflora:434200,Gefässpflanzen,TRAC,434200,Utricularia vulgaris L.,,Gewöhnlicher Wasserschlauch,Utriculaire commune,Erba-vescica comune,3,EN,1,2,2,2,1,A,A
+infoflora:434300,Gefässpflanzen,TRAC,434300,Vaccaria hispanica (Mill.) Rauschert,,Kuhnelke,Vaccaire d'Espagne,Cetino dei campi,2,CR,1,1,0,1,0,A,D
+infoflora:434700,Gefässpflanzen,TRAC,434700,Vaccinium microcarpum (Rupr.) Schmalh.,,Kleinfrüchtige Moosbeere,Canneberge à petits fruits,Mirtillo minore,2,VU,3,1,1,1,0,A,C
+infoflora:435400,Gefässpflanzen,TRAC,435400,Valeriana celtica L.,,Keltischer Baldrian,Valériane celte,Valeriana celtica,3,NT,3,0,1,1,0,0,0
+infoflora:436300,Gefässpflanzen,TRAC,436300,Valeriana saliunca All.,,Felsschutt-Baldrian,Valériane à feuilles de saule,Valeriana saliunca,4,NT,2,0,0,1,0,A,0
+infoflora:436600,Gefässpflanzen,TRAC,436600,Valeriana supina Ard.,,Zwerg-Baldrian,Valériane naine,Valeriana strisciante,4,LC,3,0,0,1,0,0,0
+infoflora:437300,Gefässpflanzen,TRAC,437300,Valerianella dentata (L.) Pollich,,Gezähnter Ackersalat,Valérianelle dentée,Gallinella dentata,4,VU,1,1,0,1,0,A,A
+infoflora:437400,Gefässpflanzen,TRAC,437400,Valerianella eriocarpa Desv.,,Haarfrüchtiger Ackersalat,Valérianelle à fruits velus,Gallinella campanulata,2,CR(PE),1,99,0,0,0,0,0
+infoflora:437600,Gefässpflanzen,TRAC,437600,Valerianella rimosa Bastard,,Gefurchter Ackersalat,Valérianelle sillonnée,Gallinella liscia,3,EN,1,2,0,2,1,D,A
+infoflora:438200,Gefässpflanzen,TRAC,438200,Veratrum nigrum L.,,Schwarzer Germer,Vératre noir,Veratro nero,3,EN,1,0,1,1,0,0,0
+infoflora:438495,Gefässpflanzen,TRAC,438495,Verbascum chaixii Vill.,,Chaix' Wollkraut,Molène de Chaix,Verbasco di Chaix,3,EN,1,2,1,2,1,0,0
+infoflora:439500,Gefässpflanzen,TRAC,439500,Verbascum pulverulentum Vill.,,Flockiges Wollkraut,Molène pulvérulente,Verbasco a candelabro,3,EN,1,1,0,1,0,A,0
+infoflora:440100,Gefässpflanzen,TRAC,440100,Veronica acinifolia L.,,Steinquendelblättriger Ehrenpreis,Véronique à feuilles d'acinos,Veronica acinifoglia,2,CR,1,2,1,2,1,C,0
+infoflora:440600,Gefässpflanzen,TRAC,440600,Veronica anagalloides Guss.,,Falscher Gauchheil-Ehrenpreis,Véronique à pédicelle glanduleux,Veronica delle sponde,2,CR,1,2,2,2,1,0,0
+infoflora:440900,Gefässpflanzen,TRAC,440900,Veronica austriaca L.,,Österreichischer Ehrenpreis,Véronique d'Autriche,Veronica d'Austria,1,CR,3,2,2,2,1,0,0
+infoflora:441300,Gefässpflanzen,TRAC,441300,Veronica catenata Pennell,,Lockerähriger Ehrenpreis,Véronique à épis lâches,Veronica concatenata,3,EN,1,2,2,2,1,A,0
+infoflora:441500,Gefässpflanzen,TRAC,441500,Veronica dillenii Crantz,,Dillenius' Ehrenpreis,Véronique de Dillenius,Veronica di Dillenius,4,VU,1,1,1,1,0,0,0
+infoflora:442900,Gefässpflanzen,TRAC,442900,Veronica praecox All.,,Frühblühender Ehrenpreis,Véronique précoce,Veronica precoce,4,VU,1,1,0,1,0,0,0
+infoflora:443000,Gefässpflanzen,TRAC,443000,Veronica prostrata L. subsp. prostrata,,Niederliegender Ehrenpreis,Véronique couchée,Veronica sdraiata,2,EN,2,2,2,2,1,0,0
+infoflora:443100,Gefässpflanzen,TRAC,443100,Veronica prostrata subsp. scheereri J.-P. Brandt,,Scheerers Ehrenpreis,Véronique de Scheerer,Veronica di Scheerer,2,EN,2,2,2,2,1,D,A
+infoflora:443300,Gefässpflanzen,TRAC,443300,Veronica scutellata L.,,Schildfrüchtiger Ehrenpreis,Véronique à écussons,Veronica delle paludi,4,VU,1,1,1,1,0,A,A
+infoflora:444000,Gefässpflanzen,TRAC,444000,Veronica triphyllos L.,,Dreiteiliger Ehrenpreis,Véronique à trois lobes,Veronica trifogliata,4,VU,1,1,2,2,1,D,0
+infoflora:446100,Gefässpflanzen,TRAC,446100,Vicia lathyroides L.,,Platterbsen-Wicke,Vesce fausse gesse,Veccia serena,3,EN,1,1,1,1,0,D,0
+infoflora:446500,Gefässpflanzen,TRAC,446500,Vicia orobus DC.,,Rankenlose Wicke,Vesce orobe,Veccia cece,1,CR,3,2,2,2,1,0,0
+infoflora:446900,Gefässpflanzen,TRAC,446900,Vicia pisiformis L.,,Erbsen-Wicke,Vesce à feuilles de pois,Veccia pisellina,2,CR,1,2,2,2,1,0,0
+infoflora:449200,Gefässpflanzen,TRAC,449200,Viola calcarata L.,,Langsporniges Stiefmütterchen,Pensée éperonnée,Viola con sperone,4,LC,3,0,0,1,0,A,0
+infoflora:449300,Gefässpflanzen,TRAC,449300,Viola canina L. subsp. canina,,Heide-Veilchen,Violette des chiens,Viola selvatica,4,VU,1,1,1,1,0,A,A
+infoflora:449700,Gefässpflanzen,TRAC,449700,Viola cenisia L.,,Mont-Cenis-Stiefmütterchen,Pensée du Mont Cenis,Viola del Moncenisio,4,LC,3,0,0,1,0,A,0
+infoflora:450200,Gefässpflanzen,TRAC,450200,Viola elatior Fr.,,Hohes Veilchen,Violette élevée,Viola maggiore,3,EN,1,2,2,2,1,A,0
+infoflora:450400,Gefässpflanzen,TRAC,450400,Viola kitaibeliana Schult.,,Zwerg-Stiefmütterchen,Pensée de Kitaibel,Viola di Kitaibel,4,VU,1,1,1,1,0,0,0
+infoflora:451200,Gefässpflanzen,TRAC,451200,Viola persicifolia Schreb.,,Moor-Veilchen,Violette à feuilles de pêcher,Viola con foglie di pesco,3,EN,1,2,2,2,1,A,D
+infoflora:451300,Gefässpflanzen,TRAC,451300,Viola pinnata L.,,Fiederblättriges Veilchen,Violette pennée,Viola pennata,4,NT,2,0,0,1,0,0,0
+infoflora:451400,Gefässpflanzen,TRAC,451400,Viola pumila Chaix,,Niedriges Veilchen,Violette naine,Viola minore,2,RE,1,99,0,0,0,D,0
+infoflora:452200,Gefässpflanzen,TRAC,452200,Viola suavis M. Bieb.,,Ferd. Otto Wolfs Veilchen,Violette suave,Viola soave,4,NT,2,1,0,1,0,0,0
+infoflora:453500,Gefässpflanzen,TRAC,453500,Vitis sylvestris C. C. Gmel.,,Wilde Rebe,Vigne des bois,Vite selvatica,2,CR,1,2,2,2,1,0,0
+infoflora:453700,Gefässpflanzen,TRAC,453700,Vulpia bromoides (L.) Gray,,Trespen-Federschwingel,Vulpie faux brome,Paleo bromoide,3,EN,1,0,0,1,0,A,0
+infoflora:454000,Gefässpflanzen,TRAC,454000,Vulpia unilateralis (L.) Stace,,Strand-Dünnschwanz,Vulpie unilatérale,Festuca unilaterale,2,CR(PE),1,99,0,0,0,0,0
+infoflora:454500,Gefässpflanzen,TRAC,454500,Woodsia alpina (Bolton) Gray,,Alpen-Wimperfarn,Woodsia des Alpes,Felcetta alpina,4,LC,3,0,0,1,0,A,0
+infoflora:454700,Gefässpflanzen,TRAC,454700,Woodsia ilvensis (L.) R. Br.,,Südlicher Wimperfarn,Woodsia d'Elbe,Felcetta pelosa,2,VU,3,1,0,1,0,0,0
+infoflora:454800,Gefässpflanzen,TRAC,454800,Woodsia pulchella Bertol.,,Kahler Wimperfarn,Woodsia joli,Felcetta glabra,2,EN,2,2,1,1,0,A,0
+infoflora:455200,Gefässpflanzen,TRAC,455200,Xanthium strumarium L.,,Gewöhnliche Spitzklette,Lampourde ordinaire,Nappola minore,3,EN,1,0,0,1,0,D,D
+infoflora:455600,Gefässpflanzen,TRAC,455600,Xeranthemum inapertum (L.) Mill.,,Felsenheide-Strohblume,Xéranthème fermé,Perpetuini mezzani,1,CR,2,2,2,2,1,0,0
+infoflora:455700,Gefässpflanzen,TRAC,455700,Zannichellia palustris L.,,Teichfaden,Zannichellie des marais,Zannichellia,4,VU,1,0,1,1,0,A,A
