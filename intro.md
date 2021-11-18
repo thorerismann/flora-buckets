@@ -1,8 +1,8 @@
-# Biodiversity Box
+# Biodiversity Boxes
 
-__Edition 1__ ver=0.1 _build four_
+__Edition 1__ ver=0.1 _build one_
 
-## The biodiversity crisis and a local solution
+## Portable patches of biodiversity
 
 :::{image} resources/pictures/2021/DSC00317.JPG
 :alt: Map of survey locations
@@ -12,15 +12,14 @@ __Edition 1__ ver=0.1 _build four_
 :::
 *Onobrychis viciifolia*, a spider and a bee at the CFF depot in Madretsch, Biel/Bienne
 <br></br>
-This document develops a sustainable business model for offering a subscription-based plant service of 100% native, wild-type flowers originated locally for the city of Biel/Bienne.
-<p>&nbsp;</p>
-This repository is divided into the following sections:
 
-* Part 1 (intro-context.pynb) provides a short introduction to the dire situation facing biodiversity globally, and also in the region around Biel/Bienne. 
-* Part 2 (surveys.pynb) summarizes the results of nearly 5000 vascular plant observations made in Biel between 2020 and 2021.
-* Part 3 (flora-buckets.pynb) presents the biodiversity boxes concept. 
+A Biodiversity Box is a portable biotope composed of 100% native flowers sourced locally and conceived to reflect the unique biogeography of the Seeland region. This report provides the background for these boxes and is divided into the following sections:
 
-
+* Part 1 (intro-context.ipynb) provides a short introduction to the dire situation facing biodiversity globally, and also in the region around Biel/Bienne. 
+* Part 2 (surveys.ipynb) summarizes the results of some 6000 vascular plant observations made in the metropolitan region of Biel between 2020 and 2021.
+* Part 3 (flora-buckets.ipynb) presents the biodiversity boxes concept in more detail.
+* Part 4 (germination.ipynb) presents the results of a wild flower germination experiment.
+* Part 5 (resources.ipynb) concludes this report, proposes next steps and acknowledges key regional and national resources.
 
 <p>&nbsp;</p>
 
