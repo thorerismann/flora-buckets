@@ -4,13 +4,13 @@ __Edition 1__ ver=0.1 _build one_
 
 ## Portable patches of biodiversity
 
-:::{image} resources/pictures/2021/DSC00317.JPG
+:::{image} resources/intro-1.JPG
 :alt: Map of survey locations
 :class: bg-primary mb-1
 :width: 600px
 :align: center
 :::
-*Onobrychis viciifolia*, a spider and a bee at the CFF depot in Madretsch, Biel/Bienne
+*Onobrychis viciifolia*, a bee and a spider on a CFF railway berm
 <br></br>
 
 A Biodiversity Box is a portable biotope composed of 100% native flowers sourced locally and conceived to reflect the unique biogeography of the Seeland region. This report provides the background for these boxes and is divided into the following sections:
