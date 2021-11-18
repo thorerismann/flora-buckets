@@ -17,62 +17,32 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-# the survey data
-sdata = pd.read_csv("resources/preprocessed/hd_samples_2020.csv")
-sdata['date'] = pd.to_datetime(sdata.date)
-sdata = sdata[(sdata.date > "2020-05-31")&(sdata.date < "2020-10-01")].copy()
+this_picture = PILImage.open("resources/pictures/carduus-crispus.JPG")
+output = io.BytesIO()
+this_picture.thumbnail((800, 1200))
+this_picture.save(output, format='PNG')
+encoded_string = base64.b64encode(output.getvalue()).decode()
 
-# set some variables for the charts
-xlab_k14 = {'labelpad':10, 'fontsize':14}
-sns.set_style('whitegrid')
-
-fig, axs = plt.subplots(1, 2, figsize=(10,5))
-
-ax = axs[0]
-
-data = sdata.groupby(['loc_date', 'date'], as_index=False).species_slug.nunique()
-
-sns.scatterplot(data=data, x='date', y=data.species_slug, ax=ax)
-ax.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
-ax.xaxis.set_major_formatter(mdates.DateFormatter('%b'))
-# ax.get_legend().remove()
-ax.set_xlabel(" ")
-ax.set_ylabel("Number of species per sample", **xlab_k14)
-axtwo = axs[1]
-
-sdata['month'] = sdata.date.dt.month_name()
-sdata['eom'] = sdata['date'].map(lambda x: pd.Period(x, freq='M').end_time.date())
-
-data = sdata.groupby(['month', 'eom'], as_index=False).agg({'species_slug':'nunique', 'loc_date':'nunique'})
-datax = data.sort_values(by="eom")
-data = datax[["month", "species_slug", "loc_date"]].copy()
-data.rename(columns={"species_slug":"n species", "loc_date":"n samples"}, inplace=True)
-
-# clean up the axis
-hide_spines_ticks_grids(axtwo)
-
-# add a table to the axis with data
-the_table_ax = axtwo.table(data.values,  colLabels=data.columns, colWidths=[.33, .33, .33], bbox=[0, 0, 1, 1])
-
-# make the table pretty
-a_summary_table_one = make_a_summary_table(the_table_ax,data,data.columns, font_size=16, s_et_bottom_row=False)
-
-# remove the cell text from [0,0], the index name
-a_summary_table_one.get_celld()[(0,0)].get_text().set_text(" ")
-
-plt.tight_layout()
-plt.show()
+html = '<img src="data:image/png;base64,{}"/>'.format(encoded_string)
+md(html)
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
-[0;31mNameError[0m                                 Traceback (most recent call last)
-[0;32m/tmp/ipykernel_20236/3562320440.py[0m in [0;36m<module>[0;34m[0m
-[1;32m     31[0m [0;34m[0m[0m
-[1;32m     32[0m [0;31m# clean up the axis[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-[0;32m---> 33[0;31m [0mhide_spines_ticks_grids[0m[0;34m([0m[0maxtwo[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m     34[0m [0;34m[0m[0m
-[1;32m     35[0m [0;31m# add a table to the axis with data[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+[0;32m/tmp/ipykernel_7269/2543223463.py[0m in [0;36m<module>[0;34m[0m
+[0;32m----> 1[0;31m [0mthis_picture[0m [0;34m=[0m [0mPILImage[0m[0;34m.[0m[0mopen[0m[0;34m([0m[0;34m"resources/pictures/carduus-crispus.JPG"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      2[0m [0moutput[0m [0;34m=[0m [0mio[0m[0;34m.[0m[0mBytesIO[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      3[0m [0mthis_picture[0m[0;34m.[0m[0mthumbnail[0m[0;34m([0m[0;34m([0m[0;36m800[0m[0;34m,[0m [0;36m1200[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      4[0m [0mthis_picture[0m[0;34m.[0m[0msave[0m[0;34m([0m[0moutput[0m[0;34m,[0m [0mformat[0m[0;34m=[0m[0;34m'PNG'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      5[0m [0mencoded_string[0m [0;34m=[0m [0mbase64[0m[0;34m.[0m[0mb64encode[0m[0;34m([0m[0moutput[0m[0;34m.[0m[0mgetvalue[0m[0;34m([0m[0;34m)[0m[0;34m)[0m[0;34m.[0m[0mdecode[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 
-[0;31mNameError[0m: name 'hide_spines_ticks_grids' is not defined
-NameError: name 'hide_spines_ticks_grids' is not defined
+[0;32m~/anaconda3/envs/myenv/lib/python3.8/site-packages/PIL/Image.py[0m in [0;36mopen[0;34m(fp, mode, formats)[0m
+[1;32m   2973[0m [0;34m[0m[0m
+[1;32m   2974[0m     [0;32mif[0m [0mfilename[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 2975[0;31m         [0mfp[0m [0;34m=[0m [0mbuiltins[0m[0;34m.[0m[0mopen[0m[0;34m([0m[0mfilename[0m[0;34m,[0m [0;34m"rb"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   2976[0m         [0mexclusive_fp[0m [0;34m=[0m [0;32mTrue[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   2977[0m [0;34m[0m[0m
+
+[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'resources/pictures/carduus-crispus.JPG'
+FileNotFoundError: [Errno 2] No such file or directory: 'resources/pictures/carduus-crispus.JPG'
 

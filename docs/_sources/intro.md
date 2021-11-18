@@ -1,24 +1,34 @@
-# love plants
+# Biodiversity Boxes
 
-__Edition 1__ ver=0.02 _build two_
+__Edition 1__ ver=0.1 _build one_
 
-## The biodiversity crisis and a local solution
+## Portable patches of biodiversity
 
-:::{image} resources/pictures/2021/DSC00317.JPG
-:alt: Map of IQAASL locations
+:::{image} resources/intro-1.JPG
+:alt: Map of survey locations
 :class: bg-primary mb-1
 :width: 600px
 :align: center
 :::
-*Onobrychis viciifolia* hosting the dance of life and death on a railroad berm in the Madretsch neighborhood of Biel/Bienne
+*Onobrychis viciifolia*, a bee and a spider on a CFF railway berm
 <br></br>
-Love plants is a model for offering a subscription-based plant service of 100% native, wild-type flowers for Biel/Bienne.
+
+A Biodiversity Box is a portable biotope composed of 100% native flowers sourced locally and conceived to reflect the unique biogeography of the Seeland region. This report provides the background for these boxes and is divided into the following sections:
+
+* Part 1 (intro-context.ipynb) provides a short introduction to the dire situation facing biodiversity globally, and also in the region around Biel/Bienne. 
+* Part 2 (surveys.ipynb) summarizes the results of some 6000 vascular plant observations made in the metropolitan region of Biel between 2020 and 2021.
+* Part 3 (flora-buckets.ipynb) presents the biodiversity boxes concept in more detail.
+* Part 4 (germination.ipynb) presents the results of a wild flower germination experiment.
+* Part 5 (resources.ipynb) concludes this report, proposes next steps and acknowledges key regional and national resources.
+
 <p>&nbsp;</p>
-This repository is divided into four sections. The first section provides a background on the situation of vascular plants and insect life in Switzerland, and more particularly in the region around Biel/Bienne, based primarily on recent nationwide reports and datasets issued by the Swiss Academy of Sciences and InfoFlora.  The second section summarizes the results of some 5000 plant observations made from June - September 2020 and from February - September 2021, principally in the Biel/Bienne metropolitan area. The third chapter presents the love plants concept. The final chapter proposes some citizen science initiatives related to the preservation of biodiversity, and in particular genetic diversity.
-<p>&nbsp;</p>
+
 For questions or comments *botany at hammerdirt dot ch* is at your service.
+
 <p>&nbsp;</p>
-This page is under development and the final version will be frozen around December 2021. It will likely have been updated since the last time you visited. A French and German version of this site will be available soon. The dedicated link is the following: https://thorerismann.github.io/hdbot/
+
+This page is under development and the final version will be frozen around December 2021. A complete French and German translation will be available.
+
 <p>&nbsp;</p>
 Built by hammerdirt botany.
 
