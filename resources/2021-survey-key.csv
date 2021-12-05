@@ -1,508 +1,638 @@
-name,longitude,latitude
-Muehlestrasse-berm-1,7.271013,47.144965
-"eidochsweg
-suze 2",7.270827,47.147798
-"eidochsweg
-suze 1",7.271219,47.148142
-"schloesslifeld
-suze 1",7.271029,47.14996
-"schloesslifeld
-suze 5",7.270897,47.148198
-schloesslifeld-suze-2,7.270963,47.150463
-schloesslifeld-suze-3,7.270799,47.150676
--,8.627518,47.40203
-Langholz-forest-1,7.288654,47.138625
-langholz-forest-2,7.289871,47.138274
-Laengholz-forest-7,7.272995,47.139778
-Laengholz-forest-8,7.272231,47.139863
-vorhoelzli-forest-2,7.2903071,47.1425505
-Vorhoelzli-forest-3,7.293576,47.142904
-Vorhoelzli-forest-4,7.291817,47.143041
-Vorhoelzli-forest-1,7.289599,47.144191
-Sonnenfeld-suze-1,7.2699,47.151539
-parc-renfer-suze-1,7.268612,47.152466
-buerenstrasse-suze-5,7.268903,47.152484
-Buerenstrasse-Suze-1,7.268119,47.153276
-Buerenstrasse-Suze-2,7.268319,47.153276
-buerenstrasse-suze -4,7.268542,47.152749
-burenstrasse-suze-3,7.268375,47.153029
-Fuchsenried-forest-1,7.2647,47.154661
-Schuessinsel-Suze-4,7.269258,47.146833
-Schuessinsel-Kanal-1,7.267986,47.146952
-Schuessinsel-Kanal-4,7.26888,47.14725
-Muehlestrasse-Suze-1,7.269901,47.147394
-"Schuessinsel
-Suze 3",7.269336,47.147356
-Schuessinsel-area-1,7.269176,47.147495
-"eidochsweg
-suze 3",7.270453,47.147518
-"schloesslifeld
-suze 4",7.270588,47.147979
-Schuessinsel-Kanal-2,7.266907,47.146276
-schuessinsel-suze-10,7.267709,47.146244
-Schuessinsel-Kanal-3,7.266365,47.146143
-Schuessinsel-suze-9,7.266441,47.145909
-Schuessinsel-Kanal-7,7.265885,47.14571
-Schuessinsel-Suze-8,7.26681,47.145975
-schuessinsel-suze-7,7.265846,47.144647
-schuessinsel-kanal-5,7.267715,47.14659
-Fussweg-Suze-1,7.261473,47.143511
-schuessinsel-suze-5,7.262288,47.143686
-schuessinsel-suze-6,7.26365,47.143856
-scheussinsel-kanal-6,7.263161,47.14415
-Schuessinsel-Suze-2,7.262812,47.143969
-Schuessinsel-Suze-1,7.262422,47.143974
-"Fuchsenried
-Forest 2",7.2644066,47.1560466
-"Fuchsenried
-Forest 3",7.264434,47.157223
-"Holunderweg
-Madretschkanal 2",7.256533,47.140735
-Holunderweg-Madretschkanal-1,7.256594,47.14099
-Schleusenweg-suze-1,7.256925,47.141846
-Schleusenweg-suze-3,7.257512,47.142111
-Schleusenweg-suze-2,7.257214,47.141981
-fussweg-Suze-3,7.2599,47.142396
-fussweg-suze-4,7.259823,47.142424
-fussweg-Suze-2,layerId,7.261276
-"10-04
-Mattenstrasse
-Area 1",7.254478,47.136806
-"Mattenstrasse 
-Berm 1",7.254698,47.137095
-"10-04
-Mattenstrasse
-Berm 2",7.255104,47.137271
-"10-04
-Mattenstrasse
-Berm 3",7.255296,47.137378
--,-,-
-"mettstrasse
-lot 1",7.262216,47.138666
-"holunderweg
-Madretschkanal 4",7.2552348,47.1399838
-"holunderweg
-Madretschkanal 3",7.256283,47.140285
-"Riedweg
-forest 1",7.269313,47.133197
-"Laengholz
-forest 6",7.277632,47.133839
--,-,-
-laengholz-Forest-15,7.262788,47.125647
--,-,-
--,-,-
-Laengholz-Forest-3,7.26835,47.126927
-Bermenstrasse-Berm-2,7.259613,47.127464
-"Bermenstrasse
-Area 1",layerId,7.259515
-Laengholz-forest-4,7.2673042,47.1279539
-Laengholz-forest-5,7.2670745,47.1331305
+name,description,styleUrl,ExtendedData/Data/0/value,ExtendedData/Data/0/_name,ExtendedData/Data/1/value,ExtendedData/Data/1/_name,ExtendedData/Data/2/value,ExtendedData/Data/2/_name,ExtendedData/Data/3/value,ExtendedData/Data/3/_name,longitude,latitude,altitude,LineString/tessellate,LineString/coordinates,Polygon/outerBoundaryIs/LinearRing/tessellate,Polygon/outerBoundaryIs/LinearRing/coordinates
+Muehlestrasse-berm-1,"description: 20-04-2021, survey area is green area between bounded by the sidewalk, fence and bridge.<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"20-04-2021, survey area is green area between bounded by the sidewalk, fence and bridge.",description,marker,type,,htmlpopup,,layerId,7.271013,47.144965,0,,,,
+eidochsweg-suze-2,"description: survey area between cemetery and forest edge, area where chain link fence forms boundary (about 40 meters)<br>17-04-2021<br>20-03-2021<br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp;</span>(eidochsweg<br>suze 2)</div><div>survey area between cemetery and forest edge, area where chain link fence forms boundary (about 40 meters)<br>17-04-2021<br>20-03-2021</div></div><br>layerId: KML||https://public.geo.admin.ch/J8AsDWKnTgayCQFzjAHfzw",#icon-1899-9C27B0-labelson,"survey area between cemetery and forest edge, area where chain link fence forms boundary (about 40 meters)
+17-04-2021
+20-03-2021",description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(eidochsweg
+suze 2)</div><div>survey area between cemetery and forest edge, area where chain link fence forms boundary (about 40 meters)
+17-04-2021
+20-03-2021</div></div>",htmlpopup,KML||https://public.geo.admin.ch/J8AsDWKnTgayCQFzjAHfzw,layerId,7.270827,47.147798,0,,,,
+eidochsweg-suze-1,"description: survey area is flat area between cemetery and tree line, bounded by sidewalk and point where wall turns in.<br>17-04-2021<br>20-03-2021<br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp;</span>(eidochsweg<br>suze 1)</div><div>survey area is flat area between cemetery and tree line, bounded by sidewalk and point where wall turns in.<br>17-04-2021<br>20-03-2021</div></div><br>layerId: KML||https://public.geo.admin.ch/J8AsDWKnTgayCQFzjAHfzw",#icon-1899-9C27B0-labelson,"survey area is flat area between cemetery and tree line, bounded by sidewalk and point where wall turns in.
+17-04-2021
+20-03-2021",description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(eidochsweg
+suze 1)</div><div>survey area is flat area between cemetery and tree line, bounded by sidewalk and point where wall turns in.
+17-04-2021
+20-03-2021</div></div>",htmlpopup,KML||https://public.geo.admin.ch/J8AsDWKnTgayCQFzjAHfzw,layerId,7.271219,47.148142,0,,,,
+schloesslifeld-suze-1,"description: survey area is between sidewalk, rocky area leading to beach and suze, extending about 15 meters to the right of the rocks.<br>17-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is between sidewalk, rocky area leading to beach and suze, extending about 15 meters to the right of the rocks.
+17-04-2021",description,marker,type,,htmlpopup,,layerId,7.271029,47.14996,0,,,,
+schloesslifeld-suze-5,"description: survey area is between concrete structure and suze, from bridge to end end of concrete area downstream<br>26-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is between concrete structure and suze, from bridge to end end of concrete area downstream
+26-05-2021",description,marker,type,,htmlpopup,,layerId,7.270897,47.148198,0,,,,
+schloesslifeld-suze-2,"description: survey area is between suze and path, extending the length of the right bunch of trees.<br>12-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is between suze and path, extending the length of the right bunch of trees.
+12-05-2021",description,marker,type,,htmlpopup,,layerId,7.270963,47.150463,0,,,,
+schloesslifeld-suze-3,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.270799,47.150676,0,,,,
+Langholz-forest-1,"description: area to the left and and right of the road just before the newly planted treeline on left, until treeline on right.<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"area to the left and and right of the road just before the newly planted treeline on left, until treeline on right.",description,marker,type,,htmlpopup,,layerId,7.288654,47.138625,0,,,,
+langholz-forest-2,"description: survey area about 20 meters long on left side of road, extenidng about 2 meters deep, starting about 15 meters from main road<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area about 20 meters long on left side of road, extenidng about 2 meters deep, starting about 15 meters from main road",description,marker,type,,htmlpopup,,layerId,7.289871,47.138274,0,,,,
+Laengholz-forest-7,description: survey area is between building and slope towards molasseweg<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,survey area is between building and slope towards molasseweg,description,marker,type,,htmlpopup,,layerId,7.272995,47.139778,0,,,,
+Laengholz-forest-8,description: survey area is<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,survey area is,description,marker,type,,htmlpopup,,layerId,7.272231,47.139863,0,,,,
+vorhoelzli-forest-2,"description: 12-03-2021;(more), survey area along left side of path starting from forest edge, extending about 20 meters along path, about 5 meters into the forest area.<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"12-03-2021;(more), survey area along left side of path starting from forest edge, extending about 20 meters along path, about 5 meters into the forest area.",description,marker,type,,htmlpopup,,layerId,7.2903071,47.1425505,0,,,,
+Vorhoelzli-forest-3,description: survey area is clearing behind zurich fitness trail station.<br>14-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is clearing behind zurich fitness trail station.
+14-05-2021",description,marker,type,,htmlpopup,,layerId,7.293576,47.142904,0,,,,
+Vorhoelzli-forest-4,description: survey area the right side of the path about 4 meters wide<br>14-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area the right side of the path about 4 meters wide
+14-05-2021",description,marker,type,,htmlpopup,,layerId,7.291817,47.143041,0,,,,
+Vorhoelzli-forest-1,"description: survey area on right side of path, starting 3 meters before stream pool, extending about 6 meters to the left.<br>14-05-2021<br>type: 12-03-2021<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area on right side of path, starting 3 meters before stream pool, extending about 6 meters to the left.
+14-05-2021",description,12-03-2021,type,,htmlpopup,,layerId,7.289599,47.144191,0,,,,
+Sonnenfeld-suze-1,"description: 13-05-2021, 22-02-2021, surveyed from  hedgerow, the stairs into the reiver, and a bit further.<br><br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"13-05-2021, 22-02-2021, surveyed from  hedgerow, the stairs into the reiver, and a bit further.",description,marker,type,,htmlpopup,,layerId,7.2699,47.151539,0,,,,
+parc-renfer-suze-1,"description: 20-04-2021, 03-02-2021, 23-02-2021, surveyed area between building and stone stairs, between path and river<br><br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"20-04-2021, 03-02-2021, 23-02-2021, surveyed area between building and stone stairs, between path and river",description,marker,type,,htmlpopup,,layerId,7.268612,47.152466,0,,,,
+buerenstrasse-suze-5,"description: survey area is from path to river edge, including exposed bank area.<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is from path to river edge, including exposed bank area.",description,marker,type,,htmlpopup,,layerId,7.268903,47.152484,0,,,,
+Buerenstrasse-Suze-1,"description: survey area bounded by road, bridge, river on each side. surveyed river edge as possible from island.<br>12-05-2021<br>08-04-2021<br>06-02-2021 (to be entered)<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area bounded by road, bridge, river on each side. surveyed river edge as possible from island.
+12-05-2021
+08-04-2021
+06-02-2021 (to be entered)",description,marker,type,,htmlpopup,,layerId,7.268119,47.153276,0,,,,
+Buerenstrasse-Suze-2,description: survey area is the grass / tree area between the parking lot and the suze.<br>20-03-2021<br>22-02-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is the grass / tree area between the parking lot and the suze.
+20-03-2021
+22-02-2021",description,marker,type,,htmlpopup,,layerId,7.268319,47.153276,0,,,,
+buerenstrasse-suze-4,"description: survey area is between trees, from path to beach area<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is between trees, from path to beach area",description,marker,type,,htmlpopup,,layerId,7.268542,47.152749,0,,,,
+buerenstrasse-suze-3,"description: survey area is entire ramp and gravel path between the walls and the river.<br>20-03-2021, 20-04-2021, 06-02-2021<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is entire ramp and gravel path between the walls and the river.
+20-03-2021, 20-04-2021, 06-02-2021",description,,type,,htmlpopup,,layerId,7.268375,47.153029,0,,,,
+Fuchsenried-forest-1,"description: survey area is entrance to forest path, about 1 meter on each side of path, about 2 meters into forest<br>08-05-2021<br>type: 24-02-2021<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is entrance to forest path, about 1 meter on each side of path, about 2 meters into forest
+08-05-2021",description,24-02-2021,type,,htmlpopup,,layerId,7.2647,47.154661,0,,,,
+Schuessinsel-Suze-4,description: surveyed the exposed beach bounded on one side by the wall and on three sides by the river. 40% of size visible on swisstopo due to high water level.<br>14-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"surveyed the exposed beach bounded on one side by the wall and on three sides by the river. 40% of size visible on swisstopo due to high water level.
+14-03-2021",description,marker,type,,htmlpopup,,layerId,7.269258,47.146833,0,,,,
+Schuessinsel-Kanal-1,"description: survey area bounded by bridge, suze diversion, and wall.<br>14-04-2021<br>22-02-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area bounded by bridge, suze diversion, and wall.
+14-04-2021
+22-02-2021",description,marker,type,,htmlpopup,,layerId,7.267986,47.146952,0,,,,
+Schuessinsel-Kanal-4,description: surveyed area between kanal and play area<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,surveyed area between kanal and play area,description,marker,type,,htmlpopup,,layerId,7.26888,47.14725,0,,,,
+Muehlestrasse-Suze-1,"description: survey area is between path, suze and and bridge, extending until edge of wall, about 30 meters.<br>17-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is between path, suze and and bridge, extending until edge of wall, about 30 meters.
+17-04-2021",description,marker,type,,htmlpopup,,layerId,7.269901,47.147394,0,,,,
+Schuessinsel-Suze-3,description: Surveyed the top edge of the embankment and as far down as possible to see closely.<br>14-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"Surveyed the top edge of the embankment and as far down as possible to see closely.
+14-04-2021",description,marker,type,,htmlpopup,,layerId,7.269336,47.147356,0,,,,
+Schuessinsel-area-1,description: surveyed the larger of the two grassy mounds that contains two trees.<br>14-3-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"surveyed the larger of the two grassy mounds that contains two trees.
+14-3-2021",description,marker,type,,htmlpopup,,layerId,7.269176,47.147495,0,,,,
+eidochsweg-suze-3,"description: survey area bounded by wall on left, cemetery, treeline, and the start of the chain link fence ( about 25 meters from end of wall.<br>17-04-2021<br>20-03-2021<br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp;</span>(eidochsweg<br>suze 3)</div><div>survey area bounded by wall on left, cemetery, treeline, and the start of the chain link fence ( about 25 meters from end of wall.<br>17-04-2021<br>20-03-2021</div></div><br>layerId: KML||https://public.geo.admin.ch/J8AsDWKnTgayCQFzjAHfzw",#icon-1899-9C27B0-labelson,"survey area bounded by wall on left, cemetery, treeline, and the start of the chain link fence ( about 25 meters from end of wall.
+17-04-2021
+20-03-2021",description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(eidochsweg
+suze 3)</div><div>survey area bounded by wall on left, cemetery, treeline, and the start of the chain link fence ( about 25 meters from end of wall.
+17-04-2021
+20-03-2021</div></div>",htmlpopup,KML||https://public.geo.admin.ch/J8AsDWKnTgayCQFzjAHfzw,layerId,7.270453,47.147518,0,,,,
+schloesslifeld-suze-4,"description: survey area is between sidewalk, raised area and suze, about 5 meters<br>20-04-2021<br>26-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is between sidewalk, raised area and suze, about 5 meters
+20-04-2021
+26-05-2021",description,marker,type,,htmlpopup,,layerId,7.270588,47.147979,0,,,,
+Schuessinsel-Kanal-2,"description: survey area is the approximate triangle bounded by the path, the gravel area and the suze.<br>17-04-2020<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is the approximate triangle bounded by the path, the gravel area and the suze.
+17-04-2020",description,marker,type,,htmlpopup,,layerId,7.266907,47.146276,0,,,,
+schuessinsel-suze-10,"description: survey area from line perpendicular from bridge to final three planted trees, from path to river.<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area from line perpendicular from bridge to final three planted trees, from path to river.",description,marker,type,,htmlpopup,,layerId,7.267709,47.146244,0,,,,
+Schuessinsel-Kanal-3,"description: survey area is the approximate triangle between the hedgerow, the suze island canal, and the gravel area.<br>17-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is the approximate triangle between the hedgerow, the suze island canal, and the gravel area.
+17-04-2021",description,marker,type,,htmlpopup,,layerId,7.266365,47.146143,0,,,,
+Schuessinsel-suze-9,description: surveyed grassy area between the paths<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,surveyed grassy area between the paths,description,marker,type,,htmlpopup,,layerId,7.266441,47.145909,0,,,,
+Schuessinsel-Kanal-7,"description: survey area between path and kanal, from bridge to line extending from far edge of building across kanal<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area between path and kanal, from bridge to line extending from far edge of building across kanal",description,marker,type,,htmlpopup,,layerId,7.265885,47.14571,0,,,,
+Schuessinsel-Suze-8,"description: surveyed between river and path, from 5 meters before path breaks off to about halfway to where path meets beach<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed between river and path, from 5 meters before path breaks off to about halfway to where path meets beach",description,marker,type,,htmlpopup,,layerId,7.26681,47.145975,0,,,,
+schuessinsel-suze-7,"description: survey area is berm bounded by sidewalk, including lawn in front of small building. area extends about 30 meters from bridge, including to river.<br>19-04-2021<br>20-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is berm bounded by sidewalk, including lawn in front of small building. area extends about 30 meters from bridge, including to river.
+19-04-2021
+20-03-2021",description,marker,type,,htmlpopup,,layerId,7.265846,47.144647,0,,,,
+schuessinsel-kanal-5,"description: 01.03, surveyed from first big tree to final big tree, to river edge.<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"01.03, surveyed from first big tree to final big tree, to river edge.",description,marker,type,,htmlpopup,,layerId,7.267715,47.14659,0,,,,
+Fussweg-Suze-1,"description: survey area is between side walk and river, and between the two bridges.<br>13-04-2021<br>14-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is between side walk and river, and between the two bridges.
+13-04-2021
+14-03-2021",description,marker,type,,htmlpopup,,layerId,7.261473,47.143511,0,,,,
+schuessinsel-suze-5,"description: survey area is area between bridge, berm and river, including the bank of the river, small rocky face and grassy area. extending about 20 meters from bridge into berm<br>15-04-2021<br>20-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is area between bridge, berm and river, including the bank of the river, small rocky face and grassy area. extending about 20 meters from bridge into berm
+15-04-2021
+20-03-2021",description,marker,type,,htmlpopup,,layerId,7.262288,47.143686,0,,,,
+schuessinsel-suze-6,"description: survey about 10 meters around 2nd tree on gottstrasse, did not descend to beach area on 1st survey.<br>20-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey about 10 meters around 2nd tree on gottstrasse, did not descend to beach area on 1st survey.
+20-03-2021",description,marker,type,,htmlpopup,,layerId,7.26365,47.143856,0,,,,
+scheussinsel-kanal-6,"description: surveyed area between path, chapel and suze<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed area between path, chapel and suze",description,marker,type,,htmlpopup,,layerId,7.263161,47.14415,0,,,,
+Schuessinsel-Suze-2,"description: surveyed area bounded by the river, the path, the line drawn from where the newly installed shrubbery ends, about 4 meters past bridge railing.<br>12-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed area bounded by the river, the path, the line drawn from where the newly installed shrubbery ends, about 4 meters past bridge railing.
+12-04-2021",description,marker,type,,htmlpopup,,layerId,7.262812,47.143969,0,,,,
+Schuessinsel-Suze-1,"description: surveyed form where area widens to where it narrows, see photos for reference<br>12-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed form where area widens to where it narrows, see photos for reference
+12-04-2021",description,marker,type,,htmlpopup,,layerId,7.262422,47.143974,0,,,,
+Fuchsenried-Forest-2,description: survey area is junction between road and forest path and surrounding area. February survey is more expansive due to lack of flowers visible.<br>08-05-2021<br>24-02-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is junction between road and forest path and surrounding area. February survey is more expansive due to lack of flowers visible.
+08-05-2021
+24-02-2021",description,,type,,htmlpopup,,layerId,7.2644066,47.1560466,0,,,,
+Fuchsenried-Forest-3,description: survey area is final ten meters of forest road until the fence/gate. surveyed both sides of path.<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,survey area is final ten meters of forest road until the fence/gate. surveyed both sides of path.,description,marker,type,,htmlpopup,,layerId,7.264434,47.157223,0,,,,
+Holunderweg-Madretschkanal-2,"description: survey area starts from end of area 1 and continues until concrete obstruction of berm/trees, about 35 meters<br>16-04-2021<br>14-03-2021<br>09-02-2021<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area starts from end of area 1 and continues until concrete obstruction of berm/trees, about 35 meters
+16-04-2021
+14-03-2021
+09-02-2021",description,,type,,htmlpopup,,layerId,7.256533,47.140735,0,,,,
+Holunderweg-Madretschkanal-1,description: survey area is madretschkanal berm between bridge and extending 30 meters out.<br>13-05-2021<br>16-04-2021<br>14-03-2021<br>09-02-2021<br><br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is madretschkanal berm between bridge and extending 30 meters out.
+13-05-2021
+16-04-2021
+14-03-2021
+09-02-2021",description,,type,,htmlpopup,,layerId,7.256594,47.14099,0,,,,
+Schleusenweg-suze-1,description: survey area is from dam to first light post<br>15-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is from dam to first light post
+15-04-2021",description,marker,type,,htmlpopup,,layerId,7.256925,47.141846,0,,,,
+Schleusenweg-suze-3,description: survey area is from lightpost to end of concrete path.<br>15-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is from lightpost to end of concrete path.
+15-04-2021",description,marker,type,,htmlpopup,,layerId,7.257512,47.142111,0,,,,
+Schleusenweg-suze-2,description: survey area is between two lightposts<br>15-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is between two lightposts
+15-04-2021",description,marker,type,,htmlpopup,,layerId,7.257214,47.141981,0,,,,
+fussweg-Suze-3,description: 12-04-2021<br>19-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"12-04-2021
+19-05-2021",description,marker,type,,htmlpopup,,layerId,7.2599,47.142396,0,,,,
+fussweg-suze-4,description: suveyed green area between sidewalk and fence starting from edge of building extending 10 meters.<br>12-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"suveyed green area between sidewalk and fence starting from edge of building extending 10 meters.
+12-04-2021",description,marker,type,,htmlpopup,,layerId,7.259823,47.142424,0,,,,
+fussweg-Suze-2,description: surveyed area between path and river and between where the berm totally ends and the small bridge.<br>12-05-2021<br>13-04-2021<br>14-03-2021<br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp,</span>(Suze fussweg<br>Suze 2)</div><div>surveyed area between path and river and between where the berm totally ends and the small bridge.<br>13-04-2021<br>14-03-2021</div></div><br>layerId: KML||https://public.geo.admin.ch/J8AsDWKnTgayCQFzjAHfzw,#icon-1899-9C27B0-labelson,"surveyed area between path and river and between where the berm totally ends and the small bridge.
+12-05-2021
+13-04-2021
+14-03-2021",description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(Suze fussweg
+Suze 2)</div><div>surveyed area between path and river and between where the berm totally ends and the small bridge.
+13-04-2021
+14-03-2021</div></div>",htmlpopup,KML||https://public.geo.admin.ch/J8AsDWKnTgayCQFzjAHfzw,layerId,7.261276,47.143268,0,,,
+Mattenstrasse-Area-1,"description: surveyed the small park area, bounded by a hedgerow and the roads. very large tree. lots of dirt/path. mahonia adquifolium not looing happy. hedge rows not identified (10.04)<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed the small park area, bounded by a hedgerow and the roads. very large tree. lots of dirt/path. mahonia adquifolium not looing happy. hedge rows not identified (10.04)",description,marker,type,,htmlpopup,,layerId,7.254478,47.136806,0,,,,
+Mattenstrasse-Berm-1,"description: surveyed wild area, had just been fully cut back a few days (a week?) prior.<br>10-04-2021<br>13-05-2021<br><br>relatively barren, lots of graasses<br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp;</span>(10-04<br>Mattenstrasse <br>Berm 1)</div><div>surveyed wild area, had just been fully cut back a few days (a week?) prior.<br><br>relatively barren, lots of graasses</div></div><br>layerId: KML||https://public.geo.admin.ch/56a59BHVTviHH1bu7uHxFg",#icon-1899-9C27B0-labelson,"surveyed wild area, had just been fully cut back a few days (a week?) prior.
+10-04-2021
+13-05-2021
+
+relatively barren, lots of graasses",description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(10-04
+Mattenstrasse 
+Berm 1)</div><div>surveyed wild area, had just been fully cut back a few days (a week?) prior.
+
+relatively barren, lots of graasses</div></div>",htmlpopup,KML||https://public.geo.admin.ch/56a59BHVTviHH1bu7uHxFg,layerId,7.254698,47.137095,0,,,,
+Mattenstrasse-Berm-2,"description: cultivated area, grass mowed, some bulb plants, etc, 10-04<br><br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"cultivated area, grass mowed, some bulb plants, etc, 10-04",description,marker,type,,htmlpopup,,layerId,7.255104,47.137271,0,,,,
+Mattenstrasse-Berm-3,"description: non cultivated part of berm, surveyed until the final narrowing of the green area. 10-04<br><br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"non cultivated part of berm, surveyed until the final narrowing of the green area. 10-04",description,marker,type,,htmlpopup,,layerId,7.255296,47.137378,0,,,,
+mettstrasse-lot-1,"description: survey area is gravelly road and both sides of it, up to wall edge, and up to trashbags, slightly before trashbags.<br>25-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is gravelly road and both sides of it, up to wall edge, and up to trashbags, slightly before trashbags.
+25-05-2021",description,marker,type,,htmlpopup,,layerId,7.262216,47.138666,0,,,,
+holunderweg-Madretschkanal-4,"description: survey area from fence to madretschkanal, bounded on sides by the lines extending from the 2 residential buildings across the fence.<br>12-05-2021<br>16-04-2021<br>20-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area from fence to madretschkanal, bounded on sides by the lines extending from the 2 residential buildings across the fence.
+12-05-2021
+16-04-2021
+20-03-2021",description,marker,type,,htmlpopup,,layerId,7.2552348,47.1399838,0,,,,
+holunderweg-Madretschkanal-3,description: survey area is from fence to river and from sidewalk to about 20 meters into area<br>13-05-2021<br>16-04-2021<br>20-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is from fence to river and from sidewalk to about 20 meters into area
+13-05-2021
+16-04-2021
+20-03-2021",description,marker,type,,htmlpopup,,layerId,7.256283,47.140285,0,,,,
+Riedweg-forest-1,description: survey area is edge of forest and about 5 meters into forest behind barbecue area<br>26-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is edge of forest and about 5 meters into forest behind barbecue area
+26-03-2021",description,marker,type,,htmlpopup,,layerId,7.269313,47.133197,0,,,,
+Laengholz-forest-6,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.277632,47.133839,0,,,,
+,description: LÃ¤ngholz<br>forest 6<br>transect<br>type: linepolygon<br>htmlpopup: <br>layerId: ,#line-9C27B0-1200,"LÃ¤ngholz
+forest 6
+transect",description,linepolygon,type,,htmlpopup,,layerId,,,,1,"7.277612,47.133842,0
+          7.277434,47.133787,0
+          7.277098,47.13356,0
+          7.276912,47.133416,0",,
+laengholz-Forest-15,description: survey area is the left and right side of buchenweg for about 20 meters starting with an exposed hill with lots of early flowering plants.<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,survey area is the left and right side of buchenweg for about 20 meters starting with an exposed hill with lots of early flowering plants.,description,marker,type,,htmlpopup,,layerId,7.262788,47.125647,0,,,,
+Laengholz-Forest-3,"description: survey area is about 4 meters wide by 8 meters long, bounded by paths.<br>08-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is about 4 meters wide by 8 meters long, bounded by paths.
+08-03-2021",description,marker,type,,htmlpopup,,layerId,7.26835,47.126927,0,,,,
+Bermenstrasse-Berm-2,"description: surveyed from underneat bridge to edge of house and shortly upwards from the ""path""<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed from underneat bridge to edge of house and shortly upwards from the ""path""",description,marker,type,,htmlpopup,,layerId,7.259613,47.127464,0,,,,
+Bermenstrasse-Area-1,description: survey area between fence and bermenstrasse<br>03-04-2021<br>03-05-2021<br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp,</span>(Bermenstrasse<br>Area 1)</div><div>survey area between fence and bermenstrasse<br>03-04-2021</div></div><br>layerId: KML||https://public.geo.admin.ch/f6MfU8pdTEq-PfHgCqoWNA,#icon-1899-9C27B0-labelson,"survey area between fence and bermenstrasse
+03-04-2021
+03-05-2021",description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(Bermenstrasse
+Area 1)</div><div>survey area between fence and bermenstrasse
+03-04-2021</div></div>",htmlpopup,KML||https://public.geo.admin.ch/f6MfU8pdTEq-PfHgCqoWNA,layerId,7.259515,47.127733,0,,,
+Laengholz-forest-4,"description: survey area is exposed forest edge, about 8 meters long, 2 meters deep.<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is exposed forest edge, about 8 meters long, 2 meters deep.",description,marker,type,,htmlpopup,,layerId,7.2673042,47.1279539,0,,,,
+Laengholz-forest-5,"description: Galanthus nivalis<br>Large patch extended 4-5 meters in all directions of both galanthus nivalis and Corydalis solida in full flower with seemingly more of each (especially CS) to come, Very large patch of Crocus vernus flowering next to a small goat farm. The goats had been let loose some days ago and torn up the Crocus, but new flowers back alread<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"Galanthus nivalis
+Large patch extended 4-5 meters in all directions of both galanthus nivalis and Corydalis solida in full flower with seemingly more of each (especially CS) to come, Very large patch of Crocus vernus flowering next to a small goat farm. The goats had been let loose some days ago and torn up the Crocus, but new flowers back alread",description,marker,type,,htmlpopup,,layerId,7.2670745,47.1331305,0,,,,
 "Pfeidli
-Forest 2",7.2736678,47.1218013
-Pfeidli-forest-4,7.2697726,47.121612
-Pfeidli-forest-1,7.2701817,47.1219723
+Forest 2",description: survey area is along the path at the entrance to the remaining forest<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,survey area is along the path at the entrance to the remaining forest,description,marker,type,,htmlpopup,,layerId,7.2736678,47.1218013,0,,,,
+Pfeidli-forest-4,"description: 17-03, 16-05, survey area is clearing around path into forest and just into forest area, about 10 square meters<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"17-03, 16-05, survey area is clearing around path into forest and just into forest area, about 10 square meters",description,marker,type,,htmlpopup,,layerId,7.2697726,47.121612,0,,,,
+Pfeidli-forest-1,"description: survey area is the newly cleared forest and the trees to the left, adjascent to pfeidwaldstrasse, 16-05-2021, 17-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is the newly cleared forest and the trees to the left, adjascent to pfeidwaldstrasse, 16-05-2021, 17-03-2021",description,marker,type,,htmlpopup,,layerId,7.2701817,47.1219723,0,,,,
 "Pfeidli
-Forest 3",7.272236,47.123781
-"Brueggstrasse
-berm 4",7.262071,47.124976
-Brueggstrasse-berm-5,7.262354,47.125063
-"Brueggstrasse
-berm 3",7.261725,47.125393
+Forest 3","description: survey area is entrance to forest, about 2 meters in on each side of the path, about 2 meters from the path in each direction.<br>16-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is entrance to forest, about 2 meters in on each side of the path, about 2 meters from the path in each direction.
+16-05-2021",description,marker,type,,htmlpopup,,layerId,7.272236,47.123781,0,,,,
+bielstrasse-berm-3,"description: survey area is left side of road, from speed sign to bike path underneath road/highway<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is left side of road, from speed sign to bike path underneath road/highway",description,marker,type,,htmlpopup,,layerId,7.2626691,47.1247205,0,,,,
+Bielstrasse-berm-4,description: survey area is green patch between left branch of path and fenced off/gravel area.<br>23-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is green patch between left branch of path and fenced off/gravel area.
+23-05-2021",description,marker,type,,htmlpopup,,layerId,7.262354,47.125063,0,,,,
+bielstrasse-berm-2,description: survey area is green area between sidewalk and cemetery<br>22-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is green area between sidewalk and cemetery
+22-05-2021",description,marker,type,,htmlpopup,,layerId,7.261725,47.125393,0,,,,
 "Lokomotivdepot
-area 3",7.257971,47.12973
-bermenstrasse-area-2,7.258793,47.13052
-"Bermenstrasse
-Berm 5",7.258573,47.131374
-"bermenstrasse
-berm 4",7.25861,47.130523
-"Lindenweg
-area 1",layerId,7.258339
-"Blumenrain
-Berm 1",7.257577,47.133078
-"05-04
-Blumenrain
-Box 1",7.257084,47.13271
-"Rebenweg
-Area 1",7.258784,47.131643
-"Portplatz
-Box 1",7.258257,47.12748
--,-,-
-Brueggstrasse-berm-2,7.258981,47.127654
-"BrÃ¼ggstrasse
-Box 1",7.257402,47.128112
-Forsythia intermedia x,7.258733,47.127695
-Bermenstrasse-Berm-1,7.259475,47.12767
-"BrÃ¼ggstrasse
-Box 2",7.256646,47.128562
-Bermenstrasse-Berm-3,7.258558,47.129456
-"Portstrasse
-Area 2",7.258738,47.126973
-"erlacherweg
-area 1",7.258605,47.125005
--,-,-
-Mooswaeldli-Area-2,7.258955,47.12281
-Mooswaeldi-area-1,7.258957,47.122988
-"Portplatz
-Box 3",7.258658,47.127298
-"Portstrasse
-Area 1",7.258643,47.126954
-"Portplatz
-Box 2",7.258452,47.127356
-"BrÃ¼ggstrasse
-Area 1",7.255181,47.129568
-Lokomotivdepot-area-1,7.256611,47.130007
-Lokomotivdepot-area-2,7.256326,47.130096
-Lokomotivdepot-berm-2,7.2548466,47.1301507
-Lokomotivdepot-berm-1,7.254482,47.130264
-"Blumenrain
-Area 1",7.255978,47.132663
+area 3",description: A very nice pine tree was cut down between Mar 2020 and 04.04.2021 and an interesting little pine biotope destroyed<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,A very nice pine tree was cut down between Mar 2020 and 04.04.2021 and an interesting little pine biotope destroyed,description,marker,type,,htmlpopup,,layerId,7.257971,47.12973,0,,,,
+bermenstrasse-area-2,"description: survey area between ttree/shrub line and edge of road,<br>03-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area between ttree/shrub line and edge of road,
+03-05-2021",description,marker,type,,htmlpopup,,layerId,7.258793,47.13052,0,,,,
+Bermenstrasse-Berm-5,"description: surveyed between bridge and end of row of five trees, wandered from top to bottom.<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed between bridge and end of row of five trees, wandered from top to bottom.",description,marker,type,,htmlpopup,,layerId,7.258573,47.131374,0,,,,
+bermenstrasse-berm-4,description: survey area between small conifer and 5 meters before rock circle on map.<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,survey area between small conifer and 5 meters before rock circle on map.,description,marker,type,,htmlpopup,,layerId,7.25861,47.130523,0,,,,
+Lindenweg-area-1,description: survey area between road and train sound barrier.<br>04-04-2021<br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp,</span>(04-04<br>Lindenweg)</div><div></div></div><br>layerId: KML||https://public.geo.admin.ch/56a59BHVTviHH1bu7uHxFg,#icon-1899-9C27B0-labelson,"survey area between road and train sound barrier.
+04-04-2021",description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(04-04
+Lindenweg)</div><div></div></div>",htmlpopup,KML||https://public.geo.admin.ch/56a59BHVTviHH1bu7uHxFg,layerId,7.258339,47.132959,0,,,
+Blumenrain-Berm-1,description: surveyed the entire berm area between until the road curves away.<br>05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"surveyed the entire berm area between until the road curves away.
+05-04-2021",description,marker,type,,htmlpopup,,layerId,7.2575676,47.1330452,0,,,,
+Blumenrain-Box-1,"description: 05-04, 03-07<br><br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"05-04, 03-07",description,marker,type,,htmlpopup,,layerId,7.257084,47.13271,0,,,,
+Rebenweg-Area-1,description: survey area between bermenstrasse and rebenweg until building.<br>04-04-2021<br>03-05-2021<br>03-07-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area between bermenstrasse and rebenweg until building.
+04-04-2021
+03-05-2021
+03-07-2021",description,,type,,htmlpopup,,layerId,7.258784,47.131643,0,,,,
+Portplatz-Box-1,description: survey area is the center of the roundabout.<br>05-04-2021<br>19-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is the center of the roundabout.
+05-04-2021
+19-05-2021",description,marker,type,,htmlpopup,,layerId,7.258257,47.12748,0,,,,
+Brueggstrasse-berm-2,"description: surveyed area from tree/shrub line until 4th municipal tree<br>04-04-2021<br>19-05-2021<br>Survey area: extended from the treeline to the Forsythia x intermedia, just after the start of the second property, and between the highway and the fence.<br>Survey area is very steep, facing away from the sun.<br>Corydalus cava made up signficant part of ground cover with many flowers some turning to seeds at this point.<br>Cardamine pratensis scattered throughout the survey area, low coverage, but looks likely to increase signficantly.<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed area from tree/shrub line until 4th municipal tree
+04-04-2021
+19-05-2021
+Survey area: extended from the treeline to the Forsythia x intermedia, just after the start of the second property, and between the highway and the fence.
+Survey area is very steep, facing away from the sun.
+Corydalus cava made up signficant part of ground cover with many flowers some turning to seeds at this point.
+Cardamine pratensis scattered throughout the survey area, low coverage, but looks likely to increase signficantly.",description,marker,type,,htmlpopup,,layerId,7.2586886,47.1276467,0,,,,
+Brueggstrasse-Box-1,description: 03-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,03-04-2021,description,marker,type,,htmlpopup,,layerId,7.257402,47.128112,0,,,,
+Bermenstrasse-Berm-1,"description: surveyed area immediately around path, in flat ground at bottom, avoided stepping on delicate terrain, plants largely visible.<br>22-05-2021<br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp;</span>(Bermenstrasse<br>Berm 1)</div><div>surveyed area immediately around path, in flat ground at bottom, avoided stepping on delicate terrain, plants largely visible.</div></div><br>layerId: KML||https://public.geo.admin.ch/Kyc8bpb7S3qy_BBTHcBgzQ",#icon-1899-9C27B0-labelson,"surveyed area immediately around path, in flat ground at bottom, avoided stepping on delicate terrain, plants largely visible.
+22-05-2021",description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(Bermenstrasse
+Berm 1)</div><div>surveyed area immediately around path, in flat ground at bottom, avoided stepping on delicate terrain, plants largely visible.</div></div>",htmlpopup,KML||https://public.geo.admin.ch/Kyc8bpb7S3qy_BBTHcBgzQ,layerId,7.259475,47.12767,0,,,,
+Brueggstrasse-Box-2,description: 03-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,03-04-2021,description,marker,type,,htmlpopup,,layerId,7.256646,47.128562,0,,,,
+Bermenstrasse-Berm-3,description: Surveyed berm opposite the plots of land between the two streets.<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,Surveyed berm opposite the plots of land between the two streets.,description,marker,type,,htmlpopup,,layerId,7.258558,47.129456,0,,,,
+Portstrasse-Area-2,"description: survey area between sidewalk and fence, bounded by sidewalk to the same first tree in area 1<br>03-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area between sidewalk and fence, bounded by sidewalk to the same first tree in area 1
+03-05-2021",description,marker,type,,htmlpopup,,layerId,7.258738,47.126973,0,,,,
+erlacherweg-park-5,description: 22-05-20221<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,22-05-20221,description,marker,type,,htmlpopup,,layerId,7.258605,47.125005,0,,,,
+Mooswaeldli-Area-2,"description: survey area between trees and sidewalk, on left side of path leading out of forest, extending left about 3 meters.<br>25-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area between trees and sidewalk, on left side of path leading out of forest, extending left about 3 meters.
+25-03-2021",description,marker,type,,htmlpopup,,layerId,7.258955,47.12281,0,,,,
+Mooswaeldi-area-1,"description: 10 meters from end of slop toward biel, between bike path and highway<br>25-03-2021<br>22-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"10 meters from end of slop toward biel, between bike path and highway
+25-03-2021
+22-05-2021",description,marker,type,,htmlpopup,,layerId,7.258957,47.122988,0,,,,
+Portplatz-Box-3,description: survey area is between moosweg and portstrasse until shed/stairs.<br>05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is between moosweg and portstrasse until shed/stairs.
+05-04-2021",description,marker,type,,htmlpopup,,layerId,7.258658,47.127298,0,,,,
+Portstrasse-Area-1,"description: survey area between road and sidewalk, bounded by shrub, down to first tree.<br>03-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area between road and sidewalk, bounded by shrub, down to first tree.
+03-05-2021",description,marker,type,,htmlpopup,,layerId,7.258643,47.126954,0,,,,
+Portplatz-Box-2,description: survey area is this bit of grass and shrubbery planted in between the road.<br>05-04-2021<br>19-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is this bit of grass and shrubbery planted in between the road.
+05-04-2021
+19-05-2021",description,marker,type,,htmlpopup,,layerId,7.258452,47.127356,0,,,,
+Brueggstrasse-Area-1,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.255181,47.129568,0,,,,
+Lokomotivdepot-area-1,description: 04-04-21<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,04-04-21,description,marker,type,,htmlpopup,,layerId,7.256611,47.130007,0,,,,
+Lokomotivdepot-area-2,description: 04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,04-04-2021,description,marker,type,,htmlpopup,,layerId,7.256326,47.130096,0,,,,
+Lokomotivdepot-berm-2,"description: 26-03-2021<br>survey area includes about 5 meters of hedgerow and undergrowth on the right, about 5 meters on the left and about 5 meters into the train tracks.<br>26-03-2021<br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp;</span>(Lokomotivdepot<br>berm 2)</div><div>26-03-2021<br>survey area includes about 5 meters of hedgerow and undergrowth on the right, about 5 meters on the left and about 5 meters into the train tracks.<br>26-03-2021</div></div><br>layerId: KML||https://public.geo.admin.ch/7erVQ2UGSKmRi0t2CVQHow",#icon-1899-9C27B0-labelson,"26-03-2021
+survey area includes about 5 meters of hedgerow and undergrowth on the right, about 5 meters on the left and about 5 meters into the train tracks.
+26-03-2021",description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(Lokomotivdepot
+berm 2)</div><div>26-03-2021
+survey area includes about 5 meters of hedgerow and undergrowth on the right, about 5 meters on the left and about 5 meters into the train tracks.
+26-03-2021</div></div>",htmlpopup,KML||https://public.geo.admin.ch/7erVQ2UGSKmRi0t2CVQHow,layerId,7.2548466,47.1301507,0,,,,
+Lokomotivdepot-berm-1,description: the entirety of the berm area on this side of the road<br>04-04-2021<br>23-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"the entirety of the berm area on this side of the road
+04-04-2021
+23-05-2021",description,marker,type,,htmlpopup,,layerId,7.254482,47.130264,0,,,,
+Blumenrain-Area-1,description: 04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,04-04-2021,description,marker,type,,htmlpopup,,layerId,7.255978,47.132663,0,,,,
+Madretschstrasse-Box-8,description: survey area is the 1st planted area by the bus stop.<br>05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is the 1st planted area by the bus stop.
+05-04-2021",description,marker,type,,htmlpopup,,layerId,7.254485,47.133815,0,,,,
+Alleestrasse-Area-1,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.254555,47.134191,0,,,,
+Erlacherweg-park-1,description: shrubby area surrounded by concrete/gravel<br>12-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"shrubby area surrounded by concrete/gravel
+12-04-2021",description,marker,type,,htmlpopup,,layerId,7.255524,47.128323,0,,,,
+Brueggstrasse-Box-3,description: 03-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,03-04-2021,description,marker,type,,htmlpopup,,layerId,7.256441,47.128673,0,,,,
+Brueggstrasse-Box-4,description: 03-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,03-04-2021,description,marker,type,,htmlpopup,,layerId,7.256227,47.128806,0,,,,
+Erlacherweg-park-2,description: shrubby area surrounded by concrete/gravel<br>11-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"shrubby area surrounded by concrete/gravel
+11-04-2021",description,marker,type,,htmlpopup,,layerId,7.255699,47.128326,0,,,,
+Reckweg-Zihlkanal-2,description: Survey area is the first three beaches/berm after heidweg meets ruckweg<br>25-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"Survey area is the first three beaches/berm after heidweg meets ruckweg
+25-03-2021",description,marker,type,,htmlpopup,,layerId,7.254764,47.122151,0,,,,
+Reckweg-Forest -1,description: Survey area was clearing from the trees (pine trees in swisstopo map all cut done)<br>25-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"Survey area was clearing from the trees (pine trees in swisstopo map all cut done)
+25-03-2021",description,marker,type,,htmlpopup,,layerId,7.255343,47.121176,0,,,,
+Reckweg-Zihlkanal-1,"description: Survey area is bank of canal and roadside about 7 meters long 4 meters wide, see photos for clarifications<br>25-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"Survey area is bank of canal and roadside about 7 meters long 4 meters wide, see photos for clarifications
+25-03-2021",description,marker,type,,htmlpopup,,layerId,7.254522,47.12239,0,,,,
+Reckweg-Forest-2,"description: survey area is forest area between sidewalk, heidweg and fence, about 5 meters along path.<br>25-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is forest area between sidewalk, heidweg and fence, about 5 meters along path.
+25-03-2021",description,marker,type,,htmlpopup,,layerId,7.254833,47.122313,0,,,,
+Reckweg-Zihlkanal-3,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.254995,47.121798,0,,,,
+Erlacherweg-park-3,description: survey is the shrubby area<br>11-04-2021<br>29-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey is the shrubby area
+11-04-2021
+29-03-2021",description,marker,type,,htmlpopup,,layerId,7.255268,47.127921,0,,,,
+Erlacherweg-park-4,"description: grassy, mowed area, includes areas under the trees<br>11-04-2021<br>29-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"grassy, mowed area, includes areas under the trees
+11-04-2021
+29-03-2021",description,marker,type,,htmlpopup,,layerId,7.255466,47.128079,0,,,,
+Schwanengasse-area-4,"description: 09-04, 10-03<br><br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"09-04, 10-03",description,marker,type,,htmlpopup,,layerId,7.253221,47.13781,0,,,,
+Schwanengasse-Madretchkanal-1,"description: survey area bounded by bridge, sidewalk and river, extending about 45 meters from bridge.<br>10-04-2021<br>07-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area bounded by bridge, sidewalk and river, extending about 45 meters from bridge.
+10-04-2021
+07-05-2021",description,marker,type,,htmlpopup,,layerId,7.2531947,47.1387112,0,,,,
+holunderweg-madretschkanal-5,"description: survey area is the last bit of fence bounded by the fence on two sides, madretschkanal and extending about 20 meters out.<br>12-05-2021<br>16-04-2021<br>20-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is the last bit of fence bounded by the fence on two sides, madretschkanal and extending about 20 meters out.
+12-05-2021
+16-04-2021
+20-03-2021",description,marker,type,,htmlpopup,,layerId,7.254166,47.139661,0,,,,
+Bahnweg-Area-2,description: survey area is right side of path from the last building until the end of the road.<br>10-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is right side of path from the last building until the end of the road.
+10-04-2021",description,marker,type,,htmlpopup,,layerId,7.253308,47.134413,0,,,,
+Bahnweg-Madretschkanal-6,"description: Forest area after end of Bahnweg, bounded by Madretschkanal 5, the fence, and the Madretschkanal.<br>08-03-2021<br>06-04-2021<br>22-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"Forest area after end of Bahnweg, bounded by Madretschkanal 5, the fence, and the Madretschkanal.
+08-03-2021
+06-04-2021
+22-05-2021",description,marker,type,,htmlpopup,,layerId,7.253022,47.134607,0,,,,
+Alleestrasse-Madretschkanal-4,"description: 10.04.2021, survey area is little forest patch between roads and madretschkanal<br><br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"10.04.2021, survey area is little forest patch between roads and madretschkanal",description,marker,type,,htmlpopup,,layerId,7.253147,47.135614,0,,,,
+Alleestrasse-Madretschkanal-1,"description: survey area from bridge to bend in river, including the grass area sticking out adjascent to bridge.<br>04-04-2021<br>07-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area from bridge to bend in river, including the grass area sticking out adjascent to bridge.
+04-04-2021
+07-05-2021",description,marker,type,,htmlpopup,,layerId,7.252838,47.135874,0,,,,
+Schwanengasse-Area-3,description: survey area is hill and flat area extending about half meter out<br>09-04-2021<br>07-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is hill and flat area extending about half meter out
+09-04-2021
+07-05-2021",description,marker,type,,htmlpopup,,layerId,7.253021,47.1372,0,,,,
+Schwanengasse-area-1,description: survea area is difficult to describe<br>09-04-2021<br>07-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survea area is difficult to describe
+09-04-2021
+07-05-2021",description,marker,type,,htmlpopup,,layerId,7.252997,47.1373626,0,,,,
+Schwanengasse-area-2,description: survey area is difficult to describe<br>09-04-2021<br>07-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is difficult to describe
+09-04-2021
+07-05-2021",description,marker,type,,htmlpopup,,layerId,7.25334,47.137406,0,,,,
+Madretschstrasse-Box-1,description: survey area is planted area (separate from tree line)<br>04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is planted area (separate from tree line)
+04-04-2021",description,marker,type,,htmlpopup,,layerId,7.254065,47.133894,0,,,,
+Madretschstrasse-Box-2,description: survey area is 1st planted area by bus stop<br>04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is 1st planted area by bus stop
+04-04-2021",description,marker,type,,htmlpopup,,layerId,7.25419,47.133818,0,,,,
+Madretschstrasse-Box-6,description: Survey area is planted area around tree.<br>04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"Survey area is planted area around tree.
+04-04-2021",description,marker,type,,htmlpopup,,layerId,7.253186,47.132846,0,,,,
+Madretschstrasse-Box-3,description: survey area is 2nd planted area by bus stop<br>04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is 2nd planted area by bus stop
+04-04-2021",description,marker,type,,htmlpopup,,layerId,7.254333,47.133963,0,,,,
+Madretschstrasse-Box-5,description: Survey area is planted area around tree.<br>04-04-2021<br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp,</span>(04-04<br>Madretschstrasse<br>Box 5)</div><div></div></div><br>layerId: KML||https://public.geo.admin.ch/56a59BHVTviHH1bu7uHxFg,#icon-1899-9C27B0-labelson,"Survey area is planted area around tree.
+04-04-2021",description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(04-04
+Madretschstrasse
+Box 5)</div><div></div></div>",htmlpopup,KML||https://public.geo.admin.ch/56a59BHVTviHH1bu7uHxFg,layerId,7.253289,47.132887,0,,,
 "Madretschstrasse
-Box 8",7.254485,47.133815
-"10-04
-Alleestrasse
-Area 1",7.254555,47.134191
-"Erlacherweg
-park 1",7.255524,47.128323
-"BrÃ¼ggstrasse
-Box 8",7.254528,47.129452
-"BrÃ¼ggstrasse
-Box 3",7.256441,47.128673
-"BrÃ¼ggstrasse
-Box 4",7.256227,47.128806
-"Erlacherweg
-park 2",7.255699,47.128326
-"BrÃ¼ggstrasse
-Box 10",7.254609,47.129454
-"BrÃ¼ggstrasse
-Box 7",7.254456,47.129475
-"BrÃ¼ggstrasse
-Box 9",7.25457,47.129487
-Reckweg-Zihlkanal-2,7.254764,47.122151
-Reckweg-Forest -1,7.255343,47.121176
-"Reckweg
-Zihlkanal 1",7.254522,47.12239
-Reckweg-Forest-2,7.254833,47.122313
-Reckweg-Zihlkanal-3,7.254995,47.121798
--,-,-
-"Erlacherweg
-park 3",7.255268,47.127921
-"Erlacherweg
-park 4",7.255466,47.128079
-Schwanengasse-area-4,7.253221,47.13781
-"Schwanengasse
-Madretchkanal 1",7.2531947,47.1387112
-"holunderweg
-madretschkanal 5",7.254166,47.139661
-Bahnweg-Area-2,7.253308,47.134413
-Bahnweg-Madretschkanal -6,7.253022,47.134607
-Alleestrasse-Madretschkanal-4,7.253147,47.135614
-Alleestrasse-Madretschkanal-1,7.252838,47.135874
-"Schwanengasse
-Area 3",7.253021,47.1372
-"10-04
-Alleestrasse
-Box 3",7.252981,47.136727
-"Schwanengasse
-area 1",7.252942,47.1374
-"Schwanengasse
-area 2",7.25334,47.137406
+Box 4",description: Survey area is planted area around tree.<br>04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"Survey area is planted area around tree.
+04-04-2021",description,marker,type,,htmlpopup,,layerId,7.253369,47.132933,0,,,,
 "Madretschstrasse
-Box 1",7.254065,47.133894
-"Madretschstrasse
-Box 2",7.25419,47.133818
-"Madretschstrasse
-Box 6",7.253186,47.132846
-"Madretschstrasse
-Box 3",7.254333,47.133963
-"Madretschstrasse
-Box 5",layerId,7.253289
-"Madretschstrasse
-Box 4",7.253369,47.132933
-"Madretschstrasse
-Box 7",7.254281,47.133643
-Bahnweg-Area-1,7.253882,47.134065
-Alleestrasse-Madretschkanal-2,7.252639,47.136234
-Alleestrasse-Madretschkanal-3,7.252592,47.136517
-"10-04
-Alleestrasse
-Box 1",7.252783,47.136633
-"Silbergasse
-Area 1",7.251363,47.136691
-"10-04
-Alleestrasse
-Box 2",7.252823,47.136821
-"10-04
-Salomegasse
-Madretschkanal 1",7.252533,47.137195
-"10-04
-Salomegasse
-Madretschkanal 2",7.252623,47.137474
-Schwanengasse-Madretschkanal-2,7.252777,47.137534
-"Freiburgstrasse
-Box 2",7.249888,47.132906
-"05-04
-SchneidergÃ¤ssli
-Area 1",7.249376,47.133003
-Bahnweg-madretschkanal-1,7.252029,47.134017
-"Freiburgstrasse
-Box 1",7.250279,47.133121
-Bahnweg-Madretschkanal-2,7.251956,47.134074
-Bahnweg-Madretschkanal-4,7.252238,47.134303
-Bahnweg-Madretschkanal-5,7.252572,47.134408
-Bahnweg-Madretschkanal-3,7.252452,47.134279
-"03-04-21
-Zukunftstrasse
-Box 5",7.24926,47.132256
-"Freiburgstrasse
-Box 5",7.249157,47.132467
-"03-04-21
-Zukunftstrasse
-Box 7",7.249042,47.132353
-"03-04-21
-Zukunftstrasse
-Box 6",7.249165,47.132341
-"03-04-21
-Zukunftstrasse
-Box 8",7.248824,47.132541
-Zentralastrasse-Madretschkanal-1,7.2505675,47.1328308
-"Freiburgstrasse
-Box 4",7.249491,47.132715
-"Freiburgstrasse
-Box 3",7.249664,47.132816
+Box 7",description: survey area is the 1st planted area by the bus stop.<br>05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is the 1st planted area by the bus stop.
+05-04-2021",description,marker,type,,htmlpopup,,layerId,7.254281,47.133643,0,,,,
+Bahnweg-Area-1,"description: Surveyed the right side of the sidewalk, bounded by the fence, the road, the parking lot on three sides. Survey length about 30 meters.<br>10-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"Surveyed the right side of the sidewalk, bounded by the fence, the road, the parking lot on three sides. Survey length about 30 meters.
+10-04-2021",description,marker,type,,htmlpopup,,layerId,7.253882,47.134065,0,,,,
+Alleestrasse-Madretschkanal-2,"description: survey area from bend in river to concrete, between river and sidewalk.<br>04-04-2021<br>07-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area from bend in river to concrete, between river and sidewalk.
+04-04-2021
+07-05-2021",description,marker,type,,htmlpopup,,layerId,7.252639,47.136234,0,,,,
+Alleestrasse-Madretschkanal-3,"description: survey area between river, bridge and road.<br>04-04-2021<br>07-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area between river, bridge and road.
+04-04-2021
+07-05-2021",description,marker,type,,htmlpopup,,layerId,7.252592,47.136517,0,,,,
+Silbergasse-Area-1,description: survey area is the less-mowed hills left in the mowed grass area.<br>12-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is the less-mowed hills left in the mowed grass area.
+12-04-2021",description,marker,type,,htmlpopup,,layerId,7.251363,47.136691,0,,,,
+Salomegasse-Madretschkanal-1,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.252533,47.137195,0,,,,
+Salomegasse-Madretschkanal-2,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.252623,47.137474,0,,,,
+Schwanengasse-Madretschkanal-2,description: survey area from first tree to third tree<br>10-04-2021<br>07-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area from first tree to third tree
+10-04-2021
+07-05-2021",description,marker,type,,htmlpopup,,layerId,7.252777,47.137534,0,,,,
+Freiburgstrasse-Box-2,description: 04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,04-04-2021,description,marker,type,,htmlpopup,,layerId,7.249888,47.132906,0,,,,
+Schneidergaessli-Area-1,"description: 05-04-21, 27-06-21<br><br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"05-04-21, 27-06-21",description,marker,type,,htmlpopup,,layerId,7.249376,47.133003,0,,,,
+Bahnweg-madretschkanal-1,"description: survey area is wild grass area enclosed by the path, the mowed grass boundary.<br>08-03-2021<br>06-04-2021<br>22-05-2021<br>01-02-2021<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is wild grass area enclosed by the path, the mowed grass boundary.
+08-03-2021
+06-04-2021
+22-05-2021
+01-02-2021",description,,type,,htmlpopup,,layerId,7.252029,47.134017,0,,,,
+Freiburgstrasse-Box-1,description: 04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,04-04-2021,description,marker,type,,htmlpopup,,layerId,7.250279,47.133121,0,,,,
+Bahnweg-Madretschkanal-2,"description: survey area was entire forest area between river - path, path - fence<br>06-04-2021<br>08-03-2021<br>22-05-2021<br>01-02-2021<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area was entire forest area between river - path, path - fence
+06-04-2021
+08-03-2021
+22-05-2021
+01-02-2021",description,,type,,htmlpopup,,layerId,7.251956,47.134074,0,,,,
+Bahnweg-Madretschkanal-4,description: entire forest area between path and 5 meters after the bulge on this side of the river.<br>08-03-2021<br>06-04-2021<br>22-05-2021<br>01-02-2021<br><br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"entire forest area between path and 5 meters after the bulge on this side of the river.
+08-03-2021
+06-04-2021
+22-05-2021
+01-02-2021",description,marker,type,,htmlpopup,,layerId,7.252238,47.134303,0,,,,
+Bahnweg-Madretschkanal-5,description: forest area between end of Madretschkanal 4 and start of planted area at the end of Bahnweg.<br>08-03-2021<br>06-04-2021<br>22-05-2021<br>01-02-2021<br><br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"forest area between end of Madretschkanal 4 and start of planted area at the end of Bahnweg.
+08-03-2021
+06-04-2021
+22-05-2021
+01-02-2021",description,,type,,htmlpopup,,layerId,7.252572,47.134408,0,,,,
+Bahnweg-Madretschkanal-3,description: survey area is wild grass area enclosed by the path.<br>08-03-2021<br>06-04-2021<br>22-05-2021<br>01-02-2021<br><br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is wild grass area enclosed by the path.
+08-03-2021
+06-04-2021
+22-05-2021
+01-02-2021",description,marker,type,,htmlpopup,,layerId,7.252452,47.134279,0,,,,
+Zukunftstrasse-Box-5,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.24926,47.132256,0,,,,
+Freiburgstrasse-Box-5,description: 04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,04-04-2021,description,marker,type,,htmlpopup,,layerId,7.249157,47.132467,0,,,,
+Zukunftstrasse-Box-7,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.249042,47.132353,0,,,,
+Zukunftstrasse-Box-6,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.249165,47.132341,0,,,,
+Zukunftstrasse-Box-8,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.248824,47.132541,0,,,,
+Zentralastrasse-Madretschkanal-1,"description: 09-04, 09-03, survey area from access point to first perpindicular road<br><br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"09-04, 09-03, survey area from access point to first perpindicular road",description,marker,type,,htmlpopup,,layerId,7.2505675,47.1328308,0,,,,
+Freiburgstrasse-Box-4,description: 04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,04-04-2021,description,marker,type,,htmlpopup,,layerId,7.249491,47.132715,0,,,,
+Freiburgstrasse-Box-3,description: 04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,04-04-2021,description,marker,type,,htmlpopup,,layerId,7.249664,47.132816,0,,,,
 "Zukunftstrasse
-Box 12",7.248603,47.132867
-"06-04
-Zukunfstrasse
-Box 13",7.247905,47.133496
-"Kongresshaus
-Box 1",7.247552,47.134365
-"06-04
-Zukunfstrasse
-Box 14",7.247779,47.133605
-"Kongresshaus
-Box 2",7.247927,47.13452
-"Unterer quai
-park 1",7.2413548,47.1356659
--,7.168422,47.367285
-"Gewerberhofstrasse
-Box 3",7.248045,47.132599
-"Bundesamt fÃ¼r Kommunikation
-Box 6",7.247922,47.13263
-"03-04-21
-Zukunftstrasse
-Box 9",7.248722,47.132653
-"Gewerberhofstrasse
-Box 2",7.248265,47.132715
-"03-04-21
-Zukunftstrasse
-Box 10",7.248611,47.13273
-"Gewerberhofstrasse
-Box 1",7.248429,47.132796
-"Zukunfstrasse
-Box 11",7.248676,47.132807
-"Bundesamt fÃ¼r Kommunikation
-Box 1",7.248372,47.132866
-"Gewerberhofstrasse
-Box 6",7.247673,47.132398
-"Gewerberhofstrasse
-Box 7",7.247449,47.1323
-"Gewerberhofstrasse
-Box 5",7.247754,47.132445
-"Bundesamt fÃ¼r Kommunikation
-Box 2",7.247361,47.132339
-"Bundesamt fÃ¼r Kommunikation
-Box 3",7.247487,47.132406
-"Bundesamt fÃ¼r Kommunikation
-Box 4",7.247626,47.132474
-"Gewerberhofstrasse
-Box 4",7.24787,47.132508
-"Bundesamt fÃ¼r Kommunikation
-Box 5",7.247751,47.132543
-"04-04
-Alfred-aebi-strasse
-box 6",7.251503,47.132146
-"05-04
+Box 12",description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.248603,47.132867,0,,,,
+Zukunfstrasse-Box-13,description: 06-04<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,06-04,description,marker,type,,htmlpopup,,layerId,7.247905,47.133496,0,,,,
+Kongresshaus-Box-1,description: 06-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,06-04-2021,description,marker,type,,htmlpopup,,layerId,7.247552,47.134365,0,,,,
+Zukunfstrasse-Box-14,description: 06-04<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,06-04,description,marker,type,,htmlpopup,,layerId,7.247779,47.133605,0,,,,
+Kongresshaus-Box-2,description: 06-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,06-04-2021,description,marker,type,,htmlpopup,,layerId,7.247927,47.13452,0,,,,
+Unterer-quai-park-1,"description: surveyed the three unmowed circles (did not enter, did best to identify from distance)<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed the three unmowed circles (did not enter, did best to identify from distance)",description,marker,type,,htmlpopup,,layerId,7.2413548,47.1356659,0,,,,
+Gewerberhofstrasse-Box-3,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.248045,47.132599,0,,,,
+Bundes-Komm-Box-6,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.247922,47.13263,0,,,,
+Zukunftstrasse-Box-9,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.248722,47.132653,0,,,,
+Gewerberhofstrasse-Box-2,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.248265,47.132715,0,,,,
+Zukunftstrasse-Box-10,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.248611,47.13273,0,,,,
+Gewerberhofstrasse-Box-1,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.248429,47.132796,0,,,,
+Zukunfstrasse-Box-11,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.248676,47.132807,0,,,,
+Bundes-Komm-Box-1,description: 05-04-2021 MISSING<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021 MISSING,description,marker,type,,htmlpopup,,layerId,7.248372,47.132866,0,,,,
+Gewerberhofstrasse-Box-6,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.247673,47.132398,0,,,,
+Gewerberhofstrasse-Box-7,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.247449,47.1323,0,,,,
+Gewerberhofstrasse-Box-5,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.247754,47.132445,0,,,,
+Bundes-Komm-Box-2,description: 05-04-2021 MISSING<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021 MISSING,description,marker,type,,htmlpopup,,layerId,7.247361,47.132339,0,,,,
+Bundes-Komm-Box-3,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.247487,47.132406,0,,,,
+Bundes-Komm-Box-4,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.247626,47.132474,0,,,,
+Gewerberhofstrasse-Box-4,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.24787,47.132508,0,,,,
+Bundes-Komm-Box-5,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.247751,47.132543,0,,,,
+Brueggstrasse-Box-5,description: <br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp,</span>(05-04<br>BrÃ¼ggstrasse<br>Box 11)</div><div></div></div><br>layerId: KML||https://public.geo.admin.ch/56a59BHVTviHH1bu7uHxFg,#icon-1899-9C27B0-labelson,,description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(05-04
 BrÃ¼ggstrasse
-Box 11",layerId,7.252035
-"04-04
+Box 11)</div><div></div></div>",htmlpopup,KML||https://public.geo.admin.ch/56a59BHVTviHH1bu7uHxFg,layerId,7.252035,47.13216,0,,,
+Friedweg-Area-1,description: <br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp,</span>(04-04<br>Friedweg<br>Area 1)</div><div></div></div><br>layerId: KML||https://public.geo.admin.ch/56a59BHVTviHH1bu7uHxFg,#icon-1899-9C27B0-labelson,,description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(04-04
 Friedweg
-Area 1",layerId,7.254384
-Brueggstrasse-Berm-1,7.254117,47.130018
-Schmiedweg-Berm-1,7.252196,47.130327
-Brueggstrasse-area-2,7.253431,47.130671
-"BrÃ¼ggstrasse
-Box 5",7.252605,47.131396
-"BrÃ¼ggstrasse
-Box 6",7.252528,47.131486
-"04-04
-Alfred-aebi-strasse
-box 7",7.251633,47.132097
-"04-04
-Alfred-aebi-strasse
-box 9",7.251862,47.132139
-"04-04
-Alfred-aebi-strasse
-box 8",7.251774,47.132074
-muehlefeldweg-park-1,7.253705,47.129815
-"Alexander-Moser-Strasse
-box 1",7.251796,47.127169
-"Alexander-Moser-Strasse
-box 3",7.251648,47.127228
-"Alexander-Moser-Strasse
-box 2",7.251714,47.127196
-Erlacherweg-area-1,7.254304,47.129216
-Brueggstrasse-box-12,7.253875,47.129969
--,-,-
-muehlefeldweg-berm-1,7.253528,47.129997
-"Freiburgstrasse
-Box 7",7.247976,47.131922
-"04-04
-Alfred-aebi-strasse
-box 2",7.251084,47.131993
-"04-04
-Alfred-aebi-strasse box 3",7.251162,47.132016
-"04-04
-Alfred-aebi-strasse
-box 4",7.251253,47.132047
-"04-04
-Alfred-aebi-strasse
-box 5",7.251372,47.13211
-"Freiburgstrasse
-Box 6",7.24836,47.132125
-"03-04-21
-Zukunftstrasse
-Box 4",7.249353,47.132182
-"Gewerberhofstrasse
-Box 8",7.247273,47.132216
-Freiburgstrasse-Madretschkanal-1,7.247572,47.13143
-"03-04-21
-Zukunftstrasse
-Box 2",7.249685,47.131768
-"Freiburgstrasse
-Box 8",7.247604,47.131778
-"04-04
-Alfred-aebi-strasse
-box 10",7.250812,47.131875
-"03-04-21
-Zukunftstrasse
-Box 3",7.249624,47.131827
-"03-04
+Area 1)</div><div></div></div>",htmlpopup,KML||https://public.geo.admin.ch/56a59BHVTviHH1bu7uHxFg,layerId,7.254384,47.132189,0,,,
+Brueggstrasse-Berm-1,description: surveyed only 2 meters deep from sidewalk.<br>03-04-21<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"surveyed only 2 meters deep from sidewalk.
+03-04-21",description,marker,type,,htmlpopup,,layerId,7.254117,47.130018,0,,,,
+Schmiedweg-Berm-1,description: surveyed to the little building on the left and equivalent distance to the right<br>11-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"surveyed to the little building on the left and equivalent distance to the right
+11-04-2021",description,marker,type,,htmlpopup,,layerId,7.252196,47.130327,0,,,,
+Brueggstrasse-area-2,"description: survey area is tree covered area between road and parking lot, 07-05-2021, 28-03-21<br><br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area is tree covered area between road and parking lot, 07-05-2021, 28-03-21",description,marker,type,,htmlpopup,,layerId,7.253431,47.130671,0,,,,
+Brueggstrasse-area-4,"description: 04-04-2021, formerly brueggstrasse box 5,6<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"04-04-2021, formerly brueggstrasse box 5,6",description,marker,type,,htmlpopup,,layerId,7.2525835,47.1314234,0,,,,
+muehlefeldweg-park-1,"description: 26.03.21, surveyed the flowers in the park<br><br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"26.03.21, surveyed the flowers in the park",description,marker,type,,htmlpopup,,layerId,7.253705,47.129815,0,,,,
+Alexander-Moser-Strasse-box-1,description: 11-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,11-04-2021,description,marker,type,,htmlpopup,,layerId,7.251796,47.127169,0,,,,
+Alexander-Moser-Strasse-box-3,description: 11-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,11-04-2021,description,marker,type,,htmlpopup,,layerId,7.251648,47.127228,0,,,,
+Alexander-Moser-Strasse-box-2,description: 11-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,11-04-2021,description,marker,type,,htmlpopup,,layerId,7.251714,47.127196,0,,,,
+Erlacherweg-area-1,description: 11-04-2021<br>29-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"11-04-2021
+29-03-2021",description,marker,type,,htmlpopup,,layerId,7.254304,47.129216,0,,,,
+Brueggstrasse-box-6,description: surveyed lavender box (?) with tree<br>29-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"surveyed lavender box (?) with tree
+29-03-2021",description,marker,type,,htmlpopup,,layerId,7.253875,47.129969,0,,,,
+muehlefeldweg-berm-1,"description: 26-03-2021, 24-05-2021, survey area is first bit of berm including and behind trees.<br><br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp;</span>(muehlefeldweg<br>berm 2)</div><div>26-03-2021</div></div><br>layerId: KML||https://public.geo.admin.ch/7erVQ2UGSKmRi0t2CVQHow",#icon-1899-9C27B0-labelson,"26-03-2021, 24-05-2021, survey area is first bit of berm including and behind trees.",description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(muehlefeldweg
+berm 2)</div><div>26-03-2021</div></div>",htmlpopup,KML||https://public.geo.admin.ch/7erVQ2UGSKmRi0t2CVQHow,layerId,7.253528,47.129997,0,,,,
+Freiburgstrasse-Box-7,description: 04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,04-04-2021,description,marker,type,,htmlpopup,,layerId,7.247976,47.131922,0,,,,
+Alfred-aebi-strasse-area-8,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.2512637,47.132055,0,,,,
+Freiburgstrasse-Box-6,description: 04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,04-04-2021,description,marker,type,,htmlpopup,,layerId,7.24836,47.132125,0,,,,
+Zukunftstrasse-Box-4,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.249353,47.132182,0,,,,
+Gewerberhofstrasse-Box-8,description: 05-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-04-2021,description,marker,type,,htmlpopup,,layerId,7.247273,47.132216,0,,,,
+Freiburgstrasse-Madretschkanal-1,"description: survey area includes both sides of the river, up to the parking lot on the berm facing the river, up to the first tree in the parking lot.09-03-2021, 04-04-2021, 07-05-2021<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"survey area includes both sides of the river, up to the parking lot on the berm facing the river, up to the first tree in the parking lot.09-03-2021, 04-04-2021, 07-05-2021",description,,type,,htmlpopup,,layerId,7.247572,47.13143,0,,,,
+Zukunftstrasse-Box-2,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.249685,47.131768,0,,,,
+Freiburgstrasse-Box-8,description: 04-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,04-04-2021,description,marker,type,,htmlpopup,,layerId,7.247604,47.131778,0,,,,
+Zukunftstrasse-Box-3,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.249624,47.131827,0,,,,
+Zunkunftstrasse-Box-1,description: Viburnum ferrari<br>type: marker<br>htmlpopup: <div><div><span>Zeichnung &nbsp,</span>(03-04<br>Zunkunftstrasse<br>Box 1)</div><div>Viburnum ferrari</div></div><br>layerId: KML||https://public.geo.admin.ch/56a59BHVTviHH1bu7uHxFg,#icon-1899-9C27B0-labelson,Viburnum ferrari,description,marker,type,"<div><div><span>Zeichnung &nbsp;</span>(03-04
 Zunkunftstrasse
-Box 1",layerId,7.2497774
-Zukunftstrasse-Madretschkanal-1,7.249709,47.13164
-"04-04
-Alfred-aebi-strasse
-box 1",7.250854,47.131912
--,-,-
-Muehlefeldweg-area-1,7.248193,47.130417
-Muehlefeldweg-Berm-2,7.250244,47.129984
-Muehlefeldweg-Berm-3,7.249295,47.130177
-Alfred-Aebi-Strasse-area-1,7.247879,47.130629
--,-,-
-"Murtenstrasse
-Madretschkanal 1",7.247148,47.130841
-Alfred-aebi-strasse-box-12,7.248452,47.130914
-"Keltenstrasse
-Berm 2",7.246258,47.128738
-"Murtenstrasse
-Berm 2",7.246894,47.130964
-"Alfred-Aebi-Strasse
-box 11",7.246195,47.129776
-"Alfred-Aebi-Strasse
-Area 3",7.245998,47.129962
-Alfred-Aebi-strasse-area-4,7.246571,47.130094
--,7.240927,47.130813
-"Alfred-Aebi-Strasse
-Area 2",7.245949,47.129776
-"Murtenstrasse
-Berm 1",7.246402,47.131107
-"dr-schneider-strasse
-area 1",7.2380719,47.1280318
-"Grenzstrasse
-Park 1",7.24639,47.128539
--,-,-
-Keltenstrasse-Berm-1,7.245964,47.128419
-FlÃ¶sserweg-area-1,7.238057,47.128437
-Schloss-Nidau-Area-2,7.240484,47.128111
-Erlenweg-forest-1,7.232464,47.126594
-Erlenweg-lake-1,7.2321708,47.1268478
-Schloss-Nidau-Area-6,7.238969,47.127312
-Schloss-Nidau-Area-5,7.239713,47.127198
-Schloss -Nidau-Area-4,7.239993,47.127342
-Schloss-Nidau-Area-3,7.24027,47.127526
-Schloss-Nidau-Area-7,7.239264,47.127586
-Schloss-Nidau-Area 1,7.239546,47.128063
-vorhoelzli-forest-5,7.2882761,47.1466042
-vorhoelzli-forest-6,7.2895626,47.1550483
-griendamm-forest-1,7.3274094,47.1355472
-underwald-forest-1,7.3343031,47.1301932
-underwald-forest-2,7.3374359,47.1283465
-hoell-alte-aare,7.3369838,47.1437849
-vinelz-lake-1,7.1076553,47.0385978
-schalterrain-forest-3,7.116087,47.027928
-schalterrain-forest-2,7.1343082,47.0246634
-schalterrain-forest-1,7.1409778,47.0229985
-ruisseau-de-vaux,7.0824702,47.0651489
-muelau-forest-1,7.272508,47.0325892
-aarberg-alte-aare-1,7.2744284,47.0384197
-jaissberg-forest-1,7.2778169,47.1091915
-jaissberg-forest-3,7.2739974,47.1120607
-jaissberg-forest-2,7.2769156,47.1114255
-laengholz-forest-10,7.2854114,47.133151
-laengholz-forest-9,7.2872568,47.132224
-au-vernet-suze-1,7.2371754,47.1882392
-la-heutte-suze-2,7.2315204,47.1884969
-frinvilier-ramp-1,7.2531592,47.169171
-nidau-buren-kanal-1,7.2796188,47.120386
-nidau-buren-kanal-2,7.2604687,47.1173051
-nidau-buren-kanal-3,7.2685262,47.1158365
-nidau-buren-kanal-4,7.2579626,47.1179623
-obem-fuchsenried-forest-1,7.2634134,47.1559317
-obem-fuchsenried-2,7.2597588,47.153104
-schneidergaessli-madretschkanal-1,7.2515168,47.1339415
-buerenstrasse-suze-7,7.2712956,47.1493964
-buerenstrasse-suze-6,7.2700134,47.1517774
-schuessinsel-kanal-7,7.263168,47.1443574
-mettmoos-field-1,7.2774929,47.1382594
-laengholz-forest-11,7.2781518,47.1375142
-neumatt-field-1,7.2897449,47.1421848
-neumatt-stream-1,7.2892716,47.141163
-neumatt-stream-2,7.2898266,47.139688
-laengholz-forest-12,7.2650476,47.1390266
-laengholz-forest-13,7.2691626,47.1390783
-laengholz-forest-14,7.2748918,47.1402661
-vorhoelzli-forest-7,7.290663,47.1428892
-zuerichstrasse-leugene-1,7.2983783,47.1622484
-bifangmattenweg-leugene-1,7.300172,47.1647873
-bifangmattenweg-forest-1,7.3025726,47.1653274
-nidau-buren-kanal-5,7.2592699,47.1186446
-nidau-buren-kanal-6,7.2655509,47.1166797
-nidau-buren-kanal-7,7.2621335,47.1177287
-mandschurei-forest-1,7.3127857,47.0971266
-mandschurei-forest-3,7.3107687,47.0943402
-mandschurei-forest-2,7.3108921,47.0959105
-mueligrien-forest-1,7.3090518,47.1007265
-lyssbach-forest-1,7.3110806,47.0889432
-lyssbach-forest-2,7.3110496,47.0911114
-austrasse-forest-1,7.2483729,46.9880169
-austrasse-forest-2,7.2493315,46.9896759
-austrasse-forest-3,7.2503185,46.9890063
--,7.451961,46.928352
-pfeidli-forest-5,7.2724826,47.1232791
-mooswaeldli-forest-1,7.2589317,47.1226284
-mooswaeldli-forest-2,7.2579715,47.1228675
-mooswaeldli-forest-3,7.2562334,47.1231066
-buerenstrasse-suze-8,7.2713538,47.1503898
-buerenstrasse-suze-9,7.2707342,47.1514093
-scheuessinsel-suze-11,7.2645886,47.1442113
-holunderweg-madretschkanal-6,7.256651,47.1407972
-zukunftstrasse-madretschkanal-2,7.2500195,47.1317456
-Alfred-aebi-strasse-area-5,7.2487978,47.1309325
-saint-paulus-weg-area-1,7.2535741,47.1309508
-muehlefeldweg-park-2,7.2541407,47.1296016
-muehlefeldstrasse-berm-4,7.2522549,47.1299632
-laengholz-forest-16,7.2641731,47.126607
-Karl-Neuhaus-Strasse-park-1,7.242635,47.138736
-frinvillier-suze-1,7.2489665,47.1717839
-frinvillier-suze-2,7.2490708,47.1725573
-taubenloch-suze-1,7.2672911,47.1536501
+Box 1)</div><div>Viburnum ferrari</div></div>",htmlpopup,KML||https://public.geo.admin.ch/56a59BHVTviHH1bu7uHxFg,layerId,7.2497774,47.1316965,0,,,
+Zukunftstrasse-Madretschkanal-1,"description: surveyed both sides of the river, including the shrubs on the back end.<br>28-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed both sides of the river, including the shrubs on the back end.
+28-03-2021",description,marker,type,,htmlpopup,,layerId,7.249709,47.13164,0,,,,
+Alfred-aebi-strasse-area-7,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.250854,47.131912,0,,,,
+Muehlefeldweg-area-1,description: survey area is area immediately from the start of muehlefeld weg on the rail road tracks side of the road until mÃ¼hlefeldweg joins the railroad berm.<br>28-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is area immediately from the start of muehlefeld weg on the rail road tracks side of the road until mÃ¼hlefeldweg joins the railroad berm.
+28-03-2021",description,marker,type,,htmlpopup,,layerId,7.248193,47.130417,0,,,,
+Muehlefeldweg-Berm-2,description: Survey area entirety of berm easily visible from sidewalk from area 2 until park 1.<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,Survey area entirety of berm easily visible from sidewalk from area 2 until park 1.,description,marker,type,,htmlpopup,,layerId,7.250244,47.129984,0,,,,
+Muehlefeldweg-Berm-3,description: 24-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,24-03-2021,description,marker,type,,htmlpopup,,layerId,7.249295,47.130177,0,,,,
+Alfred-Aebi-Strasse-area-1,"description: surveyed the steep area between the sidewalk and, the railroad bridge and the path to the residents.<br>11-04-2021<br>07-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed the steep area between the sidewalk and, the railroad bridge and the path to the residents.
+11-04-2021
+07-05-2021",description,marker,type,,htmlpopup,,layerId,7.247879,47.130629,0,,,,
+Murtenstrasse-Madretschkanal-1,description: 01-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,01-04-2021,description,marker,type,,htmlpopup,,layerId,7.247148,47.130841,0,,,,
+Alfred-aebi-strasse-area-6,description: survey area is the little bit of non concrete area between the train tracks and the building.<br>28-03-2021<br>12-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is the little bit of non concrete area between the train tracks and the building.
+28-03-2021
+12-04-2021",description,marker,type,,htmlpopup,,layerId,7.248452,47.130914,0,,,,
+Keltenstrasse-Berm-2,description: surveyed up the unwmowed area up to the pine tree and the line perpinduclar to the railroad tracks<br>11-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"surveyed up the unwmowed area up to the pine tree and the line perpinduclar to the railroad tracks
+11-04-2021",description,marker,type,,htmlpopup,,layerId,7.246258,47.128738,0,,,,
+Murtenstrasse-Berm-2,description: 01-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,01-04-2021,description,marker,type,,htmlpopup,,layerId,7.246894,47.130964,0,,,,
+Alfred-Aebi-Strasse-area-9,description: semi-planted area between sidewalk and parking lot.<br>11-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"semi-planted area between sidewalk and parking lot.
+11-04-2021",description,marker,type,,htmlpopup,,layerId,7.246195,47.129776,0,,,,
+Alfred-Aebi-Strasse-Area-3,description: surveyed the plants growing in the soil/accumulation of organic material between the trees separating the parking lot from the next lot..<br>11-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"surveyed the plants growing in the soil/accumulation of organic material between the trees separating the parking lot from the next lot..
+11-04-2021",description,marker,type,,htmlpopup,,layerId,7.245998,47.129962,0,,,,
+Alfred-Aebi-strasse-area-4,"description: surveyed the empty lot bounded by the unused building, the fence, madretschkanal<br>31-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed the empty lot bounded by the unused building, the fence, madretschkanal
+31-03-2021",description,marker,type,,htmlpopup,,layerId,7.246571,47.130094,0,,,,
+,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.240927,47.130813,0,,,,
+Alfred-Aebi-Strasse-Area-2,description: surveyed the plants growing in the soil/accumulation of organic material between the wall and the parking lot.<br>11-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"surveyed the plants growing in the soil/accumulation of organic material between the wall and the parking lot.
+11-04-2021",description,marker,type,,htmlpopup,,layerId,7.245949,47.129776,0,,,,
+Murtenstrasse-Berm-1,description: 01-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,01-04-2021,description,marker,type,,htmlpopup,,layerId,7.246402,47.131107,0,,,,
+dr-schneider-strasse-area-1,description: 31-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,31-03-2021,description,marker,type,,htmlpopup,,layerId,7.2380719,47.1280318,0,,,,
+Grenzstrasse-Park-1,description: survey area is the unmowed areas underneath the trees<br>11-04-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey area is the unmowed areas underneath the trees
+11-04-2021",description,marker,type,,htmlpopup,,layerId,7.24639,47.128539,0,,,,
+Keltenstrasse-Berm-1,"description: both sides of keltenstrasse, diversity located on right side of the road.<br>11-04-2021<br>24-05-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"both sides of keltenstrasse, diversity located on right side of the road.
+11-04-2021
+24-05-2021",description,marker,type,,htmlpopup,,layerId,7.245964,47.128419,0,,,,
+Flaesserweg-lot-3,"description: 31-03-2021, was flaesserweg-area-1, no data<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"31-03-2021, was flaesserweg-area-1, no data",description,marker,type,,htmlpopup,,layerId,7.238057,47.128437,0,,,,
+Schloss-Nidau-Area-2,description: 03-04<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,03-04,description,marker,type,,htmlpopup,,layerId,7.240484,47.128111,0,,,,
+Erlenweg-forest-1,description: survey between the left side (facing lac de bienne) of the river and the edge of the mowed area.<br>31-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,"survey between the left side (facing lac de bienne) of the river and the edge of the mowed area.
+31-03-2021",description,marker,type,,htmlpopup,,layerId,7.232464,47.126594,0,,,,
+Erlenweg-lake-1,"description: surveyed the right side of the cove, between the water and the wall.<br>31-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed the right side of the cove, between the water and the wall.
+31-03-2021",description,marker,type,,htmlpopup,,layerId,7.2321708,47.1268478,0,,,,
+Schloss-Nidau-Area-6,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.238969,47.127312,0,,,,
+Schloss-Nidau-Area-5,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.239713,47.127198,0,,,,
+Schloss-Nidau-Area-4,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.239993,47.127342,0,,,,
+Schloss-Nidau-Area-3,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.24027,47.127526,0,,,,
+Schloss-Nidau-Area 7,description: <br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,marker,type,,htmlpopup,,layerId,7.239264,47.127586,0,,,,
+Schloss-Nidau-Area-1,description: 03-04<br>type: marker<br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,03-04,description,marker,type,,htmlpopup,,layerId,7.239546,47.128063,0,,,,
+vorhoelzli-forest-5,"description: 28-02-2021, 12-03-2021, surveyed from forest edge to the edge of the trail on the left side of the path, also surveyed first 15 meters of road leading down.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"28-02-2021, 12-03-2021, surveyed from forest edge to the edge of the trail on the left side of the path, also surveyed first 15 meters of road leading down.",description,,type,,htmlpopup,,layerId,7.2882761,47.1466042,0,,,,
+vorhoelzli-forest-6,"description: 28-02-2021, surveyed forest edge and field along path<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"28-02-2021, surveyed forest edge and field along path",description,,type,,htmlpopup,,layerId,7.2895626,47.1550483,0,,,,
+griendamm-forest-1,description: 19-02 surveyed forest path and field/forest boundary<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,19-02 surveyed forest path and field/forest boundary,description,,type,,htmlpopup,,layerId,7.3274094,47.1355472,0,,,,
+underwald-forest-1,"description: 19-02, Tussilago farfara L.<br>Several masses of flowers, around 40 buds total on each side of the path here. 30% or so in flower.<br>Helleborous Foetidous<br>Lots of flowering HF in about a 150 meter radius of this spot, which itself contains a huge patch of HF<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"19-02, Tussilago farfara L.
+Several masses of flowers, around 40 buds total on each side of the path here. 30% or so in flower.
+Helleborous Foetidous
+Lots of flowering HF in about a 150 meter radius of this spot, which itself contains a huge patch of HF",description,,type,,htmlpopup,,layerId,7.3343031,47.1301932,0,,,,
+underwald-forest-2,"description: 19-02, Large patch of Galanthus Nivalis, about 12 square meters in all. There was a bee feeding on the flowers. veronica persica on the outside of the forest<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"19-02, Large patch of Galanthus Nivalis, about 12 square meters in all. There was a bee feeding on the flowers. veronica persica on the outside of the forest",description,,type,,htmlpopup,,layerId,7.3374359,47.1283465,0,,,,
+hoell-alte-aare,description: 19-02 surveyed the perimeter of a field in the middle of the nature reserve<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,19-02 surveyed the perimeter of a field in the middle of the nature reserve,description,,type,,htmlpopup,,layerId,7.3369838,47.1437849,0,,,,
+vinelz-lake-1,"description: 25-02-202, survey area is a few meters to each side of the path. Bellis perennis in the grass, tussilago farfara on the lakeshore side.<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"25-02-202, survey area is a few meters to each side of the path. Bellis perennis in the grass, tussilago farfara on the lakeshore side.",description,,type,,htmlpopup,,layerId,7.1076553,47.0385978,0,,,,
+schalterrain-forest-3,"description: 25-02-2021, surveyed end of forest, beginning of field after path, tussilago farfara visible somewhat outside the survey range<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"25-02-2021, surveyed end of forest, beginning of field after path, tussilago farfara visible somewhat outside the survey range",description,,type,,htmlpopup,,layerId,7.116087,47.027928,0,,,,
+schalterrain-forest-2,"description: 25-02-2021 surveyed both sides of path where the forest had been somewhat recently cleared,<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"25-02-2021 surveyed both sides of path where the forest had been somewhat recently cleared,",description,,type,,htmlpopup,,layerId,7.1343082,47.0246634,0,,,,
+schalterrain-forest-1,"description: 25-02-2021 surveyed the entrance to the forest. large patches of lamium purpureum, galanthus nivalis slightly out of survey area<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"25-02-2021 surveyed the entrance to the forest. large patches of lamium purpureum, galanthus nivalis slightly out of survey area",description,,type,,htmlpopup,,layerId,7.1409778,47.0229985,0,,,,
+ruisseau-de-vaux,description: 15-02-2021 surveyed the hil <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,15-02-2021 surveyed the hil,description,,type,,htmlpopup,,layerId,7.0824702,47.0651489,0,,,,
+muelau-forest-1,"description: 17-02-2021, surveyed the forest path until the schuetenzhaus, then looped along the path along the aare,<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"17-02-2021, surveyed the forest path until the schuetenzhaus, then looped along the path along the aare,",description,,type,,htmlpopup,,layerId,7.272508,47.0325892,0,,,,
+aarberg-alte-aare-1,"description: 17-02-2021, surveyed area between road and alte-aare branch from baldsteg to holzkraftwerk aarberg<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"17-02-2021, surveyed area between road and alte-aare branch from baldsteg to holzkraftwerk aarberg",description,,type,,htmlpopup,,layerId,7.2744284,47.0384197,0,,,,
+jaissberg-forest-1,"description: first flowers encountered were galanthus nivalis near the forest hut, nothing else around.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"first flowers encountered were galanthus nivalis near the forest hut, nothing else around.",description,,type,,htmlpopup,,layerId,7.2778169,47.1091915,0,,,,
+jaissberg-forest-3,"description: 23-02-2021, surveyed from where the stream crosses the path to the end of the forest.<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"23-02-2021, surveyed from where the stream crosses the path to the end of the forest.",description,,type,,htmlpopup,,layerId,7.2739974,47.1120607,0,,,,
+jaissberg-forest-2,"description: 23-02-2021, surveyed the path between where the bike trail ends and the forest path turns hard left<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"23-02-2021, surveyed the path between where the bike trail ends and the forest path turns hard left",description,,type,,htmlpopup,,layerId,7.2769156,47.1114255,0,,,,
+laengholz-forest-10,"description: 23-02-2021, surveyed field/forest edge<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"23-02-2021, surveyed field/forest edge",description,,type,,htmlpopup,,layerId,7.2854114,47.133151,0,,,,
+laengholz-forest-9,"description: 23-02-2021, surveyed both sides of forest path after encountering Chrysoplenium alternum<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"23-02-2021, surveyed both sides of forest path after encountering Chrysoplenium alternum",description,,type,,htmlpopup,,layerId,7.2872568,47.132224,0,,,,
+au-vernet-suze-1,"description: surveyed the forest and its surrounding area, main feature is small patches of leocojum verna<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed the forest and its surrounding area, main feature is small patches of leocojum verna",description,,type,,htmlpopup,,layerId,7.2371754,47.1882392,0,,,,
+la-heutte-suze-2,"description: 18-02-2021, surveyed between this point and the bridge, corylus avellana, small stellaria media, one patch helleborous foetidus<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"18-02-2021, surveyed between this point and the bridge, corylus avellana, small stellaria media, one patch helleborous foetidus",description,,type,,htmlpopup,,layerId,7.2315204,47.1884969,0,,,,
+frinvilier-ramp-1,"description: 08-02-21<br>Corylus avellana, only flowers visible were the two helleborous foetidus flowers. Scattered corylus avellana-type trees in flower<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"08-02-21
+Corylus avellana, only flowers visible were the two helleborous foetidus flowers. Scattered corylus avellana-type trees in flower",description,,type,,htmlpopup,,layerId,7.2531592,47.169171,0,,,,
+nidau-buren-kanal-1,description: 04-02 surveyed area between the two bridges and between the river and path.<br><br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,04-02 surveyed area between the two bridges and between the river and path.,description,,type,,htmlpopup,,layerId,7.2796188,47.120386,0,,,,
+nidau-buren-kanal-2,description: 05-02-2021. surveyed area opposite gardens.<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,05-02-2021. surveyed area opposite gardens.,description,,type,,htmlpopup,,layerId,7.2604687,47.1173051,0,,,,
+nidau-buren-kanal-3,"description: 05-02-2021 surveyed area between path and river, specifically this patch of forest and the area immediately around it.<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"05-02-2021 surveyed area between path and river, specifically this patch of forest and the area immediately around it.",description,,type,,htmlpopup,,layerId,7.2685262,47.1158365,0,,,,
+nidau-buren-kanal-4,"description: 05-02-2021, surveyed area around the path of bare grass between thickets of small trees.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"05-02-2021, surveyed area around the path of bare grass between thickets of small trees.",description,,type,,htmlpopup,,layerId,7.2579626,47.1179623,0,,,,
+obem-fuchsenried-forest-1,"description: 24-02, surveyed path between road and forest road<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"24-02, surveyed path between road and forest road",description,,type,,htmlpopup,,layerId,7.2634134,47.1559317,0,,,,
+obem-fuchsenried-2,"description: 25-02-2021, surveyed forest patch on both sides of path between the path junctions<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"25-02-2021, surveyed forest patch on both sides of path between the path junctions",description,,type,,htmlpopup,,layerId,7.2597588,47.153104,0,,,,
+schneidergaessli-madretschkanal-1,"description: 05-02-2021, surveyed treeline and grassy area<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"05-02-2021, surveyed treeline and grassy area",description,,type,,htmlpopup,,layerId,7.2515168,47.1339415,0,,,,
+buerenstrasse-suze-7,"description: 11-02, 20-03, surveyed area between path, fence and river.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"11-02, 20-03, surveyed area between path, fence and river.",description,,type,,htmlpopup,,layerId,7.2712956,47.1493964,0,,,,
+buerenstrasse-suze-6,"description: 11-02, 20-03<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"11-02, 20-03",description,,type,,htmlpopup,,layerId,7.2700134,47.1517774,0,,,,
+schuessinsel-kanal-7,"description: 24-02-2021, surveyed area between swatch fence and kanal. bounded by bridged on each end.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"24-02-2021, surveyed area between swatch fence and kanal. bounded by bridged on each end.",description,,type,,htmlpopup,,layerId,7.263168,47.1443574,0,,,,
+mettmoos-field-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2774929,47.1382594,0,,,,
+laengholz-forest-11,"description: 12-03-2021, surveyed short distance into the wet forest behind mettmoos<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"12-03-2021, surveyed short distance into the wet forest behind mettmoos",description,,type,,htmlpopup,,layerId,7.2781518,47.1375142,0,,,,
+neumatt-field-1,description: 12-03-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,12-03-2021,description,,type,,htmlpopup,,layerId,7.2897449,47.1421848,0,,,,
+neumatt-stream-1,description: 12-03-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,12-03-2021,description,,type,,htmlpopup,,layerId,7.2892716,47.141163,0,,,,
+neumatt-stream-2,"description: 12-03-2021, area between highway and road on bank of the stream<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"12-03-2021, area between highway and road on bank of the stream",description,,type,,htmlpopup,,layerId,7.2898266,47.139688,0,,,,
+laengholz-forest-12,"description: 12-03-202, surveyed forest area on the north side of the path, about 2 meters in.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"12-03-202, surveyed forest area on the north side of the path, about 2 meters in.",description,,type,,htmlpopup,,layerId,7.2650476,47.1390266,0,,,,
+laengholz-forest-13,"description: 12-03-2021, surveyed area before, around and after pond along the path <br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"12-03-2021, surveyed area before, around and after pond along the path",description,,type,,htmlpopup,,layerId,7.2691626,47.1390783,0,,,,
+laengholz-forest-14,"description: 12-03-2021, scattered salix, flowers not yet ready to go on the ranunculus, anemone, but getting there.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"12-03-2021, scattered salix, flowers not yet ready to go on the ranunculus, anemone, but getting there.",description,,type,,htmlpopup,,layerId,7.2748918,47.1402661,0,,,,
+vorhoelzli-forest-7,"description: 12-03-2021, surveyed area in and around logpile<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"12-03-2021, surveyed area in and around logpile",description,,type,,htmlpopup,,layerId,7.290663,47.1428892,0,,,,
+zuerichstrasse-leugene-1,"description: 18-03-2021, surveyed both banks of the leugene between houses and highway<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"18-03-2021, surveyed both banks of the leugene between houses and highway",description,,type,,htmlpopup,,layerId,7.2983783,47.1622484,0,,,,
+bifangmattenweg-leugene-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.300172,47.1647873,0,,,,
+bifangmattenweg-forest-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.3025726,47.1653274,0,,,,
+nidau-buren-kanal-5,"description: 16-03, surveyed area immediately after rinstrasse/kanalweg junction to about 50 meters along<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"16-03, surveyed area immediately after rinstrasse/kanalweg junction to about 50 meters along",description,,type,,htmlpopup,,layerId,7.2592699,47.1186446,0,,,,
+nidau-buren-kanal-6,"description: 16-03, surveyed from the area between the first section of gardens and the river bank.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"16-03, surveyed from the area between the first section of gardens and the river bank.",description,,type,,htmlpopup,,layerId,7.2655509,47.1166797,0,,,,
+nidau-buren-kanal-7,"description: 16-03-2021, surveyed the area between the path and the river and few meters into the second to last field before the gardens.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"16-03-2021, surveyed the area between the path and the river and few meters into the second to last field before the gardens.",description,,type,,htmlpopup,,layerId,7.2621335,47.1177287,0,,,,
+mandschurei-forest-1,"description: 04-03-2021, surveyed field and forest entrance. Nothing in flower in forest entrance other than corylus avellana and alnus glutinosa, field had some flowers.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"04-03-2021, surveyed field and forest entrance. Nothing in flower in forest entrance other than corylus avellana and alnus glutinosa, field had some flowers.",description,,type,,htmlpopup,,layerId,7.3127857,47.0971266,0,,,,
+mandschurei-forest-3,"description: 04-03-2021, surveyed area at entrance to forest, into forest and across bridge into clearing.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"04-03-2021, surveyed area at entrance to forest, into forest and across bridge into clearing.",description,,type,,htmlpopup,,layerId,7.3107687,47.0943402,0,,,,
+mandschurei-forest-2,"description: 04-03-2021, surveyed area near galanthus nivalis patch.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"04-03-2021, surveyed area near galanthus nivalis patch.",description,,type,,htmlpopup,,layerId,7.3108921,47.0959105,0,,,,
+mueligrien-forest-1,"description: 04-03-2021, surveyed exit of forest path. nothing in forest, flowers in the field area.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"04-03-2021, surveyed exit of forest path. nothing in forest, flowers in the field area.",description,,type,,htmlpopup,,layerId,7.3090518,47.1007265,0,,,,
+lyssbach-forest-1,"description: 04-03-2021, surveyed floodplain area<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"04-03-2021, surveyed floodplain area",description,,type,,htmlpopup,,layerId,7.3110806,47.0889432,0,,,,
+lyssbach-forest-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.3110496,47.0911114,0,,,,
+austrasse-forest-1,"description: 05-03-2021, surveyed both sides of road  leading to forest, about 20 meters.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"05-03-2021, surveyed both sides of road  leading to forest, about 20 meters.",description,,type,,htmlpopup,,layerId,7.2483729,46.9880169,0,,,,
+austrasse-forest-2,"description: 05-03-2021, surveyed area to the left and right of the path. blankets of scillia bifolia and allium ursinum.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"05-03-2021, surveyed area to the left and right of the path. blankets of scillia bifolia and allium ursinum.",description,,type,,htmlpopup,,layerId,7.2493315,46.9896759,0,,,,
+austrasse-forest-3,"description: 05-03, surveyed from primula elatior to stream.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"05-03, surveyed from primula elatior to stream.",description,,type,,htmlpopup,,layerId,7.2503185,46.9890063,0,,,,
+pfeidli-forest-5,"description: 17-03-21, survey area is entirety of forest area between roads and cemetery.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"17-03-21, survey area is entirety of forest area between roads and cemetery.",description,,type,,htmlpopup,,layerId,7.2724826,47.1232791,0,,,,
+mooswaeldli-forest-1,"description: 25-03-21, survey area is first meters into forest, until 10 meters after path turns left<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"25-03-21, survey area is first meters into forest, until 10 meters after path turns left",description,,type,,htmlpopup,,layerId,7.2589317,47.1226284,0,,,,
+mooswaeldli-forest-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2579715,47.1228675,0,,,,
+mooswaeldli-forest-3,"description: 25-03-2021, survey is clearing and extending 5 meters further out, plus entrance of forest to grassy area.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"25-03-2021, survey is clearing and extending 5 meters further out, plus entrance of forest to grassy area.",description,,type,,htmlpopup,,layerId,7.2562334,47.1231066,0,,,,
+buerenstrasse-suze-8,"description: 20-03, surveyed area between house and road and path, and between path and river<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"20-03, surveyed area between house and road and path, and between path and river",description,,type,,htmlpopup,,layerId,7.2713538,47.1503898,0,,,,
+buerenstrasse-suze-9,"description: 20-03-21, surveyed grassy triangle area and the area between path and river.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"20-03-21, surveyed grassy triangle area and the area between path and river.",description,,type,,htmlpopup,,layerId,7.2707342,47.1514093,0,,,,
+scheuessinsel-suze-11,"description: 13-03-2021, surveyed small area between path and the river.<br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"13-03-2021, surveyed small area between path and the river.",description,,type,,htmlpopup,,layerId,7.2644746,47.1442067,0,,,,
+holunderweg-madretschkanal-8,"description: 14.03.2021, surveyed opposite bank of madretschkanal from a distance.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"14.03.2021, surveyed opposite bank of madretschkanal from a distance.",description,,type,,htmlpopup,,layerId,7.2566403,47.1408109,0,,,,
+zukunftstrasse-madretschkanal-2,description: 09.03.2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,09.03.2021,description,,type,,htmlpopup,,layerId,7.2500195,47.1317456,0,,,,
+Alfred-aebi-strasse-area-5,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2487978,47.1309325,0,,,,
+saint-paulus-weg-area-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2535741,47.1309508,0,,,,
+muehlefeldweg-park-2,"description: 28.03.21, surveyed the section park in between the sidewalk<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"28.03.21, surveyed the section park in between the sidewalk",description,,type,,htmlpopup,,layerId,7.2541407,47.1296016,0,,,,
+muehlefeldweg-berm-4,"description: 28.03, survey area is between railroad tracks, ending track, berm-1,sidewalk<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"28.03, survey area is between railroad tracks, ending track, berm-1,sidewalk",description,,type,,htmlpopup,,layerId,7.2522549,47.1299632,0,,,,
+laengholz-forest-16,"description: 08-03-2021, surveyed both sides of path  until sharp south turn in cemetery walls.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"08-03-2021, surveyed both sides of path  until sharp south turn in cemetery walls.",description,,type,,htmlpopup,,layerId,7.2641731,47.126607,0,,,,
+Karl-Neuhaus-Strasse-park-1,"description: surveyed entire park area, including the mowed area, the tree and shrubby areas on each side of the fence<br>29-03-2021<br>type: marker<br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"surveyed entire park area, including the mowed area, the tree and shrubby areas on each side of the fence
+29-03-2021",description,marker,type,,htmlpopup,,layerId,7.242635,47.138736,0,,,,
+frinvillier-suze-1,"description: 31.05,  surveyed both side of the road between bridge and building.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"31.05,  surveyed both side of the road between bridge and building.",description,,type,,htmlpopup,,layerId,7.2489665,47.1717839,0,,,,
+frinvillier-suze-2,"description: 31.05, surveyed right side of suze river along path, included upper forest area through the artificial ponds.<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"31.05, surveyed right side of suze river along path, included upper forest area through the artificial ponds.",description,,type,,htmlpopup,,layerId,7.2490708,47.1725573,0,,,,
+taubenloch-suze-1,"description: 02.06.21, surveyed first 15 meters of the empty lot<br><br>type: <br>htmlpopup: <br>layerId: ",#icon-1899-9C27B0-labelson,"02.06.21, surveyed first 15 meters of the empty lot",description,,type,,htmlpopup,,layerId,7.2672911,47.1536501,0,,,,
+studen-forest-1,description: 28-06-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,28-06-2021,description,,type,,htmlpopup,,layerId,7.3000663,47.109962,0,,,,
+studen-forest-2,description: 28-06-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,28-06-2021,description,,type,,htmlpopup,,layerId,7.2984856,47.1128657,0,,,,
+murtenstrasse-area-1,description: 29-06-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,29-06-2021,description,,type,,htmlpopup,,layerId,7.2461581,47.1318604,0,,,,
+cdf-forest-1,description: 29-06-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,29-06-2021,description,,type,,htmlpopup,,layerId,6.8145461,47.1064489,0,,,,
+cdf-forest-2,description: 29-06-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,29-06-2021,description,,type,,htmlpopup,,layerId,6.8133336,47.1065031,0,,,,
+cdf-forest-3,description: 29-06-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,29-06-2021,description,,type,,htmlpopup,,layerId,6.8141222,47.1071585,0,,,,
+cdf-sbb-1,description: 06-29-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,06-29-2021,description,,type,,htmlpopup,,layerId,6.8248443,47.0973497,0,,,,
+cdf-sbb-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,6.8247694,47.096256,0,,,,
+schuessinsel-suze-12,description: 30-06-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,30-06-2021,description,,type,,htmlpopup,,layerId,7.2690929,47.146985,0,,,,
+Felseck-forest-1,description: 01-07-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,01-07-2021,description,,type,,htmlpopup,,layerId,7.2286279,47.1346962,0,,,,
+felseck-forest-2,description: 01-07-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,01-07-2021,description,,type,,htmlpopup,,layerId,7.2262344,47.1340953,0,,,,
+schwanengasse-area-5,description: 02-07-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,02-07-2021,description,,type,,htmlpopup,,layerId,7.2529358,47.1375688,0,,,,
+jurastrasse-area-1,description: 03-07-2021<br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,03-07-2021,description,,type,,htmlpopup,,layerId,7.2482594,47.142294,0,,,,
+portrasse-park-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2584321,47.1263915,0,,,,
+portstrasse-park-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2580431,47.126386,0,,,,
+portstrasse-lot-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2619199,47.1245362,0,,,,
+schwanengasse-area-6,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2532992,47.1376201,0,,,,
+portstrasse-lot-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2621972,47.1246884,0,,,,
+portstrasse-lot-3,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2616087,47.1248086,0,,,,
+portstrasse-lot-4,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2613268,47.124564,0,,,,
+seevorstrasse-area-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.242837,47.1396679,0,,,,
+alfred-aebi-strasse-area-10,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.247091,47.1302246,0,,,,
+cygnes-cff-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2547341,47.1384209,0,,,,
+sbb-area-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2417331,47.1318897,0,,,,
+murtenstrasse-area-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2465867,47.1321929,0,,,,
+bielstrasse-berm-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2603384,47.1265932,0,,,,
+bermenstrasse-area-3,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2599383,47.127587,0,,,,
+mattenstrasse-berm-4,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2580113,47.1383194,0,,,,
+mettstrasse-area-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2594364,47.1376245,0,,,,
+mettstrasse-area-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2604543,47.137942,0,,,,
+sbb-area-3,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2405948,47.1335433,0,,,,
+sbb-area-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2402269,47.1328655,0,,,,
+portstrasse-berm-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2602547,47.1240475,0,,,,
+portstrasse-berm-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2586103,47.1274106,0,,,,
+mettmoos-field-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2754141,47.1383827,0,,,,
+alpenstrasse-lot-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.234774,47.1357678,0,,,,
+muehlestrasse-suze-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.270152,47.147618,0,,,,
+schuessinsel-suze-13,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2689062,47.1464018,0,,,,
+dammweg-berm-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2374892,47.1361554,0,,,,
+murtenstrasse-area-3,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.246576,47.1320289,0,,,,
+sbb-area-4,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2454917,47.1313013,0,,,,
+paulusweg-area-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2552648,47.1319866,0,,,,
+unterer-quai-suze-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.236986,47.1331833,0,,,,
+oberer-quai-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2502013,47.1387086,0,,,,
+sundgraben-beach-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.7943958,46.6841795,0,,,,
+seefelsweg-berm-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2361458,47.1347927,0,,,,
+kreuzplatz-box-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2517661,47.1321631,0,,,,
+alleestrasse-lot-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2529914,47.1367261,0,,,,
+paulusweg-area-3,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2534286,47.131102,0,,,,
+laengholz-forest-15,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2835611,47.138449,0,,,,
+flaesserweg-lot-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2371336,47.1288189,0,,,,
+alfermee-forest-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2076286,47.1221898,0,,,,
+alfermee-beach-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2079413,47.1217302,0,,,,
+pfeidli-forest-6,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2748283,47.121817,0,,,,
+salzhausstrasse-area-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2455333,47.1307546,0,,,,
+salzhausstrasse-area-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2447018,47.1303222,0,,,,
+alexander-moser-strasse-berm-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2465017,47.1295999,0,,,,
+bernstrasse-area-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2414139,47.1278183,0,,,,
+mattenstrasse-area-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2516586,47.1351183,0,,,,
+felseck-forest-4,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2255743,47.1333457,0,,,,
+felseck-forest-3,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2260651,47.1335975,0,,,,
+cdf-sbb-3,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,6.8213613,47.0968944,0,,,,
+nidau-lot-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2418257,47.1241254,0,,,,
+jaissberg-forest-4,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.283886,47.1156842,0,,,,
+fallbringenhof-forest-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2517798,47.1520739,0,,,,
+magglingen-forest-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2090205,47.1456202,0,,,,
+magglingen-forest-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2054619,47.1423742,0,,,,
+gartenstrasse-area-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2498958,47.1361002,0,,,,
+cdf-sbb-4,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,6.8202203,47.0961084,0,,,,
+salzhausstrasse-madretschkanal-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2426731,47.1286821,0,,,,
+orvin-forest-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.1681066,47.1482051,0,,,,
+orvin-field-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.1824913,47.1553812,0,,,,
+cdf-forest-5,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,6.8392126,47.0911026,0,,,,
+cdf-forest-4,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,6.8392293,47.0924623,0,,,,
+flaesserweg-lot-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2362421,47.1279537,0,,,,
+untererquai-suze-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2399722,47.1344141,0,,,,
+untererquai-suze-3,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2410719,47.134841,0,,,,
+untererquai-suze-4,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2395852,47.1342379,0,,,,
+jurastrasse-park-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2496154,47.1434058,0,,,,
+waffengasse-area-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2443245,47.1355634,0,,,,
+fontenalstrasse-area-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2614877,47.1488331,0,,,,
+pery-forest-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2498988,47.1903417,0,,,,
+cdf-sbb-6,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,6.8251994,47.095791,0,,,,
+cdf-forest-6,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,6.8331166,47.0900628,0,,,,
+holunderweg-madretschkanal-6,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2561006,47.1401337,0,,,,
+schmiedweg-box-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2527511,47.130767,0,,,,
+schmiedweg-box-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.252521,47.1307031,0,,,,
+cygnes-cff-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2541971,47.1383379,0,,,,
+cdf-sbb-5,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,6.8240476,47.0980124,0,,,,
+bermenstrasse-area-4,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2594338,47.1280533,0,,,,
+muehlestrasse-berm-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.27142,47.1442871,0,,,,
+schmiedweg-lot-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2515537,47.1311156,0,,,,
+holunderweg-madretschkanal-7,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2536351,47.1391668,0,,,,
+buttenbergstrasse-park-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2842531,47.146476,0,,,,
+vorhoelzli-forest-8,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.3000023,47.1607601,0,,,,
+vorhoelzli-forest-9,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.3009035,47.1612579,0,,,,
+freiburgstrasse-berm-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2469523,47.1315837,0,,,,
+freiburgstrasse-berm-1,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2471575,47.1316248,0,,,,
+Fallbringenhof-forest-2,description: <br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,,description,,type,,htmlpopup,,layerId,7.2548657,47.152026,0,,,,
+brueggstrasse-area-3,description: formerly box brueggstrasse box 7-10<br><br>type: <br>htmlpopup: <br>layerId: ,#icon-1899-9C27B0-labelson,formerly box brueggstrasse box 7-10,description,,type,,htmlpopup,,layerId,7.2545598,47.1294698,0,,,,
