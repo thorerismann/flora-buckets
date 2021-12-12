@@ -29,7 +29,7 @@ md(html)
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-[0;32m/tmp/ipykernel_4951/2543223463.py[0m in [0;36m<module>[0;34m[0m
+[0;32m/tmp/ipykernel_3500/2543223463.py[0m in [0;36m<module>[0;34m[0m
 [0;32m----> 1[0;31m [0mthis_picture[0m [0;34m=[0m [0mPILImage[0m[0;34m.[0m[0mopen[0m[0;34m([0m[0;34m"resources/pictures/carduus-crispus.JPG"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 [0m[1;32m      2[0m [0moutput[0m [0;34m=[0m [0mio[0m[0;34m.[0m[0mBytesIO[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 [1;32m      3[0m [0mthis_picture[0m[0;34m.[0m[0mthumbnail[0m[0;34m([0m[0;34m([0m[0;36m800[0m[0;34m,[0m [0;36m1200[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
