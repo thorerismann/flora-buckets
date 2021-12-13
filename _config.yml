@@ -21,7 +21,7 @@ latex:
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
-  - resources/references.bib
+  - references.bib
 
 # Information about where the book exists on the web
 repository:
@@ -37,5 +37,5 @@ html:
   comments: hypothesis
 sphinx:
   config:
-    bibtex_reference_style: label
+    bibtex_reference_style: author_year
 
