@@ -12,7 +12,6 @@ parts:
   - caption: Plant surveys, Biel/Bienne
     numbered: True
     chapters:
-     - file: finalreport.ipynb
      - file: surveys.ipynb
   - caption: Biodiversity buckets
     numbered: True
