@@ -4,7 +4,7 @@ __Edition 1__ ver=0.1 _build one_
 
 ## Portable patches of biodiversity
 
-:::{image} resources/intro-1.JPG
+:::{image} resources/pictures/intro-1.JPG
 :alt: Map of survey locations
 :class: bg-primary mb-1
 :width: 600px
