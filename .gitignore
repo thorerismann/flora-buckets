@@ -13,6 +13,7 @@
 
 # ignores reference files and pictures used in the analysis 
 /resources/ignore/
+/ignorethis/*
 
 # ignores the build files (available in the Docs folder for the JB build)
 /_build/*
