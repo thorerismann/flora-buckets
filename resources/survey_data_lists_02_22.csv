@@ -277,7 +277,7 @@
 276,2020-07-07,lotus-corniculatus,1,mp,be,madretschkanal,schwanen,X,X,biel,LC,LC,LC,Fabaceae,X,X,X,X,X,X,X,cdf,biel,schwanengasse-area-1,"('schwanengasse-area-1', '07.07.2020')",lotus,7
 277,2020-07-08,matricaria-chamomilla,1,mp,be,madretschkanal,schwanen,X,X,biel,LC,LC,LC,Asteraceae,X,X,X,X,X,X,X,X,biel,schwanengasse-area-5,"('schwanengasse-area-5', '08.07.2020')",matricaria,7
 278,2020-07-11,daucus-carota,1,mp,be,madretschkanal,schwanen,X,X,biel,LC,LC,LC,Apiaceae,X,X,X,X,X,X,X,cdf,biel,schwanengasse-area-5,"('schwanengasse-area-5', '11.07.2020')",daucus,7
-279,2020-07-11,melilotus-officinalis,1,mp,be,madretschkanal,schwanen,X,X,biel,NT,NT,NT,Fabaceae,X,X,X,X,X,X,X,X,X,schwanengasse-area-5,"('schwanengasse-area-5', '11.07.2020')",melilotus,7
+279,2020-07-11,melilotus-officinalis,1,mp,be,madretschkanal,schwanen,X,X,biel,NT,NT,NT,Fabaceae,X,X,X,X,X,X,X,X,biel,schwanengasse-area-5,"('schwanengasse-area-5', '11.07.2020')",melilotus,7
 280,2020-07-11,lotus-corniculatus,1,mp,be,madretschkanal,schwanen,X,X,biel,LC,LC,LC,Fabaceae,X,X,X,X,X,X,X,cdf,biel,schwanengasse-area-5,"('schwanengasse-area-5', '11.07.2020')",lotus,7
 281,2020-07-11,conyza-canadensis,1,mp,be,madretschkanal,schwanen,X,X,biel,X,X,X,X,X,X,X,X,X,X,ni,X,X,schwanengasse-area-5,"('schwanengasse-area-5', '11.07.2020')",conyza,7
 282,2020-07-11,erigeron-annuus,1,mp,be,madretschkanal,schwanen,X,X,biel,X,X,X,X,X,X,BL,X,X,X,X,cdf,biel,schwanengasse-area-5,"('schwanengasse-area-5', '11.07.2020')",erigeron,7
@@ -378,7 +378,7 @@
 377,2020-07-08,verbascum-lychnitis,1,mp,be,suze,X,X,X,biel,LC,LC,LC,Scrophulariaceae,X,X,X,X,X,X,X,X,X,frinvillier-fabrique-1,"('frinvillier-fabrique-1', '08.07.2020')",verbascum,7
 378,2020-07-08,verbascum-nigrum,1,mp,be,suze,X,X,X,biel,LC,LC,LC,Scrophulariaceae,X,X,X,X,X,X,X,X,X,frinvillier-fabrique-1,"('frinvillier-fabrique-1', '08.07.2020')",verbascum,7
 379,2020-07-08,hypericum-perforatum,1,mp,be,suze,X,X,X,biel,LC,LC,LC,Hypericaceae,X,X,X,X,X,X,X,cdf,biel,frinvillier-fabrique-2,"('frinvillier-fabrique-2', '08.07.2020')",hypericum,7
-380,2020-07-08,melilotus-officinalis,1,mp,be,suze,X,X,X,biel,LC,LC,LC,Fabaceae,X,X,X,X,X,X,X,X,X,frinvillier-fabrique-2,"('frinvillier-fabrique-2', '08.07.2020')",melilotus,7
+380,2020-07-08,melilotus-officinalis,1,mp,be,suze,X,X,X,biel,LC,LC,LC,Fabaceae,X,X,X,X,X,X,X,X,biel,frinvillier-fabrique-2,"('frinvillier-fabrique-2', '08.07.2020')",melilotus,7
 381,2020-07-08,rubus-idaeus,1,mp,be,suze,X,X,X,biel,LC,LC,LC,Rosaceae,X,X,X,X,X,X,X,cdf,biel,frinvillier-fabrique-2,"('frinvillier-fabrique-2', '08.07.2020')",rubus,7
 382,2020-07-08,senecio-jacobaea,1,mp,be,suze,X,X,X,biel,LC,LC,LC,Asteraceae,X,X,X,X,X,X,X,cdf,biel,frinvillier-fabrique-4,"('frinvillier-fabrique-4', '08.07.2020')",senecio,7
 383,2020-07-08,verbascum-nigrum,1,mp,be,suze,X,X,X,biel,LC,LC,LC,Scrophulariaceae,X,X,X,X,X,X,X,X,biel,frinvillier-fabrique-4,"('frinvillier-fabrique-4', '08.07.2020')",verbascum,7
@@ -3379,7 +3379,7 @@
 3378,2021-05-24,rumex-conglomeratus,2,mp,be,X,X,X,X,biel,LC,LC,LC,Polygonaceae,X,X,X,X,X,X,X,X,biel,keltenstrasse-berm-2,"('keltenstrasse-berm-2', '2021-05-24')",rumex,5
 3379,2021-05-24,ranunculus-repens,2,mp,be,X,X,X,X,biel,LC,LC,LC,Ranunculaceae,X,X,X,X,X,X,X,cdf,biel,keltenstrasse-berm-2,"('keltenstrasse-berm-2', '2021-05-24')",ranunculus,5
 3380,2021-05-24,hyacinthoides-non-scripta,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,X,ni,X,biel,keltenstrasse-berm-2,"('keltenstrasse-berm-2', '2021-05-24')",hyacinthoides,5
-3381,2021-05-24,malus,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,X,ni,X,X,keltenstrasse-berm-2,"('keltenstrasse-berm-2', '2021-05-24')",malus,5
+3381,2021-05-24,malus,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,ongen,ni,X,X,keltenstrasse-berm-2,"('keltenstrasse-berm-2', '2021-05-24')",malus,5
 3382,2021-05-24,hedera-helix,2,mp,be,X,X,X,X,biel,LC,LC,LC,Araliaceae,X,X,X,X,X,X,X,cdf,biel,keltenstrasse-berm-2,"('keltenstrasse-berm-2', '2021-05-24')",hedera,5
 3383,2021-05-25,geranium-robertanum,2,mp,be,X,X,X,X,biel,LC,LC,LC,Geraniaceae,X,X,X,X,X,X,X,X,X,mettstrasse-lot-1,"('mettstrasse-lot-1', '2021-05-25')",geranium,5
 3384,2021-05-25,alliaria-petiolata,2,mp,be,X,X,X,X,biel,LC,LC,LC,Brassicaceae,X,X,X,X,X,X,X,cdf,biel,mettstrasse-lot-1,"('mettstrasse-lot-1', '2021-05-25')",alliaria,5
@@ -4847,7 +4847,7 @@
 4846,2021-07-05,lactuca-serriola,2,mp,be,X,X,X,X,biel,LC,LC,LC,Asteraceae,X,X,X,X,X,X,X,X,biel,cygnes-cff-1,"('cygnes-cff-1', '2021-07-05')",lactuca,7
 4847,2021-07-05,geranium-pyrenaicum,2,mp,be,X,X,X,X,biel,LC,LC,LC,Geraniaceae,X,X,X,X,X,X,X,cdf,biel,cygnes-cff-1,"('cygnes-cff-1', '2021-07-05')",geranium,7
 4848,2021-07-05,sedum,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,ongen,X,X,X,cygnes-cff-1,"('cygnes-cff-1', '2021-07-05')",sedum,7
-4849,2021-07-05,sambucus,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,X,ni,X,X,cygnes-cff-1,"('cygnes-cff-1', '2021-07-05')",sambucus,7
+4849,2021-07-05,sambucus,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,ongen,ni,X,X,cygnes-cff-1,"('cygnes-cff-1', '2021-07-05')",sambucus,7
 4850,2021-07-05,campanula,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,ongen,X,X,X,cygnes-cff-1,"('cygnes-cff-1', '2021-07-05')",campanula,7
 4851,2021-07-06,orobanche-hederae,2,X,X,X,X,X,X,X,LC,LC,LC,Orobanchaceae,X,X,X,X,X,X,X,X,biel,random,"('random', '2021-07-06')",orobanche,7
 4852,2021-07-06,orobanche-hederae,2,X,X,X,X,X,X,X,LC,LC,LC,Orobanchaceae,X,X,X,X,X,X,X,X,biel,random,"('random', '2021-07-06')",orobanche,7
@@ -6062,7 +6062,7 @@
 6061,2021-08-22,acer,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,ongen,X,X,X,gartenstrasse-area-1,"('gartenstrasse-area-1', '2021-08-22')",acer,8
 6062,2021-08-22,lepidium-densiflorum,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,X,ni,X,biel,gartenstrasse-area-1,"('gartenstrasse-area-1', '2021-08-22')",lepidium,8
 6063,2021-08-22,polygonum-aviculare,2,mp,be,X,X,X,X,biel,LC,NE,NE,Polygonaceae,X,X,X,X,X,X,X,cdf,biel,gartenstrasse-area-1,"('gartenstrasse-area-1', '2021-08-22')",polygonum,8
-6064,2021-08-22,sambucus,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,X,ni,X,X,gartenstrasse-area-1,"('gartenstrasse-area-1', '2021-08-22')",sambucus,8
+6064,2021-08-22,sambucus,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,ongen,ni,X,X,gartenstrasse-area-1,"('gartenstrasse-area-1', '2021-08-22')",sambucus,8
 6065,2021-08-22,plantago-lanceolata,2,mp,be,X,X,X,X,biel,LC,LC,LC,Plantaginaceae,X,X,X,X,X,X,X,cdf,biel,gartenstrasse-area-1,"('gartenstrasse-area-1', '2021-08-22')",plantago,8
 6066,2021-08-22,medicago-lupulina,2,mp,be,X,X,X,X,biel,LC,LC,LC,Fabaceae,X,X,X,X,X,X,X,cdf,biel,gartenstrasse-area-1,"('gartenstrasse-area-1', '2021-08-22')",medicago,8
 6067,2021-08-22,chenopodium-album,2,mp,be,X,X,X,X,biel,LC,LC,LC,Amaranthaceae,X,X,X,X,X,X,X,cdf,biel,gartenstrasse-area-1,"('gartenstrasse-area-1', '2021-08-22')",chenopodium,8
@@ -6464,7 +6464,7 @@
 6463,2021-06-26,rosa,2,mp,be,suze,X,X,X,biel,X,X,X,X,X,X,X,X,X,ongen,X,X,X,untererquai-suze-4,"('untererquai-suze-4', '2021-06-26')",rosa,6
 6464,2021-06-26,cymbalaria-muralis,2,mp,be,suze,X,X,X,biel,LC,LC,LC,Plantaginaceae,X,X,X,X,X,X,X,cdf,biel,untererquai-suze-4,"('untererquai-suze-4', '2021-06-26')",cymbalaria,6
 6465,2021-06-26,vicia-sepium,2,mp,be,suze,X,X,X,biel,LC,LC,LC,Fabaceae,X,X,X,X,X,X,X,cdf,biel,untererquai-suze-4,"('untererquai-suze-4', '2021-06-26')",vicia,6
-6466,2021-06-26,galium,2,mp,be,suze,X,X,X,biel,X,X,X,X,X,X,X,X,X,X,ni,X,X,untererquai-suze-4,"('untererquai-suze-4', '2021-06-26')",galium,6
+6466,2021-06-26,galium,2,mp,be,suze,X,X,X,biel,X,X,X,X,X,X,X,X,X,ongen,ni,X,X,untererquai-suze-4,"('untererquai-suze-4', '2021-06-26')",galium,6
 6467,2021-06-26,sedum-album,2,mp,be,suze,X,X,X,biel,LC,LC,LC,Crassulaceae,X,X,X,X,X,X,X,cdf,biel,untererquai-suze-4,"('untererquai-suze-4', '2021-06-26')",sedum,6
 6468,2021-06-26,prunella-vulgaris,2,mp,be,suze,X,X,X,biel,LC,LC,LC,Lamiaceae,X,X,X,X,X,X,X,cdf,biel,untererquai-suze-4,"('untererquai-suze-4', '2021-06-26')",prunella,6
 6469,2021-06-26,picris-hieracioides,2,mp,be,suze,X,X,X,biel,LC,LC,LC,Asteraceae,X,X,X,X,X,X,X,X,biel,untererquai-suze-4,"('untererquai-suze-4', '2021-06-26')",picris,6
@@ -7095,7 +7095,7 @@
 7094,2021-06-19,crepis,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,ongen,X,X,X,brueggstrasse-area-1,"('brueggstrasse-area-1', '2021-06-19')",crepis,6
 7095,2021-06-19,lactuca,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,ongen,X,X,X,brueggstrasse-area-1,"('brueggstrasse-area-1', '2021-06-19')",lactuca,6
 7096,2021-06-19,galium-aparine,2,mp,be,X,X,X,X,biel,LC,LC,LC,Rubiaceae,X,X,X,X,X,X,X,cdf,biel,brueggstrasse-area-1,"('brueggstrasse-area-1', '2021-06-19')",galium,6
-7097,2021-06-19,galium,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,X,ni,X,X,brueggstrasse-area-1,"('brueggstrasse-area-1', '2021-06-19')",galium,6
+7097,2021-06-19,galium,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,X,X,X,ongen,ni,X,X,brueggstrasse-area-1,"('brueggstrasse-area-1', '2021-06-19')",galium,6
 7098,2021-06-19,achillea-millefolium,2,mp,be,X,X,X,X,biel,LC,LC,LC,Asteraceae,X,X,X,X,X,X,X,cdf,biel,lokomotivdepot-berm-1,"('lokomotivdepot-berm-1', '2021-06-19')",achillea,6
 7099,2021-06-19,erigeron-annuus,2,mp,be,X,X,X,X,biel,X,X,X,X,X,X,BL,X,X,X,X,cdf,biel,lokomotivdepot-berm-1,"('lokomotivdepot-berm-1', '2021-06-19')",erigeron,6
 7100,2021-06-19,silene-vulgaris,2,mp,be,X,X,X,X,biel,LC,LC,LC,Caryophyllaceae,X,X,X,X,X,X,X,cdf,biel,lokomotivdepot-berm-1,"('lokomotivdepot-berm-1', '2021-06-19')",silene,6
