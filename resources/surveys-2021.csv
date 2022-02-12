@@ -37,7 +37,7 @@ x,y,name,description,biogeo,canton,river,lot,forest,project,city
 07-05-2021",mp,be,madretschkanal,,,,biel
 7.253147,47.1356140975452,alleestrasse-madretschkanal-4,10.04.2021; survey area is little forest patch between roads and madretschkanal,mp,be,madretschkanal,,,,biel
 7.234774,47.1357678975452,alpenstrasse-lot-1,,mp,be,,,,,biel
-7.2371754,47.1882392975452,au-vernet-suze-1,surveyed the forest and its surrounding area; main feature is small patches of leocojum verna,mp,be,suze,,yes,,biel
+7.2371754,47.1882392975452,au-vernet-suze-1,surveyed the forest and its surrounding area; main feature is small patches of leocojum verna,mp,be,suze,,,,cs
 7.2483729,46.9880169975452,austrasse-forest-1,05-03-2021; surveyed both sides of road  leading to forest; about 20 meters.,mp,be,,,,,cs
 7.2493315,46.9896759975452,austrasse-forest-2,05-03-2021; surveyed area to the left and right of the path. blankets of scillia bifolia and allium ursinum.,mp,be,,,,,cs
 7.2503185,46.9890063975452,austrasse-forest-3,05-03; surveyed from primula elatior to stream.,mp,be,,,,,cs
@@ -498,39 +498,39 @@ zihlkanal 1","survey area is bank of canal and roadside about 7 meters long 4 me
 7.2515168,47.1339415975452,schneidergaessli-madretschkanal-1,05-02-2021 surveyed treeline and grassy area,mp,be,madretschkanal,,,,biel
 7.267986,47.1469520975452,schuessinsel-kanal-1,"survey area bounded by bridge; suze diversion; and wall.
 14-04-2021
-22-02-2021",mp,be,schuessinsel,none,none,renat-suze,biel
+22-02-2021",mp,be,schuessinsel,,none,renat-suze,biel
 7.266907,47.1462760975452,schuessinsel-kanal-2,"survey area is the approximate triangle bounded by the path; the gravel area and the suze.
-17-04-2020",mp,be,schuessinsel,none,none,renat-suze,biel
+17-04-2020",mp,be,schuessinsel,,none,renat-suze,biel
 7.266365,47.1461430975452,schuessinsel-kanal-3,"survey area is the approximate triangle between the hedgerow; the suze island canal; and the gravel area.
-17-04-2021",mp,be,schuessinsel,none,none,renat-suze,biel
-7.26888,47.1472500975452,schuessinsel-kanal-4,surveyed area between kanal and play area,mp,be,schuessinsel,none,none,renat-suze,biel
-7.267715,47.1465900975452,schuessinsel-kanal-5,01.03; surveyed from first big tree to final big tree; to river edge.,mp,be,schuessinsel,none,none,renat-suze,biel
-7.26316,47.14415,schuessinsel-kanal-6,,mp,be,schuessinsel,none,none,renat-suze,biel
-7.265885,47.1457100975452,schuessinsel-kanal-7,survey area between path and kanal; from bridge to line extending from far edge of building across kanal,mp,be,schuessinsel,none,none,renat-suze,biel
-7.263168,47.1443574975452,schuessinsel-kanal-8,24-02-2021; surveyed area between swatch fence and kanal. bounded by bridged on each end.,mp,be,schuessinsel,none,none,renat-suze,biel
+17-04-2021",mp,be,schuessinsel,,none,renat-suze,biel
+7.26888,47.1472500975452,schuessinsel-kanal-4,surveyed area between kanal and play area,mp,be,schuessinsel,,none,renat-suze,biel
+7.267715,47.1465900975452,schuessinsel-kanal-5,01.03; surveyed from first big tree to final big tree; to river edge.,mp,be,schuessinsel,,none,renat-suze,biel
+7.26316,47.14415,schuessinsel-kanal-6,,mp,be,schuessinsel,,none,renat-suze,biel
+7.265885,47.1457100975452,schuessinsel-kanal-7,survey area between path and kanal; from bridge to line extending from far edge of building across kanal,mp,be,schuessinsel,,none,renat-suze,biel
+7.263168,47.1443574975452,schuessinsel-kanal-8,24-02-2021; surveyed area between swatch fence and kanal. bounded by bridged on each end.,mp,be,schuessinsel,,none,renat-suze,biel
 7.262422,47.1439740975452,schuessinsel-suze-1,"surveyed form where area widens to where it narrows; see photos for reference
-12-04-2021",mp,be,schuessinsel,none,none,renat-suze,biel
-7.267709,47.1462440975452,schuessinsel-suze-10,survey area from line perpendicular from bridge to final three planted trees; from path to river.,mp,be,schuessinsel,none,none,renat-suze,biel
+12-04-2021",mp,be,schuessinsel,,none,renat-suze,biel
+7.267709,47.1462440975452,schuessinsel-suze-10,survey area from line perpendicular from bridge to final three planted trees; from path to river.,mp,be,schuessinsel,,none,renat-suze,biel
 7.269176,47.1474950975452,schuessinsel-suze-11,"surveyed the larger of the two grassy mounds that contains two trees.
-14-3-2021",mp,be,schuessinsel,none,none,renat-suze,biel
-7.2690929,47.1469850975452,schuessinsel-suze-12,30-06-2021,mp,be,schuessinsel,none,none,renat-suze,biel
-7.2689062,47.1464018975452,schuessinsel-suze-13,,mp,be,schuessinsel,none,none,renat-suze,biel
+14-3-2021",mp,be,schuessinsel,,none,renat-suze,biel
+7.2690929,47.1469850975452,schuessinsel-suze-12,30-06-2021,mp,be,schuessinsel,,none,renat-suze,biel
+7.2689062,47.1464018975452,schuessinsel-suze-13,,mp,be,schuessinsel,,none,renat-suze,biel
 7.262812,47.1439690975452,schuessinsel-suze-2,"surveyed area bounded by the river; the path; the line drawn from where the newly installed shrubbery ends; about 4 meters past bridge railing.
-12-04-2021",mp,be,schuessinsel,none,none,renat-suze,biel
+12-04-2021",mp,be,schuessinsel,,none,renat-suze,biel
 7.269336,47.1473560975452,schuessinsel-suze-3,"surveyed the top edge of the embankment and as far down as possible to see closely.
-14-04-2021",mp,be,schuessinsel,none,none,renat-suze,biel
+14-04-2021",mp,be,schuessinsel,,none,renat-suze,biel
 7.269258,47.1468330975452,schuessinsel-suze-4,"surveyed the exposed beach bounded on one side by the wall and on three sides by the river. 40% of size visible on swisstopo due to high water level.
-14-03-2021",mp,be,schuessinsel,none,none,renat-suze,biel
+14-03-2021",mp,be,schuessinsel,,none,renat-suze,biel
 7.262288,47.1436860975452,schuessinsel-suze-5,"survey area is area between bridge; berm and river; including the bank of the river; small rocky face and grassy area. extending about 20 meters from bridge into berm
 15-04-2021
-20-03-2021",mp,be,schuessinsel,none,none,renat-suze,biel
+20-03-2021",mp,be,schuessinsel,,none,renat-suze,biel
 7.26365,47.1438560975452,schuessinsel-suze-6,"survey about 10 meters around 2nd tree on gottstrasse; did not descend to beach area on 1st survey.
-20-03-2021",mp,be,schuessinsel,none,none,renat-suze,biel
+20-03-2021",mp,be,schuessinsel,,none,renat-suze,biel
 7.265846,47.1446470975452,schuessinsel-suze-7,"survey area is berm bounded by sidewalk; including lawn in front of small building. area extends about 30 meters from bridge; including to river.
 19-04-2021
-20-03-2021",mp,be,schuessinsel,none,none,renat-suze,biel
-7.26681,47.1459750975452,schuessinsel-suze-8,surveyed between river and path; from 5 meters before path breaks off to about halfway to where path meets beach,mp,be,schuessinsel,none,none,renat-suze,biel
-7.266441,47.1459090975452,schuessinsel-suze-9,surveyed grassy area between the paths,mp,be,schuessinsel,none,none,renat-suze,biel
+20-03-2021",mp,be,schuessinsel,,none,renat-suze,biel
+7.26681,47.1459750975452,schuessinsel-suze-8,surveyed between river and path; from 5 meters before path breaks off to about halfway to where path meets beach,mp,be,schuessinsel,,none,renat-suze,biel
+7.266441,47.1459090975452,schuessinsel-suze-9,surveyed grassy area between the paths,mp,be,schuessinsel,,none,renat-suze,biel
 7.252997,47.1373626975452,schwanengasse-area-1,"survea area is difficult to describe
 09-04-2021
 07-05-2021",mp,be,madretschkanal,schwanen,,,biel
@@ -564,10 +564,10 @@ several masses of flowers; around 40 buds total on each side of the path here. 3
 helleborous foetidous
 lots of flowering hf in about a 150 meter radius of this spot; which itself contains a huge patch of hf",mp,be,,,,,cs
 7.3374359,47.1283465975452,underwald-forest-2,19-02; large patch of galanthus nivalis; about 12 square meters in all. there was a bee feeding on the flowers. veronica persica on the outside of the forest,mp,be,,,,,cs
-7.236986,47.1331833975452,unterer-quai-suze-1,,mp,be,suze,none,none,,biel
-7.2399722,47.1344141975452,untererquai-suze-2,,mp,be,suze,none,none,,biel
-7.2410719,47.1348410975452,untererquai-suze-3,,mp,be,suze,none,none,,biel
-7.2395852,47.1342379975452,untererquai-suze-4,,mp,be,suze,none,none,,biel
+7.236986,47.1331833975452,unterer-quai-suze-1,,mp,be,suze,,none,,biel
+7.2399722,47.1344141975452,untererquai-suze-2,,mp,be,suze,,none,,biel
+7.2410719,47.1348410975452,untererquai-suze-3,,mp,be,suze,,none,,biel
+7.2395852,47.1342379975452,untererquai-suze-4,,mp,be,suze,,none,,biel
 7.1076553,47.0385978975452,vinelz-lake-1,25-02-202; survey area is a few meters to each side of the path. bellis perennis in the grass; tussilago farfara on the lakeshore side.,mp,be,,,,,biel
 7.291817,47.1430410975452,vorhoelzli-forest 4,"survey area the right side of the path about 4 meters wide
 14-05-2021",mp,be,none,,vorhoelzli,,biel
