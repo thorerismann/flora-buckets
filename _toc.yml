@@ -5,23 +5,15 @@ format: jb-book
 root: intro
 
 parts:
-  - caption: Biodiversity, an uncertain future
+  - caption: The flowers in Biel
     numbered: True
     chapters:
-     - file: intro-context.ipynb
-  - caption: Plant surveys, Biel/Bienne
-    numbered: True
-    chapters:
-     - file: surveys.ipynb
-  - caption: Biodiversity buckets
-    numbered: True
-    chapters:
-     - file: flora-buckets.ipynb
-  - caption: Wildflower germination
+     - file: analysis.ipynb
+  - caption: A small germination experiment
     numbered: True
     chapters:
      - file: germination.ipynb
-  - caption: Resources & futher contributions
+  - caption: Further reading
     numbered: True
     chapters:
      - file: resources.ipynb
