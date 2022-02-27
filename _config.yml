@@ -3,7 +3,7 @@
 
 title: Biodiversity Box
 author: hammerdirt botanist
-logo: resources/logo.JPG
+# logo: resources/logo.JPG
 copyright: "2021"
 
 # Force re-execution of notebooks on each build.
@@ -11,7 +11,7 @@ copyright: "2021"
 # Only include files specified in the toc.yml file
 
 execute:
-  execute_notebooks: force
+  execute_notebooks: 'off'
 only_build_toc_files: true
 
 # Define the name of the latex output file for PDF builds
@@ -34,7 +34,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  comments: hypothesis
+  comments: 'off'
 sphinx:
   config:
     bibtex_reference_style: author_year

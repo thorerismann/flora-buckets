@@ -4,7 +4,7 @@ __Edition 2__ ver=0.1 _build one_
 
 ## Surveying, germinating and growing Biel's wildflowers
 
-:::{image} resources/pictures/intro-1.JPG
+:::{image} resources/images/intro-1.jpg
 :alt: Map of survey locations
 :class: bg-primary mb-1
 :width: 600px

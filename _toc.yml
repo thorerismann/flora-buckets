@@ -16,4 +16,4 @@ parts:
   - caption: Further reading
     numbered: True
     chapters:
-     - file: resources.ipynb
+     - file: references.md
