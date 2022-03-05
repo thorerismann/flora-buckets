@@ -3,10 +3,12 @@
 */.pycache/*
 */.ipynb_checkpoints/*
 .ipynb_checkpoints/
+__pycache__/
 
 # ignores DS_Store files created by Mac file navigator
 */.DS_Store/*
 */._.DS_Store/*
+
 
 # Remove previous ipynb_checkpoints
 # git rm -r .ipynb_checkpoints/
