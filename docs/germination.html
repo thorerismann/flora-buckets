@@ -278,6 +278,11 @@
      2.1.7. Temperature
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#data-collection">
+     2.1.8. Data collection
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -291,16 +296,9 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#recomendations">
-   2.4. Recomendations
+  <a class="reference internal nav-link" href="#comparison-to-expert-opinion">
+   2.4. Comparison to expert opinion
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#comparison-with-germination-refs">
-     2.4.1. Comparison with germination refs
-    </a>
-   </li>
-  </ul>
  </li>
 </ul>
 
@@ -319,6 +317,7 @@
 <div><p>Every species has some mechanism for delaying germination until after the seed has been dispersed. The Science of Seed Germination is the discovery and description of such mechanisms and the development of procedures for removing them so that the seeds can germinate. - Norman C. Deno</p>
 </div></blockquote>
 <p>Wildflowers have a wide range of germination conditions. This experiment tests which of 83 wildflower species collected from the region germinate under “household” conditions, that is kept moist at 20 degrees Celsius, and exposed to the moderate light from a large easterly facing window and houselights. The results are compared against three reference sources for germination instructions.</p>
+<p>The goal of this experiment was to keep things relatively simple in order to test a wildflower protocol that could be implemented by introductory educational programs and citizen science and contribute to knowledge of local wildflowers, specifically, the young adult/teenage clients of Port-34, a professional integration program for youths. Ideally these experiments should focus on species that have no known value and may not even be the most “aesthetically pleasing” but are nonetheless invaluable components of our local ecosystems.</p>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Final notebook for the 2021 germination project</span>
@@ -383,29 +382,16 @@
 <span class="c1"># import germination data</span>
 <span class="n">ger</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;resources/germ_data.csv&quot;</span><span class="p">)</span>
 <span class="n">ger</span><span class="p">[</span><span class="s2">&quot;pdate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">ger</span><span class="p">[</span><span class="s1">&#39;pdate&#39;</span><span class="p">],</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;coerce&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%d</span><span class="s1">/%m/%y&#39;</span><span class="p">)</span>
-
-<span class="c1"># display header image</span>
-<span class="n">animage</span> <span class="o">=</span> <span class="n">bot</span><span class="o">.</span><span class="n">display_image_ipython</span><span class="p">(</span><span class="s2">&quot;resources/images/germ-1.jpeg&quot;</span><span class="p">,</span> <span class="n">thumb</span><span class="o">=</span><span class="p">(</span><span class="mi">1200</span><span class="p">,</span><span class="mi">800</span><span class="p">),</span> <span class="n">rotates</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-<span class="n">display</span><span class="p">(</span><span class="n">animage</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="_images/germination_1_0.png" src="_images/germination_1_0.png" />
 </div>
-</div>
-<p><em><strong>Figure 1 :</strong> Tragopogon pratensis sprouts enjoying some unseasonably warm late October sunshine. Each row was planted with one species and the number of cells with sprouts were counted.</em></p>
 <div class="section" id="methodology">
 <h2><span class="section-number">2.1. </span>Methodology<a class="headerlink" href="#methodology" title="Permalink to this headline">¶</a></h2>
-<p>The goal of this experiment was to classify the germination propensity of the selected wildflower seeds under the household conditions enumerated below into:</p>
-<ol class="simple">
-<li><p>no/very little germination</p></li>
-<li><p>some/alot of germination</p></li>
-</ol>
-<p>While the broad categories prevent fine scale analysis from taking place, they preserve information about whether growing the seeds in these conditions is possible. Specifically, if cold stratification or physical scarring are necessary, no seeds, or perhaps very few, will germinate under household conditions. As such, the seeds that do germinate can be started directly in a typical indoor setting with no special equipment.</p>
+<p>As previously stated, the goal of this experiment was to test which of the 83 species would germinate at 25 degrees Celsius without cold stratification or physical scarring. This experiment was not aiming for optimizing germination or identifying germination rates, but to give a yes/no indicator as to whether germinating these seeds is feasible undet the below enumerated “household” conditions without any preparation.</p>
 <div class="section" id="choice-and-source-of-seeds">
 <h3><span class="section-number">2.1.1. </span>Choice and source of seeds<a class="headerlink" href="#choice-and-source-of-seeds" title="Permalink to this headline">¶</a></h3>
-<p>The seeds were chosen to be native wildtype species within either the personal collection of Gabrial Erismann or the inventory of Port 34. The choice of seeds reflected several criteria:</p>
+<p>The seeds were chosen opportunistically among native wildtype species within either the personal collection of Gabrial Erismann or the inventory of Port 34. The choice of seeds reflected several criteria:</p>
 <ul class="simple">
 <li><p>some were chosen to represent a specific and ecologically interesting biotope near Biel</p></li>
 <li><p>some older seeds (&lt;2018) were chosen simply because they were on hand</p></li>
@@ -465,10 +451,30 @@
 <h3><span class="section-number">2.1.7. </span>Temperature<a class="headerlink" href="#temperature" title="Permalink to this headline">¶</a></h3>
 <p>The temperature was kept at a constant of around 20-22 degrees Celsius due to the location of the germination trays directly above heating units. During the sunny afternoons the plants were exposed to a bit lower temperatures at short intervals which may have affected the germination rates.</p>
 </div>
+<div class="section" id="data-collection">
+<h3><span class="section-number">2.1.8. </span>Data collection<a class="headerlink" href="#data-collection" title="Permalink to this headline">¶</a></h3>
+<p>Data was collected in two different ways with a goal of minimizing time spent counting sprouts.</p>
+<ul class="simple">
+<li><p>For species planted in concrete containers, the sprouts were counted at regular intervals. Once sprouts reached a certain saturation point, the tray was considered “full”. The sprouts were no longer counted until November 28th in order economize on time spent counting sprouts.</p></li>
+<li><p>For species planted in plastic containers, the number of cells with sprouts was counted. See the below image and description for an example. On November 28th all sprouts were counted.</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">animage</span> <span class="o">=</span> <span class="n">bot</span><span class="o">.</span><span class="n">display_image_ipython</span><span class="p">(</span><span class="s2">&quot;resources/images/germ-1.jpeg&quot;</span><span class="p">,</span> <span class="n">thumb</span><span class="o">=</span><span class="p">(</span><span class="mi">1200</span><span class="p">,</span><span class="mi">800</span><span class="p">),</span> <span class="n">rotates</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">animage</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/germination_3_0.png" src="_images/germination_3_0.png" />
+</div>
+</div>
+<p><em><strong>Figure 1 :</strong> Each row was planted with one species and the number of cells with sprouts were counted. In this case the cells on the left would have 5/7 cells sprouted, the next row of cells has 7/7 and the next row of cells has 0/7. On November 28th, the final day of the experiment, all of the sprouts in each row were counted rather than the cells to make the counts directly comparable to the counts of the concrete containers.</em></p>
+</div>
 </div>
 <div class="section" id="results">
 <h2><span class="section-number">2.2. </span>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h2>
-<p>As expected, a  number of species germinated and a number of species did not germinate. As the cutoff threshhold for succesful germination is moved, the results change significantly as the below chart (s) indicates.</p>
+<p>Most seeds germinated, with a large variability in the amount of sprouts. In order to determine succesful germination, a cut-off value had to be defined above which a species is “succesful” and below which a species is “unsuccesful”. The below chart demonstrates the number of succesfully germinated species based on the cut-off values.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># see how the overall germination rates change according to cut off for &quot;succesful&quot; germination or not</span>
@@ -537,7 +543,6 @@
     <span class="k">else</span><span class="p">:</span>
         <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="n">step</span>
 
-
 <span class="c1"># plot the dataframes cc = concrete container, ct = total, cp = plastic container</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">lineplot</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">ct</span><span class="p">,</span> <span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
@@ -545,21 +550,15 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/germination_6_0.png" src="_images/germination_6_0.png" />
+<img alt="_images/germination_7_0.png" src="_images/germination_7_0.png" />
 </div>
 </div>
-<p><em><strong>Figure X:</strong> number of species “succesfully” germinated on final date of experiment based on deifnition of “succesful” in concrete containers</em></p>
+<p><em><strong>Figure X:</strong> number of species “succesfully” germinated on final date of experiment based on definition of “succesful”</em></p>
 </div>
 <div class="section" id="concrete-containers-vs-plastic-containers">
 <h2><span class="section-number">2.3. </span>Concrete containers vs Plastic containers<a class="headerlink" href="#concrete-containers-vs-plastic-containers" title="Permalink to this headline">¶</a></h2>
-<p>The concrete containers were divided into 6 equal areas and planted with different seeds in each area, separated with wooden barriers to prevent cross contamination and the sprouts were counted regularly.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># general analysis of the situation, narrative still forthcoming -&gt; use following code and values</span>
-</pre></div>
-</div>
-</div>
-</div>
+<p>The concrete containers and the plastic containers demonstrated similar germination rates</p>
+<p><strong>Some discussion forthcoming, everything needed already calculated below, just need to insert into narrative form.</strong></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## concrete container data prep</span>
@@ -638,79 +637,87 @@
 </div>
 </div>
 </div>
-<div class="section" id="recomendations">
-<h2><span class="section-number">2.4. </span>Recomendations<a class="headerlink" href="#recomendations" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="comparison-to-expert-opinion">
+<h2><span class="section-number">2.4. </span>Comparison to expert opinion<a class="headerlink" href="#comparison-to-expert-opinion" title="Permalink to this headline">¶</a></h2>
+<p>Three germination references were used to make a composite recomendation value as to whether expert opinon:</p>
+<ul class="simple">
+<li><p>agreed the species would not germinate (at least one expert saying no and no experts saying yes)</p></li>
+<li><p>agreed the species would germinate (at least one expert saying yes and no experts saying no)</p></li>
+<li><p>mixed opinon (at least one no and at least one yes)</p></li>
+<li><p>no opinion (no expert gave information)</p></li>
+</ul>
+<p>The three expert opinions used were the following:</p>
+<ul class="simple">
+<li><p>Sylvan Seeds (link)</p></li>
+<li><p>Directions provided by Port-34’s master gardener</p></li>
+<li><p>Instructions in the book Naturnahe (link)</p></li>
+</ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ger</span><span class="o">.</span><span class="n">index</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>RangeIndex(start=0, stop=89, step=1)
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">cols</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;recs&quot;</span><span class="p">,</span><span class="s2">&quot;recn&quot;</span><span class="p">,</span><span class="s2">&quot;recp&quot;</span><span class="p">]</span>
-<span class="c1">#recs = reccoemdantions from sylvan seeds,</span>
-<span class="c1">#recn = recomendations from naturnah book</span>
-<span class="c1">#recp = recs from Port 34 gardner</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ctypes</span> <span class="o">=</span> <span class="n">ger</span><span class="o">.</span><span class="n">container</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
-<span class="n">ptray</span> <span class="o">=</span> <span class="n">ger</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ger</span><span class="o">.</span><span class="n">container</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">ctypes</span><span class="p">[:</span><span class="mi">1</span><span class="p">])]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="n">interest</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;area&#39;</span><span class="p">,</span> <span class="s1">&#39;density&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-10&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-12&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-14&#39;</span><span class="p">,</span>
-       <span class="s1">&#39;2021-10-16&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-18&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-20&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-22&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-24&#39;</span><span class="p">,</span>
-       <span class="s1">&#39;2021-10-26&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-28&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-30&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-03&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-10&#39;</span><span class="p">,</span>
-       <span class="s1">&#39;2021-11-18&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-23&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-28&#39;</span><span class="p">]</span>
-<span class="c1"># ptray[[&quot;species&quot;, *interest]].head()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## make string values easier to analyze, convert all data to one letter values.</span>
 
-<span class="n">column_rename</span> <span class="o">=</span> <span class="p">{</span><span class="n">x</span><span class="p">:</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span><span class="n">x</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">interest</span><span class="p">[</span><span class="mi">2</span><span class="p">:])}</span>
+<span class="n">cols</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;recs&quot;</span><span class="p">,</span><span class="s2">&quot;recn&quot;</span><span class="p">,</span><span class="s2">&quot;recp&quot;</span><span class="p">]</span>
 
-<span class="k">def</span> <span class="nf">drop_dd_na</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;dd&quot;</span><span class="p">,</span> <span class="s2">&quot;na&quot;</span><span class="p">]:</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">def</span> <span class="nf">change_strings</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;y&quot;</span>
+    <span class="k">elif</span> <span class="n">x</span> <span class="o">==</span> <span class="s2">&quot;no&quot;</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;n&quot;</span>
+    <span class="k">elif</span> <span class="n">x</span> <span class="o">==</span> <span class="s2">&quot;dd&quot;</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;d&quot;</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="n">data</span><span class="o">=</span><span class="n">x</span>
     <span class="k">return</span> <span class="n">data</span>
 
-<span class="n">ptr</span> <span class="o">=</span> <span class="n">ptray</span><span class="o">.</span><span class="n">applymap</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">drop_dd_na</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-<span class="n">ptr</span><span class="p">[</span><span class="n">interest</span><span class="p">[</span><span class="mi">2</span><span class="p">:]]</span> <span class="o">=</span> <span class="n">ptr</span><span class="p">[</span><span class="n">interest</span><span class="p">[</span><span class="mi">2</span><span class="p">:]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">)</span>
-<span class="n">ptr</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">column_rename</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">interest</span><span class="p">:</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">cols</span><span class="p">:</span>
+    <span class="n">ger</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">ger</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">change_strings</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
     
+<span class="c1"># make column of all recomendations</span>
+<span class="n">ger</span><span class="p">[</span><span class="s1">&#39;trecs&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">ger</span><span class="p">[</span><span class="s1">&#39;recs&#39;</span><span class="p">],</span> <span class="n">ger</span><span class="p">[</span><span class="s1">&#39;recn&#39;</span><span class="p">],</span> <span class="n">ger</span><span class="p">[</span><span class="s1">&#39;recp&#39;</span><span class="p">])]</span>
+
+<span class="c1"># sort strings </span>
+<span class="k">def</span> <span class="nf">sort_strings</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">data</span>
+<span class="n">ger</span><span class="p">[</span><span class="s1">&#39;trecs&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ger</span><span class="p">[</span><span class="s1">&#39;trecs&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">sort_strings</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+
+<span class="c1"># define following recomendations:</span>
+<span class="n">no_recs</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;ddd&quot;</span><span class="p">,</span><span class="s2">&quot;xxx&quot;</span><span class="p">]</span>
+<span class="n">says_no</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;xxx&quot;</span><span class="p">,</span><span class="s2">&quot;nxx&quot;</span><span class="p">,</span><span class="s2">&quot;nnx&quot;</span><span class="p">]</span>
+<span class="n">says_yes</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;yyy&quot;</span><span class="p">,</span><span class="s2">&quot;xxy&quot;</span><span class="p">,</span><span class="s2">&quot;xxy&quot;</span><span class="p">]</span>
+<span class="n">mixed</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;nxy&quot;</span><span class="p">,</span><span class="s2">&quot;nyy&quot;</span><span class="p">]</span>
+<span class="n">categories</span> <span class="o">=</span> <span class="p">[</span><span class="n">no_recs</span><span class="p">,</span> <span class="n">says_no</span><span class="p">,</span> <span class="n">says_yes</span><span class="p">,</span> <span class="n">mixed</span><span class="p">]</span>
+
+<span class="c1"># apply these categories to the trecs column</span>
+<span class="k">def</span> <span class="nf">group_recs</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;no rec&quot;</span>
+    <span class="k">elif</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">]:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;yes&quot;</span>
+    <span class="k">elif</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">2</span><span class="p">]:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;no&quot;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;mixed&quot;</span>
+    <span class="k">return</span> <span class="n">data</span>
+<span class="n">ger</span><span class="p">[</span><span class="s2">&quot;trecs&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ger</span><span class="p">[</span><span class="s2">&quot;trecs&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">group_recs</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+
+<span class="n">cutoff</span> <span class="o">=</span> <span class="mi">10</span>
+
+<span class="k">def</span> <span class="nf">cutoffs</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;=</span> <span class="n">cutoff</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">return</span> <span class="n">data</span>
+<span class="n">ger</span><span class="p">[</span><span class="s2">&quot;cutoff&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ger</span><span class="p">[</span><span class="s2">&quot;2021-11-28&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">cutoffs</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="n">a</span> <span class="o">=</span> <span class="n">ger</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;trecs&quot;</span><span class="p">],</span> <span class="n">as_index</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;2021-11-28&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span><span class="s2">&quot;cutoff&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">})</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ptr</span><span class="o">.</span><span class="n">area</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([&#39;22&#39;, &#39;11&#39;, &#39;7&#39;], dtype=object)
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ptr</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span>
 </pre></div>
 </div>
 </div>
@@ -733,178 +740,39 @@
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>species</th>
-      <th>recs</th>
-      <th>recn</th>
-      <th>recp</th>
-      <th>collection</th>
-      <th>origin</th>
-      <th>geo</th>
-      <th>colm</th>
-      <th>coly</th>
-      <th>sloc</th>
-      <th>...</th>
-      <th>2021-10-26</th>
-      <th>2021-10-28</th>
-      <th>2021-10-30</th>
-      <th>2021-11-03</th>
-      <th>2021-11-10</th>
-      <th>2021-11-18</th>
-      <th>2021-11-23</th>
+      <th>trecs</th>
       <th>2021-11-28</th>
-      <th>genus</th>
-      <th>int</th>
+      <th>cutoff</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>trifolium-campestre</td>
-      <td>yes</td>
-      <td>yes</td>
-      <td>x</td>
-      <td>personal</td>
-      <td>cygnes-lot</td>
-      <td>biel</td>
-      <td>10</td>
-      <td>2021</td>
-      <td>home</td>
-      <td>...</td>
-      <td>21</td>
-      <td>21</td>
-      <td>19</td>
-      <td>19</td>
-      <td>19</td>
-      <td>19</td>
-      <td>17</td>
-      <td>55</td>
-      <td>trifolium</td>
-      <td>cygnes-lot</td>
+      <td>mixed</td>
+      <td>521</td>
+      <td>11</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>medicago-sativa</td>
-      <td>x</td>
-      <td>yes</td>
-      <td>x</td>
-      <td>personal</td>
-      <td>cygnes-lot</td>
-      <td>biel</td>
-      <td>10</td>
-      <td>2021</td>
-      <td>home</td>
-      <td>...</td>
-      <td>18</td>
-      <td>18</td>
-      <td>13</td>
-      <td>13</td>
-      <td>13</td>
-      <td>13</td>
-      <td>8</td>
-      <td>36</td>
-      <td>medicago</td>
-      <td>cygnes-lot</td>
+      <td>no</td>
+      <td>652</td>
+      <td>9</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>sanguisorba-minor</td>
-      <td>yes</td>
-      <td>x</td>
-      <td>x</td>
-      <td>personal</td>
-      <td>cygnes-lot</td>
-      <td>biel</td>
-      <td>7</td>
-      <td>2021</td>
-      <td>home</td>
-      <td>...</td>
-      <td>11</td>
-      <td>11</td>
-      <td>11</td>
-      <td>11</td>
-      <td>11</td>
-      <td>11</td>
-      <td>11</td>
-      <td>85</td>
-      <td>sanguisorba</td>
-      <td>cygnes-lot</td>
+      <td>no rec</td>
+      <td>919</td>
+      <td>20</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>trifolium-sp.</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>personal</td>
-      <td>cygnes-lot</td>
-      <td>biel</td>
-      <td>10</td>
-      <td>2021</td>
-      <td>home</td>
-      <td>...</td>
-      <td>9</td>
-      <td>9</td>
-      <td>9</td>
-      <td>9</td>
-      <td>9</td>
-      <td>9</td>
-      <td>10</td>
-      <td>16</td>
-      <td>trifolium</td>
-      <td>cygnes-lot</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>medicago-lupulina</td>
       <td>yes</td>
-      <td>yes</td>
-      <td>x</td>
-      <td>personal</td>
-      <td>cygnes-lot</td>
-      <td>biel</td>
-      <td>10</td>
-      <td>2021</td>
-      <td>home</td>
-      <td>...</td>
-      <td>5</td>
-      <td>5</td>
+      <td>232</td>
       <td>6</td>
-      <td>6</td>
-      <td>6</td>
-      <td>6</td>
-      <td>7</td>
-      <td>8</td>
-      <td>medicago</td>
-      <td>cygnes-lot</td>
     </tr>
   </tbody>
 </table>
-<p>5 rows × 34 columns</p>
 </div></div></div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">q</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">melt</span><span class="p">(</span><span class="n">ptr</span><span class="p">,</span> <span class="n">value_vars</span><span class="o">=</span><span class="n">column_rename</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span> <span class="n">id_vars</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;genus&quot;</span><span class="p">,</span> <span class="s2">&quot;species&quot;</span><span class="p">],</span> <span class="n">var_name</span><span class="o">=</span><span class="s2">&quot;week&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">KeyError</span><span class="g g-Whitespace">                                  </span>Traceback (most recent call last)
-<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_19949</span><span class="o">/</span><span class="mf">954028014.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">q</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">melt</span><span class="p">(</span><span class="n">ptr</span><span class="p">,</span> <span class="n">value_vars</span><span class="o">=</span><span class="n">column_rename</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span> <span class="n">id_vars</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;genus&quot;</span><span class="p">,</span> <span class="s2">&quot;species&quot;</span><span class="p">],</span> <span class="n">var_name</span><span class="o">=</span><span class="s2">&quot;week&quot;</span><span class="p">)</span>
-
-<span class="nn">~/anaconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/reshape/melt.py</span> in <span class="ni">melt</span><span class="nt">(frame, id_vars, value_vars, var_name, value_name, col_level, ignore_index)</span>
-<span class="g g-Whitespace">     </span><span class="mi">94</span>             <span class="n">missing</span> <span class="o">=</span> <span class="n">Index</span><span class="p">(</span><span class="n">com</span><span class="o">.</span><span class="n">flatten</span><span class="p">(</span><span class="n">value_vars</span><span class="p">))</span><span class="o">.</span><span class="n">difference</span><span class="p">(</span><span class="n">cols</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">95</span>             <span class="k">if</span> <span class="ow">not</span> <span class="n">missing</span><span class="o">.</span><span class="n">empty</span><span class="p">:</span>
-<span class="ne">---&gt; </span><span class="mi">96</span>                 <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span>
-<span class="g g-Whitespace">     </span><span class="mi">97</span>                     <span class="s2">&quot;The following &#39;value_vars&#39; are not present in &quot;</span>
-<span class="g g-Whitespace">     </span><span class="mi">98</span>                     <span class="sa">f</span><span class="s2">&quot;the DataFrame: </span><span class="si">{</span><span class="nb">list</span><span class="p">(</span><span class="n">missing</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
-
-<span class="ne">KeyError</span>: &quot;The following &#39;value_vars&#39; are not present in the DataFrame: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]&quot;
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -913,29 +781,15 @@
 </pre></div>
 </div>
 </div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># insert map based on .kml file available from SwissTopo in the hdbot/resources/germination/map-key-germination.html</span>
-<span class="c1"># map also available here: https://s.geo.admin.ch/942859cc6c</span>
-<span class="c1"># note this is only for the PERSONAL collection. The volo seeds should use the GPS coordinates of the volo HQ - this can be changed once the volo population origin locations are confirmed.</span>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_27665</span><span class="o">/</span><span class="mf">1223257817.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">q_i</span> <span class="o">=</span> <span class="n">q</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;week&quot;</span><span class="p">,</span> <span class="s2">&quot;genus&quot;</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">q_i</span><span class="p">[</span><span class="n">q_i</span><span class="o">.</span><span class="n">value</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;week&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+
+<span class="ne">NameError</span>: name &#39;q&#39; is not defined
 </pre></div>
-</div>
-</div>
-</div>
-<div class="section" id="comparison-with-germination-refs">
-<h3><span class="section-number">2.4.1. </span>Comparison with germination refs<a class="headerlink" href="#comparison-with-germination-refs" title="Permalink to this headline">¶</a></h3>
-<p>Before the germination experiment was run, three different references were consulted. These references sometimes offered conflicting information on how best to germinate the wildflower seeds. This section compares the expected germination based on the reference works to what was actually observed.</p>
-<ul class="simple">
-<li><p>DE book</p></li>
-<li><p>Sylvanseeds</p></li>
-<li><p>Norman C. Deno’s book</p></li>
-</ul>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># tables of above analysis</span>
-</pre></div>
-</div>
 </div>
 </div>
 </div>
