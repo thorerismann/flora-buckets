@@ -5,15 +5,15 @@ format: jb-book
 root: intro
 
 parts:
-  - caption: The flowers in Biel
+  - caption: The Flower Survey
     numbered: True
     chapters:
      - file: analysis.ipynb
-  - caption: A small germination experiment
+  - caption: Germination Experiment
     numbered: True
     chapters:
      - file: germination.ipynb
-  - caption: conclusion
+  - caption: Conclusion
     numbered: True
     chapters:
      - file: resources.ipynb
