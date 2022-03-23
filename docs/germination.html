@@ -287,12 +287,12 @@
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#results">
-   2.2. Results 🍒
+   2.2. Results 🍀
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#define-succesful-germination">
-     2.2.1. Define “succesful” germination 🍀
+    <a class="reference internal nav-link" href="#cut-off-values-for-successful-germination">
+     2.2.1. Cut-off values for successful germination
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -339,13 +339,12 @@
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Final notebook for the 2021 germination project</span>
 
-<span class="c1"># Import packages and files</span>
+<span class="c1"># Import standard packages and files</span>
 
 <span class="c1"># math and data packages</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">math</span>
-<span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">ndimage</span>
 
 <span class="c1"># charting and graphics</span>
 <span class="kn">import</span> <span class="nn">matplotlib</span> <span class="k">as</span> <span class="nn">mpl</span>
@@ -370,42 +369,48 @@
 <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Markdown</span> <span class="k">as</span> <span class="n">md</span>
 <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
 
-<span class="c1"># import utility folder</span>
+<span class="c1"># import utility file</span>
 
 <span class="kn">import</span> <span class="nn">botany_utilities</span> <span class="k">as</span> <span class="nn">bot</span>
 
-<span class="c1"># import survey data and initialize datetime</span>
-<span class="n">spd</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;resources/survey_data_lists_02_22.csv&quot;</span><span class="p">)</span>
-<span class="n">spd</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">spd</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">],</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;coerce&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1">&#39;</span><span class="p">)</span>
-<span class="n">spd</span><span class="p">[</span><span class="s2">&quot;month&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">spd</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">month</span>
-
-<span class="c1"># create column of mutually exclusive plant characteristics from dataset</span>
-<span class="n">spdint1</span> <span class="o">=</span> <span class="n">spd</span><span class="p">[</span><span class="n">spd</span><span class="p">[</span><span class="s2">&quot;inv&quot;</span><span class="p">]</span><span class="o">!=</span><span class="s2">&quot;X&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="n">spdint1</span><span class="p">[</span><span class="s2">&quot;allstats&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">spdint1</span><span class="p">[</span><span class="s2">&quot;inv&quot;</span><span class="p">]</span>
-<span class="n">spdint2</span> <span class="o">=</span> <span class="n">spd</span><span class="p">[</span><span class="n">spd</span><span class="p">[</span><span class="s2">&quot;ns&quot;</span><span class="p">]</span><span class="o">!=</span><span class="s2">&quot;X&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="n">spdint2</span><span class="p">[</span><span class="s2">&quot;allstats&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">spdint2</span><span class="p">[</span><span class="s2">&quot;ns&quot;</span><span class="p">]</span>
-<span class="n">spdint3</span> <span class="o">=</span> <span class="n">spd</span><span class="p">[</span><span class="n">spd</span><span class="p">[</span><span class="s2">&quot;rch&quot;</span><span class="p">]</span><span class="o">!=</span><span class="s2">&quot;X&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="n">spdint3</span><span class="p">[</span><span class="s2">&quot;allstats&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">spdint3</span><span class="p">[</span><span class="s2">&quot;rch&quot;</span><span class="p">]</span>
-<span class="n">spdint4</span> <span class="o">=</span> <span class="n">spd</span><span class="p">[</span><span class="n">spd</span><span class="p">[</span><span class="s2">&quot;ni&quot;</span><span class="p">]</span><span class="o">!=</span><span class="s2">&quot;X&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="n">spdint4</span><span class="p">[</span><span class="s2">&quot;allstats&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">spdint4</span><span class="p">[</span><span class="s2">&quot;ni&quot;</span><span class="p">]</span>
-<span class="n">spdint5</span> <span class="o">=</span> <span class="n">spd</span><span class="p">[</span><span class="n">spd</span><span class="p">[</span><span class="s2">&quot;ongen&quot;</span><span class="p">]</span><span class="o">!=</span><span class="s2">&quot;X&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="n">spdint5</span><span class="p">[</span><span class="s2">&quot;allstats&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">spdint5</span><span class="p">[</span><span class="s2">&quot;ongen&quot;</span><span class="p">]</span>
-<span class="n">spd_allstats</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">spdint1</span><span class="p">,</span> <span class="n">spdint2</span><span class="p">,</span> <span class="n">spdint3</span><span class="p">,</span> <span class="n">spdint4</span><span class="p">,</span> <span class="n">spdint5</span><span class="p">])</span>
-
-<span class="c1"># create yearly data for later charting use</span>
-<span class="n">spd1</span> <span class="o">=</span> <span class="n">spd_allstats</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">spd_allstats</span><span class="o">.</span><span class="n">year</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="n">spd2</span> <span class="o">=</span> <span class="n">spd_allstats</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">spd_allstats</span><span class="p">[</span><span class="s2">&quot;year&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-
 <span class="c1"># import germination data</span>
+
 <span class="n">ger</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;resources/germ_data.csv&quot;</span><span class="p">)</span>
 <span class="n">ger</span><span class="p">[</span><span class="s2">&quot;pdate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">ger</span><span class="p">[</span><span class="s1">&#39;pdate&#39;</span><span class="p">],</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;coerce&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%d</span><span class="s1">/%m/%y&#39;</span><span class="p">)</span>
+
+<span class="c1"># import survey data</span>
+
+<span class="c1"># initialize datetime</span>
+
+<span class="c1"># spd=pd.read_csv(&quot;resources/survey_data_lists_02_22.csv&quot;)</span>
+<span class="c1"># spd[&quot;date&quot;] = pd.to_datetime(spd[&#39;date&#39;], errors=&#39;coerce&#39;, format=&#39;%Y-%m-%d&#39;)</span>
+<span class="c1"># spd[&quot;month&quot;] = spd[&quot;date&quot;].dt.month</span>
+
+<span class="c1">#create column of mutually exclusive plant characteristics from dataset</span>
+
+<span class="c1">#spdint1 = spd[spd[&quot;inv&quot;]!=&quot;X&quot;].copy()</span>
+<span class="c1">#spdint1[&quot;allstats&quot;] = spdint1[&quot;inv&quot;]</span>
+<span class="c1">#spdint2 = spd[spd[&quot;ns&quot;]!=&quot;X&quot;].copy()</span>
+<span class="c1">#spdint2[&quot;allstats&quot;] = spdint2[&quot;ns&quot;]</span>
+<span class="c1">#spdint3 = spd[spd[&quot;rch&quot;]!=&quot;X&quot;].copy()</span>
+<span class="c1">#spdint3[&quot;allstats&quot;] = spdint3[&quot;rch&quot;]</span>
+<span class="c1">#spdint4 = spd[spd[&quot;ni&quot;]!=&quot;X&quot;].copy()</span>
+<span class="c1">#spdint4[&quot;allstats&quot;] = spdint4[&quot;ni&quot;]</span>
+<span class="c1">#spdint5 = spd[spd[&quot;ongen&quot;]!=&quot;X&quot;].copy()</span>
+<span class="c1">#spdint5[&quot;allstats&quot;] = spdint5[&quot;ongen&quot;]</span>
+<span class="c1">#spd_allstats = pd.concat([spdint1, spdint2, spdint3, spdint4, spdint5])</span>
+
+<span class="c1"># create yearly data for later charting use</span>
+
+<span class="c1">#spd1 = spd_allstats.loc[spd_allstats.year == 1].copy()</span>
+<span class="c1">#spd2 = spd_allstats.loc[(spd_allstats[&quot;year&quot;] == 2)].copy()</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="section" id="methodology">
 <h2><span class="section-number">2.1. </span>Methodology 🔩<a class="headerlink" href="#methodology" title="Permalink to this headline">¶</a></h2>
-<p>As previously stated, the goal of this experiment was to test which of the 83 species would germinate at 25 degrees Celsius without cold stratification or physical scarring. This experiment was not aiming for optimizing germination or identifying germination rates, but to give a yes/no indicator as to whether germinating these seeds is feasible undet the below enumerated “household” conditions without any preparation.</p>
+<p>As stated, the goal of this experiment was to test which of the 83 species would germinate at 25 degrees Celsius without cold stratification or physical scarring. This experiment was not to identify optimal germination scenarios identifying germination rates per se, but to give a yes/no indicator as to whether germinating these seeds is feasible undet the below enumerated “household” conditions without any preparation.</p>
 <div class="section" id="choice-and-source-of-seeds">
 <h3><span class="section-number">2.1.1. </span>Choice and source of seeds<a class="headerlink" href="#choice-and-source-of-seeds" title="Permalink to this headline">¶</a></h3>
 <p>The seeds were chosen opportunistically among native wildtype species within either the personal collection of Gabrial Erismann or the inventory of Port 34. The choice of seeds reflected several criteria:</p>
@@ -490,81 +495,106 @@
 </div>
 </div>
 <div class="section" id="results">
-<h2><span class="section-number">2.2. </span>Results 🍒<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.2. </span>Results 🍀<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h2>
 <p>Most seeds germinated, with a large variability in the amount of sprouts. The concrete containers and the plastic containers demonstrated similar germination rates based on the results of the full count on November 28th 2022. About 1/3 of the species could be considered to have “not germinated”, defined below, and about half of the species could be defined as successfully germinated, again defined below.</p>
-<div class="section" id="define-succesful-germination">
-<h3><span class="section-number">2.2.1. </span>Define “succesful” germination 🍀<a class="headerlink" href="#define-succesful-germination" title="Permalink to this headline">¶</a></h3>
-<p>In order to determine succesful germination, a cut-off value had to be defined above which a species is “succesful” and below which a species is “unsuccesful”. This value depends on the purpose - if the goal is to determine whether any sprouts germinate then the cutoff should be close to 0. If the purpose is to grow them with a maximum return then a higher germination rate would be needed for “success”. The below chart demonstrates the number of succesfully (and unsuccesfully) germinated species based on changing cut-off values.</p>
+<div class="section" id="cut-off-values-for-successful-germination">
+<h3><span class="section-number">2.2.1. </span>Cut-off values for successful germination<a class="headerlink" href="#cut-off-values-for-successful-germination" title="Permalink to this headline">¶</a></h3>
+<p>In order to determine succesful germination, a cut-off value had to be defined above which a species is “succesful” and below which a species is “unsuccesful”. This value depends on the purpose - if the goal is to determine whether any sprouts germinate then the cutoff should be close to 0. If the purpose is to grow them with a maximum return then a higher germination rate would be needed for “success”. The below charts demonstrate the number of succesfully (and unsuccesfully) germinated species based on changing cut-off values.</p>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># see how the overall germination rates change according to cut off for &quot;succesful&quot; germination or not</span>
-<span class="c1"># all containers directly comparable on november 28th when I counted all sprouts</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## convert the csv data into useable data for graphing.</span>
 
-<span class="c1"># set index i as &quot;cutoff&quot; for succesful germination, increment i by &quot;step&quot; sprouts at each step</span>
-<span class="c1"># make list of lists of species above and below cutoff at each step and transform to dataframes</span>
+<span class="c1">## make density values</span>
 
-<span class="n">cont</span> <span class="o">=</span> <span class="n">ger</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ger</span><span class="o">.</span><span class="n">container</span> <span class="o">==</span> <span class="s2">&quot;plastic-tray&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="c1"># the original density values were under reported for these species - note the germination rate is above 1</span>
+<span class="n">h</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;dianthus-carthusianorum&#39;</span><span class="p">,</span> <span class="s1">&#39;silene-flos-cuculi&#39;</span><span class="p">,</span>
+       <span class="s1">&#39;veronica-teucrium&#39;</span><span class="p">]</span>
+
+<span class="c1"># assign numerical values to qualitative measurement of number of seeds planted</span>
+<span class="n">n</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;full&quot;</span><span class="p">,</span> <span class="s2">&quot;moderate&quot;</span><span class="p">,</span> <span class="s2">&quot;small&quot;</span><span class="p">]</span>
+<span class="c1">#for i,undercounted in enumerate(h):</span>
+<span class="c1">#    ger.loc[ger.species == undercounted, &#39;density&#39;] = n[i]</span>
+<span class="n">new_densities</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;full&quot;</span><span class="p">:</span><span class="mi">100</span><span class="p">,</span> <span class="s2">&quot;moderate&quot;</span><span class="p">:</span><span class="mi">50</span><span class="p">,</span> <span class="s2">&quot;small&quot;</span><span class="p">:</span><span class="mi">20</span><span class="p">}</span>
+<span class="n">ger</span><span class="p">[</span><span class="s2">&quot;density&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ger</span><span class="o">.</span><span class="n">density</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">new_densities</span><span class="p">[</span><span class="n">x</span><span class="p">])</span>
+
+
+<span class="c1"># sprouted is the max of the weekly counts</span>
+<span class="n">counts</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;2021-10-10&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-12&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-14&#39;</span><span class="p">,</span>
+     <span class="s1">&#39;2021-10-16&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-18&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-20&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-22&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-24&#39;</span><span class="p">,</span>
+     <span class="s1">&#39;2021-10-26&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-28&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-30&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-03&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-10&#39;</span><span class="p">,</span>
+     <span class="s1">&#39;2021-11-18&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-23&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-28&#39;</span><span class="p">]</span>
+
+<span class="n">ger</span><span class="p">[</span><span class="s2">&quot;sprouted&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ger</span><span class="p">[</span><span class="n">counts</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="c1"># the germination rate is the sprouted/density</span>
+<span class="n">ger</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ger</span><span class="o">.</span><span class="n">sprouted</span><span class="o">/</span><span class="n">ger</span><span class="o">.</span><span class="n">density</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## Prepare records for the cutoff charts</span>
+
+<span class="c1"># concrete contatiners</span>
 <span class="n">conc</span> <span class="o">=</span> <span class="n">ger</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ger</span><span class="o">.</span><span class="n">container</span> <span class="o">==</span> <span class="s2">&quot;concrete-container&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
-<span class="n">cutoffs_concrete</span> <span class="o">=</span> <span class="p">[[</span><span class="s2">&quot;cutoff_number&quot;</span><span class="p">,</span> <span class="s2">&quot;species_below_cutoff&quot;</span><span class="p">,</span> <span class="s2">&quot;species_above_cutoff&quot;</span><span class="p">]]</span>
-<span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">step</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">first_step</span> <span class="o">=</span> <span class="n">step</span><span class="o">-</span><span class="mi">1</span>
-<span class="k">while</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">:</span>
-    <span class="n">concfew</span> <span class="o">=</span> <span class="n">conc</span><span class="p">[</span><span class="n">conc</span><span class="p">[</span><span class="s2">&quot;2021-11-28&quot;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-    <span class="n">concmany</span> <span class="o">=</span> <span class="n">conc</span><span class="p">[</span><span class="n">conc</span><span class="p">[</span><span class="s2">&quot;2021-11-28&quot;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="c1"># define columns to display</span>
+<span class="n">coffs</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">,</span> <span class="s2">&quot;species_below_cutoff&quot;</span><span class="p">,</span> <span class="s2">&quot;species_above_cutoff&quot;</span><span class="p">]</span>
+<span class="n">display_columns</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;origin&quot;</span><span class="p">,</span><span class="s2">&quot;species&quot;</span><span class="p">,</span> <span class="s2">&quot;density&quot;</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">,</span> <span class="s2">&quot;rate&quot;</span><span class="p">]</span>
+
+<span class="c1"># array to hold values</span>
+<span class="n">cutoffs_concrete</span> <span class="o">=</span> <span class="p">[</span><span class="n">coffs</span><span class="p">]</span>
+
+<span class="c1"># count the number of species above and below the specified increment</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mf">.05</span><span class="p">):</span>
+    <span class="n">concfew</span> <span class="o">=</span> <span class="n">conc</span><span class="p">[</span><span class="n">conc</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">concmany</span> <span class="o">=</span> <span class="n">conc</span><span class="p">[</span><span class="n">conc</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
     <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">concfew</span><span class="o">.</span><span class="n">species</span><span class="o">.</span><span class="n">nunique</span><span class="p">(),</span><span class="n">concmany</span><span class="o">.</span><span class="n">species</span><span class="o">.</span><span class="n">nunique</span><span class="p">()]</span>
     <span class="n">cutoffs_concrete</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span><span class="mi">1</span><span class="p">:</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="n">first_step</span>
-    <span class="k">elif</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">100</span><span class="p">:</span>
-        <span class="n">cc</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cutoffs_concrete</span><span class="p">)</span>
-        <span class="n">new_header</span> <span class="o">=</span> <span class="n">cc</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-        <span class="n">cc</span> <span class="o">=</span> <span class="n">cc</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
-        <span class="n">cc</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">new_header</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="n">step</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="n">step</span>
 
-<span class="n">cutoffs_total</span> <span class="o">=</span> <span class="p">[[</span><span class="s2">&quot;cutoff_number&quot;</span><span class="p">,</span> <span class="s2">&quot;species_below_cutoff&quot;</span><span class="p">,</span> <span class="s2">&quot;species_above_cutoff&quot;</span><span class="p">]]</span>
-<span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="k">while</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">:</span>
-    <span class="n">gerfew</span> <span class="o">=</span> <span class="n">ger</span><span class="p">[</span><span class="n">ger</span><span class="p">[</span><span class="s2">&quot;2021-11-28&quot;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-    <span class="n">germany</span> <span class="o">=</span> <span class="n">ger</span><span class="p">[</span><span class="n">ger</span><span class="p">[</span><span class="s2">&quot;2021-11-28&quot;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-    <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">gerfew</span><span class="o">.</span><span class="n">species</span><span class="o">.</span><span class="n">nunique</span><span class="p">(),</span><span class="n">germany</span><span class="o">.</span><span class="n">species</span><span class="o">.</span><span class="n">nunique</span><span class="p">()]</span>
-    <span class="n">cutoffs_total</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span><span class="mi">1</span><span class="p">:</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="n">first_step</span>
-    <span class="k">elif</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">100</span><span class="p">:</span>
-        <span class="n">ct</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cutoffs_total</span><span class="p">)</span>
-        <span class="n">new_header</span> <span class="o">=</span> <span class="n">ct</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-        <span class="n">ct</span> <span class="o">=</span> <span class="n">ct</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
-        <span class="n">ct</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">new_header</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="n">step</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="n">step</span>
+<span class="c1"># the overall germination rate</span>
+<span class="n">cugerm</span> <span class="o">=</span> <span class="n">conc</span><span class="o">.</span><span class="n">sprouted</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">/</span><span class="n">conc</span><span class="o">.</span><span class="n">density</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 
-        
-<span class="n">cutoffs_plastic</span> <span class="o">=</span> <span class="p">[[</span><span class="s2">&quot;cutoff_number&quot;</span><span class="p">,</span> <span class="s2">&quot;species_below_cutoff&quot;</span><span class="p">,</span> <span class="s2">&quot;species_above_cutoff&quot;</span><span class="p">]]</span>
-<span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="k">while</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">:</span>
-    <span class="n">plasticfew</span> <span class="o">=</span> <span class="n">cont</span><span class="p">[</span><span class="n">cont</span><span class="p">[</span><span class="s2">&quot;2021-11-28&quot;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-    <span class="n">plasticmany</span> <span class="o">=</span> <span class="n">cont</span><span class="p">[</span><span class="n">cont</span><span class="p">[</span><span class="s2">&quot;2021-11-28&quot;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-    <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">plasticfew</span><span class="o">.</span><span class="n">species</span><span class="o">.</span><span class="n">nunique</span><span class="p">(),</span><span class="n">plasticmany</span><span class="o">.</span><span class="n">species</span><span class="o">.</span><span class="n">nunique</span><span class="p">()]</span>
+<span class="n">ngermination_rates_c</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cutoffs_concrete</span><span class="p">[</span><span class="mi">1</span><span class="p">:],</span> <span class="n">columns</span><span class="o">=</span><span class="n">cutoffs_concrete</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+<span class="c1"># plastic containers</span>
+<span class="n">p</span> <span class="o">=</span> <span class="n">ger</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ger</span><span class="o">.</span><span class="n">container</span> <span class="o">==</span> <span class="s2">&quot;plastic-tray&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="c1"># array to hold values</span>
+<span class="n">cutoffs_plastic</span> <span class="o">=</span> <span class="p">[</span><span class="n">coffs</span><span class="p">]</span>
+
+<span class="c1"># count the number of species above and below the specified increment</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mf">.05</span><span class="p">):</span>
+    <span class="n">pfew</span> <span class="o">=</span> <span class="n">p</span><span class="p">[</span><span class="n">p</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">pmany</span> <span class="o">=</span> <span class="n">p</span><span class="p">[</span><span class="n">p</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">pfew</span><span class="o">.</span><span class="n">species</span><span class="o">.</span><span class="n">nunique</span><span class="p">(),</span><span class="n">pmany</span><span class="o">.</span><span class="n">species</span><span class="o">.</span><span class="n">nunique</span><span class="p">()]</span>
     <span class="n">cutoffs_plastic</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span><span class="mi">1</span><span class="p">:</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="n">first_step</span>
-    <span class="k">elif</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">100</span><span class="p">:</span>
-        <span class="n">cp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cutoffs_plastic</span><span class="p">)</span>
-        <span class="n">new_header</span> <span class="o">=</span> <span class="n">cp</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-        <span class="n">cp</span> <span class="o">=</span> <span class="n">cp</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
-        <span class="n">cp</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">new_header</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="n">step</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="n">step</span>
 
-<span class="c1"># plot the dataframes cc = concrete container, ct = total, cp = plastic container</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">lineplot</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">ct</span><span class="p">,</span> <span class="p">)</span>
+<span class="c1"># the overall germination rate</span>
+<span class="n">plasticgerm</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">sprouted</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">/</span><span class="n">p</span><span class="o">.</span><span class="n">density</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+
+<span class="n">ngermination_rates_p</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cutoffs_plastic</span><span class="p">[</span><span class="mi">1</span><span class="p">:],</span> <span class="n">columns</span><span class="o">=</span><span class="n">cutoffs_plastic</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+
+<span class="n">sns</span><span class="o">.</span><span class="n">set_style</span><span class="p">(</span><span class="s2">&quot;whitegrid&quot;</span><span class="p">)</span>
+<span class="n">Fig</span><span class="p">,</span> <span class="p">(</span><span class="n">ax1</span><span class="p">,</span> <span class="n">ax2</span><span class="p">)</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">lineplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">ngermination_rates_p</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">&quot;rate&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;species_above_cutoff&quot;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;species above cutoff&quot;</span><span class="p">)</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">lineplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">ngermination_rates_p</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">&quot;rate&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;species_below_cutoff&quot;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;species below cutoff&quot;</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;Number of species&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">&quot;Germination rate&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Plastic</span><span class="se">\n</span><span class="s2">Total germination rate = </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">plasticgerm</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">fontsize</span> <span class="o">=</span> <span class="mi">15</span><span class="p">)</span>
+
+<span class="c1"># plot the data</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">lineplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">ngermination_rates_c</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">&quot;rate&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;species_above_cutoff&quot;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;species above cutoff&quot;</span><span class="p">)</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">lineplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">ngermination_rates_c</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">&quot;rate&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;species_below_cutoff&quot;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;species below cutoff&quot;</span><span class="p">)</span>
+
+<span class="c1"># axis labels and styles</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">&quot;Germination rate </span><span class="se">\n</span><span class="s2">concrete&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;Number of species&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Concrete</span><span class="se">\n</span><span class="s2">Total germination rate = </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">cugerm</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">fontsize</span> <span class="o">=</span> <span class="mi">15</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span> <span class="o">=</span> <span class="s2">&quot;upper center&quot;</span><span class="p">)</span>
+
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -573,103 +603,292 @@
 <img alt="_images/germination_7_0.png" src="_images/germination_7_0.png" />
 </div>
 </div>
-<p><em><strong>Figure 2:</strong> number of species “succesfully” and “unsuccesfully” germinated on the final date of experiment based on different cutoff values.</em></p>
+<p><em><strong>Figure 2:</strong> Overall germination rate of the plastic concrete containters and the number of species above and below different germination cut-off rates from 0 to 1 on a .05 increment</em></p>
+<p>The seeds were sourced from two collections: either Port 34 (mainly their old seeds) or from my own collection from 2020 and 2021 of seeds from around Biel. The rate was higher in plastic containers for both groups and similar overall.</p>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## concrete container data prep</span>
-<span class="n">ccounts</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;2021-10-10&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-12&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-14&#39;</span><span class="p">,</span>
-     <span class="s1">&#39;2021-10-16&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-18&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-20&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-22&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-24&#39;</span><span class="p">,</span>
-     <span class="s1">&#39;2021-10-26&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-28&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-30&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-03&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-10&#39;</span><span class="p">,</span>
-     <span class="s1">&#39;2021-11-18&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-23&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-28&#39;</span><span class="p">]</span>
-
-<span class="n">new_densities</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;full&quot;</span><span class="p">:</span><span class="mi">100</span><span class="p">,</span> <span class="s2">&quot;moderate&quot;</span><span class="p">:</span><span class="mi">50</span><span class="p">,</span> <span class="s2">&quot;small&quot;</span><span class="p">:</span><span class="mi">20</span><span class="p">}</span>
-
-<span class="n">conc</span><span class="p">[</span><span class="s2">&quot;density&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">conc</span><span class="o">.</span><span class="n">density</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">new_densities</span><span class="p">[</span><span class="n">x</span><span class="p">])</span>
-<span class="n">conc</span><span class="p">[</span><span class="s2">&quot;sprouted&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">conc</span><span class="p">[</span><span class="n">ccounts</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">conc</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">conc</span><span class="o">.</span><span class="n">sprouted</span><span class="o">/</span><span class="n">conc</span><span class="o">.</span><span class="n">density</span>
-
-<span class="n">conc_display</span> <span class="o">=</span> <span class="n">conc</span><span class="p">[[</span><span class="s2">&quot;origin&quot;</span><span class="p">,</span><span class="s2">&quot;species&quot;</span><span class="p">,</span> <span class="s2">&quot;density&quot;</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">,</span> <span class="s2">&quot;rate&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="c1">#conc_display.set_index([&quot;origin&quot;, &quot;species&quot;])</span>
-
-<span class="c1"># the overall germination rate</span>
-<span class="n">conc</span><span class="o">.</span><span class="n">sprouted</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">/</span><span class="n">conc</span><span class="o">.</span><span class="n">density</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-
-<span class="c1"># germination rate by origin</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># germination rate by origin for concrete containers</span>
 <span class="n">by_species</span><span class="o">=</span><span class="n">conc</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;species&quot;</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;density&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">})</span>
 <span class="n">by_species</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">by_species</span><span class="o">.</span><span class="n">sprouted</span><span class="o">/</span><span class="n">by_species</span><span class="o">.</span><span class="n">density</span>
 
-<span class="c1"># germination rate by species collection</span>
+<span class="c1"># germination rate by species collection (concrete)</span>
 <span class="n">by_origin</span><span class="o">=</span><span class="n">conc</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;collection&quot;</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;density&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">})</span>
 <span class="n">by_origin</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">by_origin</span><span class="o">.</span><span class="n">sprouted</span><span class="o">/</span><span class="n">by_origin</span><span class="o">.</span><span class="n">density</span>
+<span class="n">by_origin</span><span class="p">[</span><span class="s2">&quot;container&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;concrete&quot;</span>
 
-<span class="c1"># average germination rate per day over all species</span>
-<span class="n">averages</span> <span class="o">=</span> <span class="p">[[</span><span class="s2">&quot;date&quot;</span><span class="p">,</span><span class="s2">&quot;average&quot;</span><span class="p">]]</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">ccounts</span><span class="p">:</span>
-    <span class="n">average</span> <span class="o">=</span> <span class="n">conc</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
-    <span class="n">averages</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">i</span><span class="p">,</span><span class="n">average</span><span class="p">])</span>
-    <span class="n">averages</span>
-<span class="n">conc_averages</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">averages</span><span class="p">)</span>
-<span class="n">new_header</span> <span class="o">=</span> <span class="n">conc_averages</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-<span class="n">conc_averages</span> <span class="o">=</span> <span class="n">conc_averages</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
-<span class="n">conc_averages</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">new_header</span>
+<span class="c1"># germination rate by origin for plastic containers</span>
+<span class="n">by_species_p</span><span class="o">=</span><span class="n">p</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;species&quot;</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;density&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">})</span>
+<span class="n">by_species_p</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">by_species_p</span><span class="o">.</span><span class="n">sprouted</span><span class="o">/</span><span class="n">by_species_p</span><span class="o">.</span><span class="n">density</span>
 
-<span class="c1">## plast trays data prep</span>
-<span class="c1"># make ratio of number of trays planted to number of trays with seedlings</span>
-<span class="n">counts</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;2021-10-10&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-12&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-14&#39;</span><span class="p">,</span>
-     <span class="s1">&#39;2021-10-16&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-18&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-20&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-22&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-24&#39;</span><span class="p">,</span>
-     <span class="s1">&#39;2021-10-26&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-28&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-10-30&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-03&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-10&#39;</span><span class="p">,</span>
-     <span class="s1">&#39;2021-11-18&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-23&#39;</span><span class="p">]</span>
+<span class="c1"># germination rate by species collection (plastic)</span>
+<span class="n">by_origin_p</span><span class="o">=</span><span class="n">p</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;collection&quot;</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;density&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">})</span>
+<span class="n">by_origin_p</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">by_origin_p</span><span class="o">.</span><span class="n">sprouted</span><span class="o">/</span><span class="n">by_origin_p</span><span class="o">.</span><span class="n">density</span>
+<span class="n">by_origin_p</span><span class="p">[</span><span class="s2">&quot;container&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;plastic&quot;</span>
 
-<span class="n">cont</span><span class="p">[</span><span class="s2">&quot;area&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">cont</span><span class="p">[</span><span class="s2">&quot;area&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
-
-<span class="n">ratios</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">counts</span><span class="p">:</span>
-    <span class="n">cont</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">cont</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
-    <span class="n">new_name</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">-ratio&quot;</span>
-    <span class="n">cont</span><span class="p">[</span><span class="n">new_name</span><span class="p">]</span> <span class="o">=</span> <span class="n">cont</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">/</span><span class="n">cont</span><span class="p">[</span><span class="s2">&quot;area&quot;</span><span class="p">]</span>
-    <span class="n">ratios</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">new_name</span><span class="p">)</span>
-
-<span class="n">pcont</span> <span class="o">=</span> <span class="n">cont</span><span class="p">[[</span><span class="s2">&quot;origin&quot;</span><span class="p">,</span> <span class="s2">&quot;species&quot;</span><span class="p">,</span> <span class="s2">&quot;area&quot;</span><span class="p">,</span> <span class="s2">&quot;density&quot;</span><span class="p">,</span><span class="o">*</span><span class="n">counts</span><span class="p">,</span> <span class="o">*</span><span class="n">ratios</span><span class="p">]]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="c1"># test[&quot;tone&quot;] = test[counts].max(axis=1)</span>
-
-<span class="n">pcont</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pcont</span><span class="p">[</span><span class="n">ratios</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">pcont</span><span class="p">[</span><span class="s2">&quot;sprouted&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">pcont</span><span class="o">.</span><span class="n">rate</span><span class="o">*</span><span class="n">pcont</span><span class="o">.</span><span class="n">area</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">)</span>
-
-<span class="c1"># germination rate by origin</span>
-<span class="n">by_origin_p</span><span class="o">=</span><span class="n">pcont</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;origin&quot;</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;area&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">})</span>
-<span class="n">by_origin_p</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span><span class="n">by_origin_p</span><span class="o">.</span><span class="n">sprouted</span><span class="o">/</span><span class="n">by_origin_p</span><span class="o">.</span><span class="n">area</span>
-
-<span class="c1"># germination rate by species</span>
-<span class="n">by_species_p</span><span class="o">=</span><span class="n">pcont</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;species&quot;</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;area&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">})</span>
-<span class="n">by_species_p</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">by_species_p</span><span class="o">.</span><span class="n">sprouted</span><span class="o">/</span><span class="n">by_species_p</span><span class="o">.</span><span class="n">area</span>
-<span class="n">by_species_p</span><span class="p">[</span><span class="n">by_species_p</span><span class="o">.</span><span class="n">sprouted</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">]</span>
-<span class="n">by_species_p</span><span class="p">[</span><span class="n">by_species_p</span><span class="o">.</span><span class="n">sprouted</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
-
-<span class="n">pcont_display</span> <span class="o">=</span> <span class="n">pcont</span><span class="p">[[</span><span class="s2">&quot;species&quot;</span><span class="p">,</span> <span class="s2">&quot;area&quot;</span><span class="p">,</span><span class="s2">&quot;rate&quot;</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">,</span> <span class="s2">&quot;origin&quot;</span><span class="p">]]</span>
-<span class="c1">#pcont_display.set_index([&quot;origin&quot;, &quot;species&quot;])</span>
+<span class="c1"># put both of them together and display</span>
+<span class="n">by_origin_total</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">by_origin_p</span><span class="p">,</span><span class="n">by_origin</span><span class="p">])</span>
+<span class="n">by_origin_total</span> <span class="o">=</span> <span class="n">by_origin_total</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">by_origin_total</span>
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>collection</th>
+      <th>density</th>
+      <th>sprouted</th>
+      <th>rate</th>
+      <th>container</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>personal</td>
+      <td>1170</td>
+      <td>628</td>
+      <td>0.536752</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>port 34</td>
+      <td>2110</td>
+      <td>936</td>
+      <td>0.443602</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>personal</td>
+      <td>1120</td>
+      <td>254</td>
+      <td>0.226786</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>port 34</td>
+      <td>2300</td>
+      <td>622</td>
+      <td>0.270435</td>
+      <td>concrete</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
 </div>
+<p><em><strong>Figure 3:</strong> Approximate number of seeds planted, sprouts and rate broken down by conatiner and by seed collection.</em></p>
+<p>It is likely that the age of the seeds may have affected germination. At the time of planting seeds chosen to be planted were a bit random. My personal collection featured more fresh seeds and the Port 34 collection featured more old seeds. However, for many species seeds can store for decades or even centuries, especially if stored in a cool, dry, dark protected environment like the seed storage area of Port 34.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Germination rate by year (coly)</span>
+
+<span class="c1">#obtain datasets</span>
+<span class="n">by_year_conc</span> <span class="o">=</span> <span class="n">conc</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;coly&quot;</span><span class="p">],</span> <span class="n">as_index</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;density&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span><span class="s2">&quot;species&quot;</span><span class="p">:</span><span class="s2">&quot;count&quot;</span><span class="p">})</span>
+<span class="n">by_year_p</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;coly&quot;</span><span class="p">],</span> <span class="n">as_index</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;density&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span><span class="s2">&quot;species&quot;</span><span class="p">:</span><span class="s2">&quot;count&quot;</span><span class="p">})</span>
+
+<span class="c1">#calculate rate</span>
+<span class="n">by_year_p</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">by_year_p</span><span class="o">.</span><span class="n">sprouted</span><span class="o">/</span><span class="n">by_year_p</span><span class="o">.</span><span class="n">density</span>
+<span class="n">by_year_conc</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">by_year_conc</span><span class="o">.</span><span class="n">sprouted</span><span class="o">/</span><span class="n">by_year_conc</span><span class="o">.</span><span class="n">density</span>
+
+<span class="c1">#add identifying column</span>
+<span class="n">by_year_p</span><span class="p">[</span><span class="s2">&quot;container&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;plastic&quot;</span>
+<span class="n">by_year_conc</span><span class="p">[</span><span class="s2">&quot;container&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;concrete&quot;</span>
+
+<span class="c1">#combine into 1 dataframe, sort by year, reset index, display</span>
+<span class="n">by_year_total</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">by_year_p</span><span class="p">,</span><span class="n">by_year_conc</span><span class="p">])</span>
+<span class="n">by_year_total</span> <span class="o">=</span> <span class="n">by_year_total</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span> <span class="o">=</span> <span class="s2">&quot;coly&quot;</span><span class="p">)</span>
+<span class="n">by_year_total</span> <span class="o">=</span> <span class="n">by_year_total</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">by_year_total</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>coly</th>
+      <th>density</th>
+      <th>sprouted</th>
+      <th>species</th>
+      <th>rate</th>
+      <th>container</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2015</td>
+      <td>300</td>
+      <td>71</td>
+      <td>3</td>
+      <td>0.236667</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2015</td>
+      <td>800</td>
+      <td>149</td>
+      <td>9</td>
+      <td>0.186250</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2016</td>
+      <td>100</td>
+      <td>100</td>
+      <td>1</td>
+      <td>1.000000</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2016</td>
+      <td>200</td>
+      <td>101</td>
+      <td>2</td>
+      <td>0.505000</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2018</td>
+      <td>100</td>
+      <td>8</td>
+      <td>1</td>
+      <td>0.080000</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2019</td>
+      <td>790</td>
+      <td>330</td>
+      <td>11</td>
+      <td>0.417722</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2019</td>
+      <td>300</td>
+      <td>60</td>
+      <td>3</td>
+      <td>0.200000</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2020</td>
+      <td>720</td>
+      <td>377</td>
+      <td>11</td>
+      <td>0.523611</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2020</td>
+      <td>770</td>
+      <td>315</td>
+      <td>11</td>
+      <td>0.409091</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2021</td>
+      <td>1170</td>
+      <td>628</td>
+      <td>17</td>
+      <td>0.536752</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2021</td>
+      <td>1350</td>
+      <td>251</td>
+      <td>19</td>
+      <td>0.185926</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>x</td>
+      <td>100</td>
+      <td>50</td>
+      <td>1</td>
+      <td>0.500000</td>
+      <td>plastic</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p><strong>Figure 4:</strong> Seeds planted and sprouted by year and by container.</p>
 </div>
 <div class="section" id="no-germination">
 <h3><span class="section-number">2.2.2. </span>No germination 🍂<a class="headerlink" href="#no-germination" title="Permalink to this headline">¶</a></h3>
 <p>Out of all of the species planted, only 8 (5 in concrete containers, 3 in plastic containers) of them, or 10%, had no sprouts. Although seeds were separated by physical barriers, it is likely a small amount of contamination occured between growing areas. They were after all planted in the same containers side by side, and as such it can be expected that gust of wind or some shifting dirt, or a mistake when sowing the seeds could have reuslted in some contamination between cells. Another 11% of species only had one sprout (4 in concrete containers, 5 in plastic containers), and another 12% on top of that (6 in concrete containers, 3 in plastic containers) only had two sprouts. Thus 29 species, or 35% of those planted, could reasonably be classified as “no germination / likely contaminated”.</p>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## put the 30 species with no germination / contaminated germination into one table</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## Species with no germination</span>
 
-<span class="n">by_species_p</span><span class="p">[</span><span class="n">by_species_p</span><span class="o">.</span><span class="n">sprouted</span> <span class="o">==</span> <span class="mi">2</span><span class="p">]</span>
+<span class="c1"># pull out the species that had a rate of 0 for concrete containers</span>
+<span class="n">a</span> <span class="o">=</span> <span class="n">by_species</span><span class="p">[</span><span class="n">by_species</span><span class="o">.</span><span class="n">rate</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
-<span class="c1">#by_species[by_species[&quot;sprouted&quot;] == 2]</span>
+<span class="c1"># add identifier column</span>
+<span class="n">a</span><span class="p">[</span><span class="s2">&quot;container&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;concrete&quot;</span>
 
-<span class="n">by_species_p</span><span class="p">[</span><span class="n">by_species_p</span><span class="o">.</span><span class="n">sprouted</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span>
+<span class="c1"># pull out the species that had a rate of 0 for concrete containers</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">by_species_p</span><span class="p">[</span><span class="n">by_species_p</span><span class="o">.</span><span class="n">rate</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
-<span class="c1">#by_species[by_species[&quot;sprouted&quot;] == 1]</span>
+<span class="c1"># add identifier column</span>
+<span class="n">b</span><span class="p">[</span><span class="s2">&quot;container&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;plastic&quot;</span>
 
-<span class="n">by_species_p</span><span class="p">[</span><span class="n">by_species_p</span><span class="o">.</span><span class="n">sprouted</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+<span class="c1"># combine dataframes</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">])</span>
 
-<span class="c1">#by_species[by_species[&quot;sprouted&quot;] == 0]</span>
+<span class="c1"># drop unneeded column and reset index</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span><span class="p">[</span><span class="s2">&quot;density&quot;</span><span class="p">])</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">c</span>
 </pre></div>
 </div>
 </div>
@@ -693,244 +912,138 @@
     <tr style="text-align: right;">
       <th></th>
       <th>species</th>
-      <th>area</th>
       <th>sprouted</th>
       <th>rate</th>
+      <th>container</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>3</th>
-      <td>anthyllis-vulneraria</td>
-      <td>11</td>
+      <th>0</th>
+      <td>campanula-rapunculoides</td>
       <td>0</td>
       <td>0.0</td>
+      <td>concrete</td>
     </tr>
-    <tr>
-      <th>32</th>
-      <td>silene-nutans</td>
-      <td>7</td>
-      <td>0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>valeriana-officinalis</td>
-      <td>7</td>
-      <td>0</td>
-      <td>0.0</td>
-    </tr>
-  </tbody>
-</table>
-</div></div></div>
-</div>
-<p><em><strong>Figure 3:</strong> Table of species that a) did not germinate at all, b) had 2 or less sprouts in a concrete container, c) had 2 or less cells in a plastic container with sprouts.</em></p>
-</div>
-<div class="section" id="high-germination">
-<h3><span class="section-number">2.2.3. </span>High germination 🌿<a class="headerlink" href="#high-germination" title="Permalink to this headline">¶</a></h3>
-<p>In the plastic containers, the most succesful metric was “germinated in every single cell of the planted row.” Most species were planted in rows of 7, some were planted in rows of 11, and 2 species were planted in rows of 22. All in all, 23 species germinated in every single cell of the planted row, or about 50% of the species. In the concrete containers, the cut-off for very succesful was set to 50% germination or higher. Based on this metric, 7 species achieved high germination.</p>
-<div class="cell tag_hide-input docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">by_species_p</span><span class="p">[</span><span class="n">by_species_p</span><span class="o">.</span><span class="n">rate</span> <span class="o">&gt;=</span> <span class="mi">1</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>species</th>
-      <th>area</th>
-      <th>sprouted</th>
-      <th>rate</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <th>1</th>
-      <td>anthemis-tinctoria</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
+      <td>geum-urbanum</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>concrete</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>anthericum-racemosum</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
+      <td>salvia-pratensis</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>scabiosa-columbaria</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>concrete</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>artemisia-umbelliformus</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
+      <td>valeriana-officinalis</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>anthyllis-vulneraria</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>plastic</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>carduus-personata</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
+      <td>silene-nutans</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>plastic</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>centaurea-jacea</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>centaurea-montana</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>dianthus-carthusianorum</td>
-      <td>11</td>
-      <td>11</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>dianthus-superbus</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>echincacea-purpurea</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>eupatorium-cyparissias</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>geranium-sanguieum</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>leucanthemum-vulgare</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>onobrychus-vicifolia</td>
-      <td>11</td>
-      <td>11</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>origanum-vulgare</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>potentilla-recta</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>sanguisorba-minor</td>
-      <td>11</td>
-      <td>11</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>silene-flos-cuculi</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>silene-sylvestris</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>solidago-sp.</td>
-      <td>11</td>
-      <td>11</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>tragopogon-pratensis</td>
-      <td>11</td>
-      <td>11</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>verbascum-lychnitis</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>verbascum-nigrum</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>veronica-teucrium</td>
-      <td>7</td>
-      <td>7</td>
-      <td>1.0</td>
+      <td>valeriana-officinalis</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>plastic</td>
     </tr>
   </tbody>
 </table>
 </div></div></div>
 </div>
-<p><em><strong>Figure 4:</strong> Table of species planted in the plastic containers with sprouts that germinated in every single cell.</em></p>
-<div class="cell tag_hide-input docutils container">
+<p><em><strong>Figure 4:</strong> Species that did not germinate at all, note the Valeriana officinalis planted twice</em></p>
+<div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Insert table of succesful germination for concrete containers based off germination rate of 25% or higher</span>
-<span class="n">by_species</span><span class="p">[</span><span class="n">by_species</span><span class="o">.</span><span class="n">rate</span> <span class="o">&gt;=</span> <span class="mf">.25</span><span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span> <span class="o">=</span> <span class="s2">&quot;rate&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">ger</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ger</span><span class="o">.</span><span class="n">sprouted</span><span class="o">.</span><span class="n">isin</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">])]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">no_germination</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">set_index</span><span class="p">([</span><span class="s2">&quot;container&quot;</span><span class="p">,</span> <span class="s2">&quot;species&quot;</span><span class="p">])</span>
+<span class="n">no_germination</span><span class="p">[</span><span class="s2">&quot;sprouted&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>container           species                 
+plastic-tray        anthyllis-vulneraria        0
+                    valeriana-officinalis       0
+                    sanguisorba-officinalis     1
+                    silene-nutans               0
+                    papaver-somniferum          1
+                    primula-veris               2
+                    rhinanthus-sp.              2
+                    verbascum-densiflorum       2
+                    aruncus-dioicus             2
+                    epilobium-dodonaie          1
+concrete-container  helianthemum-nummularium    2
+                    verbena-officinalis         2
+                    geum-urbanum                0
+                    epilobium-dodonaie          1
+                    salvia-pratensis            0
+                    viola-sp                    2
+                    levisticum-officinale       1
+                    scabiosa-columbaria         0
+                    valeriana-officinalis       0
+                    aster-amellus               1
+                    campanula-rapunculoides     0
+                    special-felseck             2
+                    achillea-millefolium        2
+                    filipendula-ulmaria         2
+                    heracleum-sphondylium       1
+                    malva-sp.                   1
+Name: sprouted, dtype: int64
+</pre></div>
+</div>
+</div>
+</div>
+<p><em><strong>Figure 5:</strong> Species that had fewer than 3 sprouts, “no germination”</em></p>
+</div>
+<div class="section" id="high-germination">
+<h3><span class="section-number">2.2.3. </span>High germination 🌿<a class="headerlink" href="#high-germination" title="Permalink to this headline">¶</a></h3>
+<p>The plastic containers had a signficcantly higher number of seeds with a high germination rate (20/45 species  comparied to 7/43 species) for concrete containers. In the concrete containers, the cut-off for very succesful was set to 50% germination or higher. Based on this metric, 7 species achieved high germination. One speculated reason for this is the concrete containers had a high proportion of species collected fresh in September and October, species which are more likely require cold stratification during the imminent cold season than the group of species selected randomly for the plastic containers.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#Grab the top ten germinating values for concrete containers</span>
+<span class="n">a</span> <span class="o">=</span> <span class="n">by_species</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s2">&quot;rate&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)[:</span><span class="mi">10</span><span class="p">]</span>
+<span class="c1"># add identifier column</span>
+<span class="n">a</span><span class="p">[</span><span class="s2">&quot;container&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;concrete&quot;</span>
+
+<span class="c1">#Grab the top ten germinating values for plastic containers</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">by_species_p</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s2">&quot;rate&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)[:</span><span class="mi">10</span><span class="p">]</span>
+<span class="c1"># add identifier column</span>
+<span class="n">b</span><span class="p">[</span><span class="s2">&quot;container&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;plastic&quot;</span>
+
+<span class="c1">#combine the species together</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">])</span>
+<span class="c1">#drop unwanted column, sort according to rate, and reset the index.</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span><span class="p">[</span><span class="s2">&quot;density&quot;</span><span class="p">])</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span> <span class="o">=</span> <span class="s2">&quot;rate&quot;</span><span class="p">,</span> <span class="n">ascending</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">c</span>
 </pre></div>
 </div>
 </div>
@@ -954,213 +1067,263 @@
     <tr style="text-align: right;">
       <th></th>
       <th>species</th>
-      <th>density</th>
       <th>sprouted</th>
       <th>rate</th>
+      <th>container</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>4</th>
-      <td>campanula-perscifolia</td>
+      <th>0</th>
+      <td>dianthus-carthusianorum</td>
       <td>100</td>
-      <td>26</td>
-      <td>0.26</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>felseck-flower</td>
-      <td>100</td>
-      <td>26</td>
-      <td>0.26</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>aster-linosyrus</td>
-      <td>100</td>
-      <td>28</td>
-      <td>0.28</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>plantago-media</td>
-      <td>20</td>
-      <td>6</td>
-      <td>0.30</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>dipsacus-fullonum</td>
-      <td>100</td>
-      <td>31</td>
-      <td>0.31</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>isatis-tinctoria</td>
-      <td>100</td>
-      <td>32</td>
-      <td>0.32</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>teucrium-montanum</td>
-      <td>50</td>
-      <td>18</td>
-      <td>0.36</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>malva-alcea</td>
-      <td>100</td>
-      <td>42</td>
-      <td>0.42</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>verbascum-nigrum</td>
-      <td>100</td>
-      <td>46</td>
-      <td>0.46</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>plantago-lanceolata</td>
-      <td>100</td>
-      <td>48</td>
-      <td>0.48</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>teucrium-chamaedrys</td>
-      <td>50</td>
-      <td>28</td>
-      <td>0.56</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>felseck-grass</td>
-      <td>100</td>
-      <td>60</td>
-      <td>0.60</td>
+      <td>2.00</td>
+      <td>plastic</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>anthemis-tinctoria</td>
-      <td>100</td>
-      <td>75</td>
-      <td>0.75</td>
+      <td>veronica-teucrium</td>
+      <td>80</td>
+      <td>1.60</td>
+      <td>plastic</td>
     </tr>
     <tr>
-      <th>34</th>
-      <td>silene-arvensis</td>
-      <td>50</td>
-      <td>42</td>
-      <td>0.84</td>
+      <th>2</th>
+      <td>silene-flos-cuculi</td>
+      <td>30</td>
+      <td>1.50</td>
+      <td>plastic</td>
     </tr>
     <tr>
-      <th>21</th>
-      <td>lavendula-officinalis</td>
-      <td>100</td>
+      <th>3</th>
+      <td>trifolium-campestre</td>
+      <td>55</td>
+      <td>1.10</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>cichorium-intybus</td>
       <td>100</td>
       <td>1.00</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>potentilla-recta</td>
+      <td>100</td>
+      <td>1.00</td>
+      <td>plastic</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>cichorium-intybus</td>
-      <td>100</td>
+      <td>origanum-vulgare</td>
       <td>100</td>
       <td>1.00</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>anthemis-tinctoria</td>
+      <td>100</td>
+      <td>1.00</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>artemisia-umbelliformus</td>
+      <td>100</td>
+      <td>1.00</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>verbascum-nigrum</td>
+      <td>100</td>
+      <td>1.00</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>lavendula-officinalis</td>
+      <td>100</td>
+      <td>1.00</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>hypericum-perforatum</td>
+      <td>50</td>
+      <td>1.00</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>verbascum-lychnitis</td>
+      <td>100</td>
+      <td>1.00</td>
+      <td>plastic</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>silene-arvensis</td>
+      <td>42</td>
+      <td>0.84</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>anthemis-tinctoria</td>
+      <td>75</td>
+      <td>0.75</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>felseck-grass</td>
+      <td>60</td>
+      <td>0.60</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>teucrium-chamaedrys</td>
+      <td>28</td>
+      <td>0.56</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>plantago-lanceolata</td>
+      <td>48</td>
+      <td>0.48</td>
+      <td>concrete</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>hypericum-perforatum</td>
-      <td>50</td>
-      <td>50</td>
-      <td>1.00</td>
+      <td>verbascum-nigrum</td>
+      <td>46</td>
+      <td>0.46</td>
+      <td>concrete</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>malva-alcea</td>
+      <td>42</td>
+      <td>0.42</td>
+      <td>concrete</td>
     </tr>
   </tbody>
 </table>
 </div></div></div>
 </div>
-<p>*<strong>Figure 5</strong>: Tabke of “succesful” germination defined as greater than 25%</p>
+<p><em><strong>Figure 6:</strong> The ten species with the highest germination rate each in plastic containers and in concrete containers, sorted by rate</em></p>
 </div>
 </div>
 <div class="section" id="comparison-to-expert-opinion">
 <h2><span class="section-number">2.3. </span>Comparison to expert opinion 🔬<a class="headerlink" href="#comparison-to-expert-opinion" title="Permalink to this headline">¶</a></h2>
-<p>Three germination references were used to make a composite recomendation value as to whether expert opinon:</p>
+<p>Three germination references were used to make a composite recomendation value on the likelihood of each species to germinate under these conditions. The reccomendations were not always straightforward to classify into “yes” or “no”, particularly from the Naturnahe book. Nonetheless, this was done for all seeds with entries in the following sources:</p>
 <ul class="simple">
-<li><p>agreed the species would not germinate (at least one expert saying no and no experts saying yes)</p></li>
-<li><p>agreed the species would germinate (at least one expert saying yes and no experts saying no)</p></li>
-<li><p>mixed opinon (at least one no and at least one yes)</p></li>
-<li><p>no opinion (no expert gave information)</p></li>
+<li><p>Sylvan Seeds, a compilation of germination studies on temperate forest species <a class="reference external" href="https://efernandezpascual.shinyapps.io/sylvanseeds/">Database here</a></p></li>
+<li><p>Directions provided by Port-34’s master gardener <a class="reference external" href="https://www.equipe-volo.ch/de/dienstleistungen-produkte/unsere-dienstleistungen-produkte/gaertnerei/">Garden website</a></p></li>
+<li><p>Instructions in the book <a class="reference external" href="https://www.haupt.ch/buecher/natur-garten/naturnah-gaertnern.html">Naturnah gärtnern</a></p></li>
 </ul>
-<p>The recomendations were not always straightforward to classify into “yes” or “no”, particularly from the Naturnahe book. Nonetheless, this was done for all seeds with entries in the following sources:</p>
-<ul class="simple">
-<li><p>Sylvan Seeds (link)</p></li>
-<li><p>Directions provided by Port-34’s master gardener</p></li>
-<li><p>Instructions in the book Naturnahe (link)</p></li>
-</ul>
-<div class="cell tag_hide-input docutils container">
+<div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## make string values easier to analyze, convert all data to one letter values.</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># the columns in the df that hold the recomendations</span>
+<span class="n">rcmndrs</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;recs&quot;</span><span class="p">,</span><span class="s2">&quot;recn&quot;</span><span class="p">,</span><span class="s2">&quot;recp&quot;</span><span class="p">]</span>
 
-<span class="n">cols</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;recs&quot;</span><span class="p">,</span><span class="s2">&quot;recn&quot;</span><span class="p">,</span><span class="s2">&quot;recp&quot;</span><span class="p">]</span>
+<span class="n">experts</span> <span class="o">=</span> <span class="n">ger</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
-<span class="k">def</span> <span class="nf">change_strings</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;y&quot;</span>
-    <span class="k">elif</span> <span class="n">x</span> <span class="o">==</span> <span class="s2">&quot;no&quot;</span><span class="p">:</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;n&quot;</span>
-    <span class="k">elif</span> <span class="n">x</span> <span class="o">==</span> <span class="s2">&quot;dd&quot;</span><span class="p">:</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;d&quot;</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">data</span><span class="o">=</span><span class="n">x</span>
-    <span class="k">return</span> <span class="n">data</span>
+<span class="c1"># remove species that are data deficient for all expert opinions</span>
+<span class="c1"># dd implies the seds were only identified to the genus level and thus could not have a species germination reccomendation from these sources</span>
+<span class="n">onlyexperts</span> <span class="o">=</span> <span class="n">experts</span><span class="p">[(</span><span class="n">experts</span><span class="o">.</span><span class="n">recs</span> <span class="o">!=</span> <span class="s2">&quot;dd&quot;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">experts</span><span class="o">.</span><span class="n">recn</span> <span class="o">!=</span> <span class="s2">&quot;dd&quot;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">experts</span><span class="o">.</span><span class="n">recp</span> <span class="o">!=</span> <span class="s2">&quot;dd&quot;</span><span class="p">)]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">cols</span><span class="p">:</span>
-    <span class="n">ger</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">ger</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">change_strings</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-    
-<span class="c1"># make column of all recomendations</span>
-<span class="n">ger</span><span class="p">[</span><span class="s1">&#39;all_recs&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">ger</span><span class="p">[</span><span class="s1">&#39;recs&#39;</span><span class="p">],</span> <span class="n">ger</span><span class="p">[</span><span class="s1">&#39;recn&#39;</span><span class="p">],</span> <span class="n">ger</span><span class="p">[</span><span class="s1">&#39;recp&#39;</span><span class="p">])]</span>
+<span class="c1"># the data to work off</span>
+<span class="n">experts_display</span> <span class="o">=</span> <span class="n">onlyexperts</span><span class="p">[[</span><span class="s2">&quot;collection&quot;</span><span class="p">,</span><span class="s2">&quot;species&quot;</span><span class="p">,</span> <span class="s2">&quot;density&quot;</span><span class="p">,</span><span class="o">*</span><span class="n">rcmndrs</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">,</span> <span class="s2">&quot;rate&quot;</span><span class="p">,</span> <span class="s2">&quot;container&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
-<span class="c1"># sort strings </span>
-<span class="k">def</span> <span class="nf">sort_strings</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-    <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-    <span class="k">return</span> <span class="n">data</span>
-<span class="n">ger</span><span class="p">[</span><span class="s1">&#39;all_recs&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ger</span><span class="p">[</span><span class="s1">&#39;all_recs&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">sort_strings</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="c1"># if the expert recomendations were in agreement with the provided germination environment</span>
+<span class="c1"># assign True, else assign False for each column</span>
+<span class="k">for</span> <span class="n">recomender</span> <span class="ow">in</span> <span class="n">rcmndrs</span><span class="p">:</span>
+    <span class="n">experts_display</span><span class="p">[</span><span class="n">recomender</span><span class="p">]</span> <span class="o">=</span> <span class="n">experts_display</span><span class="p">[</span><span class="n">recomender</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span>
 
-<span class="c1"># define following recomendations:</span>
-<span class="n">no_recs</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;ddd&quot;</span><span class="p">,</span><span class="s2">&quot;xxx&quot;</span><span class="p">]</span>
-<span class="n">says_no</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;xxx&quot;</span><span class="p">,</span><span class="s2">&quot;nxx&quot;</span><span class="p">,</span><span class="s2">&quot;nnx&quot;</span><span class="p">]</span>
-<span class="n">says_yes</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;yyy&quot;</span><span class="p">,</span><span class="s2">&quot;xxy&quot;</span><span class="p">,</span><span class="s2">&quot;xxy&quot;</span><span class="p">]</span>
-<span class="n">mixed</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;nxy&quot;</span><span class="p">,</span><span class="s2">&quot;nyy&quot;</span><span class="p">]</span>
-<span class="n">categories</span> <span class="o">=</span> <span class="p">[</span><span class="n">no_recs</span><span class="p">,</span> <span class="n">says_no</span><span class="p">,</span> <span class="n">says_yes</span><span class="p">,</span> <span class="n">mixed</span><span class="p">]</span>
+<span class="c1"># add up the number of positive recomendations for each species and store in exp_score column</span>
+<span class="n">experts_display</span><span class="p">[</span><span class="s2">&quot;exp_score&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">experts_display</span><span class="p">[</span><span class="n">rcmndrs</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 
-<span class="c1"># apply these categories to the trecs column</span>
-<span class="k">def</span> <span class="nf">group_recs</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]:</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;no rec&quot;</span>
-    <span class="k">elif</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">]:</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;yes&quot;</span>
-    <span class="k">elif</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">==</span> <span class="n">categories</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">2</span><span class="p">]:</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;no&quot;</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="s2">&quot;mixed&quot;</span>
-    <span class="k">return</span> <span class="n">data</span>
-<span class="n">ger</span><span class="p">[</span><span class="s2">&quot;all_recs&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ger</span><span class="p">[</span><span class="s2">&quot;all_recs&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">group_recs</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="c1"># some species were planted in two different styles of container</span>
+<span class="c1"># they should only be included on the experts review one time.</span>
+<span class="c1"># the results from both concrete and plastic containers should be considered.</span>
+<span class="n">experts_display</span> <span class="o">=</span><span class="n">experts_display</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">(</span><span class="s2">&quot;species&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
-<span class="n">cutoff</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="c1"># assign true for species that appear more than once, else false</span>
+<span class="n">more_than_one</span> <span class="o">=</span> <span class="n">ger</span><span class="p">[</span><span class="s2">&quot;species&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">1</span>
 
-<span class="k">def</span> <span class="nf">cutoffs</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;=</span> <span class="n">cutoff</span><span class="p">:</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="mi">1</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">return</span> <span class="n">data</span>
-<span class="n">ger</span><span class="p">[</span><span class="s2">&quot;cutoff&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ger</span><span class="p">[</span><span class="s2">&quot;2021-11-28&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">cutoffs</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-<span class="n">a</span> <span class="o">=</span> <span class="n">ger</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;all_recs&quot;</span><span class="p">],</span> <span class="n">as_index</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;2021-11-28&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span><span class="s2">&quot;cutoff&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span><span class="s2">&quot;species&quot;</span><span class="p">:</span><span class="s2">&quot;nunique&quot;</span><span class="p">})</span>
-<span class="n">a</span>
+<span class="c1"># gather all species with true values</span>
+<span class="n">combine</span> <span class="o">=</span> <span class="n">more_than_one</span><span class="p">[</span><span class="n">more_than_one</span><span class="o">==</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="c1"># get the relvant records from the initial dataset</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">onlyexperts</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">onlyexperts</span><span class="o">.</span><span class="n">species</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">combine</span><span class="o">.</span><span class="n">index</span><span class="p">)]</span>
+
+<span class="c1"># combine the values for each species under the different container variables</span>
+<span class="n">cdoubles</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;species&quot;</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;sprouted&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span> <span class="s2">&quot;density&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">,</span> <span class="s2">&quot;rate&quot;</span><span class="p">:</span><span class="s2">&quot;sum&quot;</span><span class="p">})</span>
+
+<span class="c1"># update the experts ratings with these combined values:</span>
+<span class="k">for</span> <span class="n">a_species</span> <span class="ow">in</span> <span class="n">combine</span><span class="o">.</span><span class="n">index</span><span class="p">:</span>
+    <span class="c1"># get the combined values</span>
+    <span class="n">newdf</span> <span class="o">=</span> <span class="n">cdoubles</span><span class="p">[</span><span class="n">cdoubles</span><span class="o">.</span><span class="n">species</span><span class="o">==</span><span class="n">a_species</span><span class="p">]</span>
+    <span class="n">sprouted</span> <span class="o">=</span> <span class="n">newdf</span><span class="o">.</span><span class="n">sprouted</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+    <span class="n">density</span> <span class="o">=</span> <span class="n">newdf</span><span class="o">.</span><span class="n">density</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+    <span class="c1"># replace the values in the aggregated table</span>
+    <span class="n">experts_display</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">experts_display</span><span class="o">.</span><span class="n">species</span> <span class="o">==</span> <span class="n">a_species</span><span class="p">,</span> <span class="s2">&quot;sprouted&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">sprouted</span>
+    <span class="n">experts_display</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">experts_display</span><span class="o">.</span><span class="n">species</span> <span class="o">==</span> <span class="n">a_species</span><span class="p">,</span> <span class="s2">&quot;density&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">density</span>
+
+<span class="c1"># update the &quot;rate&quot; column    </span>
+<span class="n">experts_display</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">experts_display</span><span class="o">.</span><span class="n">sprouted</span><span class="o">/</span><span class="n">experts_display</span><span class="o">.</span><span class="n">density</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#update the experts ratings with these combined values:</span>
+<span class="c1">#for a_species in combine:</span>
+    <span class="c1"># get the combined values</span>
+<span class="c1">#    sprouted = cdoubles.loc[cdoubles.species == combine.index[0]][&quot;sprouted&quot;].values[0]</span>
+<span class="c1">#    density = cdoubles.loc[cdoubles.species == combine.index[0]][&quot;density&quot;].values[0]</span>
+<span class="c1">#    print(sprouted)</span>
+<span class="c1">#    print(density)</span>
+<span class="c1">#    # replace the values in the aggregated table</span>
+<span class="c1">#    experts_display.loc[experts_display.species == a_species, &quot;sprouted&quot;] = sprouted</span>
+<span class="c1">#    experts_display.loc[experts_display.species == a_species, &quot;density&quot;] = density</span>
+
+<span class="c1"># update the &quot;rate&quot; column    </span>
+<span class="c1">#experts_display[&quot;rate&quot;] = experts_display.sprouted/experts_display.density</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+
+<span class="n">sns</span><span class="o">.</span><span class="n">stripplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">experts_display</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;exp_score&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;rate&quot;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;collection&quot;</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;Germination rate&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">&quot;Number of recomendations&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s2">&quot;Germination rates with respect to number of recomendations&quot;</span><span class="p">,</span> <span class="n">fontsize</span> <span class="o">=</span> <span class="mi">15</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/germination_26_0.png" src="_images/germination_26_0.png" />
+</div>
+</div>
+<p><em><strong>Above:</strong> Plot of the germination rates by number of recomendations</em></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># germination rate and number of species with each expert score</span>
+<span class="n">experts_display</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;exp_score&quot;</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;rate&quot;</span><span class="p">:</span><span class="s2">&quot;mean&quot;</span><span class="p">,</span> <span class="s2">&quot;species&quot;</span><span class="p">:</span><span class="s2">&quot;nunique&quot;</span><span class="p">})</span>
 </pre></div>
 </div>
 </div>
@@ -1183,46 +1346,307 @@
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>all_recs</th>
-      <th>2021-11-28</th>
-      <th>cutoff</th>
+      <th>exp_score</th>
+      <th>rate</th>
       <th>species</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>mixed</td>
-      <td>521</td>
-      <td>11</td>
-      <td>18</td>
+      <td>0</td>
+      <td>0.359186</td>
+      <td>43</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>no</td>
-      <td>652</td>
-      <td>9</td>
-      <td>14</td>
+      <td>1</td>
+      <td>0.388158</td>
+      <td>19</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>no rec</td>
-      <td>919</td>
-      <td>20</td>
-      <td>40</td>
+      <td>2</td>
+      <td>0.375455</td>
+      <td>11</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>yes</td>
-      <td>232</td>
-      <td>6</td>
-      <td>10</td>
+      <td>3</td>
+      <td>1.000000</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
 </div></div></div>
 </div>
-<p>*<strong>Figure 6:</strong> Table of recomendations from experts with the a. the total number of sprouts in that category on November 28th, b. the number of species above the cutoff and c. the total number of species with that recomendation category. Mixed recomendations implies at least one yes and at least one no from the 3 sources. Note that species did well across the board. The cutoff figure used is 10 sprouts on November 28th.</p>
+<p><em><strong>Above:</strong> Average germination rate by number of recomendations</em></p>
+<p><em><strong>Below:</strong> The species that had two positive recomendations, ie.. score = 2</em></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">cols_of_i</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;species&quot;</span><span class="p">,</span> <span class="o">*</span><span class="n">rcmndrs</span><span class="p">,</span> <span class="s2">&quot;rate&quot;</span><span class="p">,</span> <span class="s2">&quot;exp_score&quot;</span><span class="p">]</span>
+
+<span class="c1"># get records with two positive recs</span>
+<span class="n">two_opinions</span> <span class="o">=</span> <span class="n">experts_display</span><span class="p">[</span><span class="n">experts_display</span><span class="o">.</span><span class="n">exp_score</span> <span class="o">==</span> <span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="c1">#grab relevant columns within records with two positive recs, reset index, display</span>
+<span class="n">two_opinions</span><span class="p">[</span><span class="n">cols_of_i</span><span class="p">[:]]</span>
+<span class="n">two_opinions</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">two_opinions</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>collection</th>
+      <th>species</th>
+      <th>density</th>
+      <th>recs</th>
+      <th>recn</th>
+      <th>recp</th>
+      <th>sprouted</th>
+      <th>rate</th>
+      <th>container</th>
+      <th>exp_score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>personal</td>
+      <td>trifolium-campestre</td>
+      <td>150</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>63</td>
+      <td>0.42</td>
+      <td>plastic-tray</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>personal</td>
+      <td>medicago-lupulina</td>
+      <td>50</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>8</td>
+      <td>0.16</td>
+      <td>plastic-tray</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>personal</td>
+      <td>silene-dioica</td>
+      <td>50</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+      <td>22</td>
+      <td>0.44</td>
+      <td>plastic-tray</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>port 34</td>
+      <td>valeriana-officinalis</td>
+      <td>150</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>plastic-tray</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>port 34</td>
+      <td>verbascum-nigrum</td>
+      <td>200</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>146</td>
+      <td>0.73</td>
+      <td>plastic-tray</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>port 34</td>
+      <td>geranium-sanguieum</td>
+      <td>50</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>13</td>
+      <td>0.26</td>
+      <td>plastic-tray</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>port 34</td>
+      <td>helianthemum-nummularium</td>
+      <td>50</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>2</td>
+      <td>0.04</td>
+      <td>concrete-container</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>port 34</td>
+      <td>hypericum-perforatum</td>
+      <td>50</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>50</td>
+      <td>1.00</td>
+      <td>concrete-container</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>port 34</td>
+      <td>cichorium-intybus</td>
+      <td>100</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>100</td>
+      <td>1.00</td>
+      <td>concrete-container</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>port 34</td>
+      <td>geranium-sylvaticum</td>
+      <td>50</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>4</td>
+      <td>0.08</td>
+      <td>concrete-container</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>port 34</td>
+      <td>geum-urbanum</td>
+      <td>100</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>concrete-container</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p><em><strong>Below:</strong> The germination rate for each recomender</em></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># get the germination rate for individual recommenders</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">experts_display</span>
+<span class="n">melted_display</span> <span class="o">=</span> <span class="n">experts_display</span><span class="o">.</span><span class="n">melt</span><span class="p">(</span><span class="n">id_vars</span><span class="o">=</span><span class="s2">&quot;species&quot;</span><span class="p">,</span> <span class="n">value_vars</span><span class="o">=</span><span class="n">rcmndrs</span><span class="p">)</span>
+
+<span class="n">melted_display</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;variable&quot;</span><span class="p">:</span><span class="s2">&quot;recomender&quot;</span><span class="p">,</span> <span class="s2">&quot;value&quot;</span><span class="p">:</span><span class="s2">&quot;recomended&quot;</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">my_recomendations</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">recomender</span> <span class="ow">in</span> <span class="n">rcmndrs</span><span class="p">:</span>
+    <span class="n">rcmndr_rates</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="n">recomender</span><span class="p">]</span> <span class="o">==</span> <span class="kc">True</span><span class="p">][[</span><span class="s2">&quot;species&quot;</span><span class="p">,</span> <span class="s2">&quot;rate&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">&quot;species&quot;</span><span class="p">)</span>
+    <span class="n">a_group</span> <span class="o">=</span> <span class="p">(</span><span class="n">melted_display</span><span class="o">.</span><span class="n">recomender</span> <span class="o">==</span> <span class="n">recomender</span><span class="p">)</span><span class="o">&amp;</span><span class="p">(</span><span class="n">melted_display</span><span class="o">.</span><span class="n">recomended</span> <span class="o">==</span> <span class="kc">True</span><span class="p">)</span>
+    <span class="n">recn_recs</span> <span class="o">=</span> <span class="n">melted_display</span><span class="p">[</span><span class="n">a_group</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">recn_recs</span><span class="p">[</span><span class="s2">&quot;rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">recn_recs</span><span class="o">.</span><span class="n">species</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">rcmndr_rates</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">x</span><span class="p">]</span><span class="o">.</span><span class="n">rate</span><span class="p">)</span>
+    <span class="n">my_recomendations</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recn_recs</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+
+<span class="n">my_recs</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">(</span><span class="n">my_recomendations</span><span class="p">)</span>
+<span class="n">results_r</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">my_recs</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="o">*</span><span class="n">melted_display</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span> <span class="s2">&quot;rate&quot;</span><span class="p">])</span>
+
+<span class="n">results_r</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;recomender&quot;</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s2">&quot;species&quot;</span><span class="p">:</span><span class="s2">&quot;nunique&quot;</span><span class="p">,</span> <span class="s2">&quot;rate&quot;</span><span class="p">:</span><span class="s2">&quot;median&quot;</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>recomender</th>
+      <th>species</th>
+      <th>rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>recn</td>
+      <td>27</td>
+      <td>0.26</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>recp</td>
+      <td>8</td>
+      <td>0.35</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>recs</td>
+      <td>9</td>
+      <td>0.42</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p><em><strong>Figure 6:</strong> Table of recomendations from experts with the a. the total number of sprouts in that category on November 28th, b. the number of species above the cutoff and c. the total number of species with that recomendation category. Mixed recomendations implies at least one yes and at least one no from the 3 sources. Note that species did well across the board. The cutoff figure used is 10 sprouts on November 28th.</em></p>
 </div>
 <div class="section" id="conclusion">
 <h2><span class="section-number">2.4. </span>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h2>
