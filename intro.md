@@ -2,7 +2,7 @@
 
 __Edition 3__ ver=0.2 _build two_
 
-### A survey of Biel's wildflowers and a look into their propensity to germinate
+## A survey of Biel's wildflowers and a look into their propensity to germinate
 
 :::{image} resources/images/intro-1.jpg
 :alt: Map of survey locations
