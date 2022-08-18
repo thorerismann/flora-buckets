@@ -34,7 +34,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  comments: 'off'
+  
 sphinx:
   config:
     bibtex_reference_style: author_year
